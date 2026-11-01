@@ -1,0 +1,722 @@
+{
+  "id": "u06",
+  "level": "B1",
+  "emoji": "📦",
+  "title": {
+    "t": "Apothekenalltag",
+    "s": "Everyday work in the pharmacy"
+  },
+  "goals": [
+    "Talk about ordering, deliveries, stock and supply shortages",
+    "Explain storage: fridge, cold chain and expiration date",
+    "Describe pharmacy processes with the passive (Das Medikament wird bestellt.)",
+    "Make polite requests to colleagues and doctors' offices (Könntest du …? Würden Sie bitte …?)"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die PTA",
+      "s": "pharmacy technician (pharmazeutisch-technische Assistentin)",
+      "emoji": "",
+      "ex": {
+        "t": "Die PTA berät Kunden und stellt Rezepturen her.",
+        "s": "The pharmacy technician advises customers and makes compounded medicines."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "der Großhandel",
+      "s": "(pharmaceutical) wholesaler",
+      "emoji": "",
+      "ex": {
+        "t": "Wir bestellen das Medikament beim Großhandel.",
+        "s": "We order the medicine from the wholesaler."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "die Lieferung",
+      "pl": "die Lieferungen",
+      "s": "delivery",
+      "emoji": "🚚",
+      "ex": {
+        "t": "Die Lieferung kommt heute Nachmittag.",
+        "s": "The delivery is coming this afternoon."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "lieferbar",
+      "s": "available (can be supplied); nicht lieferbar: unavailable, cannot be supplied",
+      "emoji": "",
+      "ex": {
+        "t": "Das Medikament ist zurzeit nicht lieferbar.",
+        "s": "The medicine is currently unavailable."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "der Lieferengpass",
+      "pl": "die Lieferengpässe",
+      "s": "supply shortage · Laie: das Medikament ist im Moment schwer zu bekommen",
+      "emoji": "",
+      "ex": {
+        "t": "Wegen eines Lieferengpasses suchen wir eine Alternative.",
+        "s": "Because of a supply shortage we are looking for an alternative."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "vorrätig",
+      "s": "in stock",
+      "emoji": "",
+      "ex": {
+        "t": "Das Antibiotikum haben wir vorrätig.",
+        "s": "We have the antibiotic in stock."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "der Kühlschrank",
+      "pl": "die Kühlschränke",
+      "s": "refrigerator, fridge",
+      "emoji": "",
+      "ex": {
+        "t": "Insulin lagern wir im Kühlschrank bei zwei bis acht Grad.",
+        "s": "We store insulin in the fridge at two to eight degrees Celsius."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "die Kühlkette",
+      "pl": "die Kühlketten",
+      "s": "cold chain (a medicine must stay cold the whole time)",
+      "emoji": "❄️",
+      "ex": {
+        "t": "Bei vielen Impfstoffen darf die Kühlkette nicht unterbrochen werden.",
+        "s": "With many vaccines the cold chain must not be broken."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Haltbarkeit",
+      "s": "shelf life",
+      "emoji": "",
+      "ex": {
+        "t": "Nach dem Öffnen ist die Haltbarkeit oft kürzer.",
+        "s": "After opening, the shelf life is often shorter."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "das Verfallsdatum",
+      "pl": "die Verfallsdaten",
+      "s": "expiration date · Laie: haltbar bis",
+      "emoji": "📅",
+      "ex": {
+        "t": "Bitte prüfen Sie das Verfallsdatum auf der Packung.",
+        "s": "Please check the expiration date on the pack."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "von der Zuzahlung befreit sein",
+      "s": "to be exempt from the copayment",
+      "emoji": "",
+      "ex": {
+        "t": "Kinder und Jugendliche unter achtzehn Jahren sind von der Zuzahlung befreit.",
+        "s": "Children and teenagers under eighteen are exempt from the copayment."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "der Botendienst",
+      "pl": "die Botendienste",
+      "s": "delivery service (the pharmacy brings medicines to the patient's home)",
+      "emoji": "🚲",
+      "ex": {
+        "t": "Unser Botendienst bringt Ihnen das Medikament heute Abend nach Hause.",
+        "s": "Our delivery service will bring the medicine to your home this evening."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "die Rezeptur",
+      "pl": "die Rezepturen",
+      "s": "compounded preparation (a medicine made in the pharmacy)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Rezeptur wird im Labor der Apotheke hergestellt.",
+        "s": "The compounded preparation is made in the pharmacy's lab."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "herstellen",
+      "s": "to make, to prepare (a medicine) · stellt her, hat hergestellt",
+      "emoji": "",
+      "ex": {
+        "t": "Lena stellt heute eine Salbe für Herrn Klein her.",
+        "s": "Today Lena is making an ointment for Mr. Klein."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "der Notdienst",
+      "pl": "die Notdienste",
+      "s": "emergency service (a pharmacy open at night, on Sundays and on holidays)",
+      "emoji": "🌙",
+      "ex": {
+        "t": "Heute Nacht hat die Linden-Apotheke Notdienst.",
+        "s": "The Linden Pharmacy is on emergency duty tonight."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "das Generikum",
+      "pl": "die Generika",
+      "s": "generic drug · Laie: ein Medikament mit dem gleichen Wirkstoff, oft günstiger",
+      "emoji": "",
+      "ex": {
+        "t": "Das Generikum hat den gleichen Wirkstoff wie das Original.",
+        "s": "The generic has the same active ingredient as the original."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Das haben wir leider nicht vorrätig.",
+      "s": "Unfortunately, we don't have that in stock."
+    },
+    {
+      "id": "p02",
+      "t": "Ich bestelle es für Sie. Es ist heute Nachmittag da.",
+      "s": "I'll order it for you. It'll be here this afternoon."
+    },
+    {
+      "id": "p03",
+      "t": "Das Medikament ist zurzeit nicht lieferbar.",
+      "s": "The medicine is currently unavailable."
+    },
+    {
+      "id": "p04",
+      "t": "Die Zuzahlung für dieses Medikament beträgt fünf Euro.",
+      "s": "The copayment for this medicine is five euros."
+    },
+    {
+      "id": "p05",
+      "t": "Könntest du bitte kurz an die Kasse kommen?",
+      "s": "Could you come to the register for a moment, please?"
+    },
+    {
+      "id": "p06",
+      "t": "Hätten Sie kurz Zeit für eine Rücksprache?",
+      "s": "Would you have a moment to discuss something?"
+    },
+    {
+      "id": "p07",
+      "t": "Bitte im Kühlschrank aufbewahren, nicht einfrieren.",
+      "s": "Please keep in the fridge, do not freeze."
+    },
+    {
+      "id": "p08",
+      "t": "Können Sie später noch einmal vorbeikommen?",
+      "s": "Can you come back later?"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Ein Morgen im Team",
+      "s": "A morning with the team"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lena",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Herr Ahmadi",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "B",
+        "t": "Guten Morgen, Lena! Ist die Lieferung vom Großhandel schon da?",
+        "s": "Good morning, Lena! Has the delivery from the wholesaler arrived yet?"
+      },
+      {
+        "sp": "A",
+        "t": "Guten Morgen! Ja, sie ist um acht gekommen. Die Kisten werden gerade ausgepackt.",
+        "s": "Good morning! Yes, it came at eight. The boxes are being unpacked right now."
+      },
+      {
+        "sp": "B",
+        "t": "Super. Könntest du bitte zuerst das Insulin in den Kühlschrank stellen?",
+        "s": "Great. Could you please put the insulin in the fridge first?"
+      },
+      {
+        "sp": "A",
+        "t": "Klar, sofort. Die Kühlkette darf ja nicht unterbrochen werden.",
+        "s": "Sure, right away. After all, the cold chain must not be broken."
+      },
+      {
+        "sp": "B",
+        "t": "Danke. Ist das Amoxicillin für Frau M. auch dabei?",
+        "s": "Thanks. Is the amoxicillin for Mrs. M. there too?"
+      },
+      {
+        "sp": "A",
+        "t": "Nein, leider nicht. Der Großhandel sagt, es gibt einen Lieferengpass.",
+        "s": "No, unfortunately not. The wholesaler says there's a supply shortage."
+      },
+      {
+        "sp": "B",
+        "t": "Hm. Würdest du bitte prüfen, ob wir einen Amoxicillin-Saft mit der gleichen Stärke und Packungsgröße von einer anderen Firma bekommen?",
+        "s": "Hmm. Would you please check whether we can get an amoxicillin syrup with the same strength and pack size from another company?"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, eine andere Firma kann morgen früh liefern. Soll ich es bestellen?",
+        "s": "Yes, another company can deliver tomorrow morning. Shall I order it?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja, bitte. Ich rufe dann Frau M. an und erkläre es ihr.",
+        "s": "Yes, please. I'll call Mrs. M. then and explain it to her."
+      },
+      {
+        "sp": "A",
+        "t": "Und die Salbe für Herrn Klein? Die Rezeptur ist noch nicht fertig.",
+        "s": "And the ointment for Mr. Klein? The compounded preparation isn't ready yet."
+      },
+      {
+        "sp": "B",
+        "t": "Könntest du sie heute Nachmittag herstellen? Ich prüfe sie danach und gebe sie frei.",
+        "s": "Could you make it this afternoon? I'll check it afterwards and release it."
+      },
+      {
+        "sp": "A",
+        "t": "Mache ich. Dann bringt unser Botendienst sie heute Abend zu Herrn Klein.",
+        "s": "Will do. Then our delivery service will take it to Mr. Klein this evening."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Das Medikament wird bestellt.",
+        "s": "The passive in the present tense"
+      },
+      "explain": "In the pharmacy we often talk about **what happens**, not about **who** does it. For this German uses the **passive**: **werden** + **past participle** (Partizip II) at the end.\nDas Medikament **wird** heute **bestellt**. (singular: **wird**) – Die Arzneimittel **werden** zweimal am Tag **geliefert**. (plural: **werden**)\nThe object of the active sentence becomes the subject: Wir bestellen **das Medikament**. → **Das Medikament** wird bestellt.\nTo say who does it, use **von** + dative: Die Salbe wird **von der PTA** hergestellt.\nWith a modal verb, the modal is in position 2 and **participle + werden** go to the end: Ungeöffnetes Insulin **muss** im Kühlschrank **gelagert werden**.\nYou will need the passive a lot later, for written documentation in the exam.",
+      "table": [
+        [
+          "Wir bestellen das Medikament.",
+          "Das Medikament wird bestellt."
+        ],
+        [
+          "Der Großhandel liefert die Arzneimittel.",
+          "Die Arzneimittel werden vom Großhandel geliefert."
+        ],
+        [
+          "Die PTA stellt die Salbe her.",
+          "Die Salbe wird von der PTA hergestellt."
+        ],
+        [
+          "Wir prüfen jedes Rezept.",
+          "Jedes Rezept wird geprüft."
+        ],
+        [
+          "Man muss Insulin kühlen.",
+          "Insulin muss gekühlt werden."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Das Medikament wird heute noch bestellt.",
+          "s": "The medicine is being ordered today."
+        },
+        {
+          "t": "Die Arzneimittel werden zweimal am Tag geliefert.",
+          "s": "The medicines are delivered twice a day."
+        },
+        {
+          "t": "Die Salbe wird in der Apotheke hergestellt.",
+          "s": "The ointment is made in the pharmacy."
+        },
+        {
+          "t": "Jedes Rezept wird genau geprüft.",
+          "s": "Every prescription is checked carefully."
+        },
+        {
+          "t": "Ungeöffnetes Insulin muss im Kühlschrank gelagert werden.",
+          "s": "Unopened insulin must be stored in the fridge."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Das Medikament ___ heute bestellt.",
+          "options": [
+            "wird",
+            "werden",
+            "wirst"
+          ],
+          "answer": 0,
+          "s": "The medicine is being ordered today."
+        },
+        {
+          "type": "choice",
+          "t": "Die Arzneimittel ___ vom Großhandel geliefert.",
+          "options": [
+            "werden",
+            "wird",
+            "worden"
+          ],
+          "answer": 0,
+          "s": "The medicines are delivered by the wholesaler."
+        },
+        {
+          "type": "choice",
+          "t": "Die Salbe wird von der PTA ___.",
+          "options": [
+            "hergestellt",
+            "herstellt",
+            "hergestellen"
+          ],
+          "answer": 0,
+          "s": "The ointment is made by the pharmacy technician."
+        },
+        {
+          "type": "type",
+          "t": "Insulin wird im Kühlschrank ___.",
+          "answer": [
+            "gelagert",
+            "aufbewahrt"
+          ],
+          "s": "Insulin is stored in the fridge. (lagern)"
+        },
+        {
+          "type": "type",
+          "t": "Die Rezepte ___ genau geprüft.",
+          "answer": [
+            "werden"
+          ],
+          "s": "The prescriptions are checked carefully."
+        },
+        {
+          "type": "type",
+          "t": "Das Rezept wird von der Apothekerin ___.",
+          "answer": [
+            "geprüft",
+            "geprueft"
+          ],
+          "s": "The prescription is checked by the pharmacist. (prüfen)"
+        },
+        {
+          "type": "type",
+          "t": "Bei einem Lieferengpass ist das Medikament zurzeit nicht ___.",
+          "answer": [
+            "lieferbar",
+            "erhältlich",
+            "erhaeltlich",
+            "verfügbar",
+            "verfuegbar"
+          ],
+          "s": "Lieferengpass in plain German: the medicine is currently not available."
+        },
+        {
+          "type": "order",
+          "t": "Die Lieferung wird heute Nachmittag gebracht.",
+          "s": "The delivery is being brought this afternoon.",
+          "alts": [
+            "Heute Nachmittag wird die Lieferung gebracht."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Könntest du mir bitte helfen?",
+        "s": "Polite requests in the team"
+      },
+      "explain": "In the team you ask colleagues for help all the time. A request with **können** in the present (*Kannst du …?*) is okay, but the **Konjunktiv II** sounds more polite:\n**Könntest du** bitte das Insulin in den Kühlschrank stellen? (to a colleague you say *du* to)\n**Könnten Sie** mich bitte zurückrufen? (to a doctor's office, a customer or a colleague you say *Sie* to)\n**Würdest du / Würden Sie** bitte … + infinitive: **Würden Sie** mir bitte ein neues Rezept **schicken**?\n**Hättest du / Hätten Sie** kurz Zeit? (Do you have a moment?)\nThe word order is the same as in a yes/no question: the Konjunktiv verb comes first, the infinitive goes to the end. Put **bitte** after the person: Könntest du **bitte** …?\nIn many pharmacies the team says *du*. With doctors, patients and customers always use *Sie*.",
+      "table": [
+        [
+          "Kannst du das bestellen?",
+          "Könntest du das bitte bestellen?",
+          "Würdest du das bitte bestellen?"
+        ],
+        [
+          "Können Sie mich zurückrufen?",
+          "Könnten Sie mich bitte zurückrufen?",
+          "Würden Sie mich bitte zurückrufen?"
+        ],
+        [
+          "Hast du kurz Zeit?",
+          "Hättest du kurz Zeit?",
+          "Hätten Sie kurz Zeit?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Lena, könntest du bitte das Insulin in den Kühlschrank stellen?",
+          "s": "Lena, could you please put the insulin in the fridge?"
+        },
+        {
+          "t": "Würden Sie mir bitte ein neues Rezept schicken?",
+          "s": "Would you please send me a new prescription?"
+        },
+        {
+          "t": "Hätten Sie kurz Zeit für eine Rücksprache, Frau Dr. Weber?",
+          "s": "Would you have a moment to discuss something, Dr. Weber?"
+        },
+        {
+          "t": "Könntest du heute Nachmittag die Salbe herstellen?",
+          "s": "Could you make the ointment this afternoon?"
+        },
+        {
+          "t": "Würdest du mir bitte kurz an der Kasse helfen?",
+          "s": "Would you please help me at the register for a moment?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Lena, ___ du bitte das Insulin in den Kühlschrank stellen?",
+          "options": [
+            "könntest",
+            "könnten",
+            "könntet"
+          ],
+          "answer": 0,
+          "s": "Lena, could you please put the insulin in the fridge?"
+        },
+        {
+          "type": "choice",
+          "t": "Frau Dr. Weber, ___ Sie mich bitte zurückrufen?",
+          "options": [
+            "würden",
+            "würdest",
+            "würde"
+          ],
+          "answer": 0,
+          "s": "Dr. Weber, would you please call me back?"
+        },
+        {
+          "type": "choice",
+          "t": "___ Sie kurz Zeit für eine Rücksprache?",
+          "options": [
+            "Hätten",
+            "Hättest",
+            "Hätte"
+          ],
+          "answer": 0,
+          "s": "Would you have a moment to discuss something?"
+        },
+        {
+          "type": "type",
+          "t": "___ du bitte das Verfallsdatum prüfen?",
+          "answer": [
+            "Könntest",
+            "Koenntest"
+          ],
+          "s": "Could you please check the expiration date? (können)"
+        },
+        {
+          "type": "type",
+          "t": "Würden Sie mir bitte ein neues Rezept ___?",
+          "answer": [
+            "schicken",
+            "senden",
+            "ausstellen",
+            "zuschicken"
+          ],
+          "s": "Would you please send me a new prescription? (schicken)"
+        },
+        {
+          "type": "type",
+          "t": "___ du mir bitte kurz helfen?",
+          "answer": [
+            "Würdest",
+            "Wuerdest"
+          ],
+          "s": "Would you help me for a moment, please? (werden)"
+        },
+        {
+          "type": "order",
+          "t": "Könntest du bitte die Lieferung auspacken?",
+          "s": "Could you please unpack the delivery?",
+          "alts": [
+            "Könntest du die Lieferung bitte auspacken?"
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Würden Sie mich bitte zurückrufen?",
+          "s": "Would you please call me back?"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Infos für das Team",
+      "s": "Information for the team"
+    },
+    "text": [
+      {
+        "t": "Liebes Team, hier sind die wichtigsten Infos für diese Woche.",
+        "s": "Dear team, here is the most important information for this week."
+      },
+      {
+        "t": "Die Lieferung vom Großhandel kommt jetzt zweimal am Tag: um acht Uhr und um vierzehn Uhr.",
+        "s": "The delivery from the wholesaler now comes twice a day: at eight a.m. and at two p.m."
+      },
+      {
+        "t": "Kühlware wird sofort in den Kühlschrank gestellt, denn die Kühlkette darf nicht unterbrochen werden.",
+        "s": "Refrigerated goods are put in the fridge right away, because the cold chain must not be broken."
+      },
+      {
+        "t": "Die Temperatur im Kühlschrank muss zwischen zwei und acht Grad liegen.",
+        "s": "The temperature in the fridge must be between two and eight degrees Celsius."
+      },
+      {
+        "t": "Sie wird jeden Morgen kontrolliert und aufgeschrieben.",
+        "s": "It is checked and written down every morning."
+      },
+      {
+        "t": "Zurzeit gibt es einen Lieferengpass bei einem Fiebersaft für Kinder.",
+        "s": "At the moment there is a supply shortage of a fever syrup for children."
+      },
+      {
+        "t": "Bitte fragt dann beim Großhandel nach einem anderen Saft mit dem gleichen Wirkstoff, der gleichen Stärke und der gleichen Packungsgröße.",
+        "s": "In that case, please ask the wholesaler for another syrup with the same active ingredient, the same strength and the same pack size."
+      },
+      {
+        "t": "Am Mittwoch hat unsere Apotheke Notdienst.",
+        "s": "On Wednesday our pharmacy is on emergency duty."
+      },
+      {
+        "t": "Rezepturen werden ab jetzt nur am Vormittag hergestellt.",
+        "s": "From now on, compounded preparations are only made in the morning."
+      },
+      {
+        "t": "Könntet ihr bitte am Ende des Monats die Verfallsdaten im Regal prüfen?",
+        "s": "Could you please check the expiration dates on the shelves at the end of the month?"
+      },
+      {
+        "t": "Vielen Dank und eine gute Woche!",
+        "s": "Thank you, and have a good week!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wie oft kommt die Lieferung vom Großhandel?",
+          "s": "How often does the delivery from the wholesaler come?"
+        },
+        "options": [
+          "zweimal am Tag",
+          "einmal in der Woche",
+          "jeden Abend"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie warm darf es im Kühlschrank höchstens sein?",
+          "s": "How warm may it be in the fridge at most?"
+        },
+        "options": [
+          "acht Grad",
+          "zwei Grad",
+          "zwanzig Grad"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wann wird die Temperatur kontrolliert?",
+          "s": "When is the temperature checked?"
+        },
+        "options": [
+          "jeden Morgen",
+          "jeden Freitag",
+          "am Ende des Monats"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was soll das Team bei dem Lieferengpass machen?",
+          "s": "What should the team do about the supply shortage?"
+        },
+        "options": [
+          "beim Großhandel nach einer Alternative fragen",
+          "den Kindern keinen Saft geben",
+          "den Notdienst anrufen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wann werden Rezepturen ab jetzt hergestellt?",
+          "s": "When are compounded preparations made from now on?"
+        },
+        "options": [
+          "nur am Vormittag",
+          "nur in der Nacht",
+          "am Mittwoch"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Das Medikament wird heute Nachmittag geliefert.",
+      "s": "The medicine will be delivered this afternoon.",
+      "alts": [
+        "Heute Nachmittag wird das Medikament geliefert."
+      ]
+    },
+    {
+      "t": "Das haben wir leider nicht vorrätig, aber ich bestelle es.",
+      "s": "Unfortunately we don't have that in stock, but I'll order it."
+    },
+    {
+      "t": "Ungeöffnetes Insulin muss im Kühlschrank gelagert werden.",
+      "s": "Unopened insulin must be stored in the fridge."
+    },
+    {
+      "t": "Lena, könntest du mir bitte kurz helfen?",
+      "s": "Lena, could you help me for a moment, please?"
+    },
+    {
+      "t": "Würden Sie mir bitte ein neues Rezept schicken?",
+      "s": "Would you please send me a new prescription?"
+    },
+    {
+      "t": "Kinder und Jugendliche sind von der Zuzahlung befreit.",
+      "s": "Children and teenagers are exempt from the copayment."
+    },
+    {
+      "t": "Heute hat unsere Apotheke Notdienst.",
+      "s": "Our pharmacy is on emergency duty today.",
+      "alts": [
+        "Unsere Apotheke hat heute Notdienst."
+      ]
+    },
+    {
+      "t": "Die Rezeptur wird von der PTA hergestellt.",
+      "s": "The compounded preparation is made by the pharmacy technician.",
+      "alts": [
+        "Von der PTA wird die Rezeptur hergestellt."
+      ]
+    }
+  ]
+}

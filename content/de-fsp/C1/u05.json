@@ -1,0 +1,728 @@
+{
+  "id": "u05",
+  "level": "C1",
+  "emoji": "📝",
+  "title": {
+    "t": "Die Notiz über ein Beratungsgespräch",
+    "s": "Part 2: writing a note on a consultation"
+  },
+  "goals": [
+    "Write a note on a consultation in full sentences, following the fixed structure (header data, patient, reason, history, medicine, advice, next steps)",
+    "Use the passive and the Zustandspassiv to report what was done (Dem Patienten wurde empfohlen …; Die Ärztin ist informiert.)",
+    "Link the facts into continuous text with daraufhin, anschließend, stattdessen, da and sodass",
+    "Avoid the typical mistakes: bullet points, a missing date or dose, lay words where a technical term fits"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die Notiz",
+      "pl": "die Notizen",
+      "s": "note (e.g. in the patient file)",
+      "emoji": "📝",
+      "ex": {
+        "t": "Nach dem Gespräch schreibt die Apothekerin eine kurze Notiz für die Patientendatei.",
+        "s": "After the conversation, the pharmacist writes a short note for the patient file."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Kopfdaten",
+      "s": "header data (date, pharmacy, name of the pharmacist); plural only",
+      "emoji": "",
+      "ex": {
+        "t": "Vergessen Sie bei der Notiz die Kopfdaten nicht: Datum, Apotheke und Ihren Namen.",
+        "s": "Don't forget the header data in the note: date, pharmacy and your name."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "der Anlass",
+      "pl": "die Anlässe",
+      "s": "reason, occasion (for the visit)",
+      "emoji": "",
+      "ex": {
+        "t": "Anlass des Besuchs waren starke Zahnschmerzen seit dem Vortag.",
+        "s": "The reason for the visit was severe toothache since the previous day."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "die Anamnese",
+      "pl": "die Anamnesen",
+      "s": "(medical) history · Laie: die Krankengeschichte, die Vorgeschichte",
+      "emoji": "",
+      "ex": {
+        "t": "In der Anamnese werden Beschwerden, Vorerkrankungen, Allergien und die aktuelle Medikation erfasst.",
+        "s": "The history records symptoms, pre-existing conditions, allergies and current medication."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "das Vorhofflimmern",
+      "s": "atrial fibrillation · Laie: eine Herzrhythmusstörung, das Herz schlägt unregelmäßig",
+      "emoji": "💓",
+      "ex": {
+        "t": "Wegen Vorhofflimmern nimmt Herr Klein jeden Tag einen Blutverdünner ein.",
+        "s": "Because of atrial fibrillation, Mr. Klein takes a blood thinner every day."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "das Antikoagulans",
+      "pl": "die Antikoagulanzien",
+      "s": "anticoagulant · Laie: der Blutverdünner",
+      "emoji": "🩸",
+      "ex": {
+        "t": "Phenprocoumon ist ein Antikoagulans, das die Blutgerinnung hemmt.",
+        "s": "Phenprocoumon is an anticoagulant that inhibits blood clotting."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "der Einnahmehinweis",
+      "pl": "die Einnahmehinweise",
+      "s": "instruction on how to take a medicine",
+      "emoji": "",
+      "ex": {
+        "t": "Der Patient hat die Einnahmehinweise mit eigenen Worten wiederholt.",
+        "s": "The patient repeated the instructions on how to take the medicine in his own words."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "jemanden über etwas aufklären",
+      "s": "to inform someone (fully) about something, e.g. risks; aufklären über + accusative",
+      "emoji": "",
+      "ex": {
+        "t": "Der Patient wurde über das erhöhte Blutungsrisiko aufgeklärt.",
+        "s": "The patient was informed about the increased risk of bleeding."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "über etwas klagen",
+      "s": "to complain of something (symptoms); klagen über + accusative",
+      "emoji": "",
+      "ex": {
+        "t": "Der Patient klagte über pochende Schmerzen im Unterkiefer.",
+        "s": "The patient complained of throbbing pain in his lower jaw."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "das weitere Vorgehen",
+      "s": "next steps, further procedure",
+      "emoji": "",
+      "ex": {
+        "t": "Am Ende der Notiz wird das weitere Vorgehen beschrieben.",
+        "s": "The next steps are described at the end of the note."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "aufsuchen",
+      "s": "to go to, to see (a doctor or a place)",
+      "emoji": "",
+      "ex": {
+        "t": "Der Patient wurde gebeten, bei Fieber umgehend einen Arzt aufzusuchen.",
+        "s": "The patient was asked to see a doctor immediately if he gets a fever."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "der Fließtext",
+      "pl": "die Fließtexte",
+      "s": "continuous text (full sentences, no bullet points)",
+      "emoji": "",
+      "ex": {
+        "t": "Im Schriftstück schreibt man im Fließtext und nicht in Stichpunkten.",
+        "s": "In the written part, you write continuous text, not bullet points."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "der Stichpunkt",
+      "pl": "die Stichpunkte",
+      "s": "bullet point, key word",
+      "emoji": "",
+      "ex": {
+        "t": "Während des Gesprächs dürfen Sie sich Stichpunkte machen.",
+        "s": "During the conversation you may jot down key words."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "die Odontalgie",
+      "pl": "die Odontalgien",
+      "s": "toothache · Laie: die Zahnschmerzen",
+      "emoji": "🦷",
+      "ex": {
+        "t": "Wegen einer Odontalgie wünschte der Patient ein Schmerzmittel.",
+        "s": "Because of a toothache, the patient asked for a painkiller."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "die Patientendatei",
+      "pl": "die Patientendateien",
+      "s": "patient file (in the pharmacy)",
+      "emoji": "🗂️",
+      "ex": {
+        "t": "Die Notiz wird in der Patientendatei der Apotheke gespeichert.",
+        "s": "The note is saved in the pharmacy's patient file."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "dokumentieren",
+      "s": "to document, to record",
+      "emoji": "",
+      "ex": {
+        "t": "Jede Beratung, bei der ein Problem erkannt wurde, sollte dokumentiert werden.",
+        "s": "Every consultation in which a problem was identified should be documented."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Der Patient kam mit … in die Apotheke.",
+      "s": "The patient came to the pharmacy with …"
+    },
+    {
+      "id": "p02",
+      "t": "Er klagte seit … über …",
+      "s": "He had been complaining of … since …"
+    },
+    {
+      "id": "p03",
+      "t": "Als Dauermedikation nimmt er … ein.",
+      "s": "As long-term medication, he takes …"
+    },
+    {
+      "id": "p04",
+      "t": "Bei der Überprüfung der Medikation fiel … auf.",
+      "s": "On checking the medication, … was noticed."
+    },
+    {
+      "id": "p05",
+      "t": "Dem Patienten wurde empfohlen, …",
+      "s": "The patient was advised to …"
+    },
+    {
+      "id": "p06",
+      "t": "Von … wurde abgeraten, da …",
+      "s": "… was advised against because …"
+    },
+    {
+      "id": "p07",
+      "t": "Der Patient wurde gebeten, …",
+      "s": "The patient was asked to …"
+    },
+    {
+      "id": "p08",
+      "t": "Der Patient hat die Hinweise verstanden und wiederholt.",
+      "s": "The patient understood the advice and repeated it."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Zahnschmerzen und ein Blutverdünner",
+      "s": "Toothache and a blood thinner"
+    },
+    "speakers": {
+      "A": {
+        "name": "Frau Ahmadi",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Herr Klein",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Guten Tag, was kann ich für Sie tun?",
+        "s": "Good afternoon, how can I help you?"
+      },
+      {
+        "sp": "B",
+        "t": "Guten Tag. Ich habe seit gestern starke Zahnschmerzen und hätte gern Ibuprofen, vierhundert Milligramm.",
+        "s": "Good afternoon. I've had severe toothache since yesterday and I'd like some ibuprofen, 400 milligrams."
+      },
+      {
+        "sp": "A",
+        "t": "Das tut mir leid. Ist das Mittel für Sie selbst? Und waren Sie schon beim Zahnarzt?",
+        "s": "I'm sorry to hear that. Is the medicine for yourself? And have you been to the dentist yet?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja, es ist für mich. Ich habe übermorgen einen Termin, früher ging es leider nicht.",
+        "s": "Yes, it's for me. I have an appointment the day after tomorrow; unfortunately they couldn't see me earlier."
+      },
+      {
+        "sp": "A",
+        "t": "Darf ich fragen, ob Sie regelmäßig andere Medikamente einnehmen?",
+        "s": "May I ask whether you take any other medicines regularly?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja, ich nehme jeden Tag einen Blutverdünner, Phenprocoumon, wegen Vorhofflimmern.",
+        "s": "Yes, I take a blood thinner every day, phenprocoumon, because of atrial fibrillation."
+      },
+      {
+        "sp": "A",
+        "t": "Danke, das ist wichtig. Ibuprofen kann zusammen mit Ihrem Blutverdünner das Risiko für Blutungen erhöhen, zum Beispiel im Magen. Deshalb würde ich Ihnen davon abraten.",
+        "s": "Thank you, that's important. Together with your blood thinner, ibuprofen can increase the risk of bleeding, for example in the stomach. That's why I would advise you against it."
+      },
+      {
+        "sp": "B",
+        "t": "Oh, das wusste ich nicht. Was kann ich denn stattdessen nehmen?",
+        "s": "Oh, I didn't know that. So what can I take instead?"
+      },
+      {
+        "sp": "A",
+        "t": "Ich empfehle Ihnen Paracetamol, fünfhundert Milligramm, aber nur bis zu Ihrem Zahnarzttermin. Nehmen Sie bei Bedarf ein bis zwei Tabletten. Zwischen zwei Einnahmen sollten mindestens sechs Stunden liegen, und mehr als acht Tabletten am Tag dürfen es nicht sein.",
+        "s": "I recommend paracetamol, 500 milligrams, but only until your dental appointment. Take one or two tablets when needed. There should be at least six hours between two doses, and you must not take more than eight tablets a day."
+      },
+      {
+        "sp": "B",
+        "t": "Gut. Und was mache ich, wenn die Schmerzen trotzdem schlimmer werden?",
+        "s": "Okay. And what do I do if the pain gets worse anyway?"
+      },
+      {
+        "sp": "A",
+        "t": "Dann warten Sie bitte nicht bis übermorgen, sondern gehen Sie gleich zum zahnärztlichen Notdienst. Das gilt auch, wenn Ihre Wange anschwillt oder Sie Fieber bekommen. Sagen Sie dort bitte, dass Sie einen Blutverdünner nehmen. Können Sie mir zum Schluss kurz sagen, wie Sie das Paracetamol einnehmen?",
+        "s": "Then please don't wait until the day after tomorrow, but go straight to the emergency dental service. The same applies if your cheek swells or you get a fever. Please tell them there that you take a blood thinner. Finally, could you briefly tell me how you'll take the paracetamol?"
+      },
+      {
+        "sp": "B",
+        "t": "Ein bis zwei Tabletten, mit mindestens sechs Stunden Abstand und höchstens acht am Tag. Und kein Ibuprofen. Vielen Dank!",
+        "s": "One or two tablets, at least six hours apart and at most eight a day. And no ibuprofen. Thank you very much!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Dem Patienten wurde empfohlen …",
+        "s": "The passive and the Zustandspassiv in documentation"
+      },
+      "explain": "In a note, what matters is **what was done**, not who did it. That's why the **passive** is typical: **wurde/wurden + Partizip II** (Präteritum) or **ist/sind + Partizip II + worden** (Perfekt): **Der Patient wurde beraten.** / **Der Patient ist beraten worden.**\nVerbs with a **dative** object (empfehlen, raten, abraten, helfen) keep the dative in the passive – the person never becomes the subject: **Dem Patienten wurde empfohlen, …** (never *Der Patient wurde empfohlen*). An accusative object, if there is one, becomes the subject: **Dem Patienten wurde Paracetamol empfohlen.** Without one, the passive has no subject at all: **Dem Patienten wurde geholfen.** If nothing else stands in position 1, use **es**: **Es wurde von Ibuprofen abgeraten.** – the **es** disappears as soon as another element comes first: **Daraufhin wurde von Ibuprofen abgeraten.**\nThe **Zustandspassiv** (**sein + Partizip II**) describes the **result**, the state reached: **Die Ärztin ist informiert.** **Ein Termin war bereits vereinbart.** It is useful at the end of a note.\nYour own actions may also be written in the first person (**Ich habe Rücksprache mit der Ärztin gehalten.**), as in the model note of the handbook; the passive sounds more neutral.",
+      "table": [
+        [
+          "Präteritum",
+          "Der Patient wurde beraten."
+        ],
+        [
+          "Perfekt",
+          "Der Patient ist beraten worden."
+        ],
+        [
+          "Verb mit Dativ",
+          "Dem Patienten wurde empfohlen, viel zu trinken."
+        ],
+        [
+          "mit es",
+          "Es wurde von Ibuprofen abgeraten."
+        ],
+        [
+          "Zustandspassiv",
+          "Die Ärztin ist informiert."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Der Patient wurde ausführlich zur Einnahme von Paracetamol beraten.",
+          "s": "The patient was given detailed advice on taking paracetamol."
+        },
+        {
+          "t": "Dem Patienten wurde empfohlen, bis zum Zahnarzttermin Paracetamol einzunehmen.",
+          "s": "The patient was advised to take paracetamol until the dental appointment."
+        },
+        {
+          "t": "Wegen des erhöhten Blutungsrisikos wurde von Ibuprofen abgeraten.",
+          "s": "Ibuprofen was advised against because of the increased risk of bleeding."
+        },
+        {
+          "t": "Die Wechselwirkung ist in der Patientendatei dokumentiert.",
+          "s": "The interaction is documented in the patient file."
+        },
+        {
+          "t": "Zum Zeitpunkt der Beratung war der Zahnarzttermin bereits vereinbart.",
+          "s": "At the time of the consultation, the dental appointment had already been made."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Der Patient ___ über die Wechselwirkung informiert.",
+          "options": [
+            "wurde",
+            "wurden",
+            "hat"
+          ],
+          "answer": 0,
+          "s": "The patient was informed about the interaction."
+        },
+        {
+          "type": "choice",
+          "t": "___ Patientin wurde empfohlen, viel zu trinken.",
+          "options": [
+            "Die",
+            "Der",
+            "Den"
+          ],
+          "answer": 1,
+          "s": "The (female) patient was advised to drink a lot."
+        },
+        {
+          "type": "type",
+          "t": "Von Ibuprofen wurde wegen des Blutungsrisikos ___.",
+          "answer": [
+            "abgeraten"
+          ],
+          "s": "Ibuprofen was advised against because of the risk of bleeding."
+        },
+        {
+          "type": "choice",
+          "t": "Als der Patient die Apotheke verließ, ___ die Ärztin bereits informiert.",
+          "options": [
+            "hatte",
+            "war",
+            "habe"
+          ],
+          "answer": 1,
+          "s": "When the patient left the pharmacy, the doctor had already been informed."
+        },
+        {
+          "type": "type",
+          "t": "Der Patient ___ gebeten, einen Zahnarzt aufzusuchen.",
+          "answer": [
+            "wurde"
+          ],
+          "s": "The patient was asked to see a dentist."
+        },
+        {
+          "type": "type",
+          "t": "Der Fall ist in der Patientendatei ___.",
+          "answer": [
+            "dokumentiert",
+            "notiert",
+            "festgehalten",
+            "gespeichert",
+            "erfasst",
+            "vermerkt"
+          ],
+          "s": "The case is documented in the patient file."
+        },
+        {
+          "type": "order",
+          "t": "Dem Patienten wurde Paracetamol empfohlen.",
+          "s": "Paracetamol was recommended to the patient.",
+          "alts": [
+            "Paracetamol wurde dem Patienten empfohlen."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Die Hinweise wurden vom Patienten wiederholt.",
+          "s": "The advice was repeated by the patient.",
+          "alts": [
+            "Vom Patienten wurden die Hinweise wiederholt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Daraufhin, anschließend, da, sodass",
+        "s": "Linking sentences in continuous text"
+      },
+      "explain": "The written part must be **continuous text**, not a list of bullet points. Connectors make the logic visible: what happened next, why, and with what result.\n**daraufhin** (as a result, thereupon), **anschließend** (afterwards), **stattdessen** (instead) and **deshalb / daher** (therefore) are **adverbs**: when they take position 1, the verb follows directly: **Daraufhin wurde die Ärztin informiert.**\n**da** (as, because) and **sodass** (so that, with the result that) are **conjunctions**: they start a subordinate clause with the verb at the end. A **da**-clause often comes first and gives a known reason: **Da der Patient ein Antikoagulans einnimmt, wurde von Ibuprofen abgeraten.** A **sodass**-clause always follows the main clause and names the consequence: **Die Schmerzen waren stark, sodass er kaum schlafen konnte.**",
+      "table": [
+        [
+          "daraufhin, anschließend, stattdessen",
+          "Verb an Position zwei",
+          "Daraufhin wurde die Ärztin informiert."
+        ],
+        [
+          "da",
+          "Verb am Ende",
+          "Da er ein Antikoagulans einnimmt, …"
+        ],
+        [
+          "sodass",
+          "Verb am Ende",
+          "…, sodass ein Arztbesuch nötig war."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Bei der Überprüfung der Medikation fiel eine Wechselwirkung auf. Daraufhin wurde von Ibuprofen abgeraten.",
+          "s": "On checking the medication, an interaction was noticed. As a result, ibuprofen was advised against."
+        },
+        {
+          "t": "Da der Patient ein Antikoagulans einnimmt, wurde Paracetamol empfohlen.",
+          "s": "As the patient takes an anticoagulant, paracetamol was recommended."
+        },
+        {
+          "t": "Die Schmerzen waren sehr stark, sodass der Patient kaum schlafen konnte.",
+          "s": "The pain was very severe, so the patient could hardly sleep."
+        },
+        {
+          "t": "Anschließend wurde die Einnahme in einfachen Worten erklärt.",
+          "s": "Afterwards, how to take the medicine was explained in simple words."
+        },
+        {
+          "t": "Von Ibuprofen wurde abgeraten. Stattdessen wurde Paracetamol empfohlen.",
+          "s": "Ibuprofen was advised against. Paracetamol was recommended instead."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ der Patient Phenprocoumon einnimmt, wurde von Ibuprofen abgeraten.",
+          "options": [
+            "Da",
+            "Daraufhin",
+            "Sodass"
+          ],
+          "answer": 0,
+          "s": "As the patient takes phenprocoumon, ibuprofen was advised against."
+        },
+        {
+          "type": "choice",
+          "t": "Die Patientin hatte hohes Fieber, ___ ein Arztbesuch dringend nötig war.",
+          "options": [
+            "sodass",
+            "da",
+            "anschließend"
+          ],
+          "answer": 0,
+          "s": "The patient had a high fever, so a visit to the doctor was urgently needed."
+        },
+        {
+          "type": "choice",
+          "t": "Die Wechselwirkung fiel auf. ___ rief die Apothekerin die Ärztin an.",
+          "options": [
+            "Daraufhin",
+            "Weil",
+            "Sodass"
+          ],
+          "answer": 0,
+          "s": "The interaction was noticed. Thereupon the pharmacist called the doctor."
+        },
+        {
+          "type": "type",
+          "t": "Zuerst wurde die Einnahme erklärt. ___ wiederholte der Patient die wichtigsten Hinweise.",
+          "answer": [
+            "Anschließend",
+            "Anschliessend",
+            "Danach",
+            "Dann",
+            "Daraufhin",
+            "Abschließend",
+            "Abschliessend",
+            "Zum Schluss"
+          ],
+          "s": "First, how to take the medicine was explained. Afterwards, the patient repeated the most important points."
+        },
+        {
+          "type": "type",
+          "t": "Ibuprofen kam nicht in Frage. ___ wurde Paracetamol empfohlen.",
+          "answer": [
+            "Stattdessen",
+            "Deshalb",
+            "Daher",
+            "Deswegen",
+            "Daraufhin",
+            "Folglich"
+          ],
+          "s": "Ibuprofen was out of the question. Instead, paracetamol was recommended."
+        },
+        {
+          "type": "type",
+          "t": "___ die Beschwerden seit drei Tagen bestanden, wurde ein Arztbesuch empfohlen.",
+          "answer": [
+            "Da",
+            "Weil"
+          ],
+          "s": "As the symptoms had lasted for three days, a visit to the doctor was recommended."
+        },
+        {
+          "type": "order",
+          "t": "Daraufhin wurde die Ärztin informiert.",
+          "s": "Thereupon the doctor was informed.",
+          "alts": [
+            "Die Ärztin wurde daraufhin informiert."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Die Schmerzen hielten an, sodass er zum Zahnarzt ging.",
+          "s": "The pain persisted, so he went to the dentist."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Notiz über ein Beratungsgespräch",
+      "s": "Note on a consultation"
+    },
+    "text": [
+      {
+        "t": "Notiz über ein Beratungsgespräch vom zwölften März, Linden-Apotheke Berlin, verfasst von Apothekerin Ahmadi.",
+        "s": "Note on a consultation of March 12, Linden-Apotheke, Berlin, written by pharmacist Ahmadi."
+      },
+      {
+        "t": "Patient: Herr K., achtundsechzig Jahre, männlich.",
+        "s": "Patient: Mr. K., 68 years old, male."
+      },
+      {
+        "t": "Herr K. kam in die Apotheke, da er seit dem Vortag über starke Zahnschmerzen im rechten Unterkiefer klagte.",
+        "s": "Mr. K. came to the pharmacy because he had been complaining of severe toothache in his right lower jaw since the previous day."
+      },
+      {
+        "t": "Er wünschte Ibuprofen vierhundert Milligramm zur Selbstmedikation.",
+        "s": "He asked for ibuprofen 400 mg for self-medication."
+      },
+      {
+        "t": "Ein Zahnarzttermin war bereits für den übernächsten Tag vereinbart.",
+        "s": "A dental appointment had already been made for the day after next."
+      },
+      {
+        "t": "Als Dauermedikation nimmt der Patient aufgrund von Vorhofflimmern das Antikoagulans Phenprocoumon ein.",
+        "s": "As long-term medication, the patient takes the anticoagulant phenprocoumon because of atrial fibrillation."
+      },
+      {
+        "t": "Bei der Überprüfung der Medikation fiel eine klinisch relevante Wechselwirkung auf: Ibuprofen erhöht in Kombination mit Phenprocoumon das Blutungsrisiko, insbesondere im Magen-Darm-Trakt.",
+        "s": "On checking the medication, a clinically relevant interaction was noticed: in combination with phenprocoumon, ibuprofen increases the risk of bleeding, especially in the gastrointestinal tract."
+      },
+      {
+        "t": "Daher wurde dem Patienten von Ibuprofen abgeraten.",
+        "s": "The patient was therefore advised against ibuprofen."
+      },
+      {
+        "t": "Stattdessen wurde ihm Paracetamol fünfhundert Milligramm empfohlen, und zwar bei Bedarf ein bis zwei Tabletten im Abstand von mindestens sechs Stunden, höchstens jedoch acht Tabletten pro Tag.",
+        "s": "Instead, paracetamol 500 mg was recommended to him: one or two tablets as needed, at least six hours apart, but no more than eight tablets per day."
+      },
+      {
+        "t": "Der Patient wurde gebeten, Paracetamol nur bis zum Zahnarzttermin einzunehmen und den Zahnarzt über die Einnahme des Antikoagulans zu informieren.",
+        "s": "The patient was asked to take paracetamol only until the dental appointment and to tell the dentist that he takes the anticoagulant."
+      },
+      {
+        "t": "Für den Fall, dass die Schmerzen zunehmen, die Wange anschwillt oder Fieber auftritt, wurde ihm geraten, umgehend den zahnärztlichen Notdienst aufzusuchen.",
+        "s": "In case the pain gets worse, his cheek swells or he develops a fever, he was advised to go to the emergency dental service immediately."
+      },
+      {
+        "t": "Anschließend hat der Patient die Einnahmehinweise mit eigenen Worten wiederholt, sodass von einem guten Verständnis auszugehen ist.",
+        "s": "Afterwards, the patient repeated the instructions in his own words, so it can be assumed that he understood them well."
+      },
+      {
+        "t": "Eine Rücksprache mit dem Hausarzt war nicht erforderlich.",
+        "s": "It was not necessary to consult the family doctor."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Warum kam Herr K. in die Apotheke?",
+          "s": "Why did Mr. K. come to the pharmacy?"
+        },
+        "options": [
+          "Er hatte starke Zahnschmerzen.",
+          "Er brauchte ein neues Rezept für Phenprocoumon.",
+          "Er hatte Magenschmerzen nach Ibuprofen."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Warum wurde von Ibuprofen abgeraten?",
+          "s": "Why was ibuprofen advised against?"
+        },
+        "options": [
+          "Weil der Patient gegen Ibuprofen allergisch ist.",
+          "Weil das Blutungsrisiko zusammen mit Phenprocoumon steigt.",
+          "Weil Ibuprofen bei Zahnschmerzen nicht wirkt."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wie viele Tabletten Paracetamol darf der Patient höchstens pro Tag einnehmen?",
+          "s": "What is the maximum number of paracetamol tablets the patient may take per day?"
+        },
+        "options": [
+          "vier",
+          "sechs",
+          "acht"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Wann soll der Patient sofort zum zahnärztlichen Notdienst gehen?",
+          "s": "When should the patient go to the emergency dental service immediately?"
+        },
+        "options": [
+          "wenn seine Wange anschwillt",
+          "wenn er müde wird",
+          "wenn der Zahnarzttermin verschoben wird"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Woran erkennt man, dass der Patient die Hinweise verstanden hat?",
+          "s": "How can you tell that the patient understood the advice?"
+        },
+        "options": [
+          "Er hat die Notiz unterschrieben.",
+          "Er hat die Hinweise mit eigenen Worten wiederholt.",
+          "Er hat seinen Hausarzt angerufen."
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Die Notiz wird im Fließtext und in der Vergangenheit geschrieben.",
+      "s": "The note is written in continuous text and in the past tense."
+    },
+    {
+      "t": "Vergessen Sie das Datum und die Dosierung nicht.",
+      "s": "Don't forget the date and the dosage."
+    },
+    {
+      "t": "Der Patient klagte seit dem Vortag über Zahnschmerzen.",
+      "s": "The patient had been complaining of toothache since the previous day."
+    },
+    {
+      "t": "Als Dauermedikation nimmt die Patientin ein Antikoagulans ein.",
+      "s": "As long-term medication, the patient takes an anticoagulant."
+    },
+    {
+      "t": "Daraufhin wurde dem Patienten von Ibuprofen abgeraten.",
+      "s": "As a result, the patient was advised against ibuprofen."
+    },
+    {
+      "t": "Die Ärztin ist bereits informiert.",
+      "s": "The doctor has already been informed."
+    },
+    {
+      "t": "Der Patient hat die Hinweise verstanden und wiederholt.",
+      "s": "The patient understood the advice and repeated it."
+    },
+    {
+      "t": "In der Notiz verwendet man Fachbegriffe statt Laiensprache.",
+      "s": "In the note, you use technical terms instead of lay language."
+    }
+  ]
+}

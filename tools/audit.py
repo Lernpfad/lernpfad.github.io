@@ -10,7 +10,7 @@ import build  # speakable()
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "review", "audit")
 os.makedirs(OUT, exist_ok=True)
-TARGET = {"en-fa": "en", "de-en": "de", "tr-fa": "tr", "fa-tr": "fa"}
+TARGET = {"en-fa": "en", "de-en": "de", "tr-fa": "tr", "fa-tr": "fa", "de-fsp": "de"}
 PERSIAN = re.compile(r"[؀-ۿ]")
 LATIN = re.compile(r"[A-Za-zÇĞİÖŞÜçğıöşü]")
 BRIT = re.compile(r"\b(?!analys)(colour|favour|honour|neighbour|behaviour|labour|centre|theatre|metre|litre|organis|realis|recognis|apologis|travelling|travelled|cancelled|programme|cheque|grey|mum|flat\b|lorry|holiday(?!s? (season|card))|queue|whilst|amongst|learnt|spelt|dreamt|towards|practise|licence|defence|offence|catalogue|dialogue|tyre|jewellery|aluminium)", re.I)
@@ -92,7 +92,7 @@ def audit_unit(course, level, f, u, F, seen_words):
         if isinstance(s, str) and re.search(r"[يك]", s): add("persian", p, f"Arabic ي/ك in s: {s[:60]!r}")
         if lang == "fa" and re.search(r"[يك]", t): add("persian", p, f"Arabic ي/ك in t: {t[:60]!r}")
         if lang == "en" and BRIT.search(t): add("spelling", p, f"British spelling? {BRIT.search(t).group(0)!r} in {t[:70]!r}")
-        if lang in ("en", "tr", "fa") and course != "de-en":
+        if lang in ("en", "tr", "fa") and lang != "de":
             if pr is None:
                 if p.startswith(("words", "phrases")) and not p.endswith(".ex"):
                     add("pr", p, f"missing pr for {t[:60]!r}")

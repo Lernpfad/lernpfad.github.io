@@ -1,0 +1,724 @@
+{
+  "id": "u03",
+  "level": "B1",
+  "emoji": "⏰",
+  "title": {
+    "t": "Wie nehme ich das ein?",
+    "s": "Taking medicines and dosage"
+  },
+  "goals": [
+    "Explain when and how to take a medicine (before, with or after meals; morning, evening)",
+    "Say doses and frequencies clearly (eine halbe Tablette, dreimal täglich, alle acht Stunden)",
+    "Understand the dosage section of a package leaflet",
+    "Check understanding with a short teach-back question"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "einnehmen",
+      "s": "to take (a medicine by mouth) · nimmt ein, hat eingenommen",
+      "emoji": "",
+      "ex": {
+        "t": "Nehmen Sie die Tablette morgens ein.",
+        "s": "Take the tablet in the morning."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Einnahme",
+      "s": "taking (of a medicine), intake",
+      "emoji": "",
+      "ex": {
+        "t": "Lesen Sie vor der Einnahme die Packungsbeilage.",
+        "s": "Read the package leaflet before taking it."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "die Dosierung",
+      "pl": "die Dosierungen",
+      "s": "dosage (how much and how often)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Dosierung für Kinder hängt oft vom Gewicht ab.",
+        "s": "The dosage for children often depends on their weight."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "die Dosis",
+      "pl": "die Dosen",
+      "s": "dose (the amount taken at one time) · Fach: die Einzeldosis",
+      "emoji": "",
+      "ex": {
+        "t": "Nehmen Sie bitte keine doppelte Dosis.",
+        "s": "Please don't take a double dose."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "täglich",
+      "s": "daily, a day; dreimal täglich: three times a day",
+      "emoji": "",
+      "ex": {
+        "t": "Die Ärztin hat dreimal täglich eine Tablette verschrieben.",
+        "s": "The doctor prescribed one tablet three times a day."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "unzerkaut",
+      "s": "without chewing · Laie: ganz schlucken, nicht kauen",
+      "emoji": "",
+      "ex": {
+        "t": "Schlucken Sie die Filmtablette unzerkaut mit Wasser.",
+        "s": "Swallow the film-coated tablet whole with water."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "schlucken",
+      "s": "to swallow",
+      "emoji": "",
+      "ex": {
+        "t": "Ben kann noch keine Tabletten schlucken.",
+        "s": "Ben can't swallow tablets yet."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "auf nüchternen Magen",
+      "s": "on an empty stomach · Laie: ohne Essen, vor dem Frühstück",
+      "emoji": "",
+      "ex": {
+        "t": "Levothyroxin nehmen Sie morgens auf nüchternen Magen ein, mindestens eine halbe Stunde vor dem Frühstück.",
+        "s": "Take levothyroxine (thyroid hormone) in the morning on an empty stomach, at least half an hour before breakfast."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Mahlzeit",
+      "pl": "die Mahlzeiten",
+      "s": "meal · Laie: das Essen",
+      "emoji": "🍽️",
+      "ex": {
+        "t": "Nehmen Sie Ibuprofen während oder nach einer Mahlzeit.",
+        "s": "Take ibuprofen with or after a meal."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "die Packungsbeilage",
+      "pl": "die Packungsbeilagen",
+      "s": "package leaflet · Laie: der Beipackzettel",
+      "emoji": "📄",
+      "ex": {
+        "t": "In der Packungsbeilage steht, wie Sie das Medikament einnehmen.",
+        "s": "The package leaflet says how to take the medicine."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "höchstens",
+      "s": "at most, no more than",
+      "emoji": "",
+      "ex": {
+        "t": "Ohne ärztlichen Rat nehmen Erwachsene höchstens drei Tabletten Ibuprofen vierhundert am Tag.",
+        "s": "Without medical advice, adults take no more than three ibuprofen 400 mg tablets a day."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "vergessen",
+      "s": "to forget · vergisst, hat vergessen",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe heute Morgen meine Tablette vergessen.",
+        "s": "I forgot my tablet this morning."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "der Abstand",
+      "pl": "die Abstände",
+      "s": "interval, gap (between two doses)",
+      "emoji": "",
+      "ex": {
+        "t": "Zwischen zwei Tabletten Ibuprofen vierhundert brauchen Erwachsene mindestens sechs Stunden Abstand.",
+        "s": "Adults need a gap of at least six hours between two ibuprofen 400 mg tablets."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "die Bruchkerbe",
+      "pl": "die Bruchkerben",
+      "s": "score line (a groove for breaking a tablet in half)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Tablette hat eine Bruchkerbe, Sie können sie teilen.",
+        "s": "The tablet has a score line; you can split it."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "regelmäßig",
+      "s": "regularly, at the same times every day",
+      "emoji": "",
+      "ex": {
+        "t": "Nehmen Sie Ihre Blutdrucktabletten regelmäßig jeden Morgen.",
+        "s": "Take your blood pressure tablets regularly every morning."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Nehmen Sie bitte dreimal täglich eine Tablette ein.",
+      "s": "Please take one tablet three times a day."
+    },
+    {
+      "id": "p02",
+      "t": "am besten nach dem Essen",
+      "s": "best after meals"
+    },
+    {
+      "id": "p03",
+      "t": "mit einem Glas Wasser, unzerkaut",
+      "s": "with a glass of water, without chewing"
+    },
+    {
+      "id": "p04",
+      "t": "Nehmen Sie morgens und abends je eine Tablette.",
+      "s": "Take one tablet each in the morning and in the evening."
+    },
+    {
+      "id": "p05",
+      "t": "Ich schreibe Ihnen die Dosierung auf die Packung.",
+      "s": "I'll write the dosage on the pack for you."
+    },
+    {
+      "id": "p06",
+      "t": "Nehmen Sie bitte keine doppelte Dosis.",
+      "s": "Please don't take a double dose."
+    },
+    {
+      "id": "p07",
+      "t": "Können Sie mir kurz sagen, wie Sie das Medikament einnehmen?",
+      "s": "Can you tell me briefly how you will take the medicine?"
+    },
+    {
+      "id": "p08",
+      "t": "Haben Sie dazu noch Fragen?",
+      "s": "Do you have any more questions about it?"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Wie oft darf ich die Tabletten nehmen?",
+      "s": "How often may I take the tablets?"
+    },
+    "speakers": {
+      "A": {
+        "name": "Frau Ahmadi",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Herr Klein",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "So, Herr Klein, hier ist Ihr Ibuprofen vierhundert gegen die Zahnschmerzen.",
+        "s": "So, Mr. Klein, here is your ibuprofen 400 mg for the toothache."
+      },
+      {
+        "sp": "B",
+        "t": "Danke. Wie oft darf ich die Tabletten nehmen?",
+        "s": "Thanks. How often may I take the tablets?"
+      },
+      {
+        "sp": "A",
+        "t": "Nehmen Sie bei Bedarf eine Tablette, höchstens dreimal täglich.",
+        "s": "Take one tablet when needed, no more than three times a day."
+      },
+      {
+        "sp": "B",
+        "t": "Vor dem Essen oder nach dem Essen?",
+        "s": "Before or after meals?"
+      },
+      {
+        "sp": "A",
+        "t": "Am besten während oder nach einer Mahlzeit. Schlucken Sie die Tablette unzerkaut mit einem Glas Wasser.",
+        "s": "Best with or after a meal. Swallow the tablet whole with a glass of water."
+      },
+      {
+        "sp": "B",
+        "t": "Und wie lange muss ich zwischen zwei Tabletten warten?",
+        "s": "And how long do I have to wait between two tablets?"
+      },
+      {
+        "sp": "A",
+        "t": "Mindestens sechs Stunden. Zum Beispiel morgens um acht, nachmittags um zwei und abends um acht.",
+        "s": "At least six hours. For example at eight in the morning, two in the afternoon and eight in the evening."
+      },
+      {
+        "sp": "B",
+        "t": "Die Tablette ist ziemlich groß. Kann ich sie teilen?",
+        "s": "The tablet is quite big. Can I split it?"
+      },
+      {
+        "sp": "A",
+        "t": "Diese Tablette hat keine Bruchkerbe. Bitte nehmen Sie sie ganz.",
+        "s": "This tablet has no score line. Please take it whole."
+      },
+      {
+        "sp": "B",
+        "t": "Okay. Und wie lange darf ich sie nehmen?",
+        "s": "Okay. And how long may I take them?"
+      },
+      {
+        "sp": "A",
+        "t": "Ohne Arzt höchstens vier Tage. Aber gehen Sie mit den Zahnschmerzen bitte bald zum Zahnarzt. Können Sie mir kurz sagen, wie Sie die Tabletten nehmen?",
+        "s": "Without a doctor, four days at most. But please see a dentist about the toothache soon. Can you tell me briefly how you'll take the tablets?"
+      },
+      {
+        "sp": "B",
+        "t": "Eine Tablette nach dem Essen mit Wasser, höchstens drei am Tag und nicht länger als vier Tage.",
+        "s": "One tablet after a meal with water, no more than three a day and no longer than four days."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "vor dem Essen, nach dem Frühstück, zur Nacht",
+        "s": "Time expressions: vor, nach, zu, während; morgens, abends"
+      },
+      "explain": "Instructions for taking medicines often use time prepositions.\n**vor**, **nach** and **zu** take the **dative**: vor **dem** Essen (before meals), nach **dem** Frühstück (after breakfast), vor **der** Mahlzeit, nach **der** Mahlzeit.\n**zu** is often shortened: zu dem → **zum** (zum Essen = with the meal), zu der → **zur** (**zur Nacht** = at bedtime). Plural: **zu den Mahlzeiten** (with meals).\n**während** (during) takes the **genitive** in written German, for example in a package leaflet: während **des** Essens, während **einer** Mahlzeit. In everyday speech you will also hear *während dem Essen*, but write the genitive.\nRegular times of day end in **-s** and are written in **lower case**: **morgens** (in the morning, every day), **mittags**, **abends**, **nachts**.",
+      "table": [
+        [
+          "vor",
+          "vor dem Essen",
+          "vor der Mahlzeit"
+        ],
+        [
+          "nach",
+          "nach dem Frühstück",
+          "nach der Mahlzeit"
+        ],
+        [
+          "zu",
+          "zum Essen",
+          "zu den Mahlzeiten"
+        ],
+        [
+          "während",
+          "während des Essens",
+          "während einer Mahlzeit"
+        ],
+        [
+          "morgens",
+          "abends",
+          "zur Nacht"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Nehmen Sie die Tablette eine halbe Stunde vor dem Frühstück ein.",
+          "s": "Take the tablet half an hour before breakfast."
+        },
+        {
+          "t": "Ibuprofen nehmen Sie am besten während oder nach einer Mahlzeit.",
+          "s": "It's best to take ibuprofen with or after a meal."
+        },
+        {
+          "t": "Die Kapseln nehmen Sie zu den Mahlzeiten ein.",
+          "s": "Take the capsules with meals."
+        },
+        {
+          "t": "Tragen Sie die Creme morgens und abends auf.",
+          "s": "Apply the cream in the morning and in the evening."
+        },
+        {
+          "t": "Dieses Medikament macht müde, deshalb nehmen Sie es zur Nacht.",
+          "s": "This medicine makes you tired, so take it at bedtime."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Nehmen Sie die Tablette nach ___ Essen.",
+          "options": [
+            "dem",
+            "den",
+            "das"
+          ],
+          "answer": 0,
+          "s": "Take the tablet after the meal."
+        },
+        {
+          "type": "choice",
+          "t": "Bitte eine halbe Stunde vor ___ Frühstück einnehmen.",
+          "options": [
+            "dem",
+            "der",
+            "das"
+          ],
+          "answer": 0,
+          "s": "Please take it half an hour before breakfast."
+        },
+        {
+          "type": "choice",
+          "t": "Nehmen Sie die Kapseln ___ den Mahlzeiten ein.",
+          "options": [
+            "zu",
+            "zum",
+            "zur"
+          ],
+          "answer": 0,
+          "s": "Take the capsules with meals."
+        },
+        {
+          "type": "type",
+          "t": "Die Tropfen nehmen Sie ___ Nacht.",
+          "answer": [
+            "zur"
+          ],
+          "s": "Take the drops at bedtime."
+        },
+        {
+          "type": "type",
+          "t": "Ich nehme die Tablette jeden Morgen, also immer ___.",
+          "answer": [
+            "morgens"
+          ],
+          "s": "I take the tablet every morning, so always in the morning."
+        },
+        {
+          "type": "type",
+          "t": "Nehmen Sie Ibuprofen während ___ Mahlzeit.",
+          "answer": [
+            "einer",
+            "der"
+          ],
+          "s": "Take ibuprofen during a meal. (genitive)"
+        },
+        {
+          "type": "type",
+          "t": "Peroral heißt in Laiensprache: über den ___.",
+          "answer": [
+            "Mund"
+          ],
+          "s": "Peroral (p. o.) in plain German: by mouth."
+        },
+        {
+          "type": "order",
+          "t": "Nehmen Sie die Tablette vor dem Frühstück ein.",
+          "s": "Take the tablet before breakfast.",
+          "alts": [
+            "Nehmen Sie vor dem Frühstück die Tablette ein."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "eine halbe Tablette, zweimal täglich zehn Tropfen",
+        "s": "Saying numbers and amounts"
+      },
+      "explain": "Doses must be said clearly and without mistakes. Useful patterns:\n**How often**: number + **-mal**, written as one word: **einmal, zweimal, dreimal täglich** (once, twice, three times a day). **alle acht Stunden** = every eight hours. **je** = each: morgens und abends **je** eine Tablette.\n**Halves**: **eine halbe Tablette** (halb takes an adjective ending), **eineinhalb** or **anderthalb Tabletten** (one and a half – the noun is plural).\n**Units** stay in the singular after a number: fünf **Milliliter**, vierhundert **Milligramm**, ein **Gramm** (= tausend Milligramm). Decimals are said with **Komma**: zwei **Komma** fünf Milliliter (written 2,5 ml in German, with a comma).\nLong numbers are one word: **vierhundert**, **tausendzweihundert**.\nIn the pharmacy, say the amount, the unit and the frequency together, and repeat them at the end: *Also: dreimal täglich fünf Milliliter.*",
+      "table": [
+        [
+          "einmal täglich",
+          "zweimal täglich",
+          "dreimal täglich"
+        ],
+        [
+          "eine halbe Tablette",
+          "eine Tablette",
+          "eineinhalb Tabletten"
+        ],
+        [
+          "alle sechs Stunden",
+          "alle acht Stunden",
+          "alle zwölf Stunden"
+        ],
+        [
+          "zehn Tropfen",
+          "fünf Milliliter",
+          "zwei Komma fünf Milliliter"
+        ],
+        [
+          "vierhundert Milligramm",
+          "tausend Milligramm",
+          "ein Gramm"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Die Ärztin hat zweimal täglich eine halbe Tablette verschrieben.",
+          "s": "The doctor prescribed half a tablet twice a day."
+        },
+        {
+          "t": "Laut Rezept bekommt Ben dreimal täglich fünf Milliliter Saft.",
+          "s": "According to the prescription, Ben gets five milliliters of syrup three times a day."
+        },
+        {
+          "t": "Nehmen Sie das Antibiotikum alle acht Stunden, also dreimal täglich.",
+          "s": "Take the antibiotic every eight hours, so three times a day."
+        },
+        {
+          "t": "Erwachsene dürfen höchstens vier Gramm Paracetamol am Tag nehmen.",
+          "s": "Adults may take no more than four grams of paracetamol a day."
+        },
+        {
+          "t": "Tausend Milligramm sind ein Gramm.",
+          "s": "A thousand milligrams are one gram."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Nehmen Sie bitte eine ___ Tablette.",
+          "options": [
+            "halbe",
+            "halb",
+            "halben"
+          ],
+          "answer": 0,
+          "s": "Please take half a tablet."
+        },
+        {
+          "type": "choice",
+          "t": "Die Ärztin hat ___ täglich zehn Tropfen verschrieben.",
+          "options": [
+            "zweimal",
+            "zweite",
+            "zwei"
+          ],
+          "answer": 0,
+          "s": "The doctor prescribed ten drops twice a day."
+        },
+        {
+          "type": "choice",
+          "t": "Alle acht Stunden bedeutet: ___ täglich.",
+          "options": [
+            "dreimal",
+            "zweimal",
+            "viermal"
+          ],
+          "answer": 0,
+          "s": "Every eight hours means: three times a day."
+        },
+        {
+          "type": "type",
+          "t": "Tausend Milligramm sind ein ___.",
+          "answer": [
+            "Gramm"
+          ],
+          "s": "A thousand milligrams are one gram."
+        },
+        {
+          "type": "type",
+          "t": "Um sechs Uhr, um zwölf Uhr, um achtzehn Uhr und um Mitternacht: Sie nehmen das Medikament ___ sechs Stunden.",
+          "answer": [
+            "alle"
+          ],
+          "s": "At six a.m., at noon, at six p.m. and at midnight: you take the medicine every six hours."
+        },
+        {
+          "type": "type",
+          "t": "Nehmen Sie morgens und abends ___ eine Tablette.",
+          "answer": [
+            "je",
+            "jeweils"
+          ],
+          "s": "Take one tablet each in the morning and in the evening."
+        },
+        {
+          "type": "choice",
+          "t": "Eine Tablette und eine halbe Tablette sind ___ Tabletten.",
+          "options": [
+            "eineinhalb",
+            "einhalb",
+            "einundhalb"
+          ],
+          "answer": 0,
+          "s": "One tablet and half a tablet make one and a half tablets."
+        },
+        {
+          "type": "order",
+          "t": "Nehmen Sie dreimal täglich zehn Tropfen.",
+          "s": "Take ten drops three times a day.",
+          "alts": [
+            "Nehmen Sie zehn Tropfen dreimal täglich."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Aus der Packungsbeilage: Ibuprofen vierhundert",
+      "s": "From the package leaflet: ibuprofen 400 (simplified for language practice)"
+    },
+    "text": [
+      {
+        "t": "Ibuprofen vierhundert Milligramm, Filmtabletten.",
+        "s": "Ibuprofen 400 mg, film-coated tablets."
+      },
+      {
+        "t": "Anwendungsgebiete: leichte bis mäßig starke Schmerzen, zum Beispiel Kopfschmerzen oder Zahnschmerzen, und Fieber.",
+        "s": "Uses: mild to moderate pain, for example headache or toothache, and fever."
+      },
+      {
+        "t": "Erwachsene nehmen bei Bedarf eine Filmtablette ein.",
+        "s": "Adults take one film-coated tablet when needed."
+      },
+      {
+        "t": "Wenn nötig, können Sie nach sechs bis acht Stunden eine weitere Filmtablette einnehmen.",
+        "s": "If necessary, you can take another film-coated tablet after six to eight hours."
+      },
+      {
+        "t": "Nehmen Sie höchstens drei Filmtabletten am Tag ein, das sind tausendzweihundert Milligramm.",
+        "s": "Take no more than three film-coated tablets a day; that is 1,200 milligrams."
+      },
+      {
+        "t": "Nehmen Sie die Filmtablette unzerkaut mit einem Glas Wasser ein, während oder nach einer Mahlzeit.",
+        "s": "Swallow the film-coated tablet whole with a glass of water, with or after a meal."
+      },
+      {
+        "t": "Nehmen Sie das Arzneimittel ohne ärztlichen Rat nicht länger als vier Tage gegen Schmerzen und nicht länger als drei Tage gegen Fieber.",
+        "s": "Without medical advice, do not take the medicine for longer than four days for pain or longer than three days for fever."
+      },
+      {
+        "t": "Nehmen Sie Ibuprofen nicht in den letzten drei Monaten der Schwangerschaft ein.",
+        "s": "Do not take ibuprofen in the last three months of pregnancy."
+      },
+      {
+        "t": "Nehmen Sie es auch nicht ein, wenn Sie zurzeit ein Magengeschwür haben.",
+        "s": "Do not take it either if you currently have a stomach ulcer."
+      },
+      {
+        "t": "Nehmen Sie regelmäßig andere Arzneimittel ein? Dann fragen Sie vorher Ihren Arzt oder Ihre Apotheke.",
+        "s": "Do you take other medicines regularly? Then ask your doctor or your pharmacy first."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wie viele Filmtabletten dürfen Erwachsene höchstens am Tag einnehmen?",
+          "s": "How many film-coated tablets may adults take a day at most?"
+        },
+        "options": [
+          "drei",
+          "vier",
+          "sechs"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wann nimmt man die Filmtablette ein?",
+          "s": "When do you take the film-coated tablet?"
+        },
+        "options": [
+          "während oder nach einer Mahlzeit",
+          "morgens auf nüchternen Magen",
+          "nur zur Nacht"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie lange darf man Ibuprofen ohne ärztlichen Rat gegen Schmerzen einnehmen?",
+          "s": "How long may you take ibuprofen for pain without medical advice?"
+        },
+        "options": [
+          "höchstens vier Tage",
+          "höchstens drei Tage",
+          "zwei Wochen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wann darf man Ibuprofen nicht einnehmen?",
+          "s": "When must you not take ibuprofen?"
+        },
+        "options": [
+          "in den letzten drei Monaten der Schwangerschaft",
+          "bei Zahnschmerzen",
+          "nach einer Mahlzeit"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie lange soll man zwischen zwei Filmtabletten mindestens warten?",
+          "s": "How long should you wait at least between two film-coated tablets?"
+        },
+        "options": [
+          "sechs Stunden",
+          "eine Stunde",
+          "zwei Tage"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Nehmen Sie die Tablette morgens vor dem Frühstück ein.",
+      "s": "Take the tablet in the morning before breakfast."
+    },
+    {
+      "t": "Schlucken Sie die Kapsel unzerkaut mit Wasser.",
+      "s": "Swallow the capsule whole with water."
+    },
+    {
+      "t": "Wie oft am Tag nehmen Sie das Medikament?",
+      "s": "How many times a day do you take the medicine?"
+    },
+    {
+      "t": "Die Dosierung steht in der Packungsbeilage.",
+      "s": "The dosage is in the package leaflet.",
+      "alts": [
+        "In der Packungsbeilage steht die Dosierung."
+      ]
+    },
+    {
+      "t": "Ben bekommt dreimal täglich fünf Milliliter Saft.",
+      "s": "Ben gets five milliliters of syrup three times a day.",
+      "alts": [
+        "Dreimal täglich bekommt Ben fünf Milliliter Saft."
+      ]
+    },
+    {
+      "t": "Diese Tablette können Sie in zwei Hälften teilen.",
+      "s": "You can split this tablet into two halves.",
+      "alts": [
+        "Sie können diese Tablette in zwei Hälften teilen."
+      ]
+    },
+    {
+      "t": "Ich habe meine Tablette heute Morgen vergessen.",
+      "s": "I forgot my tablet this morning.",
+      "alts": [
+        "Heute Morgen habe ich meine Tablette vergessen.",
+        "Ich habe heute Morgen meine Tablette vergessen."
+      ]
+    },
+    {
+      "t": "Nehmen Sie das Antibiotikum alle zwölf Stunden ein.",
+      "s": "Take the antibiotic every twelve hours.",
+      "alts": [
+        "Nehmen Sie alle zwölf Stunden das Antibiotikum ein."
+      ]
+    }
+  ]
+}

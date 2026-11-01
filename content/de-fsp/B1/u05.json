@@ -1,0 +1,713 @@
+{
+  "id": "u05",
+  "level": "B1",
+  "emoji": "⚠️",
+  "title": {
+    "t": "Wirkung und Wechselwirkung",
+    "s": "Effects, side effects and interactions"
+  },
+  "goals": [
+    "Explain in simple words what a medicine does and which side effects it can have",
+    "Explain an interaction in plain German",
+    "Give advice and warnings with müssen, nicht müssen, nicht dürfen and sollen",
+    "Say when a patient should see a doctor with wenn-clauses"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die Wirkung",
+      "pl": "die Wirkungen",
+      "s": "effect",
+      "emoji": "",
+      "ex": {
+        "t": "Ich spüre noch keine Wirkung.",
+        "s": "I don't feel any effect yet."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "der Wirkstoff",
+      "pl": "die Wirkstoffe",
+      "s": "active ingredient",
+      "emoji": "",
+      "ex": {
+        "t": "Der Wirkstoff in diesem Medikament heißt Ibuprofen.",
+        "s": "The active ingredient in this medicine is called ibuprofen."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "wirken",
+      "s": "to work, to act; wirken gegen: to work against",
+      "emoji": "",
+      "ex": {
+        "t": "Ibuprofen wirkt gegen Schmerzen, Fieber und Entzündungen.",
+        "s": "Ibuprofen works against pain, fever and inflammation."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "die Wechselwirkung",
+      "pl": "die Wechselwirkungen",
+      "s": "(drug) interaction · Fach: die Interaktion; Laie: zwei Medikamente passen nicht gut zusammen",
+      "emoji": "",
+      "ex": {
+        "t": "Zwischen diesen beiden Medikamenten gibt es eine Wechselwirkung.",
+        "s": "There is an interaction between these two medicines."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "unerwünscht",
+      "s": "unwanted; eine unerwünschte Wirkung: an adverse effect · Laie: die Nebenwirkung",
+      "emoji": "",
+      "ex": {
+        "t": "Müdigkeit ist eine unerwünschte Wirkung von manchen Allergietabletten.",
+        "s": "Drowsiness is an unwanted effect of some allergy tablets."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "das Risiko",
+      "pl": "die Risiken",
+      "s": "risk",
+      "emoji": "",
+      "ex": {
+        "t": "Ibuprofen und ein Blutverdünner zusammen erhöhen das Risiko für Blutungen.",
+        "s": "Ibuprofen and a blood thinner together increase the risk of bleeding."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "vertragen",
+      "s": "to tolerate · verträgt, hat vertragen",
+      "emoji": "",
+      "ex": {
+        "t": "Mein Magen verträgt Ibuprofen nicht gut.",
+        "s": "My stomach doesn't tolerate ibuprofen well."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "die Allergie",
+      "pl": "die Allergien",
+      "s": "allergy",
+      "emoji": "",
+      "ex": {
+        "t": "Haben Sie eine Allergie gegen Penicillin?",
+        "s": "Are you allergic to penicillin?"
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Müdigkeit",
+      "s": "tiredness, drowsiness",
+      "emoji": "😴",
+      "ex": {
+        "t": "Eine mögliche Nebenwirkung ist Müdigkeit.",
+        "s": "A possible side effect is drowsiness."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "das Schmerzmittel",
+      "pl": "die Schmerzmittel",
+      "s": "painkiller · Fach: das Analgetikum",
+      "emoji": "",
+      "ex": {
+        "t": "Schmerzmittel soll man ohne Arzt nur kurz nehmen.",
+        "s": "Without a doctor you should only take painkillers for a short time."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "das Antibiotikum",
+      "pl": "die Antibiotika",
+      "s": "antibiotic",
+      "emoji": "",
+      "ex": {
+        "t": "Ein Antibiotikum hilft nicht gegen Viren.",
+        "s": "An antibiotic doesn't help against viruses."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "der Blutverdünner",
+      "pl": "die Blutverdünner",
+      "s": "blood thinner (lay word for anticoagulants and for low-dose aspirin)",
+      "emoji": "",
+      "ex": {
+        "t": "Mein Vater nimmt jeden Tag einen Blutverdünner.",
+        "s": "My father takes a blood thinner every day."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "der Grapefruitsaft",
+      "s": "grapefruit juice",
+      "emoji": "",
+      "ex": {
+        "t": "Mit manchen Medikamenten soll man keinen Grapefruitsaft trinken.",
+        "s": "With some medicines you shouldn't drink grapefruit juice."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "verstärken",
+      "s": "to increase, to strengthen (an effect)",
+      "emoji": "",
+      "ex": {
+        "t": "Grapefruitsaft kann die Nebenwirkungen von Simvastatin verstärken.",
+        "s": "Grapefruit juice can increase the side effects of simvastatin."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "beeinflussen",
+      "s": "to affect, to influence · beeinflusst, hat beeinflusst",
+      "emoji": "",
+      "ex": {
+        "t": "Manche Lebensmittel beeinflussen die Wirkung von Medikamenten.",
+        "s": "Some foods affect how medicines work."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Das Medikament wirkt gegen Schmerzen und Fieber.",
+      "s": "The medicine works against pain and fever."
+    },
+    {
+      "id": "p02",
+      "t": "Es kann zu Müdigkeit kommen.",
+      "s": "It can cause tiredness."
+    },
+    {
+      "id": "p03",
+      "t": "Bitte nicht zusammen mit Alkohol einnehmen.",
+      "s": "Please don't take it together with alcohol."
+    },
+    {
+      "id": "p04",
+      "t": "Vertragen Sie das Medikament gut?",
+      "s": "Do you tolerate the medicine well?"
+    },
+    {
+      "id": "p05",
+      "t": "Haben Sie Allergien gegen Medikamente?",
+      "s": "Are you allergic to any medicines?"
+    },
+    {
+      "id": "p06",
+      "t": "Die beiden Medikamente passen nicht gut zusammen.",
+      "s": "The two medicines don't go well together."
+    },
+    {
+      "id": "p07",
+      "t": "Wenn es nach drei Tagen nicht besser wird, gehen Sie bitte zum Arzt.",
+      "s": "If it isn't better after three days, please see a doctor."
+    },
+    {
+      "id": "p08",
+      "t": "Ich spreche kurz mit Ihrem Arzt.",
+      "s": "I'll have a quick word with your doctor."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Ibuprofen und Blutverdünner",
+      "s": "Ibuprofen and a blood thinner"
+    },
+    "speakers": {
+      "A": {
+        "name": "Frau Richter",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Herr Ahmadi",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Guten Tag. Ich möchte Ibuprofen gegen meine Rückenschmerzen.",
+        "s": "Hello. I'd like some ibuprofen for my back pain."
+      },
+      {
+        "sp": "B",
+        "t": "Guten Tag, Frau Richter. Nehmen Sie regelmäßig andere Medikamente?",
+        "s": "Hello, Mrs. Richter. Do you take other medicines regularly?"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, jeden Morgen einen Blutverdünner für das Herz.",
+        "s": "Yes, a blood thinner for my heart every morning."
+      },
+      {
+        "sp": "B",
+        "t": "Wissen Sie, welcher Wirkstoff das ist?",
+        "s": "Do you know which active ingredient that is?"
+      },
+      {
+        "sp": "A",
+        "t": "Acetylsalicylsäure, hundert Milligramm. Das steht auf meinem Medikationsplan.",
+        "s": "Acetylsalicylic acid, a hundred milligrams. It's on my medication plan."
+      },
+      {
+        "sp": "B",
+        "t": "Danke. Dann ist Ibuprofen leider nicht gut für Sie. Es gibt eine Wechselwirkung: Ibuprofen kann Ihren Blutverdünner schwächer machen, und das Risiko für Blutungen im Magen steigt.",
+        "s": "Thank you. Then ibuprofen is unfortunately not good for you. There is an interaction: ibuprofen can make your blood thinner weaker, and the risk of bleeding in the stomach goes up."
+      },
+      {
+        "sp": "A",
+        "t": "Oh, das wusste ich nicht. Was kann ich denn nehmen?",
+        "s": "Oh, I didn't know that. So what can I take?"
+      },
+      {
+        "sp": "B",
+        "t": "Ich empfehle Ihnen ein Wärmepflaster für den Rücken. Und bewegen Sie sich vorsichtig, das hilft auch.",
+        "s": "I recommend a heat patch for your back. And move carefully – that helps too."
+      },
+      {
+        "sp": "A",
+        "t": "Und wenn die Schmerzen nicht besser werden?",
+        "s": "And if the pain doesn't get better?"
+      },
+      {
+        "sp": "B",
+        "t": "Wenn es nach drei bis vier Tagen nicht besser ist, müssen Sie zum Arzt gehen. Gehen Sie sofort, wenn Ihr Bein taub oder schwach wird.",
+        "s": "If it isn't better after three to four days, you have to see a doctor. Go right away if your leg becomes numb or weak."
+      },
+      {
+        "sp": "A",
+        "t": "Gut, das mache ich. Vielen Dank für die Erklärung!",
+        "s": "All right, I'll do that. Thank you for explaining!"
+      },
+      {
+        "sp": "B",
+        "t": "Gern. Gute Besserung, Frau Richter!",
+        "s": "You're welcome. Get well soon, Mrs. Richter!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Sie müssen, Sie dürfen nicht, Sie sollen",
+        "s": "Modal verbs for advice and warnings"
+      },
+      "explain": "You know the modal verbs from the general course. In the pharmacy they carry important meaning, so choose them carefully:\n**müssen** = it is necessary: Sie **müssen** das Antibiotikum bis zum Ende nehmen.\n**nicht müssen** = it is **not necessary**: Sie **müssen** den Saft **nicht** mit dem Essen geben.\n**dürfen** = it is allowed: Sie **dürfen** die Tablette teilen.\n**nicht dürfen / kein … dürfen** = it is **forbidden**: Sie **dürfen keinen** Alkohol trinken. Careful: English *must not* is German **nicht dürfen**, not *nicht müssen*!\n**sollen** = advice or an instruction from another person (doctor, pharmacist, package leaflet): Die Ärztin sagt, Sie **sollen** zweimal täglich inhalieren. In a question it asks for advice: **Soll** ich die Tablette vor dem Essen nehmen?\n**sollten** (Konjunktiv II of sollen) = polite, strong advice: Mit diesem Medikament **sollten** Sie nicht Auto fahren.\nThe modal verb is in position 2, the infinitive goes to the **end**.",
+      "table": [
+        [
+          "müssen",
+          "Sie müssen das Antibiotikum bis zum Ende nehmen."
+        ],
+        [
+          "nicht müssen",
+          "Sie müssen den Saft nicht mit dem Essen geben."
+        ],
+        [
+          "dürfen",
+          "Sie dürfen die Tablette teilen."
+        ],
+        [
+          "nicht dürfen",
+          "Sie dürfen keinen Alkohol dazu trinken."
+        ],
+        [
+          "sollen",
+          "Die Ärztin sagt, Sie sollen zweimal täglich inhalieren."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Sie müssen das Antibiotikum bis zum Ende nehmen, auch wenn es Ihnen besser geht.",
+          "s": "You have to take the antibiotic until the end of the course, even if you feel better."
+        },
+        {
+          "t": "Manche Antibiotika dürfen Sie nicht zusammen mit Milch einnehmen.",
+          "s": "Some antibiotics must not be taken together with milk."
+        },
+        {
+          "t": "Bei Paracetamol sollen Sie keinen Alkohol trinken, das ist schlecht für die Leber.",
+          "s": "With paracetamol you shouldn't drink alcohol; it's bad for the liver."
+        },
+        {
+          "t": "Den Amoxicillin-Saft müssen Sie nicht mit dem Essen geben.",
+          "s": "You don't have to give the amoxicillin syrup with food."
+        },
+        {
+          "t": "Soll ich die Tabletten vor oder nach dem Essen nehmen?",
+          "s": "Should I take the tablets before or after meals?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Sie ___ das Antibiotikum bis zum Ende nehmen, auch wenn es Ihnen besser geht.",
+          "options": [
+            "müssen",
+            "müssen nicht",
+            "dürfen nicht"
+          ],
+          "answer": 0,
+          "s": "You have to take the antibiotic until the end, even if you feel better."
+        },
+        {
+          "type": "choice",
+          "t": "Sie sind im achten Monat schwanger? Dann ___ Sie kein Ibuprofen nehmen.",
+          "options": [
+            "dürfen",
+            "müssen"
+          ],
+          "answer": 0,
+          "s": "You're eight months pregnant? Then you must not take ibuprofen."
+        },
+        {
+          "type": "choice",
+          "t": "Mit Simvastatin ___ Sie keinen Grapefruitsaft trinken, denn es gibt eine Wechselwirkung.",
+          "options": [
+            "sollen",
+            "müssen"
+          ],
+          "answer": 0,
+          "s": "With simvastatin you shouldn't drink grapefruit juice, because there is an interaction."
+        },
+        {
+          "type": "choice",
+          "t": "Der Saft ist auch ohne Kühlschrank haltbar. Sie ___ ihn nicht in den Kühlschrank stellen.",
+          "options": [
+            "müssen",
+            "dürfen"
+          ],
+          "answer": 0,
+          "s": "The syrup keeps without a fridge too. You don't have to put it in the fridge."
+        },
+        {
+          "type": "type",
+          "t": "Die Ärztin sagt, ich ___ zweimal täglich inhalieren.",
+          "answer": [
+            "soll"
+          ],
+          "s": "The doctor says I should inhale twice a day. (sollen)"
+        },
+        {
+          "type": "type",
+          "t": "Das Medikament gibt es ohne Rezept. Sie ___ nicht zum Arzt gehen.",
+          "answer": [
+            "müssen",
+            "muessen"
+          ],
+          "s": "The medicine is available without a prescription. You don't have to go to the doctor. (müssen)"
+        },
+        {
+          "type": "type",
+          "t": "Erwachsene ___ höchstens vier Gramm Paracetamol am Tag nehmen.",
+          "answer": [
+            "dürfen",
+            "duerfen",
+            "sollen",
+            "sollten"
+          ],
+          "s": "Adults may take no more than four grams of paracetamol a day. (dürfen)"
+        },
+        {
+          "type": "order",
+          "t": "Sie dürfen keinen Alkohol trinken.",
+          "s": "You must not drink alcohol.",
+          "alts": [
+            "Keinen Alkohol dürfen Sie trinken.",
+            "Alkohol dürfen Sie keinen trinken."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Wenn das Fieber steigt, gehen Sie zum Arzt.",
+        "s": "wenn-clauses: if, when"
+      },
+      "explain": "With **wenn** (if, when) you name a condition. You need it all the time to tell patients **when to see a doctor**.\nIn the **wenn-clause** the verb goes to the **end**: wenn das Fieber **steigt**, wenn Sie schwanger **sind**, wenn es nicht besser **wird**. Separable verbs stay together at the end: wenn Sie die Tablette **einnehmen**.\nIf the wenn-clause comes **first**, the main clause starts with its **verb**, so two verbs meet at the comma: Wenn das Fieber **steigt, gehen** Sie bitte zum Arzt.\nIf the main clause comes first, it has normal word order: Gehen Sie bitte zum Arzt, **wenn** das Fieber **steigt**.\nThere is always a **comma** between the two clauses.",
+      "table": [
+        [
+          "Wenn das Fieber steigt,",
+          "gehen Sie bitte zum Arzt."
+        ],
+        [
+          "Wenn Sie schwanger sind,",
+          "fragen Sie bitte vorher Ihre Ärztin."
+        ],
+        [
+          "Wenn Sie eine Tablette vergessen haben,",
+          "nehmen Sie keine doppelte Dosis."
+        ],
+        [
+          "Rufen Sie den Notruf,",
+          "wenn Ihr Kind schlecht Luft bekommt."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Wenn das Fieber steigt, gehen Sie bitte zum Arzt.",
+          "s": "If the fever goes up, please see a doctor."
+        },
+        {
+          "t": "Wenn Sie einen Blutverdünner nehmen, ist Ibuprofen nicht gut für Sie.",
+          "s": "If you take a blood thinner, ibuprofen is not good for you."
+        },
+        {
+          "t": "Rufen Sie sofort den Notruf, wenn Ihr Kind schlecht Luft bekommt.",
+          "s": "Call the emergency number right away if your child has trouble breathing."
+        },
+        {
+          "t": "Wenn das Medikament müde macht, fahren Sie bitte kein Auto.",
+          "s": "If the medicine makes you tired, please don't drive."
+        },
+        {
+          "t": "Fragen Sie uns, wenn Sie eine Nebenwirkung bemerken.",
+          "s": "Ask us if you notice a side effect."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Wenn das Fieber ___, gehen Sie bitte zum Arzt.",
+          "options": [
+            "steigt",
+            "steigen",
+            "gestiegen"
+          ],
+          "answer": 0,
+          "s": "If the fever goes up, please see a doctor."
+        },
+        {
+          "type": "choice",
+          "t": "Wenn Sie schwanger sind, ___ bitte vorher Ihre Ärztin.",
+          "options": [
+            "fragen Sie",
+            "Sie fragen",
+            "fragen"
+          ],
+          "answer": 0,
+          "s": "If you are pregnant, please ask your doctor first."
+        },
+        {
+          "type": "choice",
+          "t": "Rufen Sie den Notruf, wenn Ihr Kind schlecht Luft ___.",
+          "options": [
+            "bekommt",
+            "bekommen",
+            "bekommst"
+          ],
+          "answer": 0,
+          "s": "Call the emergency number if your child has trouble breathing."
+        },
+        {
+          "type": "type",
+          "t": "Wenn Sie eine Tablette vergessen ___, nehmen Sie keine doppelte Dosis.",
+          "answer": [
+            "haben"
+          ],
+          "s": "If you have forgotten a tablet, don't take a double dose. (haben)"
+        },
+        {
+          "type": "type",
+          "t": "___ Sie einen Blutverdünner nehmen, ist Ibuprofen nicht gut für Sie.",
+          "answer": [
+            "Wenn",
+            "Falls"
+          ],
+          "s": "If you take a blood thinner, ibuprofen is not good for you."
+        },
+        {
+          "type": "type",
+          "t": "Die Kontraindikation ist in Laiensprache eine ___.",
+          "answer": [
+            "Gegenanzeige"
+          ],
+          "s": "Kontraindikation in plain German: a contraindication (when you must not take a medicine)."
+        },
+        {
+          "type": "order",
+          "t": "Wenn das Fieber steigt, gehen Sie zum Arzt.",
+          "s": "If the fever goes up, see a doctor.",
+          "alts": [
+            "Gehen Sie zum Arzt, wenn das Fieber steigt."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Fragen Sie uns, wenn Sie Fragen haben.",
+          "s": "Ask us if you have questions.",
+          "alts": [
+            "Wenn Sie Fragen haben, fragen Sie uns."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Wechselwirkungen – einfach erklärt",
+      "s": "Interactions – simply explained"
+    },
+    "text": [
+      {
+        "t": "Viele Menschen nehmen mehrere Medikamente gleichzeitig.",
+        "s": "Many people take several medicines at the same time."
+      },
+      {
+        "t": "Manchmal beeinflussen sich zwei Medikamente gegenseitig: Das nennt man Wechselwirkung.",
+        "s": "Sometimes two medicines affect each other: this is called an interaction."
+      },
+      {
+        "t": "Ein Medikament kann dann zu stark oder zu schwach wirken.",
+        "s": "A medicine can then work too strongly or too weakly."
+      },
+      {
+        "t": "Auch Lebensmittel können Wechselwirkungen verursachen.",
+        "s": "Foods can also cause interactions."
+      },
+      {
+        "t": "Ein Beispiel ist Grapefruitsaft: Mit manchen Medikamenten gegen hohes Cholesterin, zum Beispiel Simvastatin, soll man ihn nicht trinken.",
+        "s": "One example is grapefruit juice: you shouldn't drink it with some medicines for high cholesterol, for example simvastatin."
+      },
+      {
+        "t": "Manche Antibiotika darf man nicht zusammen mit Milch einnehmen, weil sie dann schlechter wirken.",
+        "s": "Some antibiotics must not be taken with milk, because they then work less well."
+      },
+      {
+        "t": "Bei Paracetamol ist Alkohol gefährlich für die Leber.",
+        "s": "With paracetamol, alcohol is dangerous for the liver."
+      },
+      {
+        "t": "Nebenwirkungen sind etwas anderes: Das sind unerwünschte Wirkungen eines Medikaments, zum Beispiel Müdigkeit oder Übelkeit.",
+        "s": "Side effects are something different: they are unwanted effects of a medicine, for example tiredness or nausea."
+      },
+      {
+        "t": "Wenn Sie eine Nebenwirkung bemerken, sprechen Sie mit Ihrer Apotheke oder Ihrem Arzt.",
+        "s": "If you notice a side effect, talk to your pharmacy or your doctor."
+      },
+      {
+        "t": "Die Apotheke kann die Nebenwirkung auch an die Arzneimittelkommission der Deutschen Apotheker melden.",
+        "s": "The pharmacy can also report the side effect to the Drug Commission of German Pharmacists (AMK)."
+      },
+      {
+        "t": "Bringen Sie am besten Ihren Medikationsplan mit, dann prüfen wir alle Ihre Medikamente auf Wechselwirkungen.",
+        "s": "It's best to bring your medication plan; then we'll check all your medicines for interactions."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Was ist eine Wechselwirkung?",
+          "s": "What is an interaction?"
+        },
+        "options": [
+          "Zwei Medikamente beeinflussen sich gegenseitig.",
+          "Ein Medikament ist zu teuer.",
+          "Ein Medikament hat kein Verfallsdatum."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was soll man mit manchen Medikamenten gegen hohes Cholesterin nicht trinken?",
+          "s": "What shouldn't you drink with some medicines for high cholesterol?"
+        },
+        "options": [
+          "Grapefruitsaft",
+          "Wasser",
+          "Tee"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Warum darf man manche Antibiotika nicht mit Milch einnehmen?",
+          "s": "Why must some antibiotics not be taken with milk?"
+        },
+        "options": [
+          "Sie wirken dann schlechter.",
+          "Sie schmecken dann schlecht.",
+          "Sie machen dann müde."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was ist ein Beispiel für eine Nebenwirkung?",
+          "s": "What is an example of a side effect?"
+        },
+        "options": [
+          "Müdigkeit",
+          "Grapefruitsaft",
+          "der Medikationsplan"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was soll man in die Apotheke mitbringen?",
+          "s": "What should you bring to the pharmacy?"
+        },
+        "options": [
+          "den Medikationsplan",
+          "ein Glas Milch",
+          "einen Grapefruitsaft"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Ibuprofen wirkt gegen Schmerzen und Entzündungen.",
+      "s": "Ibuprofen works against pain and inflammation.",
+      "alts": [
+        "Gegen Schmerzen und Entzündungen wirkt Ibuprofen."
+      ]
+    },
+    {
+      "t": "Haben Sie eine Allergie gegen Penicillin?",
+      "s": "Are you allergic to penicillin?"
+    },
+    {
+      "t": "Sie müssen das Antibiotikum bis zum Ende nehmen.",
+      "s": "You have to take the antibiotic until the end of the course."
+    },
+    {
+      "t": "Mit diesem Medikament sollten Sie nicht Auto fahren.",
+      "s": "You shouldn't drive while taking this medicine.",
+      "alts": [
+        "Sie sollten mit diesem Medikament nicht Auto fahren."
+      ]
+    },
+    {
+      "t": "Es kann zu Müdigkeit kommen.",
+      "s": "It can cause tiredness."
+    },
+    {
+      "t": "Wenn Sie Fragen haben, rufen Sie uns an.",
+      "s": "If you have questions, call us.",
+      "alts": [
+        "Rufen Sie uns an, wenn Sie Fragen haben."
+      ]
+    },
+    {
+      "t": "Zwischen den beiden Medikamenten gibt es eine Wechselwirkung.",
+      "s": "There is an interaction between the two medicines.",
+      "alts": [
+        "Es gibt eine Wechselwirkung zwischen den beiden Medikamenten."
+      ]
+    },
+    {
+      "t": "Wie vertragen Sie die neuen Tabletten?",
+      "s": "How are you tolerating the new tablets?"
+    }
+  ]
+}

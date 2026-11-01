@@ -1,0 +1,719 @@
+{
+  "id": "u06",
+  "level": "C1",
+  "emoji": "⚠️",
+  "title": {
+    "t": "Die UAW-Meldung",
+    "s": "Part 2: reporting a suspected adverse drug reaction"
+  },
+  "goals": [
+    "Ask a parent the right questions about a suspected side effect: onset, appearance, warning signs, allergies",
+    "Write a UAW report in full sentences (patient, suspected medicine, reaction, measures, report to the AMK)",
+    "Report what someone said with Konjunktiv I (Die Mutter berichtet, das Kind habe …)",
+    "Show the order of events with the Plusquamperfekt and nachdem, seitdem, bevor"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die UAW",
+      "s": "adverse drug reaction (short for unerwünschte Arzneimittelwirkung) · Laie: die Nebenwirkung",
+      "emoji": "",
+      "ex": {
+        "t": "Eine UAW, die in der Apotheke bekannt wird, sollte an die AMK gemeldet werden.",
+        "s": "An adverse drug reaction that the pharmacy learns about should be reported to the AMK."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "der Verdachtsfall",
+      "pl": "die Verdachtsfälle",
+      "s": "suspected case",
+      "emoji": "",
+      "ex": {
+        "t": "Auch ein Verdachtsfall wird gemeldet, ein sicherer Beweis ist nicht nötig.",
+        "s": "A suspected case is reported too; firm proof is not necessary."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "etwas an jemanden melden",
+      "s": "to report something to someone (melden an + accusative)",
+      "emoji": "",
+      "ex": {
+        "t": "Der Apotheker meldet den Fall online an die Arzneimittelkommission.",
+        "s": "The pharmacist reports the case online to the drug commission."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "das Exanthem",
+      "pl": "die Exantheme",
+      "s": "rash · Laie: der Hautausschlag",
+      "emoji": "",
+      "ex": {
+        "t": "Am fünften Behandlungstag zeigte sich bei Ben ein Exanthem an Bauch und Rücken.",
+        "s": "On the fifth day of treatment, Ben developed a rash on his stomach and back."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "makulopapulös",
+      "s": "maculopapular (with flat red spots and small raised bumps) · Laie: fleckig mit kleinen Knötchen",
+      "emoji": "",
+      "ex": {
+        "t": "Der Kinderarzt beschreibt den Ausschlag als makulopapulös.",
+        "s": "The pediatrician describes the rash as maculopapular."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "der Pruritus",
+      "s": "itching · Laie: der Juckreiz",
+      "emoji": "",
+      "ex": {
+        "t": "Ben hat einen leichten Pruritus und kratzt sich immer wieder am Bauch.",
+        "s": "Ben has mild itching and keeps scratching his stomach."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Urtikaria",
+      "s": "hives, urticaria · Laie: die Nesselsucht",
+      "emoji": "",
+      "ex": {
+        "t": "Bei einer Urtikaria bilden sich juckende Quaddeln auf der Haut.",
+        "s": "With hives, itchy wheals form on the skin."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "die Anaphylaxie",
+      "pl": "die Anaphylaxien",
+      "s": "anaphylaxis · Laie: eine schwere, lebensgefährliche allergische Reaktion",
+      "emoji": "",
+      "ex": {
+        "t": "Atemnot und Schwellungen im Gesicht können Zeichen einer Anaphylaxie sein.",
+        "s": "Shortness of breath and swelling of the face can be signs of anaphylaxis."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "das Angioödem",
+      "pl": "die Angioödeme",
+      "s": "angioedema · Laie: die Schwellung, zum Beispiel an Lippen oder Augenlidern",
+      "emoji": "",
+      "ex": {
+        "t": "Ein Angioödem lag bei Ben nicht vor.",
+        "s": "Ben did not have angioedema."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "die Otitis media",
+      "s": "middle-ear infection · Laie: die Mittelohrentzündung",
+      "emoji": "👂",
+      "ex": {
+        "t": "Der Kinderarzt hat Amoxicillin wegen einer Otitis media verordnet.",
+        "s": "The pediatrician prescribed amoxicillin for a middle-ear infection."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "der Pädiater",
+      "pl": "die Pädiater",
+      "s": "pediatrician · Laie: der Kinderarzt",
+      "emoji": "",
+      "ex": {
+        "t": "Der Pädiater möchte das Kind noch heute sehen.",
+        "s": "The pediatrician wants to see the child today."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "die Antibiose",
+      "pl": "die Antibiosen",
+      "s": "antibiotic therapy · Laie: die Behandlung mit einem Antibiotikum",
+      "emoji": "",
+      "ex": {
+        "t": "Ob die Antibiose fortgesetzt wird, entscheidet der Arzt.",
+        "s": "The doctor decides whether the antibiotic therapy is continued."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "die Dosierspritze",
+      "pl": "die Dosierspritzen",
+      "s": "oral dosing syringe",
+      "emoji": "",
+      "ex": {
+        "t": "Mit der beiliegenden Dosierspritze lassen sich fünf Milliliter genau abmessen.",
+        "s": "Five milliliters can be measured exactly with the enclosed dosing syringe."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "der zeitliche Zusammenhang",
+      "s": "temporal connection (the reaction started after the medicine)",
+      "emoji": "",
+      "ex": {
+        "t": "Zwischen der Einnahme des Saftes und dem Ausschlag besteht ein zeitlicher Zusammenhang.",
+        "s": "There is a temporal connection between taking the suspension and the rash."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "der Berichtsbogen",
+      "pl": "die Berichtsbögen",
+      "s": "report form",
+      "emoji": "📋",
+      "ex": {
+        "t": "Den Berichtsbogen der AMK kann man online ausfüllen.",
+        "s": "The AMK report form can be filled in online."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Es besteht der Verdacht auf eine UAW.",
+      "s": "An adverse drug reaction is suspected."
+    },
+    {
+      "id": "p02",
+      "t": "Die Mutter berichtete, dass …",
+      "s": "The mother reported that …"
+    },
+    {
+      "id": "p03",
+      "t": "Seit wann genau hat Ihr Sohn den Ausschlag?",
+      "s": "Since when exactly has your son had the rash?"
+    },
+    {
+      "id": "p04",
+      "t": "Hat er Atemnot oder geschwollene Lippen?",
+      "s": "Is he short of breath, or are his lips swollen?"
+    },
+    {
+      "id": "p05",
+      "t": "Allergien waren bisher nicht bekannt.",
+      "s": "No allergies were previously known."
+    },
+    {
+      "id": "p06",
+      "t": "Der verordnende Arzt wurde telefonisch informiert.",
+      "s": "The prescribing doctor was informed by phone."
+    },
+    {
+      "id": "p07",
+      "t": "Der Fall wird an die AMK gemeldet.",
+      "s": "The case will be reported to the AMK."
+    },
+    {
+      "id": "p08",
+      "t": "Wählen Sie bei Atemnot sofort den Notruf.",
+      "s": "If he has trouble breathing, call the emergency number (112) immediately."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Ben hat einen Ausschlag",
+      "s": "Ben has a rash"
+    },
+    "speakers": {
+      "A": {
+        "name": "Frau M.",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Herr Ahmadi",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Guten Tag, Herr Ahmadi. Ich habe vor fünf Tagen den Antibiotikasaft für meinen Sohn Ben bei Ihnen geholt. Seit gestern Abend hat er einen Ausschlag.",
+        "s": "Hello, Mr. Ahmadi. Five days ago I picked up the antibiotic suspension for my son Ben here. Since yesterday evening he's had a rash."
+      },
+      {
+        "sp": "B",
+        "t": "Guten Tag, Frau M. Gut, dass Sie gleich kommen. Wie sieht der Ausschlag aus, und wo genau ist er?",
+        "s": "Hello, Ms. M. Good that you came straight away. What does the rash look like, and where exactly is it?"
+      },
+      {
+        "sp": "A",
+        "t": "Es sind rote Flecken, vor allem am Bauch und am Rücken. Es juckt leicht, er kratzt sich ab und zu.",
+        "s": "They're red spots, mainly on his stomach and back. It itches a little; he scratches now and then."
+      },
+      {
+        "sp": "B",
+        "t": "Hat Ben Fieber, Atemnot oder Schwellungen im Gesicht, zum Beispiel an den Lippen?",
+        "s": "Does Ben have a fever, trouble breathing or any swelling of the face, for example of the lips?"
+      },
+      {
+        "sp": "A",
+        "t": "Nein, Fieber hat er keins mehr, und er atmet ganz normal. Geschwollen ist auch nichts.",
+        "s": "No, he doesn't have a fever anymore, and he's breathing quite normally. Nothing is swollen either."
+      },
+      {
+        "sp": "B",
+        "t": "Das ist beruhigend. Hat Ben früher schon einmal ein Antibiotikum aus der Penicillin-Gruppe bekommen? Und sind Allergien bekannt?",
+        "s": "That's reassuring. Has Ben ever had an antibiotic from the penicillin group before? And does he have any known allergies?"
+      },
+      {
+        "sp": "A",
+        "t": "Nein, das ist sein erstes Antibiotikum, und Allergien hat er keine. Soll ich den Saft jetzt absetzen?",
+        "s": "No, this is his first antibiotic, and he has no allergies. Should I stop the suspension now?"
+      },
+      {
+        "sp": "B",
+        "t": "Das sollte der Kinderarzt entscheiden. Ich rufe Dr. Schulz gleich an, damit er Ben heute noch untersuchen kann.",
+        "s": "The pediatrician should decide that. I'll call Dr. Schulz right away so that he can examine Ben today."
+      },
+      {
+        "sp": "A",
+        "t": "Danke. Und was mache ich, wenn es schlimmer wird?",
+        "s": "Thank you. And what do I do if it gets worse?"
+      },
+      {
+        "sp": "B",
+        "t": "Wenn Ben schlecht Luft bekommt oder wenn Lippen oder Augenlider anschwellen, wählen Sie bitte sofort den Notruf. Wenn er Quaddeln wie nach Brennnesseln bekommt, gehen Sie bitte sofort mit ihm zum Arzt.",
+        "s": "If Ben has trouble breathing or if his lips or eyelids swell, please call the emergency number immediately. If he gets wheals like after touching stinging nettles, please take him to a doctor right away."
+      },
+      {
+        "sp": "A",
+        "t": "Verstanden. Muss ich sonst noch etwas tun?",
+        "s": "Understood. Is there anything else I need to do?"
+      },
+      {
+        "sp": "B",
+        "t": "Nein. Ich melde den Verdacht auf eine Nebenwirkung noch an die Arzneimittelkommission der Deutschen Apotheker. Und ich rufe Sie an, sobald ich mit Dr. Schulz gesprochen habe.",
+        "s": "No. I'll also report the suspected side effect to the Drug Commission of German Pharmacists. And I'll call you as soon as I've spoken to Dr. Schulz."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Die Mutter berichtet, das Kind habe …",
+        "s": "Reported speech with Konjunktiv I"
+      },
+      "explain": "In a report, you pass on what other people said. **Konjunktiv I** marks this clearly as reported information, not your own statement – that's why it is typical of a UAW report.\nIt is used almost only in the **third person**. Form: verb stem + **-e**: **er habe, sie nehme, es bekomme, er könne**. **sein** is irregular: **er sei, sie seien**.\nIf the Konjunktiv I looks the same as the indicative (mostly in the plural: *sie haben, sie nehmen*), use **Konjunktiv II** instead: **sie hätten, sie würden … nehmen**.\nFor the past: **habe / sei + Partizip II**: **Der Ausschlag sei gestern Abend aufgetreten.**\nIntroduce it with **berichten, angeben, mitteilen, sagen**. Without **dass**, the verb stays in position 2: **Sie berichtet, das Kind habe Ausschlag.** With **dass**, it goes to the end: **…, dass das Kind Ausschlag habe.** Remember to change the pronouns: *„Mein Sohn hat …“* → **ihr Sohn habe …**\nThe indicative after **dass** (as in the handbook's model report) is also correct; Konjunktiv I sounds more formal and makes clear that you are quoting someone.",
+      "table": [
+        [
+          "haben",
+          "er habe",
+          "sie hätten"
+        ],
+        [
+          "sein",
+          "er sei",
+          "sie seien"
+        ],
+        [
+          "können",
+          "er könne",
+          "sie könnten"
+        ],
+        [
+          "nehmen",
+          "er nehme",
+          "sie würden nehmen"
+        ],
+        [
+          "Vergangenheit",
+          "er habe genommen",
+          "es sei aufgetreten"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Die Mutter berichtet, Ben habe seit gestern Abend einen Ausschlag.",
+          "s": "The mother reports that Ben has had a rash since yesterday evening."
+        },
+        {
+          "t": "Sie gibt an, der Ausschlag jucke leicht.",
+          "s": "She states that the rash itches slightly."
+        },
+        {
+          "t": "Die Mutter teilte mit, das Fieber sei bereits abgeklungen.",
+          "s": "The mother said that the fever had already gone down."
+        },
+        {
+          "t": "Sie sagt, Allergien seien bisher nicht bekannt.",
+          "s": "She says that no allergies are known so far."
+        },
+        {
+          "t": "Der Arzt erklärte, er könne das Kind noch heute untersuchen.",
+          "s": "The doctor explained that he could examine the child today."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Die Mutter berichtet, Ben ___ keine Atemnot.",
+          "options": [
+            "habe",
+            "haben",
+            "hatten"
+          ],
+          "answer": 0,
+          "s": "The mother reports that Ben is not short of breath."
+        },
+        {
+          "type": "choice",
+          "t": "Sie gibt an, der Ausschlag ___ gestern Abend aufgetreten.",
+          "options": [
+            "sei",
+            "habe",
+            "seid"
+          ],
+          "answer": 0,
+          "s": "She states that the rash appeared yesterday evening."
+        },
+        {
+          "type": "choice",
+          "t": "Die Mutter sagt, ihr Sohn ___ den Saft bisher gut vertragen.",
+          "options": [
+            "habe",
+            "haben",
+            "hätten"
+          ],
+          "answer": 0,
+          "s": "The mother says her son has tolerated the suspension well so far."
+        },
+        {
+          "type": "choice",
+          "t": "Die Eltern berichten, sie ___ dem Kind keine weiteren Medikamente gegeben.",
+          "options": [
+            "hätten",
+            "habe",
+            "hättet"
+          ],
+          "answer": 0,
+          "s": "The parents report that they have not given the child any other medicines."
+        },
+        {
+          "type": "choice",
+          "t": "Der Arzt sagte, er ___ das Kind heute noch untersuchen.",
+          "options": [
+            "könne",
+            "können",
+            "könnten"
+          ],
+          "answer": 0,
+          "s": "The doctor said he could examine the child today."
+        },
+        {
+          "type": "type",
+          "t": "„Mein Sohn hat Ausschlag“, sagt Frau M. Sie berichtet, ___ Sohn habe Ausschlag.",
+          "answer": [
+            "ihr"
+          ],
+          "s": "\"My son has a rash,\" says Ms. M. She reports that her son has a rash."
+        },
+        {
+          "type": "type",
+          "t": "„Ich gebe ihm den Saft mit der Spritze“, sagt Frau M. Sie sagt, sie gebe ___ den Saft mit der Spritze.",
+          "answer": [
+            "ihm"
+          ],
+          "s": "\"I give him the suspension with the syringe,\" says Ms. M. She says she gives him the suspension with the syringe."
+        },
+        {
+          "type": "order",
+          "t": "Die Mutter sagt, der Ausschlag jucke leicht.",
+          "s": "The mother says the rash itches slightly.",
+          "alts": [
+            "Der Ausschlag jucke leicht, sagt die Mutter.",
+            "Der Ausschlag, sagt die Mutter, jucke leicht."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Nachdem Ben den Saft eingenommen hatte …",
+        "s": "Sequence of tenses: Plusquamperfekt with nachdem, seitdem, bevor"
+      },
+      "explain": "A report tells events in the **Präteritum** or **Perfekt**. Something that happened **even earlier** is in the **Plusquamperfekt**: **hatte / war + Partizip II**: **Ben hatte den Saft vier Tage lang ohne Probleme eingenommen.**\n**nachdem** (after) – the nachdem-clause is always one step earlier than the main clause: main clause in Präteritum → nachdem-clause in **Plusquamperfekt**: **Nachdem Ben den Saft vier Tage lang eingenommen hatte, trat ein Ausschlag auf.** Main clause in the present → nachdem-clause in the **Perfekt**.\n**seitdem / seit** (since) – for something that started in the past and is still going on; often with the **present**: **Seitdem Ben den Saft bekommt, hat er kein Fieber mehr.**\n**bevor** (before) – usually the same tense in both clauses: **Bevor ich den Arzt anrief, fragte ich nach Allergien.**\nUsed as conjunctions, all three send the verb to the end.",
+      "table": [
+        [
+          "Plusquamperfekt",
+          "Ben hatte den Saft regelmäßig eingenommen."
+        ],
+        [
+          "nachdem",
+          "Nachdem er den Saft eingenommen hatte, trat ein Ausschlag auf."
+        ],
+        [
+          "seitdem",
+          "Seitdem er den Saft nimmt, hat er kein Fieber mehr."
+        ],
+        [
+          "bevor",
+          "Bevor ich den Arzt anrief, fragte ich nach Allergien."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Nachdem die Mutter den Ausschlag bemerkt hatte, kam sie in die Apotheke.",
+          "s": "After the mother had noticed the rash, she came to the pharmacy."
+        },
+        {
+          "t": "Ben hatte den Saft vier Tage lang ohne Probleme eingenommen.",
+          "s": "Ben had taken the suspension for four days without any problems."
+        },
+        {
+          "t": "Seitdem Ben den Saft bekommt, hat er kein Fieber mehr.",
+          "s": "Since Ben has been getting the suspension, he hasn't had a fever."
+        },
+        {
+          "t": "Bevor der Fall gemeldet wurde, wurde der Kinderarzt informiert.",
+          "s": "Before the case was reported, the pediatrician was informed."
+        },
+        {
+          "t": "Nachdem der Arzt das Kind untersucht hat, entscheidet er über die weitere Therapie.",
+          "s": "After the doctor has examined the child, he decides on further treatment."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Nachdem Ben den Saft vier Tage lang eingenommen ___, trat ein Ausschlag auf.",
+          "options": [
+            "hatte",
+            "hat",
+            "hätte"
+          ],
+          "answer": 0,
+          "s": "After Ben had taken the suspension for four days, a rash appeared."
+        },
+        {
+          "type": "choice",
+          "t": "Nachdem die Mutter angerufen ___, informierte der Apotheker den Arzt.",
+          "options": [
+            "hatte",
+            "war",
+            "hat"
+          ],
+          "answer": 0,
+          "s": "After the mother had called, the pharmacist informed the doctor."
+        },
+        {
+          "type": "choice",
+          "t": "___ Ben das Antibiotikum nimmt, hat er kein Fieber mehr.",
+          "options": [
+            "Seitdem",
+            "Nachdem",
+            "Bevor"
+          ],
+          "answer": 0,
+          "s": "Since Ben has been taking the antibiotic, he hasn't had a fever."
+        },
+        {
+          "type": "choice",
+          "t": "___ Sie den Saft geben, schütteln Sie die Flasche bitte kräftig.",
+          "options": [
+            "Bevor",
+            "Nachdem",
+            "Seitdem"
+          ],
+          "answer": 0,
+          "s": "Before you give the suspension, please shake the bottle well."
+        },
+        {
+          "type": "type",
+          "t": "Am Morgen ___ die Mutter noch keine Flecken bemerkt, erst am Abend sah sie den Ausschlag.",
+          "answer": [
+            "hatte"
+          ],
+          "s": "In the morning, the mother had not yet noticed any spots; only in the evening did she see the rash."
+        },
+        {
+          "type": "type",
+          "t": "Als der Ausschlag auftrat, ___ das Fieber schon zurückgegangen.",
+          "answer": [
+            "war"
+          ],
+          "s": "When the rash appeared, the fever had already gone down."
+        },
+        {
+          "type": "type",
+          "t": "Nachdem der Apotheker mit dem Arzt gesprochen ___, rief er die Mutter an.",
+          "answer": [
+            "hatte"
+          ],
+          "s": "After the pharmacist had spoken to the doctor, he called the mother."
+        },
+        {
+          "type": "order",
+          "t": "Seitdem er den Saft nimmt, hat er Durchfall.",
+          "s": "Since he has been taking the suspension, he has had diarrhea.",
+          "alts": [
+            "Er hat Durchfall, seitdem er den Saft nimmt.",
+            "Er hat, seitdem er den Saft nimmt, Durchfall."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Bericht über den Verdacht auf eine UAW",
+      "s": "Report of a suspected adverse drug reaction"
+    },
+    "text": [
+      {
+        "t": "Bericht der Linden-Apotheke Berlin, verfasst von Apotheker Ahmadi.",
+        "s": "Report by the Linden-Apotheke, Berlin, written by pharmacist Ahmadi (case and medicine data simplified for language practice)."
+      },
+      {
+        "t": "Patient: Ben M., vier Jahre, sechzehn Kilogramm.",
+        "s": "Patient: Ben M., 4 years old, 16 kg."
+      },
+      {
+        "t": "Verdächtiges Arzneimittel: Amoxicillin-Suspension mit zweihundertfünfzig Milligramm pro fünf Milliliter, dreimal täglich fünf Milliliter, verordnet bei Otitis media.",
+        "s": "Suspected medicine: amoxicillin suspension, 250 mg per 5 ml, 5 ml three times a day, prescribed for a middle-ear infection."
+      },
+      {
+        "t": "Die Mutter berichtete heute, ihr Sohn habe seit gestern Abend einen roten, fleckigen und leicht juckenden Ausschlag an Bauch und Rücken.",
+        "s": "The mother reported today that her son has had a red, blotchy, slightly itchy rash on his stomach and back since yesterday evening."
+      },
+      {
+        "t": "Nach ihren Angaben hatte Ben den Saft zuvor vier Tage lang regelmäßig und ohne Beschwerden eingenommen.",
+        "s": "According to her, Ben had previously taken the suspension regularly for four days without any problems."
+      },
+      {
+        "t": "Fieber habe er nicht mehr, Atemnot und Schwellungen im Gesicht seien nicht aufgetreten.",
+        "s": "He no longer has a fever, she said, and there has been no shortness of breath or swelling of the face."
+      },
+      {
+        "t": "Weitere Arzneimittel werden nicht eingenommen, Allergien waren bisher nicht bekannt.",
+        "s": "No other medicines are being taken; no allergies were previously known."
+      },
+      {
+        "t": "Es handelt sich um die erste Antibiose des Kindes.",
+        "s": "This is the child's first course of antibiotics."
+      },
+      {
+        "t": "Aufgrund des zeitlichen Zusammenhangs besteht der Verdacht auf ein Arzneimittelexanthem.",
+        "s": "Because of the temporal connection, a drug rash is suspected."
+      },
+      {
+        "t": "Nachdem ich die Mutter befragt hatte, informierte ich telefonisch den verordnenden Kinderarzt, Herrn Dr. Schulz.",
+        "s": "After I had questioned the mother, I informed the prescribing pediatrician, Dr. Schulz, by phone."
+      },
+      {
+        "t": "Er untersucht das Kind noch heute und entscheidet über die Fortsetzung der Therapie.",
+        "s": "He is examining the child today and will decide whether the therapy is continued."
+      },
+      {
+        "t": "Die Mutter wurde über die Warnzeichen einer schweren allergischen Reaktion aufgeklärt und gebeten, in diesem Fall sofort den Notruf zu wählen.",
+        "s": "The mother was informed about the warning signs of a severe allergic reaction and asked to call the emergency number immediately if they occur."
+      },
+      {
+        "t": "Der Fall wird an die Arzneimittelkommission der Deutschen Apotheker gemeldet.",
+        "s": "The case will be reported to the Drug Commission of German Pharmacists (AMK)."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wofür wurde Amoxicillin verordnet?",
+          "s": "What was amoxicillin prescribed for?"
+        },
+        "options": [
+          "für eine Mittelohrentzündung",
+          "für eine Blasenentzündung",
+          "für einen Hautausschlag"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wo hat Ben den Ausschlag?",
+          "s": "Where does Ben have the rash?"
+        },
+        "options": [
+          "an Bauch und Rücken",
+          "im Gesicht",
+          "an Armen und Beinen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Welche Aussage stimmt laut Bericht?",
+          "s": "Which statement is true according to the report?"
+        },
+        "options": [
+          "Ben hat hohes Fieber.",
+          "Ben hat keine Atemnot.",
+          "Ben hatte schon früher eine Penicillinallergie."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was hat der Apotheker nach dem Gespräch mit der Mutter getan?",
+          "s": "What did the pharmacist do after talking to the mother?"
+        },
+        "options": [
+          "Er hat den Saft gegen ein anderes Antibiotikum ausgetauscht.",
+          "Er hat den Kinderarzt angerufen.",
+          "Er hat Ben eine Salbe gegeben."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum besteht der Verdacht auf eine UAW?",
+          "s": "Why is an adverse drug reaction suspected?"
+        },
+        "options": [
+          "wegen des zeitlichen Zusammenhangs mit der Einnahme",
+          "weil die Mutter den Saft falsch dosiert hat",
+          "weil der Saft nicht im Kühlschrank stand"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Es besteht der Verdacht auf eine unerwünschte Arzneimittelwirkung.",
+      "s": "An adverse drug reaction is suspected."
+    },
+    {
+      "t": "Die Mutter berichtet, das Kind habe einen juckenden Ausschlag.",
+      "s": "The mother reports that the child has an itchy rash."
+    },
+    {
+      "t": "Fieber, Atemnot und Schwellungen bestehen nicht.",
+      "s": "There is no fever, shortness of breath or swelling."
+    },
+    {
+      "t": "Nachdem Ben den Saft genommen hatte, trat ein Exanthem auf.",
+      "s": "After Ben had taken the suspension, a rash appeared."
+    },
+    {
+      "t": "Der verordnende Kinderarzt wurde telefonisch informiert.",
+      "s": "The prescribing pediatrician was informed by phone."
+    },
+    {
+      "t": "Bei Atemnot oder Schwellungen im Gesicht wählen Sie sofort den Notruf.",
+      "s": "If there is shortness of breath or facial swelling, call the emergency number immediately."
+    },
+    {
+      "t": "Der Fall wird an die AMK gemeldet.",
+      "s": "The case will be reported to the AMK."
+    },
+    {
+      "t": "Auch ein Verdacht reicht für eine Meldung aus.",
+      "s": "Even a suspicion is enough for a report."
+    }
+  ]
+}

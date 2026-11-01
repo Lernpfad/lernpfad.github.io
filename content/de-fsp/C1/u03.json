@@ -1,0 +1,715 @@
+{
+  "id": "u03",
+  "level": "C1",
+  "emoji": "💊",
+  "title": {
+    "t": "Ibuprofen vierhundert: die Fachinformation",
+    "s": "Ibuprofen 400 mg: reading the SmPC (mock exam 1)"
+  },
+  "goals": [
+    "Read an extract from a Fachinformation (ibuprofen 400 mg) and find dose, contraindications and interactions",
+    "Advise a patient with back pain who takes low-dose aspirin and an ACE inhibitor (mock exam 1)",
+    "Understand participial attributes such as die empfohlene Tageshöchstdosis",
+    "Turn the nominal style of the Fachinformation into plain spoken German for the patient"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die Fachinformation",
+      "pl": "die Fachinformationen",
+      "s": "summary of product characteristics, SmPC (for healthcare professionals)",
+      "emoji": "📄",
+      "ex": {
+        "t": "In der Prüfung darf man die Fachinformation als Hilfsmittel benutzen.",
+        "s": "In the exam you may use the summary of product characteristics as an aid."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Tageshöchstdosis",
+      "pl": "die Tageshöchstdosen",
+      "s": "maximum daily dose · Laie: die größte Menge, die man an einem Tag nehmen darf",
+      "emoji": "",
+      "ex": {
+        "t": "Die Tageshöchstdosis darf nicht überschritten werden.",
+        "s": "The maximum daily dose must not be exceeded."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "die Gegenanzeige",
+      "pl": "die Gegenanzeigen",
+      "s": "contraindication · Laie: wann man das Mittel nicht nehmen darf",
+      "emoji": "🚫",
+      "ex": {
+        "t": "Das letzte Schwangerschaftsdrittel ist eine Gegenanzeige für Ibuprofen.",
+        "s": "The last trimester of pregnancy is a contraindication for ibuprofen."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "das Analgetikum",
+      "pl": "die Analgetika",
+      "s": "analgesic · Laie: das Schmerzmittel",
+      "emoji": "",
+      "ex": {
+        "t": "Ibuprofen ist ein Analgetikum, das auch Fieber senkt.",
+        "s": "Ibuprofen is an analgesic that also lowers fever."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "die Lumbalgie",
+      "pl": "die Lumbalgien",
+      "s": "low back pain · Laie: die Kreuzschmerzen",
+      "emoji": "",
+      "ex": {
+        "t": "Die Patientin leidet seit drei Tagen an einer Lumbalgie.",
+        "s": "The patient has had low back pain for three days."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "das Ulkus",
+      "pl": "die Ulzera",
+      "s": "ulcer · Laie: das Geschwür, zum Beispiel im Magen",
+      "emoji": "",
+      "ex": {
+        "t": "Bei einem aktiven Ulkus ist Ibuprofen kontraindiziert.",
+        "s": "Ibuprofen is contraindicated in an active ulcer."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "gastrointestinal",
+      "s": "gastrointestinal · Laie: den Magen und den Darm betreffend",
+      "emoji": "",
+      "ex": {
+        "t": "Ibuprofen kann gastrointestinale Beschwerden verursachen.",
+        "s": "Ibuprofen can cause gastrointestinal complaints."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "die Niereninsuffizienz",
+      "pl": "die Niereninsuffizienzen",
+      "s": "renal failure, kidney failure · Laie: die Nierenschwäche",
+      "emoji": "",
+      "ex": {
+        "t": "Bei schwerer Niereninsuffizienz ist Ibuprofen kontraindiziert.",
+        "s": "Ibuprofen is contraindicated in severe renal failure."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "der Thrombozytenaggregationshemmer",
+      "pl": "die Thrombozytenaggregationshemmer",
+      "s": "antiplatelet drug · Laie: ein Mittel, das verhindert, dass das Blut verklumpt; oft Blutverdünner genannt",
+      "emoji": "",
+      "ex": {
+        "t": "Niedrig dosierte Acetylsalicylsäure wirkt als Thrombozytenaggregationshemmer.",
+        "s": "Low-dose acetylsalicylic acid acts as an antiplatelet drug."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "der ACE-Hemmer",
+      "pl": "die ACE-Hemmer",
+      "s": "ACE inhibitor · Laie: ein Mittel gegen Bluthochdruck",
+      "emoji": "",
+      "ex": {
+        "t": "Ramipril ist ein ACE-Hemmer, der gegen Bluthochdruck eingesetzt wird.",
+        "s": "Ramipril is an ACE inhibitor that is used for high blood pressure."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "topisch",
+      "s": "topical · Laie: äußerlich, auf die Haut aufgetragen",
+      "emoji": "",
+      "ex": {
+        "t": "Ein topisches Schmerzgel wird direkt auf die schmerzende Stelle aufgetragen.",
+        "s": "A topical pain gel is applied directly to the painful area."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "das Blutungsrisiko",
+      "pl": "die Blutungsrisiken",
+      "s": "bleeding risk · Laie: die Gefahr von Blutungen",
+      "emoji": "🩸",
+      "ex": {
+        "t": "Ibuprofen und Acetylsalicylsäure zusammen erhöhen das Blutungsrisiko im Magen-Darm-Trakt.",
+        "s": "Ibuprofen and acetylsalicylic acid together increase the risk of bleeding in the gastrointestinal tract."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "das Schwangerschaftsdrittel",
+      "pl": "die Schwangerschaftsdrittel",
+      "s": "trimester of pregnancy",
+      "emoji": "🤰",
+      "ex": {
+        "t": "Im letzten Schwangerschaftsdrittel darf Ibuprofen nicht eingenommen werden.",
+        "s": "Ibuprofen must not be taken in the last trimester of pregnancy."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "das Wärmepflaster",
+      "pl": "die Wärmepflaster",
+      "s": "heat patch",
+      "emoji": "🩹",
+      "ex": {
+        "t": "Bei verspannten Rückenmuskeln kann ein Wärmepflaster helfen.",
+        "s": "A heat patch can help with tense back muscles."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "abschwächen",
+      "s": "to weaken, to reduce (an effect)",
+      "emoji": "",
+      "ex": {
+        "t": "Ibuprofen kann die Wirkung von niedrig dosierter Acetylsalicylsäure abschwächen.",
+        "s": "Ibuprofen can weaken the effect of low-dose acetylsalicylic acid."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "bei Bedarf",
+      "s": "as needed, when required",
+      "emoji": "",
+      "ex": {
+        "t": "Nehmen Sie die Tablette nur bei Bedarf ein.",
+        "s": "Take the tablet only when needed."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Darf ich kurz in der Fachinformation nachsehen?",
+      "s": "May I quickly check the summary of product characteristics?"
+    },
+    {
+      "id": "p02",
+      "t": "Laut Fachinformation …",
+      "s": "According to the summary of product characteristics …"
+    },
+    {
+      "id": "p03",
+      "t": "Das bedeutet in einfachen Worten: …",
+      "s": "In simple words, that means: …"
+    },
+    {
+      "id": "p04",
+      "t": "Bei Ihren Medikamenten würde ich Ihnen von Ibuprofen abraten.",
+      "s": "With your medicines, I would advise you against ibuprofen."
+    },
+    {
+      "id": "p05",
+      "t": "Ibuprofen kann die Wirkung Ihres Blutverdünners abschwächen.",
+      "s": "Ibuprofen can weaken the effect of your blood thinner."
+    },
+    {
+      "id": "p06",
+      "t": "Ohne ärztliche Anweisung nehmen Sie bitte nie zwei Tabletten Ibuprofen vierhundert auf einmal.",
+      "s": "Without a doctor's instructions, please never take two ibuprofen 400 tablets at once."
+    },
+    {
+      "id": "p07",
+      "t": "Stattdessen empfehle ich Ihnen ein Wärmepflaster.",
+      "s": "Instead, I recommend a heat patch."
+    },
+    {
+      "id": "p08",
+      "t": "Wenn das Bein taub oder schwach wird, gehen Sie bitte sofort zum Arzt.",
+      "s": "If your leg becomes numb or weak, please see a doctor immediately."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Etwas Starkes gegen Rückenschmerzen",
+      "s": "Something strong for back pain"
+    },
+    "speakers": {
+      "A": {
+        "name": "Herr Ahmadi",
+        "voice": "m"
+      },
+      "B": {
+        "name": "Frau Richter",
+        "voice": "f"
+      }
+    },
+    "lines": [
+      {
+        "sp": "B",
+        "t": "Guten Tag. Ich hätte gern etwas Starkes gegen Rückenschmerzen, am liebsten Ibuprofen.",
+        "s": "Hello. I'd like something strong for back pain, ideally ibuprofen."
+      },
+      {
+        "sp": "A",
+        "t": "Guten Tag. Ist das Schmerzmittel für Sie selbst? Und wo genau tut es Ihnen weh?",
+        "s": "Hello. Is the painkiller for you? And where exactly does it hurt?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja, für mich. Im unteren Rücken, seit drei Tagen, nach der Gartenarbeit.",
+        "s": "Yes, for me. In my lower back, for three days now, after gardening."
+      },
+      {
+        "sp": "A",
+        "t": "Wie stark sind die Schmerzen auf einer Skala von eins bis zehn? Strahlen sie ins Bein aus, oder haben Sie ein Taubheitsgefühl?",
+        "s": "How bad is the pain on a scale of one to ten? Does it spread into your leg, or do you have any numbness?"
+      },
+      {
+        "sp": "B",
+        "t": "Ungefähr sechs. Ins Bein strahlt nichts aus, und taub fühlt sich auch nichts an.",
+        "s": "About six. Nothing spreads into my leg, and nothing feels numb either."
+      },
+      {
+        "sp": "A",
+        "t": "Darf ich fragen, ob Sie regelmäßig Medikamente einnehmen oder Probleme mit dem Magen haben?",
+        "s": "May I ask whether you take any medicines regularly or have problems with your stomach?"
+      },
+      {
+        "sp": "B",
+        "t": "Morgens nehme ich Acetylsalicylsäure hundert wegen meines Stents und Ramipril für den Blutdruck. Und vor zehn Jahren hatte ich ein Magengeschwür.",
+        "s": "In the morning I take acetylsalicylic acid 100 because of my stent, and ramipril for my blood pressure. And ten years ago I had a stomach ulcer."
+      },
+      {
+        "sp": "A",
+        "t": "Danke, das ist wichtig. Dann würde ich Ihnen von Ibuprofen zum Einnehmen abraten. Es kann die Wirkung Ihres Blutverdünners abschwächen, Ihr Blutdruckmittel schwächer wirken lassen und die Nieren belasten. Zusammen mit Ihrem Blutverdünner steigt außerdem das Risiko für Blutungen im Magen, und weil Sie schon einmal ein Magengeschwür hatten, ist das bei Ihnen besonders wichtig.",
+        "s": "Thank you, that's important. In that case, I'd advise you against taking ibuprofen by mouth. It can weaken the effect of your blood thinner, make your blood pressure medicine work less well and strain your kidneys. Together with your blood thinner, it also increases the risk of bleeding in the stomach, and because you've had a stomach ulcer before, that matters especially in your case."
+      },
+      {
+        "sp": "B",
+        "t": "Und wenn ich einfach zwei Tabletten auf einmal nehme, damit es schneller wirkt?",
+        "s": "And what if I just take two tablets at once so that it works faster?"
+      },
+      {
+        "sp": "A",
+        "t": "Davon rate ich Ihnen dringend ab, denn eine höhere Dosis erhöht alle diese Risiken noch weiter. Stattdessen würde ich Ihnen ein Wärmepflaster und leichte Bewegung empfehlen, soweit es geht.",
+        "s": "I strongly advise you against that, because a higher dose increases all these risks even further. Instead, I'd recommend a heat patch and gentle movement, as far as you can manage."
+      },
+      {
+        "sp": "B",
+        "t": "Gut, dann versuche ich das. Wann sollte ich zum Arzt gehen?",
+        "s": "All right, I'll try that. When should I see a doctor?"
+      },
+      {
+        "sp": "A",
+        "t": "Wenn es nach drei bis vier Tagen nicht besser wird, gehen Sie bitte zum Arzt. Gehen Sie bitte sofort zum Arzt, falls das Bein taub oder schwach wird oder Sie Probleme beim Wasserlassen oder beim Stuhlgang bekommen. Gute Besserung!",
+        "s": "If it isn't better after three to four days, please see a doctor. Please see a doctor immediately if your leg becomes numb or weak or you have problems urinating or with bowel movements. Get well soon!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "die empfohlene Tageshöchstdosis",
+        "s": "Participial attributes in the Fachinformation"
+      },
+      "explain": "A Fachinformation packs information into **participial attributes**: a participle stands before the noun like an adjective and takes the normal adjective endings.\n**Partizip I** (infinitive + **d**) is active and describes something happening at the same time: bei **bestehender** Schwangerschaft = wenn eine Schwangerschaft besteht; ein schnell **wirkendes** Mittel = ein Mittel, das schnell wirkt.\n**Partizip II** is usually passive or completed: die **empfohlene** Dosis = die Dosis, die empfohlen wird; ein **abgelaufenes** Arzneimittel = ein Arzneimittel, das abgelaufen ist.\nThe attribute can be extended; the extra information comes **between the article and the participle**: die **vom Arzt verordnete** Dosis, der **in der Tablette enthaltene** Wirkstoff.\nTo explain it to a patient, turn the attribute into a relative clause: die vom Arzt verordnete Dosis → die Dosis, die der Arzt verordnet hat.",
+      "table": [
+        [
+          "die empfohlene Tageshöchstdosis",
+          "die Tageshöchstdosis, die empfohlen wird"
+        ],
+        [
+          "bei bestehender Schwangerschaft",
+          "wenn eine Schwangerschaft besteht"
+        ],
+        [
+          "ein schnell wirkendes Mittel",
+          "ein Mittel, das schnell wirkt"
+        ],
+        [
+          "die vom Arzt verordnete Dosis",
+          "die Dosis, die der Arzt verordnet hat"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Bei Ibuprofen vierhundert beträgt die empfohlene Tageshöchstdosis für Erwachsene in der Selbstmedikation drei Filmtabletten.",
+          "s": "For ibuprofen 400, the recommended maximum daily dose for adults in self-medication is three film-coated tablets."
+        },
+        {
+          "t": "Bei bestehenden Magengeschwüren darf Ibuprofen nicht eingenommen werden.",
+          "s": "Ibuprofen must not be taken if stomach ulcers are present."
+        },
+        {
+          "t": "Bei gleichzeitig eingenommener Acetylsalicylsäure ist das Blutungsrisiko erhöht.",
+          "s": "If acetylsalicylic acid is taken at the same time, the risk of bleeding is increased."
+        },
+        {
+          "t": "Die in der Fachinformation genannten Wechselwirkungen sind für die Beratung wichtig.",
+          "s": "The interactions listed in the summary of product characteristics are important for counseling."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Die ___ Tageshöchstdosis darf nicht überschritten werden.",
+          "options": [
+            "empfohlene",
+            "empfehlende",
+            "empfohlen"
+          ],
+          "answer": 0,
+          "s": "The recommended maximum daily dose must not be exceeded."
+        },
+        {
+          "type": "choice",
+          "t": "Bei ___ Magengeschwüren darf Ibuprofen nicht eingenommen werden.",
+          "options": [
+            "bestehenden",
+            "bestandenen",
+            "bestehende"
+          ],
+          "answer": 0,
+          "s": "Ibuprofen must not be taken if stomach ulcers are present."
+        },
+        {
+          "type": "type",
+          "t": "Ibuprofen ist ein schnell ___ Schmerzmittel.",
+          "answer": [
+            "wirkendes"
+          ],
+          "s": "Ibuprofen is a fast-acting painkiller."
+        },
+        {
+          "type": "type",
+          "t": "Bitte halten Sie sich an die vom Arzt ___ Dosis.",
+          "answer": [
+            "verordnete",
+            "verschriebene",
+            "empfohlene",
+            "angegebene",
+            "festgelegte",
+            "vorgegebene"
+          ],
+          "s": "Please stick to the dose prescribed by the doctor."
+        },
+        {
+          "type": "choice",
+          "t": "Ein ___ Arzneimittel darf nicht mehr abgegeben werden.",
+          "options": [
+            "abgelaufenes",
+            "ablaufendes",
+            "abgelaufene"
+          ],
+          "answer": 0,
+          "s": "An expired medicine may no longer be dispensed."
+        },
+        {
+          "type": "choice",
+          "t": "Der in der Tablette ___ Wirkstoff heißt Ibuprofen.",
+          "options": [
+            "enthaltene",
+            "enthaltende",
+            "enthalten"
+          ],
+          "answer": 0,
+          "s": "The active ingredient contained in the tablet is called ibuprofen."
+        },
+        {
+          "type": "order",
+          "t": "Die empfohlene Dosis darf nicht überschritten werden.",
+          "s": "The recommended dose must not be exceeded."
+        },
+        {
+          "type": "order",
+          "t": "Das ist die vom Arzt verordnete Dosis.",
+          "s": "That is the dose prescribed by the doctor.",
+          "alts": [
+            "Die vom Arzt verordnete Dosis ist das."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "bei Einnahme: wenn Sie … einnehmen",
+        "s": "Nominal style and verbal style"
+      },
+      "explain": "The Fachinformation is written in **Nominalstil**: nouns instead of verbs (bei Einnahme, vor der Anwendung, zur Vermeidung von …). Patients understand **Verbalstil** much better, so in the consultation turn the nouns back into verbs and clauses.\nThe preposition tells you which conjunction to use: **bei** → **wenn**, **vor** → **bevor**, **nach** → **nachdem**, **während** → **während / solange**, **zur** (purpose) → **damit / um … zu**, **trotz** → **obwohl**.\nThe person hidden in the noun phrase must now be named: bei Einnahme von Ibuprofen → wenn **Sie** Ibuprofen einnehmen.\nThe same skill is tested in Part 3, where technical terms must be explained in plain German: Lumbalgie → Kreuzschmerzen.",
+      "table": [
+        [
+          "bei Einnahme von Ibuprofen",
+          "wenn Sie Ibuprofen einnehmen"
+        ],
+        [
+          "vor der Anwendung",
+          "bevor Sie das Mittel anwenden"
+        ],
+        [
+          "zur Vermeidung von Magenbeschwerden",
+          "damit Sie keine Magenbeschwerden bekommen"
+        ],
+        [
+          "trotz regelmäßiger Einnahme",
+          "obwohl Sie das Mittel regelmäßig einnehmen"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Wenn Sie Ibuprofen zusammen mit Ihrem Blutdruckmittel nehmen, kann das Blutdruckmittel schwächer wirken.",
+          "s": "If you take ibuprofen together with your blood pressure medicine, the blood pressure medicine may work less well."
+        },
+        {
+          "t": "Nehmen Sie die Tablette am besten während des Essens oder direkt danach ein.",
+          "s": "It's best to take the tablet during the meal or straight after it."
+        },
+        {
+          "t": "Wenn Sie schwarzen Stuhl bemerken, hören Sie bitte sofort mit der Einnahme auf und gehen Sie zum Arzt.",
+          "s": "If you notice black stools, please stop taking it immediately and see a doctor."
+        },
+        {
+          "t": "Bevor Sie ein anderes Schmerzmittel dazunehmen, fragen Sie bitte in der Apotheke nach.",
+          "s": "Before you take another painkiller in addition, please ask at the pharmacy."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ Sie Ibuprofen zusammen mit einem Blutverdünner einnehmen, steigt das Blutungsrisiko.",
+          "options": [
+            "Wenn",
+            "Bevor",
+            "Obwohl"
+          ],
+          "answer": 0,
+          "s": "If you take ibuprofen together with a blood thinner, the risk of bleeding increases."
+        },
+        {
+          "type": "choice",
+          "t": "Schütteln Sie die Flasche, ___ Sie den Saft einnehmen.",
+          "options": [
+            "bevor",
+            "nachdem",
+            "obwohl"
+          ],
+          "answer": 0,
+          "s": "Shake the bottle before you take the liquid."
+        },
+        {
+          "type": "type",
+          "t": "Nehmen Sie die Tablette nach dem Essen ein, ___ Sie keine Magenbeschwerden bekommen.",
+          "answer": [
+            "damit",
+            "sodass",
+            "so dass"
+          ],
+          "s": "Take the tablet after a meal so that you don't get stomach problems."
+        },
+        {
+          "type": "type",
+          "t": "Bei der ___ von Ibuprofen kann es zu Magenbeschwerden kommen.",
+          "answer": [
+            "Einnahme",
+            "Anwendung"
+          ],
+          "s": "Taking ibuprofen can cause stomach problems."
+        },
+        {
+          "type": "choice",
+          "t": "___ die Patientin die Tabletten regelmäßig einnimmt, bessern sich die Schmerzen nicht.",
+          "options": [
+            "Obwohl",
+            "Weil",
+            "Damit"
+          ],
+          "answer": 0,
+          "s": "Although the patient takes the tablets regularly, the pain doesn't get better."
+        },
+        {
+          "type": "type",
+          "t": "Die Lumbalgie heißt in Laiensprache ___.",
+          "answer": [
+            "Kreuzschmerzen",
+            "Rückenschmerzen",
+            "Rueckenschmerzen",
+            "Schmerzen im unteren Rücken",
+            "Schmerzen im unteren Ruecken",
+            "Kreuzweh"
+          ],
+          "s": "In plain language, lumbago is called low back pain."
+        },
+        {
+          "type": "type",
+          "t": "Ein Analgetikum ist in Laiensprache ein ___.",
+          "answer": [
+            "Schmerzmittel",
+            "Schmerzmedikament"
+          ],
+          "s": "In plain language, an analgesic is a painkiller."
+        },
+        {
+          "type": "order",
+          "t": "Nehmen Sie die Tablette nach dem Essen ein.",
+          "s": "Take the tablet after eating.",
+          "alts": [
+            "Nehmen Sie nach dem Essen die Tablette ein."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Fachinformation: Ibuprofen vierhundert Milligramm Filmtabletten",
+      "s": "SmPC: ibuprofen 400 mg film-coated tablets (extract, simplified for language practice)"
+    },
+    "text": [
+      {
+        "t": "Auszug aus der Fachinformation für die Selbstmedikation, für die Sprachpraxis vereinfacht.",
+        "s": "Extract from the summary of product characteristics for self-medication, simplified for language practice."
+      },
+      {
+        "t": "Anwendungsgebiete: leichte bis mäßig starke Schmerzen sowie Fieber.",
+        "s": "Indications: mild to moderate pain and fever."
+      },
+      {
+        "t": "Dosierung bei Erwachsenen: eine Filmtablette als Einzeldosis bei Bedarf; der Abstand zwischen zwei Einnahmen sollte mindestens sechs Stunden betragen.",
+        "s": "Dosage in adults: one film-coated tablet as a single dose as needed; the interval between two doses should be at least six hours."
+      },
+      {
+        "t": "Die empfohlene Tageshöchstdosis von drei Filmtabletten, also tausendzweihundert Milligramm, darf nicht überschritten werden.",
+        "s": "The recommended maximum daily dose of three film-coated tablets, that is 1,200 milligrams, must not be exceeded."
+      },
+      {
+        "t": "Ohne ärztlichen Rat darf das Arzneimittel nicht länger als vier Tage gegen Schmerzen und nicht länger als drei Tage gegen Fieber eingenommen werden.",
+        "s": "Without medical advice, the medicine must not be taken for more than four days for pain or for more than three days for fever."
+      },
+      {
+        "t": "Art der Anwendung: unzerkaut mit einem Glas Wasser während oder nach einer Mahlzeit.",
+        "s": "Method of administration: swallowed whole with a glass of water during or after a meal."
+      },
+      {
+        "t": "Gegenanzeigen: bestehende oder wiederholt aufgetretene Magengeschwüre, schwere Herz-, Leber- oder Niereninsuffizienz sowie das letzte Schwangerschaftsdrittel.",
+        "s": "Contraindications: active or recurrent stomach ulcers, severe heart, liver or kidney failure, and the last trimester of pregnancy."
+      },
+      {
+        "t": "Bei gleichzeitiger Einnahme von niedrig dosierter Acetylsalicylsäure kann Ibuprofen deren hemmende Wirkung auf die Blutplättchen abschwächen.",
+        "s": "When low-dose acetylsalicylic acid is taken at the same time, ibuprofen can weaken its inhibiting effect on the platelets."
+      },
+      {
+        "t": "Zudem ist bei dieser Kombination das Risiko für Blutungen im Magen-Darm-Trakt erhöht.",
+        "s": "In addition, this combination increases the risk of bleeding in the gastrointestinal tract."
+      },
+      {
+        "t": "Bei gleichzeitiger Anwendung von ACE-Hemmern kann die blutdrucksenkende Wirkung vermindert und das Risiko einer Nierenschädigung erhöht sein.",
+        "s": "When ACE inhibitors are used at the same time, the blood-pressure-lowering effect may be reduced and the risk of kidney damage increased."
+      },
+      {
+        "t": "Bei Patienten, die früher einmal ein Magengeschwür hatten, ist besondere Vorsicht geboten.",
+        "s": "Particular caution is needed in patients who have had a stomach ulcer in the past."
+      },
+      {
+        "t": "Treten schwarzer Stuhl oder Bluterbrechen auf, ist das Arzneimittel sofort abzusetzen und ein Arzt aufzusuchen.",
+        "s": "If black stools or vomiting of blood occur, the medicine must be stopped immediately and a doctor consulted."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wie viele Filmtabletten dürfen Erwachsene höchstens pro Tag einnehmen?",
+          "s": "How many film-coated tablets may adults take per day at most?"
+        },
+        "options": [
+          "zwei",
+          "drei",
+          "sechs"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wie lange darf man das Mittel ohne ärztlichen Rat gegen Schmerzen einnehmen?",
+          "s": "For how long may you take the medicine for pain without medical advice?"
+        },
+        "options": [
+          "höchstens drei Tage",
+          "höchstens eine Woche",
+          "höchstens vier Tage"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Wann soll man die Tablette einnehmen?",
+          "s": "When should you take the tablet?"
+        },
+        "options": [
+          "während oder nach einer Mahlzeit",
+          "auf nüchternen Magen",
+          "nur abends vor dem Schlafen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was kann Ibuprofen bei gleichzeitiger Einnahme von niedrig dosierter Acetylsalicylsäure bewirken?",
+          "s": "What can ibuprofen do when low-dose acetylsalicylic acid is taken at the same time?"
+        },
+        "options": [
+          "Es senkt das Blutungsrisiko.",
+          "Es kann die Wirkung auf die Blutplättchen abschwächen.",
+          "Es verstärkt die Wirkung von ACE-Hemmern."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "In welchem Fall ist Ibuprofen laut Text kontraindiziert?",
+          "s": "According to the text, in which case is ibuprofen contraindicated?"
+        },
+        "options": [
+          "bei leichten Kopfschmerzen",
+          "bei Fieber",
+          "im letzten Schwangerschaftsdrittel"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Die Patientin nimmt jeden Morgen einen Blutverdünner ein.",
+      "s": "The patient takes a blood thinner every morning."
+    },
+    {
+      "t": "Ibuprofen kann die Wirkung von niedrig dosierter Acetylsalicylsäure abschwächen.",
+      "s": "Ibuprofen can weaken the effect of low-dose acetylsalicylic acid."
+    },
+    {
+      "t": "Bei bestehenden Magengeschwüren ist Ibuprofen kontraindiziert.",
+      "s": "Ibuprofen is contraindicated if stomach ulcers are present."
+    },
+    {
+      "t": "Bei Ibuprofen beträgt die Tageshöchstdosis für Erwachsene in der Selbstmedikation tausendzweihundert Milligramm.",
+      "s": "For ibuprofen, the maximum daily dose for adults in self-medication is 1,200 milligrams."
+    },
+    {
+      "t": "Nehmen Sie die Tablette bitte während oder nach einer Mahlzeit ein.",
+      "s": "Please take the tablet during or after a meal."
+    },
+    {
+      "t": "Ein Wärmepflaster kann bei Rückenschmerzen gut helfen.",
+      "s": "A heat patch can be very helpful for back pain."
+    },
+    {
+      "t": "Lumbalgie bedeutet in Laiensprache Kreuzschmerzen.",
+      "s": "In plain language, lumbago means low back pain."
+    },
+    {
+      "t": "Topisch heißt, dass man das Mittel auf die Haut aufträgt.",
+      "s": "Topical means that you apply the medicine to the skin."
+    }
+  ]
+}

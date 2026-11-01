@@ -1315,6 +1315,384 @@
      ]
     }
    ]
+  },
+  {
+   "id": "de-fsp",
+   "target": "de",
+   "support": "en",
+   "dir": "ltr",
+   "tdir": "ltr",
+   "name": {
+    "t": "Pharmazie-Deutsch",
+    "s": "Pharmacy German"
+   },
+   "color": "#2e7d5b",
+   "badge": "FSP",
+   "about": "Fachsprachprüfung · explained in English",
+   "levels": [
+    {
+     "id": "B1",
+     "name": "Basics · Grundlagen",
+     "units": [
+      {
+       "id": "u01",
+       "title": {
+        "t": "Willkommen in der Apotheke",
+        "s": "Welcome to the pharmacy",
+        "a": "audio/de-fsp/789e86f99985.mp3"
+       },
+       "img": "img/e/2695.svg",
+       "emoji": "⚕️",
+       "goals": [
+        "Greet customers and ask how you can help",
+        "Find out who the medicine is for and whether there is a prescription",
+        "Ask W-questions and yes/no questions in the polite Sie form",
+        "Give clear instructions with the Sie imperative"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Tablette, Saft oder Salbe?",
+        "s": "Dosage forms",
+        "a": "audio/de-fsp/124571377355.mp3"
+       },
+       "img": "img/e/1f48a.svg",
+       "emoji": "💊",
+       "goals": [
+        "Name the common dosage forms and their everyday names",
+        "Talk about pack sizes and amounts (plurals, Milliliter, Milligramm)",
+        "Describe medicines with the right adjective endings",
+        "Help a customer choose a suitable dosage form for a child"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Wie nehme ich das ein?",
+        "s": "Taking medicines and dosage",
+        "a": "audio/de-fsp/8cc2115119c0.mp3"
+       },
+       "img": "img/e/23f0.svg",
+       "emoji": "⏰",
+       "goals": [
+        "Explain when and how to take a medicine (before, with or after meals; morning, evening)",
+        "Say doses and frequencies clearly (eine halbe Tablette, dreimal täglich, alle acht Stunden)",
+        "Understand the dosage section of a package leaflet",
+        "Check understanding with a short teach-back question"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Wo tut es weh?",
+        "s": "Body and complaints in plain German",
+        "a": "audio/de-fsp/03c19d8ffdce.mp3"
+       },
+       "img": "img/e/1f912.svg",
+       "emoji": "🤒",
+       "goals": [
+        "Name common complaints in plain German and know the technical term",
+        "Say what hurts with Mir tut … weh and …schmerzen",
+        "Ask and answer how long a complaint has lasted with seit and Seit wann?",
+        "Know when a patient should see a doctor"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Wirkung und Wechselwirkung",
+        "s": "Effects, side effects and interactions",
+        "a": "audio/de-fsp/44b8efcaa1d8.mp3"
+       },
+       "img": "img/e/26a0.svg",
+       "emoji": "⚠️",
+       "goals": [
+        "Explain in simple words what a medicine does and which side effects it can have",
+        "Explain an interaction in plain German",
+        "Give advice and warnings with müssen, nicht müssen, nicht dürfen and sollen",
+        "Say when a patient should see a doctor with wenn-clauses"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Apothekenalltag",
+        "s": "Everyday work in the pharmacy",
+        "a": "audio/de-fsp/76b66a6e1adf.mp3"
+       },
+       "img": "img/e/1f4e6.svg",
+       "emoji": "📦",
+       "goals": [
+        "Talk about ordering, deliveries, stock and supply shortages",
+        "Explain storage: fridge, cold chain and expiration date",
+        "Describe pharmacy processes with the passive (Das Medikament wird bestellt.)",
+        "Make polite requests to colleagues and doctors' offices (Könntest du …? Würden Sie bitte …?)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
+    },
+    {
+     "id": "C1",
+     "name": "Exam · Fachsprachprüfung",
+     "units": [
+      {
+       "id": "u01",
+       "title": {
+        "t": "Die Fachsprachprüfung und das Beratungsgespräch",
+        "s": "The FSP at a glance and the counseling conversation (part 1)",
+        "a": "audio/de-fsp/c4ce0dc95ba0.mp3"
+       },
+       "img": "img/e/1f4cb.svg",
+       "emoji": "📋",
+       "goals": [
+        "Describe the Berlin FSP for pharmacists: its three parts, timing and allowed aids",
+        "Follow the seven steps of a counseling conversation and ask about the patient's complaints",
+        "Ask polite indirect questions (Darf ich fragen, ob …? Könnten Sie mir sagen, seit wann …?)",
+        "Check the risks before advising: other medicines, pre-existing conditions, allergies, pregnancy and breastfeeding"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Beratungsgespräch II: empfehlen und erklären",
+        "s": "Counseling conversation II: recommending and explaining",
+        "a": "audio/de-fsp/8a52ed6a675d.mp3"
+       },
+       "img": "img/e/1f4ac.svg",
+       "emoji": "💬",
+       "goals": [
+        "Recommend a medicine politely and explain how to use it (dose, interval, what to avoid)",
+        "Name the limits of self-medication and the warning signs that need a doctor",
+        "Check understanding with teach-back and close the conversation",
+        "Use Konjunktiv II for advice and the connectors falls, sofern, solange and auch wenn"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Ibuprofen vierhundert: die Fachinformation",
+        "s": "Ibuprofen 400 mg: reading the SmPC (mock exam 1)",
+        "a": "audio/de-fsp/80130a9c0ff0.mp3"
+       },
+       "img": "img/e/1f48a.svg",
+       "emoji": "💊",
+       "goals": [
+        "Read an extract from a Fachinformation (ibuprofen 400 mg) and find dose, contraindications and interactions",
+        "Advise a patient with back pain who takes low-dose aspirin and an ACE inhibitor (mock exam 1)",
+        "Understand participial attributes such as die empfohlene Tageshöchstdosis",
+        "Turn the nominal style of the Fachinformation into plain spoken German for the patient"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Der Monolog: Stellung nehmen",
+        "s": "Part 1B – the monologue: giving your opinion",
+        "a": "audio/de-fsp/64930919f7d9.mp3"
+       },
+       "img": "img/e/1f3a4.svg",
+       "emoji": "🎤",
+       "goals": [
+        "Give a structured five-minute statement: introduction, facts, pros and cons, opinion, role of the pharmacy, conclusion",
+        "Talk about prescription versus pharmacy-only medicines, antibiotic resistance and supply shortages",
+        "Link arguments with connectors such as einerseits … andererseits, zudem, dennoch, folglich",
+        "Express opinions and limit them (Ich bin der Ansicht, dass …; Zwar …, aber …)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Die Notiz über ein Beratungsgespräch",
+        "s": "Part 2: writing a note on a consultation",
+        "a": "audio/de-fsp/f508e5f99818.mp3"
+       },
+       "img": "img/e/1f4dd.svg",
+       "emoji": "📝",
+       "goals": [
+        "Write a note on a consultation in full sentences, following the fixed structure (header data, patient, reason, history, medicine, advice, next steps)",
+        "Use the passive and the Zustandspassiv to report what was done (Dem Patienten wurde empfohlen …; Die Ärztin ist informiert.)",
+        "Link the facts into continuous text with daraufhin, anschließend, stattdessen, da and sodass",
+        "Avoid the typical mistakes: bullet points, a missing date or dose, lay words where a technical term fits"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Die UAW-Meldung",
+        "s": "Part 2: reporting a suspected adverse drug reaction",
+        "a": "audio/de-fsp/a518145fbceb.mp3"
+       },
+       "img": "img/e/26a0.svg",
+       "emoji": "⚠️",
+       "goals": [
+        "Ask a parent the right questions about a suspected side effect: onset, appearance, warning signs, allergies",
+        "Write a UAW report in full sentences (patient, suspected medicine, reaction, measures, report to the AMK)",
+        "Report what someone said with Konjunktiv I (Die Mutter berichtet, das Kind habe …)",
+        "Show the order of events with the Plusquamperfekt and nachdem, seitdem, bevor"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "Das Fachgespräch mit der Ärztin",
+        "s": "Part 3A: discussing a case with a doctor (SBAR)",
+        "a": "audio/de-fsp/50011bf201ab.mp3"
+       },
+       "img": "img/e/1f4de.svg",
+       "emoji": "📞",
+       "goals": [
+        "Present a case to a doctor on the phone in SBAR order: Situation, Hintergrund, Bewertung, Vorschlag",
+        "Explain the clarithromycin–simvastatin interaction in technical German",
+        "Make polite suggestions and check back with Konjunktiv II (Wäre es möglich, …? Käme … in Frage?)",
+        "Use technical noun phrases (die Erhöhung des Myopathierisikos, die Pausierung der Therapie)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Fachsprache und Laiensprache",
+        "s": "Part 3B: technical and lay language – asthma inhalers",
+        "a": "audio/de-fsp/a23ad9d0b24d.mp3"
+       },
+       "img": "img/e/1fac1.svg",
+       "emoji": "🫁",
+       "goals": [
+        "Explain a technical term in one plain German sentence (Das ist ein Mittel, das …; Damit meint man …)",
+        "Recognize Greek and Latin word parts (-itis, -algie, Hyper-, Hypo-, Tachy-, Dys-) and give the German equivalent",
+        "Advise an asthma patient on the long-term inhaler versus the emergency spray and on inhalation technique",
+        "Explain a supply shortage and the next steps to a patient"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
+    }
+   ]
   }
  ]
 }

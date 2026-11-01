@@ -15,6 +15,11 @@ TWEMOJI_DIR = "/home/claude/vendor/twemoji"
 COURSES = {
     "de-en": {"target": "de", "support": "en", "dir": "ltr", "tdir": "ltr",
               "name": {"t": "Deutsch", "s": "German"}, "voices": {"f": "de_f", "m": "de_m"}, "default": "m", "color": "#d9822b"},
+    # pharmacy German for the Fachsprachprüfung (FSP): basics at B1, the exam itself at C1
+    "de-fsp": {"target": "de", "support": "en", "dir": "ltr", "tdir": "ltr",
+               "name": {"t": "Pharmazie-Deutsch", "s": "Pharmacy German"}, "voices": {"f": "de_f", "m": "de_m"}, "default": "m",
+               "color": "#2e7d5b", "badge": "FSP", "about": "Fachsprachprüfung · explained in English",
+               "levels": ["B1", "C1"], "level_names": {"B1": "Basics · Grundlagen", "C1": "Exam · Fachsprachprüfung"}},
 }
 LEVELS = ["A1", "A2", "B1", "B2", "C1"]
 LEVEL_NAME = {
@@ -103,7 +108,14 @@ def numbers(t, lang):
 CONJ = {"en": " or ", "de": " oder ", "tr": " veya ", "fa": " یا "}
 ABBR = {"en": [("Dr.", "Doctor"), ("Mr.", "Mister"), ("Mrs.", "Missus"), ("Si-o-se-pol", "See-oh-seh pol")],
         "de": [("Prof. Dr.", "Professor Doktor"), ("Dr.", "Doktor"), ("Prof.", "Professor"), ("z. B.", "zum Beispiel"), ("z.B.", "zum Beispiel"),
-               ("usw.", "und so weiter"), ("bzw.", "beziehungsweise"), ("CO₂", "C O zwei")],
+               ("usw.", "und so weiter"), ("bzw.", "beziehungsweise"), ("CO₂", "C O zwei"),
+               # drug names and medical terms the German voices misread (checked with espeak-ng IPA and Whisper):
+               # c before i/y is "z", stressed long -in/-em endings
+               ("Paracetamol", "Parazetamol"), ("icillin", "izillin"), ("romycin", "romyzin"), ("Doxycyclin", "Doxyzyklin"),
+               ("Acetylsalicylsäure", "Azetylsalizylsäure"), ("Cephalgie", "Zephalgie"), ("Ibuprofen", "Ibu-Profen"),
+               ("Statin", "Statihn"), ("statin", "statihn"), ("Exanthem", "Exanthehm"), ("exanthem", "exanthehm"),
+               ("Levothyroxin", "Levothyroxihn"), ("Generik", "Geneerik"),
+               ("Spacer", "Speißer"), ("Teach-back", "Tietschbäck")],
         "tr": [("Prof. Dr.", "Profesör Doktor"), ("Dr.", "Doktor"), ("Prof.", "Profesör"), ("Bedenim M.", "Bedenim em."), ("Bu L beden", "Bu el beden")],
         "fa": []}
 
@@ -261,7 +273,7 @@ def main():
     for course, meta in COURSES.items():
         sup = meta["support"]
         offline = set(); levels = []
-        for lid in LEVELS:
+        for lid in meta.get("levels", LEVELS):   # a course may use only some levels (e.g. a special-purpose course)
             LEVEL = lid
             units = []
             for fn in sorted(glob.glob(os.path.join(CONTENT, course, lid, "u*.json"))):
@@ -273,13 +285,14 @@ def main():
                 files_in(u, offline)
                 units.append({"id": u["id"], "title": u["title"], "img": u.get("img"), "emoji": u.get("emoji"), "goals": u.get("goals", []),
                               "has": {k: bool(u.get(k)) for k in ("letters", "sounds", "words", "phrases", "dialogue", "grammar", "reading")}})
-            lv = {"id": lid, "name": LEVEL_NAME[sup][lid], "units": units}
+            lv = {"id": lid, "name": meta.get("level_names", {}).get(lid, LEVEL_NAME[sup][lid]), "units": units}
             if not units:
                 lv["outline"] = LEVEL_OUTLINE[sup].get(lid, "")
             levels.append(lv)
         offline.discard(None)
         json.dump(sorted(offline), open(os.path.join(DOCS, "data", course, "files.json"), "w"), indent=0)
-        index["courses"].append({"id": course, **{k: meta[k] for k in ("target", "support", "dir", "tdir", "name", "color")}, "levels": levels})
+        index["courses"].append({"id": course, **{k: meta[k] for k in ("target", "support", "dir", "tdir", "name", "color")},
+                                 **({"badge": meta["badge"], "about": meta.get("about")} if meta.get("badge") else {}), "levels": levels})
     json.dump(index, open(os.path.join(DOCS, "data", "courses.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(jobs, open(os.path.join(ROOT, "tools", "tts_jobs.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     n = sum(len(l["units"]) for c in index["courses"] for l in c["levels"])

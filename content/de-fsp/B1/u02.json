@@ -1,0 +1,743 @@
+{
+  "id": "u02",
+  "level": "B1",
+  "emoji": "💊",
+  "title": {
+    "t": "Tablette, Saft oder Salbe?",
+    "s": "Dosage forms"
+  },
+  "goals": [
+    "Name the common dosage forms and their everyday names",
+    "Talk about pack sizes and amounts (plurals, Milliliter, Milligramm)",
+    "Describe medicines with the right adjective endings",
+    "Help a customer choose a suitable dosage form for a child"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die Darreichungsform",
+      "pl": "die Darreichungsformen",
+      "s": "dosage form · Laie: die Form des Medikaments",
+      "emoji": "",
+      "ex": {
+        "t": "Ibuprofen gibt es in vielen Darreichungsformen.",
+        "s": "Ibuprofen comes in many dosage forms."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Filmtablette",
+      "pl": "die Filmtabletten",
+      "s": "film-coated tablet · Laie: die Tablette",
+      "emoji": "💊",
+      "ex": {
+        "t": "Die Filmtablette hat einen dünnen Überzug.",
+        "s": "The film-coated tablet has a thin coating."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "die Brausetablette",
+      "pl": "die Brausetabletten",
+      "s": "effervescent tablet · Laie: die Sprudeltablette",
+      "emoji": "",
+      "ex": {
+        "t": "Lösen Sie die Brausetablette in einem Glas Wasser auf.",
+        "s": "Dissolve the effervescent tablet in a glass of water."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "die Kapsel",
+      "pl": "die Kapseln",
+      "s": "capsule (technical: die Hartkapsel, die Weichkapsel)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Kapsel hat meistens eine Hülle aus Gelatine.",
+        "s": "The capsule usually has a gelatin shell."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "die Suspension",
+      "pl": "die Suspensionen",
+      "s": "suspension (a liquid with tiny solid particles; shake before use) · Laie: der Saft",
+      "emoji": "",
+      "ex": {
+        "t": "Eine Suspension müssen Sie vor Gebrauch schütteln.",
+        "s": "You have to shake a suspension before use."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "der Tropfen",
+      "pl": "die Tropfen",
+      "s": "drop; die Tropfen: drops (liquid medicine)",
+      "emoji": "💧",
+      "ex": {
+        "t": "Haben Sie auch Tropfen für die Augen?",
+        "s": "Do you also have drops for the eyes?"
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Salbe",
+      "pl": "die Salben",
+      "s": "ointment (greasy, stays on the skin longer)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Salbe ist fettig und gut für sehr trockene Haut.",
+        "s": "The ointment is greasy and good for very dry skin."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "die Creme",
+      "pl": "die Cremes",
+      "s": "cream (contains more water than an ointment)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Creme zieht schnell in die Haut ein.",
+        "s": "The cream is absorbed into the skin quickly."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "das Zäpfchen",
+      "pl": "die Zäpfchen",
+      "s": "suppository · Fach: das Suppositorium",
+      "emoji": "",
+      "ex": {
+        "t": "Für kleine Kinder gibt es Fieberzäpfchen.",
+        "s": "For small children there are fever suppositories."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "das Nasenspray",
+      "pl": "die Nasensprays",
+      "s": "nasal spray",
+      "emoji": "",
+      "ex": {
+        "t": "Das Nasenspray macht die Nase wieder frei.",
+        "s": "The nasal spray clears the nose again."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "das Pflaster",
+      "pl": "die Pflaster",
+      "s": "adhesive bandage; patch · Fach (patch with a drug): das transdermale Pflaster",
+      "emoji": "🩹",
+      "ex": {
+        "t": "Kleben Sie das Pflaster auf saubere, trockene Haut.",
+        "s": "Stick the patch on clean, dry skin."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "die Packung",
+      "pl": "die Packungen",
+      "s": "pack, box",
+      "emoji": "",
+      "ex": {
+        "t": "Die Packung enthält zwanzig Filmtabletten.",
+        "s": "The pack contains twenty film-coated tablets."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "die Tube",
+      "pl": "die Tuben",
+      "s": "tube (for ointments and creams)",
+      "emoji": "",
+      "ex": {
+        "t": "Ich hätte gern eine Tube Wundsalbe.",
+        "s": "I'd like a tube of wound ointment."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "die Flasche",
+      "pl": "die Flaschen",
+      "s": "bottle",
+      "emoji": "🧴",
+      "ex": {
+        "t": "In der Flasche sind hundert Milliliter Saft.",
+        "s": "There are a hundred milliliters of syrup in the bottle."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "flüssig",
+      "s": "liquid; opposite: fest (solid)",
+      "emoji": "",
+      "ex": {
+        "t": "Für Kinder ist ein flüssiges Medikament oft praktischer.",
+        "s": "For children, a liquid medicine is often more practical."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "der Messlöffel",
+      "pl": "die Messlöffel",
+      "s": "measuring spoon",
+      "emoji": "🥄",
+      "ex": {
+        "t": "Nehmen Sie bitte immer den Messlöffel aus der Packung.",
+        "s": "Please always use the measuring spoon from the pack."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "In welcher Form möchten Sie das Medikament?",
+      "s": "In which form would you like the medicine?"
+    },
+    {
+      "id": "p02",
+      "t": "Lieber als Tablette oder als Saft?",
+      "s": "Would you prefer it as a tablet or as a syrup?"
+    },
+    {
+      "id": "p03",
+      "t": "Können Sie Tabletten gut schlucken?",
+      "s": "Can you swallow tablets easily?"
+    },
+    {
+      "id": "p04",
+      "t": "Das gibt es auch als Brausetablette.",
+      "s": "It also comes as an effervescent tablet."
+    },
+    {
+      "id": "p05",
+      "t": "Vor Gebrauch schütteln.",
+      "s": "Shake before use."
+    },
+    {
+      "id": "p06",
+      "t": "Nur zur äußerlichen Anwendung.",
+      "s": "For external use only."
+    },
+    {
+      "id": "p07",
+      "t": "Eine Packung mit zwanzig Stück, bitte.",
+      "s": "A pack of twenty, please."
+    },
+    {
+      "id": "p08",
+      "t": "Die große Packung ist günstiger.",
+      "s": "The large pack is cheaper."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Ein Fiebersaft für Ben",
+      "s": "A fever syrup for Ben"
+    },
+    "speakers": {
+      "A": {
+        "name": "Frau M.",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Herr Ahmadi",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "B",
+        "t": "Guten Tag! Was kann ich für Sie tun?",
+        "s": "Hello! How can I help you?"
+      },
+      {
+        "sp": "A",
+        "t": "Guten Tag. Mein Sohn Ben hat seit gestern Fieber. Er ist vier Jahre alt.",
+        "s": "Hello. My son Ben has had a fever since yesterday. He's four years old."
+      },
+      {
+        "sp": "B",
+        "t": "Oh, der Arme. Kann Ben schon Tabletten schlucken?",
+        "s": "Oh, poor thing. Can Ben swallow tablets yet?"
+      },
+      {
+        "sp": "A",
+        "t": "Nein, Tabletten mag er nicht. Er spuckt sie immer wieder aus.",
+        "s": "No, he doesn't like tablets. He keeps spitting them out."
+      },
+      {
+        "sp": "B",
+        "t": "Dann empfehle ich ein flüssiges Medikament, zum Beispiel einen Fiebersaft mit Paracetamol. Es gibt aber auch Zäpfchen.",
+        "s": "Then I recommend a liquid medicine, for example a fever syrup with paracetamol. But there are also suppositories."
+      },
+      {
+        "sp": "A",
+        "t": "Lieber den Saft. Wie viel darf ich ihm geben?",
+        "s": "The syrup, please. How much may I give him?"
+      },
+      {
+        "sp": "B",
+        "t": "Das hängt vom Gewicht ab. Wie schwer ist Ben?",
+        "s": "That depends on his weight. How much does Ben weigh?"
+      },
+      {
+        "sp": "A",
+        "t": "Ungefähr sechzehn Kilo.",
+        "s": "About sixteen kilos."
+      },
+      {
+        "sp": "B",
+        "t": "Gut, ich schreibe Ihnen die Dosis auf die Packung. Nehmen Sie zum Abmessen bitte nur die Dosierhilfe aus der Packung, keinen Teelöffel.",
+        "s": "Good, I'll write the dose on the pack for you. To measure it, please only use the dosing aid from the pack, not a teaspoon."
+      },
+      {
+        "sp": "A",
+        "t": "Und wie lange darf ich ihm den Saft geben?",
+        "s": "And how long may I give him the syrup?"
+      },
+      {
+        "sp": "B",
+        "t": "Ohne Arzt höchstens drei Tage. Wenn das Fieber nicht besser wird, gehen Sie bitte mit Ben zum Kinderarzt.",
+        "s": "Without a doctor, three days at most. If the fever doesn't get better, please take Ben to the pediatrician."
+      },
+      {
+        "sp": "A",
+        "t": "Gut, vielen Dank! Auf Wiedersehen.",
+        "s": "Okay, thank you very much! Goodbye."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "eine Packung mit zwanzig Tabletten",
+        "s": "Plurals and amounts"
+      },
+      "explain": "Dosage forms have different **plural endings** – learn every noun with its article and plural.\n**-n / -en**: die Tablette → die Tablette**n**, die Kapsel → die Kapsel**n**, die Salbe → die Salbe**n**, die Suspension → die Suspension**en**.\n**no ending**: das Zäpfchen → die Zäpfchen, das Pflaster → die Pflaster, der Tropfen → die Tropfen (nouns ending in -chen, -er and -en often stay the same).\n**-s**: die Creme → die Creme**s**, das Spray → die Spray**s**.\nIn the **dative plural** (for example after **mit**) a noun gets an extra **-n** – unless the plural already ends in -n or -s: zehn Pflaster → eine Packung mit zehn Pflaster**n**; but no change in: mit zwanzig Tabletten, mit zehn Zäpfchen, mit zwei Cremes.\n**Units** stay in the singular after a number: hundert **Milliliter**, vierhundert **Milligramm**, fünfzig **Gramm**, zwanzig **Stück**.\nAfter a container word the content follows directly, without a word for *of*: eine Flasche **Saft**, eine Tube **Salbe**, eine Packung **Tabletten**.",
+      "table": [
+        [
+          "die Tablette",
+          "die Tabletten",
+          "eine Packung mit zwanzig Tabletten"
+        ],
+        [
+          "die Kapsel",
+          "die Kapseln",
+          "eine Dose mit fünfzig Kapseln"
+        ],
+        [
+          "das Zäpfchen",
+          "die Zäpfchen",
+          "eine Packung mit zehn Zäpfchen"
+        ],
+        [
+          "das Pflaster",
+          "die Pflaster",
+          "eine Packung mit fünf Pflastern"
+        ],
+        [
+          "die Creme",
+          "die Cremes",
+          "eine Tube mit fünfzig Gramm Creme"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich hätte gern eine Packung mit zwanzig Tabletten.",
+          "s": "I'd like a pack of twenty tablets."
+        },
+        {
+          "t": "In der Flasche sind hundert Milliliter Saft.",
+          "s": "There are a hundred milliliters of syrup in the bottle."
+        },
+        {
+          "t": "Eine Filmtablette enthält vierhundert Milligramm Ibuprofen.",
+          "s": "One film-coated tablet contains four hundred milligrams of ibuprofen."
+        },
+        {
+          "t": "Brauchen Sie eine Tube Salbe oder zwei Tuben?",
+          "s": "Do you need one tube of ointment or two tubes?"
+        },
+        {
+          "t": "Die Zäpfchen gibt es in einer Packung mit zehn Stück.",
+          "s": "The suppositories come in a pack of ten."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Eine Packung mit zwanzig ___, bitte.",
+          "options": [
+            "Tabletten",
+            "Tablette",
+            "Tablettes"
+          ],
+          "answer": 0,
+          "s": "A pack of twenty tablets, please."
+        },
+        {
+          "type": "choice",
+          "t": "In der Flasche sind hundert ___ Saft.",
+          "options": [
+            "Milliliter",
+            "Millilitern",
+            "Milliliters"
+          ],
+          "answer": 0,
+          "s": "There are a hundred milliliters of syrup in the bottle."
+        },
+        {
+          "type": "choice",
+          "t": "Ich hätte gern eine ___ Salbe.",
+          "options": [
+            "Tube",
+            "Tuben",
+            "Tubes"
+          ],
+          "answer": 0,
+          "s": "I'd like a tube of ointment."
+        },
+        {
+          "type": "type",
+          "t": "Ich brauche eine Packung mit zehn ___.",
+          "answer": [
+            "Pflastern"
+          ],
+          "s": "I need a pack of ten patches. (das Pflaster)"
+        },
+        {
+          "type": "type",
+          "t": "Die Packung enthält dreißig ___.",
+          "answer": [
+            "Kapseln"
+          ],
+          "s": "The pack contains thirty capsules. (die Kapsel)"
+        },
+        {
+          "type": "type",
+          "t": "Eine Filmtablette enthält vierhundert ___ Ibuprofen.",
+          "answer": [
+            "Milligramm"
+          ],
+          "s": "One film-coated tablet contains four hundred milligrams of ibuprofen."
+        },
+        {
+          "type": "type",
+          "t": "Das Suppositorium heißt in Laiensprache ___.",
+          "answer": [
+            "Zäpfchen",
+            "Zaepfchen",
+            "das Zäpfchen",
+            "das Zaepfchen"
+          ],
+          "s": "In plain German, a Suppositorium is called a Zäpfchen (suppository)."
+        },
+        {
+          "type": "order",
+          "t": "Ich hätte gern eine Packung mit zwanzig Tabletten.",
+          "s": "I'd like a pack of twenty tablets.",
+          "alts": [
+            "Eine Packung mit zwanzig Tabletten hätte ich gern.",
+            "Gern hätte ich eine Packung mit zwanzig Tabletten.",
+            "Ich hätte eine Packung mit zwanzig Tabletten gern."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "eine kühlende Salbe, ein flüssiges Arzneimittel",
+        "s": "Adjective endings with dosage forms"
+      },
+      "explain": "Pharmacy German is full of adjectives: **kühlend** (cooling), **fiebersenkend** (fever-reducing), **abschwellend** (decongestant), **flüssig** (liquid), **wasserfest** (waterproof). Before a noun they need an **ending**. The table shows the most common patterns: nominative – accusative – dative.\nAfter **ein / kein / mein**: when the article doesn't show the gender, the adjective does: ein flüssig**er** Saft (der), ein flüssig**es** Arzneimittel (das). After **eine** the ending is **-e**: eine kühlend**e** Salbe.\n**Accusative**: only the masculine changes: einen fiebersenkend**en** Saft. Feminine and neuter look like the nominative.\n**Dative** (after mit, in, von …): always **-en**: mit einem kühlend**en** Gel, mit einer kühlend**en** Salbe.\nAfter **der / die / das**: **-e** in the nominative singular (der groß**e** Saft), **-en** in the plural (die groß**en** Tabletten).\nWords like **kühlend** (verb + -d) take the same endings as normal adjectives.",
+      "table": [
+        [
+          "ein fiebersenkender Saft",
+          "einen fiebersenkenden Saft",
+          "mit einem fiebersenkenden Saft"
+        ],
+        [
+          "eine kühlende Salbe",
+          "eine kühlende Salbe",
+          "mit einer kühlenden Salbe"
+        ],
+        [
+          "ein flüssiges Arzneimittel",
+          "ein flüssiges Arzneimittel",
+          "mit einem flüssigen Arzneimittel"
+        ],
+        [
+          "die großen Tabletten",
+          "die großen Tabletten",
+          "mit den großen Tabletten"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Für den Insektenstich empfehle ich Ihnen ein kühlendes Gel.",
+          "s": "For the insect bite I recommend a cooling gel."
+        },
+        {
+          "t": "Für Kinder gibt es auch ein flüssiges Arzneimittel.",
+          "s": "For children there is also a liquid medicine."
+        },
+        {
+          "t": "Haben Sie ein abschwellendes Nasenspray?",
+          "s": "Do you have a decongestant nasal spray?"
+        },
+        {
+          "t": "Ben bekommt einen fiebersenkenden Saft.",
+          "s": "Ben is getting a fever-reducing syrup."
+        },
+        {
+          "t": "Die großen Tabletten kann ich schlecht schlucken.",
+          "s": "I find the big tablets hard to swallow."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich suche ein ___ Nasenspray.",
+          "options": [
+            "abschwellendes",
+            "abschwellender",
+            "abschwellende"
+          ],
+          "answer": 0,
+          "s": "I'm looking for a decongestant nasal spray."
+        },
+        {
+          "type": "choice",
+          "t": "Ich empfehle Ihnen eine ___ Salbe.",
+          "options": [
+            "kühlende",
+            "kühlenden",
+            "kühlender"
+          ],
+          "answer": 0,
+          "s": "I recommend a cooling ointment."
+        },
+        {
+          "type": "choice",
+          "t": "Haben Sie auch einen ___ Saft für Kinder?",
+          "options": [
+            "fiebersenkenden",
+            "fiebersenkender",
+            "fiebersenkendes"
+          ],
+          "answer": 0,
+          "s": "Do you also have a fever-reducing syrup for children?"
+        },
+        {
+          "type": "type",
+          "t": "Kinder nehmen oft lieber ein ___ Medikament.",
+          "answer": [
+            "flüssiges",
+            "fluessiges"
+          ],
+          "s": "Children often prefer a liquid medicine. (flüssig)"
+        },
+        {
+          "type": "type",
+          "t": "Die ___ Tabletten kann ich nicht gut schlucken.",
+          "answer": [
+            "großen",
+            "grossen"
+          ],
+          "s": "I can't swallow the big tablets easily. (groß)"
+        },
+        {
+          "type": "type",
+          "t": "Kühlen Sie die Stelle mit einem ___ Gel.",
+          "answer": [
+            "kühlenden",
+            "kuehlenden"
+          ],
+          "s": "Cool the spot with a cooling gel. (kühlend)"
+        },
+        {
+          "type": "choice",
+          "t": "Zum Schwimmen brauchen Sie ein ___ Pflaster.",
+          "options": [
+            "wasserfestes",
+            "wasserfester",
+            "wasserfesten"
+          ],
+          "answer": 0,
+          "s": "For swimming you need a waterproof bandage."
+        },
+        {
+          "type": "order",
+          "t": "Ich empfehle Ihnen ein flüssiges Arzneimittel.",
+          "s": "I recommend a liquid medicine.",
+          "alts": [
+            "Ein flüssiges Arzneimittel empfehle ich Ihnen.",
+            "Ihnen empfehle ich ein flüssiges Arzneimittel."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Welche Darreichungsform passt?",
+      "s": "Which dosage form is right?"
+    },
+    "text": [
+      {
+        "t": "Viele Wirkstoffe gibt es in verschiedenen Darreichungsformen.",
+        "s": "Many active ingredients come in different dosage forms."
+      },
+      {
+        "t": "Filmtabletten haben einen dünnen Überzug, deshalb kann man sie leichter schlucken.",
+        "s": "Film-coated tablets have a thin coating, so they are easier to swallow."
+      },
+      {
+        "t": "Eine Brausetablette löst man in einem Glas Wasser auf und trinkt sie dann.",
+        "s": "You dissolve an effervescent tablet in a glass of water and then drink it."
+      },
+      {
+        "t": "Für kleine Kinder ist ein flüssiges Arzneimittel oft besser, zum Beispiel ein Saft oder Tropfen.",
+        "s": "For small children a liquid medicine is often better, for example a syrup or drops."
+      },
+      {
+        "t": "Eine Suspension muss man vor jedem Gebrauch gut schütteln.",
+        "s": "You have to shake a suspension well before each use."
+      },
+      {
+        "t": "Zäpfchen sind praktisch, wenn ein Kind nichts schlucken will.",
+        "s": "Suppositories are practical when a child won't swallow anything."
+      },
+      {
+        "t": "Salben sind fettig, Cremes enthalten mehr Wasser und ziehen schneller in die Haut ein.",
+        "s": "Ointments are greasy; creams contain more water and are absorbed into the skin faster."
+      },
+      {
+        "t": "Ein abschwellendes Nasenspray soll man ohne ärztlichen Rat nicht länger als sieben Tage benutzen.",
+        "s": "Without medical advice, you shouldn't use a decongestant nasal spray for longer than seven days."
+      },
+      {
+        "t": "Bei einem Wirkstoffpflaster geht der Wirkstoff langsam durch die Haut in den Körper.",
+        "s": "With a medicated patch, the active ingredient slowly passes through the skin into the body."
+      },
+      {
+        "t": "Fragen Sie in der Apotheke: Welche Darreichungsform ist für Sie am besten?",
+        "s": "Ask at the pharmacy: which dosage form is best for you?"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Was muss man mit einer Suspension vor dem Gebrauch machen?",
+          "s": "What do you have to do with a suspension before use?"
+        },
+        "options": [
+          "gut schütteln",
+          "in den Kühlschrank stellen",
+          "in Wasser auflösen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was macht man mit einer Brausetablette?",
+          "s": "What do you do with an effervescent tablet?"
+        },
+        "options": [
+          "Man löst sie in Wasser auf.",
+          "Man klebt sie auf die Haut.",
+          "Man kaut sie lange."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was enthält eine Creme?",
+          "s": "What does a cream contain?"
+        },
+        "options": [
+          "mehr Wasser als eine Salbe",
+          "mehr Fett als eine Salbe",
+          "viel Zucker"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie lange soll man ein abschwellendes Nasenspray ohne ärztlichen Rat höchstens benutzen?",
+          "s": "For how long at most should you use a decongestant nasal spray without medical advice?"
+        },
+        "options": [
+          "sieben Tage",
+          "drei Wochen",
+          "einen Monat"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie kommt der Wirkstoff aus einem Pflaster in den Körper?",
+          "s": "How does the active ingredient get from a patch into the body?"
+        },
+        "options": [
+          "langsam durch die Haut",
+          "schnell durch den Mund",
+          "durch die Nase"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Möchten Sie das Medikament als Tablette oder als Saft?",
+      "s": "Would you like the medicine as a tablet or as a syrup?"
+    },
+    {
+      "t": "Eine Packung mit zwanzig Filmtabletten, bitte.",
+      "s": "A pack of twenty film-coated tablets, please."
+    },
+    {
+      "t": "Schütteln Sie die Suspension vor jedem Gebrauch.",
+      "s": "Shake the suspension before each use.",
+      "alts": [
+        "Schütteln Sie vor jedem Gebrauch die Suspension."
+      ]
+    },
+    {
+      "t": "Die Creme ist nur für die Haut.",
+      "s": "The cream is only for the skin."
+    },
+    {
+      "t": "Für Ben gibt es auch Zäpfchen.",
+      "s": "There are also suppositories for Ben.",
+      "alts": [
+        "Es gibt für Ben auch Zäpfchen.",
+        "Es gibt auch Zäpfchen für Ben."
+      ]
+    },
+    {
+      "t": "Die Flasche enthält hundert Milliliter.",
+      "s": "The bottle contains a hundred milliliters.",
+      "alts": [
+        "Hundert Milliliter enthält die Flasche."
+      ]
+    },
+    {
+      "t": "Ich empfehle Ihnen ein abschwellendes Nasenspray.",
+      "s": "I recommend a decongestant nasal spray.",
+      "alts": [
+        "Ein abschwellendes Nasenspray empfehle ich Ihnen.",
+        "Ihnen empfehle ich ein abschwellendes Nasenspray."
+      ]
+    },
+    {
+      "t": "Die Salbe ist fettiger als die Creme.",
+      "s": "The ointment is greasier than the cream."
+    }
+  ]
+}

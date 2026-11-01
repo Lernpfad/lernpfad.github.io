@@ -1,0 +1,716 @@
+{
+  "id": "u02",
+  "level": "C1",
+  "emoji": "💬",
+  "title": {
+    "t": "Beratungsgespräch II: empfehlen und erklären",
+    "s": "Counseling conversation II: recommending and explaining"
+  },
+  "goals": [
+    "Recommend a medicine politely and explain how to use it (dose, interval, what to avoid)",
+    "Name the limits of self-medication and the warning signs that need a doctor",
+    "Check understanding with teach-back and close the conversation",
+    "Use Konjunktiv II for advice and the connectors falls, sofern, solange and auch wenn"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "eine Empfehlung aussprechen",
+      "s": "to make a recommendation",
+      "emoji": "",
+      "ex": {
+        "t": "Erst nach den Fragen zu den Risiken spreche ich eine Empfehlung aus.",
+        "s": "Only after the questions about risks do I make a recommendation."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "jemandem von etwas abraten",
+      "s": "to advise someone against something",
+      "emoji": "",
+      "ex": {
+        "t": "Bei Magenproblemen rate ich Ihnen von diesem Schmerzmittel ab.",
+        "s": "If you have stomach problems, I advise you against this painkiller."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "das Präparat",
+      "pl": "die Präparate",
+      "s": "preparation, medicinal product · Laie: das Mittel",
+      "emoji": "💊",
+      "ex": {
+        "t": "Welches Präparat hat Ihnen bisher am besten geholfen?",
+        "s": "Which product has helped you most so far?"
+      }
+    },
+    {
+      "id": "w04",
+      "t": "das Kombinationspräparat",
+      "pl": "die Kombinationspräparate",
+      "s": "combination product · Laie: ein Mittel mit mehreren Wirkstoffen",
+      "emoji": "",
+      "ex": {
+        "t": "Manche Grippemittel sind Kombinationspräparate, die auch Paracetamol enthalten.",
+        "s": "Some cold and flu remedies are combination products that also contain paracetamol."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "die Einzeldosis",
+      "pl": "die Einzeldosen",
+      "s": "single dose · Laie: die Menge für eine Einnahme",
+      "emoji": "",
+      "ex": {
+        "t": "Bitte überschreiten Sie die angegebene Einzeldosis nicht.",
+        "s": "Please do not exceed the stated single dose."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "das Dosierungsintervall",
+      "pl": "die Dosierungsintervalle",
+      "s": "dosing interval · Laie: der Abstand zwischen zwei Einnahmen",
+      "emoji": "⏱️",
+      "ex": {
+        "t": "Das Dosierungsintervall steht in der Packungsbeilage.",
+        "s": "The dosing interval is given in the package leaflet."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Anwendungsdauer",
+      "s": "duration of use · Laie: wie lange man das Mittel nehmen darf",
+      "emoji": "📅",
+      "ex": {
+        "t": "Ohne ärztlichen Rat ist die Anwendungsdauer bei vielen Schmerzmitteln begrenzt.",
+        "s": "Without medical advice, the duration of use is limited for many painkillers."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "der grippale Infekt",
+      "pl": "die grippalen Infekte",
+      "s": "common cold, flu-like infection · Laie: die Erkältung",
+      "emoji": "🤧",
+      "ex": {
+        "t": "Ein grippaler Infekt wird durch Viren ausgelöst.",
+        "s": "A flu-like infection is caused by viruses."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "lindern",
+      "s": "to relieve, to ease",
+      "emoji": "",
+      "ex": {
+        "t": "Das Mittel lindert die Schmerzen, beseitigt aber nicht die Ursache.",
+        "s": "The medicine relieves the pain but doesn't remove the cause."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "sich schonen",
+      "s": "to take it easy, to rest",
+      "emoji": "🛌",
+      "ex": {
+        "t": "Solange Sie Fieber haben, sollten Sie sich schonen.",
+        "s": "As long as you have a fever, you should take it easy."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "das Warnzeichen",
+      "pl": "die Warnzeichen",
+      "s": "warning sign, red flag",
+      "emoji": "🚩",
+      "ex": {
+        "t": "Atemnot ist ein Warnzeichen, bei dem man sofort ärztliche Hilfe braucht.",
+        "s": "Shortness of breath is a warning sign that needs medical help immediately."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "die ärztliche Abklärung",
+      "pl": "die ärztlichen Abklärungen",
+      "s": "medical assessment · Laie: die Untersuchung beim Arzt",
+      "emoji": "🩺",
+      "ex": {
+        "t": "Blut im Stuhl erfordert immer eine ärztliche Abklärung.",
+        "s": "Blood in the stool always requires a medical assessment."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "jemanden an einen Arzt verweisen",
+      "s": "to refer someone to a doctor",
+      "emoji": "",
+      "ex": {
+        "t": "Bei Warnzeichen verweise ich die Kundin an einen Arzt.",
+        "s": "If there are warning signs, I refer the customer to a doctor."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "anhalten",
+      "s": "to persist, to continue (symptoms)",
+      "emoji": "",
+      "ex": {
+        "t": "Wenn die Beschwerden länger als drei Tage anhalten, gehen Sie bitte zum Arzt.",
+        "s": "If the symptoms persist for more than three days, please see a doctor."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "das Verständnis sichern",
+      "s": "to check understanding",
+      "emoji": "",
+      "ex": {
+        "t": "Am Ende des Gesprächs sichere ich das Verständnis mit einer kurzen Frage.",
+        "s": "At the end of the conversation, I check understanding with a short question."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Ich würde Ihnen … empfehlen.",
+      "s": "I would recommend … to you."
+    },
+    {
+      "id": "p02",
+      "t": "Davon würde ich Ihnen eher abraten, weil …",
+      "s": "I would advise you against that, because …"
+    },
+    {
+      "id": "p03",
+      "t": "Es wäre besser, wenn Sie …",
+      "s": "It would be better if you …"
+    },
+    {
+      "id": "p04",
+      "t": "Am besten nehmen Sie die Tabletten nach dem Essen mit einem Glas Wasser ein.",
+      "s": "It's best to take the tablets after a meal with a glass of water."
+    },
+    {
+      "id": "p05",
+      "t": "Wenn es nach drei Tagen nicht besser wird, gehen Sie bitte zum Arzt.",
+      "s": "If it isn't better after three days, please see a doctor."
+    },
+    {
+      "id": "p06",
+      "t": "Haben Sie dazu noch Fragen?",
+      "s": "Do you have any more questions about it?"
+    },
+    {
+      "id": "p07",
+      "t": "Können Sie mir kurz sagen, wie Sie das Medikament einnehmen?",
+      "s": "Can you tell me briefly how you will take the medicine?"
+    },
+    {
+      "id": "p08",
+      "t": "Ich fasse noch einmal zusammen: …",
+      "s": "Let me summarize: …"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Paracetamol bei Fieber",
+      "s": "Paracetamol for a fever"
+    },
+    "speakers": {
+      "A": {
+        "name": "Frau Ahmadi",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Herr Klein",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "B",
+        "t": "Was würden Sie mir denn gegen das Fieber und die Gliederschmerzen empfehlen?",
+        "s": "So what would you recommend for the fever and the aching limbs?"
+      },
+      {
+        "sp": "A",
+        "t": "Nach allem, was Sie mir erzählt haben, würde ich Ihnen Paracetamol fünfhundert Milligramm empfehlen. Es senkt das Fieber und lindert die Schmerzen.",
+        "s": "From everything you've told me, I would recommend paracetamol 500 milligrams. It lowers the fever and relieves the pain."
+      },
+      {
+        "sp": "B",
+        "t": "Und wie viele Tabletten darf ich nehmen?",
+        "s": "And how many tablets may I take?"
+      },
+      {
+        "sp": "A",
+        "t": "Als Erwachsener nehmen Sie bei Bedarf ein bis zwei Tabletten mit einem Glas Wasser. Zwischen zwei Einnahmen sollten mindestens sechs Stunden liegen, und mehr als acht Tabletten am Tag dürfen es auf keinen Fall sein.",
+        "s": "As an adult, you take one to two tablets as needed with a glass of water. There should be at least six hours between two doses, and under no circumstances more than eight tablets a day."
+      },
+      {
+        "sp": "B",
+        "t": "Ich habe zu Hause noch ein Grippepulver. Kann ich das zusätzlich nehmen?",
+        "s": "I still have a cold and flu powder at home. Can I take that as well?"
+      },
+      {
+        "sp": "A",
+        "t": "Davon würde ich Ihnen abraten, weil viele Grippemittel ebenfalls Paracetamol enthalten. So könnten Sie leicht zu viel Paracetamol einnehmen. Und bitte trinken Sie in dieser Zeit keinen Alkohol, sonst wird die Leber zu stark belastet.",
+        "s": "I'd advise you against that, because many cold and flu remedies also contain paracetamol. That way you could easily take too much paracetamol. And please don't drink alcohol during this time, otherwise your liver is put under too much strain."
+      },
+      {
+        "sp": "B",
+        "t": "Gut zu wissen. Wann sollte ich lieber zum Arzt gehen?",
+        "s": "Good to know. When would it be better to see a doctor?"
+      },
+      {
+        "sp": "A",
+        "t": "Falls das Fieber nach drei Tagen nicht zurückgeht oder Atemnot dazukommt, gehen Sie bitte zum Arzt. Solange Sie Fieber haben, sollten Sie sich schonen und viel trinken.",
+        "s": "If the fever hasn't gone down after three days or you get short of breath, please see a doctor. As long as you have a fever, you should rest and drink plenty."
+      },
+      {
+        "sp": "B",
+        "t": "Alles klar. Ich glaube, ich habe alles verstanden.",
+        "s": "All right. I think I've understood everything."
+      },
+      {
+        "sp": "A",
+        "t": "Damit ich ganz sicher bin: Könnten Sie mir kurz sagen, wie Sie die Tabletten einnehmen?",
+        "s": "Just so I'm sure: could you tell me briefly how you will take the tablets?"
+      },
+      {
+        "sp": "B",
+        "t": "Ein bis zwei Tabletten, mindestens sechs Stunden Abstand, höchstens acht am Tag, dazu kein Grippepulver und kein Alkohol.",
+        "s": "One to two tablets, at least six hours apart, no more than eight a day, and no flu powder or alcohol on top."
+      },
+      {
+        "sp": "A",
+        "t": "Genau so. Ich wünsche Ihnen gute Besserung und auf Wiedersehen!",
+        "s": "Exactly. I wish you a speedy recovery – goodbye!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Ich würde Ihnen … empfehlen.",
+        "s": "Konjunktiv II for recommendations"
+      },
+      "explain": "For recommendations, the **Konjunktiv II** sounds polite and professional; the plain indicative can sound blunt.\nMost verbs use **würde + infinitive**: Ich **würde** Ihnen ein Wärmepflaster **empfehlen**. With **sein**, **haben** and the modal verbs, use the short forms: **wäre, hätte, könnte, sollte, müsste, dürfte**.\nTypical frames: **Ich würde Ihnen … empfehlen.** · **Es wäre besser, wenn Sie …** · **An Ihrer Stelle würde ich …** · **Ich würde Ihnen raten, … zu …** · **Davon würde ich Ihnen abraten.**\n**Sie sollten …** (Konjunktiv II of sollen) gives clear advice without sounding like an order; it is softer than **Sie müssen …**.",
+      "table": [
+        [
+          "empfehlen",
+          "Ich würde Ihnen … empfehlen."
+        ],
+        [
+          "sein",
+          "Es wäre besser, wenn Sie …"
+        ],
+        [
+          "sollen",
+          "Sie sollten …"
+        ],
+        [
+          "haben",
+          "Hätten Sie …?"
+        ],
+        [
+          "können",
+          "Sie könnten auch …"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich würde Ihnen ein Schmerzgel zum Auftragen empfehlen.",
+          "s": "I would recommend a pain gel that you apply to the skin."
+        },
+        {
+          "t": "Es wäre besser, wenn Sie die Tabletten nach dem Essen einnehmen.",
+          "s": "It would be better if you took the tablets after a meal."
+        },
+        {
+          "t": "An Ihrer Stelle würde ich mit diesen Beschwerden zum Arzt gehen.",
+          "s": "If I were you, I would see a doctor with these symptoms."
+        },
+        {
+          "t": "Sie sollten in dieser Zeit keinen Alkohol trinken.",
+          "s": "You shouldn't drink alcohol during this time."
+        },
+        {
+          "t": "Davon würde ich Ihnen abraten, weil Sie schon einen Blutverdünner nehmen.",
+          "s": "I would advise you against that, because you already take a blood thinner."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich ___ Ihnen ein Wärmepflaster empfehlen.",
+          "options": [
+            "würde",
+            "wäre",
+            "hätte"
+          ],
+          "answer": 0,
+          "s": "I would recommend a heat patch to you."
+        },
+        {
+          "type": "choice",
+          "t": "Es ___ besser, wenn Sie die Tabletten nach dem Essen einnehmen.",
+          "options": [
+            "wäre",
+            "würde",
+            "hätte"
+          ],
+          "answer": 0,
+          "s": "It would be better if you took the tablets after a meal."
+        },
+        {
+          "type": "type",
+          "t": "An Ihrer Stelle ___ ich mit diesen Beschwerden zum Arzt gehen.",
+          "answer": [
+            "würde",
+            "wuerde"
+          ],
+          "s": "If I were you, I would see a doctor with these symptoms."
+        },
+        {
+          "type": "choice",
+          "t": "Sie ___ die angegebene Tageshöchstdosis nicht überschreiten.",
+          "options": [
+            "sollten",
+            "hätten",
+            "wären"
+          ],
+          "answer": 0,
+          "s": "You should not exceed the stated maximum daily dose."
+        },
+        {
+          "type": "choice",
+          "t": "Ich würde Ihnen raten, viel ___ trinken.",
+          "options": [
+            "zu",
+            "um",
+            "für"
+          ],
+          "answer": 0,
+          "s": "I would advise you to drink plenty."
+        },
+        {
+          "type": "type",
+          "t": "___ Sie vielleicht ein Fieberthermometer zu Hause?",
+          "answer": [
+            "Hätten",
+            "Haetten",
+            "Haben"
+          ],
+          "s": "Would you have a fever thermometer at home, perhaps?"
+        },
+        {
+          "type": "order",
+          "t": "Ich würde Ihnen ein Nasenspray empfehlen.",
+          "s": "I would recommend a nasal spray to you.",
+          "alts": [
+            "Ein Nasenspray würde ich Ihnen empfehlen.",
+            "Ihnen würde ich ein Nasenspray empfehlen.",
+            "Empfehlen würde ich Ihnen ein Nasenspray."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Davon würde ich Ihnen abraten.",
+          "s": "I would advise you against that.",
+          "alts": [
+            "Ich würde Ihnen davon abraten.",
+            "Ihnen würde ich davon abraten."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "falls, sofern, solange, auch wenn",
+        "s": "Conditional and concessive clauses"
+      },
+      "explain": "These connectors make your advice conditional – essential for naming the limits of self-medication. All of them send the verb to the **end** of their clause.\n**falls** = in case, if: **Falls** das Fieber nicht sinkt, gehen Sie zum Arzt. (Like wenn, but it stresses that it may or may not happen.)\n**sofern** = provided that (formal): Das Gel ist geeignet, **sofern** Sie es nur auf unverletzte Haut auftragen.\n**solange** = as long as: **Solange** Sie Fieber haben, schonen Sie sich bitte.\n**auch wenn** / **selbst wenn** = even if (concessive): Nehmen Sie das Antibiotikum weiter, **auch wenn** es Ihnen besser geht.\nIf the subordinate clause comes first, the main clause starts with the verb: Falls Atemnot auftritt, **rufen Sie** sofort den Notruf an.",
+      "table": [
+        [
+          "falls",
+          "Falls die Schmerzen stärker werden, kommen Sie bitte wieder."
+        ],
+        [
+          "sofern",
+          "Das Gel ist geeignet, sofern die Haut unverletzt ist."
+        ],
+        [
+          "solange",
+          "Solange Sie Fieber haben, schonen Sie sich bitte."
+        ],
+        [
+          "auch wenn",
+          "Nehmen Sie es weiter, auch wenn es Ihnen besser geht."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Falls die Beschwerden länger als drei Tage anhalten, gehen Sie bitte zum Arzt.",
+          "s": "If the symptoms last longer than three days, please see a doctor."
+        },
+        {
+          "t": "Das Schmerzgel ist eine gute Wahl, sofern Sie es nur auf unverletzte Haut auftragen.",
+          "s": "The pain gel is a good choice, provided you only apply it to unbroken skin."
+        },
+        {
+          "t": "Solange Sie Fieber haben, sollten Sie viel trinken und sich schonen.",
+          "s": "As long as you have a fever, you should drink plenty and rest."
+        },
+        {
+          "t": "Nehmen Sie das Antibiotikum wie verordnet weiter, auch wenn es Ihnen schon besser geht.",
+          "s": "Keep taking the antibiotic as prescribed, even if you already feel better."
+        },
+        {
+          "t": "Falls plötzlich Atemnot auftritt, rufen Sie sofort den Notruf an.",
+          "s": "If you suddenly get short of breath, call the emergency number immediately."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ das Fieber nach drei Tagen nicht sinkt, gehen Sie bitte zum Arzt.",
+          "options": [
+            "Falls",
+            "Obwohl",
+            "Solange"
+          ],
+          "answer": 0,
+          "s": "If the fever hasn't gone down after three days, please see a doctor."
+        },
+        {
+          "type": "choice",
+          "t": "___ Sie Fieber haben, sollten Sie sich schonen.",
+          "options": [
+            "Solange",
+            "Obwohl",
+            "Auch wenn"
+          ],
+          "answer": 0,
+          "s": "As long as you have a fever, you should take it easy."
+        },
+        {
+          "type": "choice",
+          "t": "Nehmen Sie das Antibiotikum weiter, ___ es Ihnen schon besser geht.",
+          "options": [
+            "auch wenn",
+            "falls",
+            "sofern"
+          ],
+          "answer": 0,
+          "s": "Keep taking the antibiotic, even if you already feel better."
+        },
+        {
+          "type": "choice",
+          "t": "Falls die Schmerzen stärker ___, kommen Sie bitte wieder.",
+          "options": [
+            "werden",
+            "wird",
+            "worden"
+          ],
+          "answer": 0,
+          "s": "If the pain gets worse, please come back."
+        },
+        {
+          "type": "choice",
+          "t": "Falls plötzlich Atemnot auftritt, ___ sofort den Notruf.",
+          "options": [
+            "wählen Sie",
+            "Sie wählen",
+            "Sie wählten"
+          ],
+          "answer": 0,
+          "s": "If you suddenly get short of breath, dial the emergency number immediately."
+        },
+        {
+          "type": "type",
+          "t": "Auch ___ es Ihnen besser geht, brechen Sie die Therapie bitte nicht eigenmächtig ab.",
+          "answer": [
+            "wenn"
+          ],
+          "s": "Even if you feel better, please don't stop the therapy on your own."
+        },
+        {
+          "type": "type",
+          "t": "Das Schmerzgel ist eine gute Wahl, ___ Sie es nur auf unverletzte Haut auftragen.",
+          "answer": [
+            "sofern",
+            "solange",
+            "wenn",
+            "falls"
+          ],
+          "s": "The pain gel is a good choice, provided you only apply it to unbroken skin."
+        },
+        {
+          "type": "order",
+          "t": "Falls es nicht besser wird, kommen Sie wieder.",
+          "s": "If it doesn't get better, come back.",
+          "alts": [
+            "Kommen Sie wieder, falls es nicht besser wird."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Grenzen der Selbstmedikation",
+      "s": "The limits of self-medication"
+    },
+    "text": [
+      {
+        "t": "Die Selbstmedikation ist ein wichtiger Teil der Arbeit in der Apotheke, doch sie hat klare Grenzen.",
+        "s": "Self-medication is an important part of the work in a pharmacy, but it has clear limits."
+      },
+      {
+        "t": "Bei jedem Beratungsgespräch sollte deshalb geprüft werden, ob die Beschwerden für eine Selbstbehandlung geeignet sind.",
+        "s": "In every consultation, it should therefore be checked whether the symptoms are suitable for self-treatment."
+      },
+      {
+        "t": "Das ist in der Regel nur dann der Fall, wenn es sich um leichte und kurzzeitige Beschwerden handelt.",
+        "s": "As a rule, that is only the case when the symptoms are mild and short-lived."
+      },
+      {
+        "t": "Halten die Beschwerden trotz Behandlung länger als einige Tage an, ist eine ärztliche Abklärung notwendig.",
+        "s": "If the symptoms persist for more than a few days despite treatment, a medical assessment is necessary."
+      },
+      {
+        "t": "Dasselbe gilt, wenn Warnzeichen auftreten, zum Beispiel hohes Fieber, Atemnot, Blut im Stuhl oder starke, plötzlich einsetzende Schmerzen.",
+        "s": "The same applies if warning signs occur, for example high fever, shortness of breath, blood in the stool or severe pain that starts suddenly."
+      },
+      {
+        "t": "Besondere Vorsicht ist bei Säuglingen, Schwangeren, Stillenden und älteren Menschen mit vielen Dauermedikamenten geboten.",
+        "s": "Particular caution is needed with babies, pregnant and breastfeeding women and older people who take many long-term medicines."
+      },
+      {
+        "t": "Auch wenn eine Kundin ausdrücklich ein bestimmtes Präparat verlangt, muss sie zuerst nach Risiken gefragt werden.",
+        "s": "Even if a customer explicitly asks for a particular product, she must first be asked about risks."
+      },
+      {
+        "t": "Spricht etwas gegen das gewünschte Mittel, sollte man eine Alternative anbieten oder die Kundin an einen Arzt verweisen.",
+        "s": "If something speaks against the requested medicine, you should offer an alternative or refer the customer to a doctor."
+      },
+      {
+        "t": "Am Ende jedes Gesprächs steht die Sicherung des Verständnisses.",
+        "s": "Every conversation ends with checking understanding."
+      },
+      {
+        "t": "Bewährt hat sich die sogenannte Teach-back-Methode: Die Kundin erklärt mit eigenen Worten, wie sie das Arzneimittel anwenden wird.",
+        "s": "The so-called teach-back method has proven useful: the customer explains in her own words how she will use the medicine."
+      },
+      {
+        "t": "So fallen Missverständnisse auf, bevor sie zu Anwendungsfehlern führen.",
+        "s": "This way, misunderstandings are noticed before they lead to errors in use."
+      },
+      {
+        "t": "Zusätzlich kann ein kurzer schriftlicher Hinweis zur Dosierung auf der Packung helfen.",
+        "s": "In addition, a short written note on the dosage on the pack can help."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wann ist eine Selbstbehandlung laut Text in der Regel geeignet?",
+          "s": "According to the text, when is self-treatment usually suitable?"
+        },
+        "options": [
+          "bei hohem Fieber",
+          "bei leichten und kurzzeitigen Beschwerden",
+          "bei Blut im Stuhl"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was ist laut Text ein Warnzeichen?",
+          "s": "According to the text, what is a warning sign?"
+        },
+        "options": [
+          "Atemnot",
+          "ein leichter Schnupfen",
+          "Müdigkeit nach dem Sport"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was gilt, wenn eine Kundin ein bestimmtes Präparat verlangt?",
+          "s": "What applies if a customer asks for a particular product?"
+        },
+        "options": [
+          "Man gibt ihr das Präparat sofort.",
+          "Man schickt sie immer zum Arzt.",
+          "Sie muss trotzdem zuerst nach Risiken gefragt werden."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Was passiert bei der Teach-back-Methode?",
+          "s": "What happens in the teach-back method?"
+        },
+        "options": [
+          "Die Apothekerin liest die Packungsbeilage vor.",
+          "Die Kundin erklärt mit eigenen Worten die Anwendung.",
+          "Die Kundin bekommt ein Video."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wozu dient die Teach-back-Methode?",
+          "s": "What is the teach-back method for?"
+        },
+        "options": [
+          "Damit Missverständnisse früh auffallen.",
+          "Damit die Beratung kürzer wird.",
+          "Damit die Kundin mehr Arzneimittel kauft."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Ich würde Ihnen ein Mittel gegen Fieber und Schmerzen empfehlen.",
+      "s": "I would recommend a medicine for fever and pain."
+    },
+    {
+      "t": "Davon würde ich Ihnen abraten.",
+      "s": "I would advise you against that."
+    },
+    {
+      "t": "Es wäre besser, wenn Sie sich ein paar Tage schonen.",
+      "s": "It would be better if you took it easy for a few days."
+    },
+    {
+      "t": "Falls die Beschwerden anhalten, gehen Sie bitte zum Arzt.",
+      "s": "If the symptoms persist, please see a doctor."
+    },
+    {
+      "t": "Solange Sie Fieber haben, sollten Sie viel trinken.",
+      "s": "As long as you have a fever, you should drink plenty."
+    },
+    {
+      "t": "Manche Grippemittel enthalten ebenfalls Paracetamol.",
+      "s": "Some cold and flu remedies also contain paracetamol."
+    },
+    {
+      "t": "Können Sie mir kurz sagen, wie Sie die Tabletten einnehmen?",
+      "s": "Can you tell me briefly how you will take the tablets?"
+    },
+    {
+      "t": "Ich fasse noch einmal kurz zusammen.",
+      "s": "Let me briefly summarize."
+    }
+  ]
+}

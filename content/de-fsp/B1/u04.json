@@ -1,0 +1,707 @@
+{
+  "id": "u04",
+  "level": "B1",
+  "emoji": "🤒",
+  "title": {
+    "t": "Wo tut es weh?",
+    "s": "Body and complaints in plain German"
+  },
+  "goals": [
+    "Name common complaints in plain German and know the technical term",
+    "Say what hurts with Mir tut … weh and …schmerzen",
+    "Ask and answer how long a complaint has lasted with seit and Seit wann?",
+    "Know when a patient should see a doctor"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "der Magen",
+      "pl": "die Mägen",
+      "s": "stomach",
+      "emoji": "",
+      "ex": {
+        "t": "Mir tut nach dem Essen oft der Magen weh.",
+        "s": "My stomach often hurts after eating."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Haut",
+      "pl": "die Häute",
+      "s": "skin",
+      "emoji": "",
+      "ex": {
+        "t": "Im Winter ist meine Haut sehr trocken.",
+        "s": "In winter my skin is very dry."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "die Kopfschmerzen",
+      "s": "headache (usually plural) · Fach: die Cephalgie",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe seit gestern Kopfschmerzen.",
+        "s": "I've had a headache since yesterday."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "die Halsschmerzen",
+      "s": "sore throat (usually plural)",
+      "emoji": "",
+      "ex": {
+        "t": "Haben Sie auch Halsschmerzen?",
+        "s": "Do you have a sore throat too?"
+      }
+    },
+    {
+      "id": "w05",
+      "t": "die Übelkeit",
+      "s": "nausea · Fach: die Nausea",
+      "emoji": "🤢",
+      "ex": {
+        "t": "Bei Übelkeit sagen viele Patienten: Mir ist schlecht.",
+        "s": "When they have nausea, many patients say: I feel sick."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "das Erbrechen",
+      "s": "vomiting · Fach: die Emesis",
+      "emoji": "🤮",
+      "ex": {
+        "t": "Das Kind hat Durchfall und Erbrechen.",
+        "s": "The child has diarrhea and vomiting."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "der Durchfall",
+      "s": "diarrhea · Fach: die Diarrhö",
+      "emoji": "",
+      "ex": {
+        "t": "Bei Durchfall müssen Sie viel trinken.",
+        "s": "With diarrhea you have to drink a lot."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "die Verstopfung",
+      "s": "constipation · Fach: die Obstipation",
+      "emoji": "",
+      "ex": {
+        "t": "Bei Verstopfung helfen oft viel Wasser und Bewegung.",
+        "s": "With constipation, lots of water and exercise often help."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "der Schnupfen",
+      "s": "runny or blocked nose, head cold · Fach: die Rhinitis",
+      "emoji": "🤧",
+      "ex": {
+        "t": "Ich habe Schnupfen, meine Nase ist verstopft.",
+        "s": "I have a cold; my nose is blocked."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "der Juckreiz",
+      "s": "itching · Fach: der Pruritus",
+      "emoji": "",
+      "ex": {
+        "t": "Nach dem Mückenstich habe ich starken Juckreiz.",
+        "s": "After the mosquito bite I have bad itching."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "der Hautausschlag",
+      "pl": "die Hautausschläge",
+      "s": "rash · Fach: das Exanthem",
+      "emoji": "",
+      "ex": {
+        "t": "Ben hat einen roten Hautausschlag am Bauch.",
+        "s": "Ben has a red rash on his belly."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "der Schwindel",
+      "s": "dizziness, vertigo · Fach: die Vertigo",
+      "emoji": "😵",
+      "ex": {
+        "t": "Beim Aufstehen habe ich manchmal Schwindel.",
+        "s": "Sometimes I feel dizzy when I get up."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "das Sodbrennen",
+      "s": "heartburn",
+      "emoji": "",
+      "ex": {
+        "t": "Nach fettem Essen habe ich oft Sodbrennen.",
+        "s": "I often get heartburn after fatty food."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "die Blasenentzündung",
+      "pl": "die Blasenentzündungen",
+      "s": "bladder infection · Fach: die Zystitis",
+      "emoji": "",
+      "ex": {
+        "t": "Bei einer Blasenentzündung brennt es beim Wasserlassen.",
+        "s": "With a bladder infection, it burns when you urinate."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Welche Beschwerden haben Sie genau?",
+      "s": "What symptoms do you have exactly?"
+    },
+    {
+      "id": "p02",
+      "t": "Wo tut es Ihnen weh?",
+      "s": "Where does it hurt?"
+    },
+    {
+      "id": "p03",
+      "t": "Seit wann haben Sie die Beschwerden?",
+      "s": "How long have you had the symptoms?"
+    },
+    {
+      "id": "p04",
+      "t": "Mir ist schlecht.",
+      "s": "I feel sick (nauseous)."
+    },
+    {
+      "id": "p05",
+      "t": "Mir ist schwindelig.",
+      "s": "I feel dizzy."
+    },
+    {
+      "id": "p06",
+      "t": "Haben Sie noch andere Beschwerden, zum Beispiel Fieber?",
+      "s": "Do you have any other symptoms, for example a fever?"
+    },
+    {
+      "id": "p07",
+      "t": "Wie stark sind die Schmerzen, von eins bis zehn?",
+      "s": "How bad is the pain, from one to ten?"
+    },
+    {
+      "id": "p08",
+      "t": "Waren Sie deswegen schon beim Arzt?",
+      "s": "Have you already seen a doctor about it?"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Durchfall und Übelkeit",
+      "s": "Diarrhea and nausea"
+    },
+    "speakers": {
+      "A": {
+        "name": "Frau Becker",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Herr Ahmadi",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "B",
+        "t": "Guten Tag, Frau Becker. Was kann ich für Sie tun?",
+        "s": "Hello, Mrs. Becker. How can I help you?"
+      },
+      {
+        "sp": "A",
+        "t": "Guten Tag. Mir geht es nicht gut. Ich habe Durchfall, und mir ist schlecht.",
+        "s": "Hello. I'm not feeling well. I have diarrhea and I feel sick."
+      },
+      {
+        "sp": "B",
+        "t": "Das tut mir leid. Seit wann haben Sie die Beschwerden?",
+        "s": "I'm sorry to hear that. How long have you had the symptoms?"
+      },
+      {
+        "sp": "A",
+        "t": "Seit gestern Abend. Heute Morgen musste ich mich auch übergeben.",
+        "s": "Since last night. This morning I also had to throw up."
+      },
+      {
+        "sp": "B",
+        "t": "Haben Sie Fieber? Und tut Ihnen der Bauch weh?",
+        "s": "Do you have a fever? And does your stomach hurt?"
+      },
+      {
+        "sp": "A",
+        "t": "Fieber habe ich nicht. Aber der Bauch tut mir ein bisschen weh.",
+        "s": "I don't have a fever. But my stomach hurts a little."
+      },
+      {
+        "sp": "B",
+        "t": "Können Sie gut trinken? Das ist jetzt sehr wichtig.",
+        "s": "Can you drink all right? That's very important now."
+      },
+      {
+        "sp": "A",
+        "t": "Ja, Tee kann ich trinken.",
+        "s": "Yes, I can drink tea."
+      },
+      {
+        "sp": "B",
+        "t": "Gut. Ich empfehle Ihnen eine Elektrolytlösung. Das ist ein Pulver mit Salzen und Zucker. Lösen Sie es in Wasser auf und trinken Sie es in kleinen Schlucken.",
+        "s": "Good. I recommend an electrolyte solution. It's a powder with salts and sugar. Dissolve it in water and drink it in small sips."
+      },
+      {
+        "sp": "A",
+        "t": "Und wann muss ich zum Arzt gehen?",
+        "s": "And when do I have to see a doctor?"
+      },
+      {
+        "sp": "B",
+        "t": "Wenn es nach zwei bis drei Tagen nicht besser ist. Oder sofort, wenn Sie hohes Fieber oder Blut im Stuhl haben.",
+        "s": "If it isn't better after two to three days. Or right away if you have a high fever or blood in your stool."
+      },
+      {
+        "sp": "A",
+        "t": "Danke, das mache ich. Auf Wiedersehen!",
+        "s": "Thank you, I'll do that. Goodbye!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Mir tut der Kopf weh. Ich habe Kopfschmerzen.",
+        "s": "Saying what hurts: the dative with body parts"
+      },
+      "explain": "There are two common ways to say that something hurts.\n**1. wehtun + dative**: the body part is the **subject**, the person is in the **dative**: **Mir** tut der Kopf weh (literally: *to me the head hurts*). With a plural body part the verb is plural: Mir **tun** die Füße weh. Dative forms: **mir, dir, ihm, ihr, uns, euch, Ihnen** – and with nouns: **dem** Kind, **meinem** Sohn, **meiner** Frau.\nGerman usually says **der** Kopf, not *mein* Kopf, because the dative already shows whose head it is. (*Mein Kopf tut weh* is also correct, but less common.)\n**2. haben + …schmerzen**: Ich habe **Kopfschmerzen**, **Halsschmerzen**, **Bauchschmerzen**, **Rückenschmerzen**, **Zahnschmerzen**. These compounds are usually **plural**.\nSome feelings also use the dative with **sein**: **Mir ist schlecht** (I feel sick), **Mir ist schwindelig** (I feel dizzy).\nTo ask a patient: Wo tut es **Ihnen** weh? Tut **Ihnen** der Hals weh?",
+      "table": [
+        [
+          "ich",
+          "Mir tut der Kopf weh.",
+          "Ich habe Kopfschmerzen."
+        ],
+        [
+          "er",
+          "Ihm tut der Rücken weh.",
+          "Er hat Rückenschmerzen."
+        ],
+        [
+          "sie",
+          "Ihr tut der Bauch weh.",
+          "Sie hat Bauchschmerzen."
+        ],
+        [
+          "wir",
+          "Uns tun die Füße weh.",
+          "Wir haben Fußschmerzen."
+        ],
+        [
+          "Sie",
+          "Tut Ihnen der Hals weh?",
+          "Haben Sie Halsschmerzen?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Mir tut seit gestern der Hals weh.",
+          "s": "My throat has been hurting since yesterday."
+        },
+        {
+          "t": "Wo tut es Ihnen genau weh?",
+          "s": "Where exactly does it hurt?"
+        },
+        {
+          "t": "Meinem Sohn tut das Ohr weh.",
+          "s": "My son's ear hurts."
+        },
+        {
+          "t": "Meiner Mutter ist schwindelig.",
+          "s": "My mother feels dizzy."
+        },
+        {
+          "t": "Ich habe starke Kopfschmerzen.",
+          "s": "I have a bad headache."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ tut der Kopf weh.",
+          "options": [
+            "Mir",
+            "Ich",
+            "Mich"
+          ],
+          "answer": 0,
+          "s": "My head hurts."
+        },
+        {
+          "type": "choice",
+          "t": "Tut ___ der Hals weh, Frau Becker?",
+          "options": [
+            "Ihnen",
+            "Sie",
+            "Ihren"
+          ],
+          "answer": 0,
+          "s": "Does your throat hurt, Mrs. Becker?"
+        },
+        {
+          "type": "choice",
+          "t": "Meinem Sohn ___ die Ohren weh.",
+          "options": [
+            "tun",
+            "tut",
+            "tue"
+          ],
+          "answer": 0,
+          "s": "My son's ears hurt."
+        },
+        {
+          "type": "choice",
+          "t": "___ Kind tut der Bauch weh.",
+          "options": [
+            "Dem",
+            "Das",
+            "Der"
+          ],
+          "answer": 0,
+          "s": "The child has a stomachache."
+        },
+        {
+          "type": "type",
+          "t": "Herr Klein hat Schmerzen im Rücken. ___ tut der Rücken weh.",
+          "answer": [
+            "Ihm"
+          ],
+          "s": "Mr. Klein has back pain. His back hurts."
+        },
+        {
+          "type": "type",
+          "t": "Frau Becker hat Schmerzen im Bauch. Sie hat ___.",
+          "answer": [
+            "Bauchschmerzen",
+            "Bauchweh"
+          ],
+          "s": "Mrs. Becker has pain in her stomach. She has a stomachache."
+        },
+        {
+          "type": "type",
+          "t": "Ein Patient mit Cephalgie sagt: Ich habe ___.",
+          "answer": [
+            "Kopfschmerzen",
+            "Kopfweh"
+          ],
+          "s": "A patient with cephalgia says: I have a headache."
+        },
+        {
+          "type": "order",
+          "t": "Tut Ihnen der Rücken weh?",
+          "s": "Does your back hurt?",
+          "alts": [
+            "Tut der Rücken Ihnen weh?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Seit wann? Seit drei Tagen.",
+        "s": "seit + dative and asking how long"
+      },
+      "explain": "**seit** + **dative** describes something that **started in the past and is still going on**. German uses the **present tense** here, where English uses the present perfect: Ich **habe seit** drei Tagen Fieber. = I **have had** a fever for three days.\nDative after seit: seit **einem** Tag, seit **einer** Woche, seit **einem** Jahr. In the **dative plural** the noun ends in **-n**: if the plural doesn't already end in -n, add one: die Tage → seit zwei Tag**en**, die Jahre → seit fünf Jahr**en**; die Wochen → seit drei Wochen (no change). Without an article: seit **gestern**, seit **heute Morgen**, seit **Montag**.\nQuestions: **Seit wann** haben Sie die Beschwerden? – Seit gestern. **Wie lange** haben Sie den Husten **schon**? – Seit einer Woche.\nDon't mix up **seit** and **vor** (*ago*). **vor** names a point in the past and goes with a past tense: Der Husten **hat vor** einer Woche **angefangen**.",
+      "table": [
+        [
+          "der Tag",
+          "seit einem Tag",
+          "seit zwei Tagen"
+        ],
+        [
+          "die Woche",
+          "seit einer Woche",
+          "seit drei Wochen"
+        ],
+        [
+          "der Monat",
+          "seit einem Monat",
+          "seit vier Monaten"
+        ],
+        [
+          "das Jahr",
+          "seit einem Jahr",
+          "seit fünf Jahren"
+        ],
+        [
+          "gestern",
+          "seit gestern",
+          "seit heute Morgen"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich habe seit drei Tagen Durchfall.",
+          "s": "I've had diarrhea for three days."
+        },
+        {
+          "t": "Seit wann haben Sie den Ausschlag? – Seit Montag.",
+          "s": "How long have you had the rash? – Since Monday."
+        },
+        {
+          "t": "Wie lange haben Sie den Husten schon? – Seit einer Woche.",
+          "s": "How long have you had the cough? – For a week."
+        },
+        {
+          "t": "Frau Richter nimmt seit zwei Jahren Tabletten gegen Bluthochdruck.",
+          "s": "Mrs. Richter has been taking tablets for high blood pressure for two years."
+        },
+        {
+          "t": "Der Schwindel hat vor zwei Tagen angefangen.",
+          "s": "The dizziness started two days ago."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich habe ___ drei Tagen Halsschmerzen.",
+          "options": [
+            "seit",
+            "vor",
+            "für"
+          ],
+          "answer": 0,
+          "s": "I've had a sore throat for three days."
+        },
+        {
+          "type": "choice",
+          "t": "Seit einer ___ habe ich Husten.",
+          "options": [
+            "Woche",
+            "Wochen",
+            "Wochens"
+          ],
+          "answer": 0,
+          "s": "I've had a cough for a week."
+        },
+        {
+          "type": "choice",
+          "t": "___ haben Sie die Beschwerden? – Seit gestern Abend.",
+          "options": [
+            "Seit wann",
+            "Wie oft",
+            "Wo"
+          ],
+          "answer": 0,
+          "s": "How long have you had the symptoms? – Since last night."
+        },
+        {
+          "type": "type",
+          "t": "Ben hat seit zwei ___ Fieber.",
+          "answer": [
+            "Tagen"
+          ],
+          "s": "Ben has had a fever for two days. (der Tag)"
+        },
+        {
+          "type": "type",
+          "t": "Frau Becker hat ___ einem Monat Schwindel.",
+          "answer": [
+            "seit"
+          ],
+          "s": "Mrs. Becker has been dizzy for a month."
+        },
+        {
+          "type": "type",
+          "t": "Seit einem ___ nehme ich Tabletten gegen Bluthochdruck.",
+          "answer": [
+            "Jahr"
+          ],
+          "s": "I've been taking tablets for high blood pressure for a year. (das Jahr)"
+        },
+        {
+          "type": "type",
+          "t": "Die Diarrhö heißt in Laiensprache ___.",
+          "answer": [
+            "Durchfall",
+            "der Durchfall"
+          ],
+          "s": "Diarrhö in plain German: diarrhea."
+        },
+        {
+          "type": "order",
+          "t": "Seit wann haben Sie den Ausschlag?",
+          "s": "How long have you had the rash?"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Fachsprache und Laiensprache",
+      "s": "Technical language and plain language"
+    },
+    "text": [
+      {
+        "t": "In der Apotheke spricht man zwei Sprachen: Fachsprache und Laiensprache.",
+        "s": "In the pharmacy people speak two languages: technical language and plain language."
+      },
+      {
+        "t": "Mit Ärzten und Kollegen spricht die Apothekerin Fachsprache.",
+        "s": "With doctors and colleagues, the pharmacist speaks technical language."
+      },
+      {
+        "t": "Mit Patienten spricht sie Laiensprache, also einfaches Deutsch.",
+        "s": "With patients she speaks plain language, that is, simple German."
+      },
+      {
+        "t": "Ein Arzt schreibt zum Beispiel Diarrhö, aber der Patient sagt Durchfall.",
+        "s": "A doctor writes, for example, Diarrhö, but the patient says Durchfall (diarrhea)."
+      },
+      {
+        "t": "Cephalgie heißt Kopfschmerzen, und Pruritus heißt Juckreiz.",
+        "s": "Cephalgie means headache, and Pruritus means itching."
+      },
+      {
+        "t": "Viele Patienten beschreiben ihre Beschwerden ganz einfach: „Mir tut der Bauch weh“ oder „Mir ist schlecht“.",
+        "s": "Many patients describe their symptoms very simply: “My stomach hurts” or “I feel sick”."
+      },
+      {
+        "t": "Die Apothekerin fragt dann genau nach: Wo tut es weh? Seit wann haben Sie die Beschwerden?",
+        "s": "The pharmacist then asks more precisely: Where does it hurt? How long have you had the symptoms?"
+      },
+      {
+        "t": "Sie fragt auch nach anderen Beschwerden, zum Beispiel nach Fieber oder Erbrechen.",
+        "s": "She also asks about other symptoms, for example fever or vomiting."
+      },
+      {
+        "t": "Manchmal muss der Patient zum Arzt, zum Beispiel bei hohem Fieber oder bei Blut im Stuhl.",
+        "s": "Sometimes the patient has to see a doctor, for example with a high fever or blood in the stool."
+      },
+      {
+        "t": "In der Fachsprachprüfung muss man beide Sprachen gut können.",
+        "s": "In the Fachsprachprüfung you have to know both languages well."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Mit wem spricht die Apothekerin Fachsprache?",
+          "s": "With whom does the pharmacist speak technical language?"
+        },
+        "options": [
+          "mit Ärzten und Kollegen",
+          "mit Kindern",
+          "mit allen Patienten"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was sagt ein Patient für Diarrhö?",
+          "s": "What does a patient say for Diarrhö?"
+        },
+        "options": [
+          "Durchfall",
+          "Kopfschmerzen",
+          "Juckreiz"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was bedeutet Pruritus?",
+          "s": "What does Pruritus mean?"
+        },
+        "options": [
+          "Juckreiz",
+          "Fieber",
+          "Übelkeit"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wann muss der Patient zum Arzt?",
+          "s": "When does the patient have to see a doctor?"
+        },
+        "options": [
+          "bei Blut im Stuhl",
+          "bei leichtem Schnupfen",
+          "nach dem Essen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was muss man in der Fachsprachprüfung können?",
+          "s": "What do you have to be able to do in the Fachsprachprüfung?"
+        },
+        "options": [
+          "Fachsprache und Laiensprache",
+          "nur Fachsprache",
+          "nur Englisch"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Mir tut seit gestern der Magen weh.",
+      "s": "My stomach has been hurting since yesterday.",
+      "alts": [
+        "Seit gestern tut mir der Magen weh.",
+        "Mir tut der Magen seit gestern weh."
+      ]
+    },
+    {
+      "t": "Ich habe seit drei Tagen Halsschmerzen.",
+      "s": "I've had a sore throat for three days.",
+      "alts": [
+        "Seit drei Tagen habe ich Halsschmerzen."
+      ]
+    },
+    {
+      "t": "Seit wann haben Sie den Hautausschlag?",
+      "s": "How long have you had the rash?"
+    },
+    {
+      "t": "Meiner Tochter ist schwindelig.",
+      "s": "My daughter feels dizzy."
+    },
+    {
+      "t": "Bei Durchfall müssen Sie viel trinken.",
+      "s": "With diarrhea you have to drink a lot.",
+      "alts": [
+        "Sie müssen bei Durchfall viel trinken."
+      ]
+    },
+    {
+      "t": "Haben Sie noch andere Beschwerden?",
+      "s": "Do you have any other symptoms?"
+    },
+    {
+      "t": "Die Haut juckt und ist ganz rot.",
+      "s": "The skin itches and is very red."
+    },
+    {
+      "t": "Der Husten hat vor einer Woche angefangen.",
+      "s": "The cough started a week ago.",
+      "alts": [
+        "Vor einer Woche hat der Husten angefangen."
+      ]
+    }
+  ]
+}
