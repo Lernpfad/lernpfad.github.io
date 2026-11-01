@@ -1,0 +1,1320 @@
+{
+ "version": 2,
+ "courses": [
+  {
+   "id": "de-en",
+   "target": "de",
+   "support": "en",
+   "dir": "ltr",
+   "tdir": "ltr",
+   "name": {
+    "t": "Deutsch",
+    "s": "German"
+   },
+   "color": "#d9822b",
+   "levels": [
+    {
+     "id": "A1",
+     "name": "Beginner",
+     "units": [
+      {
+       "id": "u00",
+       "title": {
+        "t": "Das Alphabet",
+        "s": "The alphabet",
+        "a": "audio/de-en/9be6db1ef068.mp3"
+       },
+       "img": "img/e/1f524.svg",
+       "emoji": "🔤",
+       "goals": [
+        "Say the German alphabet and spell your name",
+        "Recognize Ä, Ö, Ü and ß",
+        "Pronounce key German sounds like ei, ie, ch and sch",
+        "Read and say your first German words"
+       ],
+       "has": {
+        "letters": true,
+        "sounds": true,
+        "words": true,
+        "phrases": true,
+        "dialogue": false,
+        "grammar": false,
+        "reading": false
+       }
+      },
+      {
+       "id": "u01",
+       "title": {
+        "t": "Hallo!",
+        "s": "Hello!",
+        "a": "audio/de-en/0ce1112c3622.mp3"
+       },
+       "img": "img/e/1f44b.svg",
+       "emoji": "👋",
+       "goals": [
+        "Greet people and say goodbye",
+        "Say your name and where you are from",
+        "Use sein: ich bin, du bist, er/sie ist, Sie sind",
+        "Know when to say du and when to say Sie"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Zahlen und Alter",
+        "s": "Numbers and age",
+        "a": "audio/de-en/1e3378068f96.mp3"
+       },
+       "img": "img/e/1f522.svg",
+       "emoji": "🔢",
+       "goals": [
+        "Count from 0 to 20",
+        "Ask and say how old someone is",
+        "Ask and say where someone lives",
+        "Use regular verb endings: ich wohne, du wohnst, er wohnt"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Meine Familie",
+        "s": "My family",
+        "a": "audio/de-en/0c94407b1789.mp3"
+       },
+       "img": "img/e/1f46a.svg",
+       "emoji": "👪",
+       "goals": [
+        "Talk about your family members",
+        "Use der, die, das and mein/meine, dein/deine",
+        "Say what you have with haben"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Essen und Trinken",
+        "s": "Food and drink",
+        "a": "audio/de-en/05debed12027.mp3"
+       },
+       "img": "img/e/1f37d.svg",
+       "emoji": "🍽️",
+       "goals": [
+        "Name common foods and drinks",
+        "Use ein/eine and kein/keine",
+        "Order politely with ich möchte",
+        "Say what you like with ich mag"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Meine Wohnung",
+        "s": "My home",
+        "a": "audio/de-en/b235859b42dd.mp3"
+       },
+       "img": "img/e/1f3e0.svg",
+       "emoji": "🏠",
+       "goals": [
+        "Name rooms and furniture in a home",
+        "Say what there is with es gibt + einen / eine / ein",
+        "Ask and answer Wo ist …? with er / sie / es"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Mein Tag",
+        "s": "My day",
+        "a": "audio/de-en/0f2f06ce51c5.mp3"
+       },
+       "img": "img/e/23f0.svg",
+       "emoji": "⏰",
+       "goals": [
+        "Ask and tell the time (full hours, half hours, quarters)",
+        "Talk about your daily routine",
+        "Use separable verbs like aufstehen and einkaufen",
+        "Put the verb in second position"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "In der Stadt",
+        "s": "In the city",
+        "a": "audio/de-en/3724e1232edf.mp3"
+       },
+       "img": "img/e/1f5fa.svg",
+       "emoji": "🗺️",
+       "goals": [
+        "Name important places in the city",
+        "Ask the way: Wo ist …?",
+        "Understand and give directions: Gehen Sie geradeaus!",
+        "Say where someone is: in der Schule, im Park"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Einkaufen",
+        "s": "Shopping",
+        "a": "audio/de-en/efcbfaf74b43.mp3"
+       },
+       "img": "img/e/1f6cd.svg",
+       "emoji": "🛍️",
+       "goals": [
+        "Name clothes and colors",
+        "Ask for prices: Wie viel kostet …?",
+        "Use the accusative: den / einen",
+        "Point at things with dieser / diese / dieses"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Das Wetter",
+        "s": "The weather",
+        "a": "audio/de-en/68507221f8eb.mp3"
+       },
+       "img": "img/e/1f326.svg",
+       "emoji": "🌦️",
+       "goals": [
+        "Talk about the weather: Es ist sonnig. Es regnet.",
+        "Name the months and the four seasons",
+        "Say when: im Juli, im Sommer",
+        "Say when your birthday is"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "Freizeit",
+        "s": "Free time",
+        "a": "audio/de-en/42b8fe32929a.mp3"
+       },
+       "img": "img/e/26bd.svg",
+       "emoji": "⚽",
+       "goals": [
+        "Talk about your hobbies",
+        "Say what you can and can't do: Ich kann schwimmen.",
+        "Say what you like doing with gern",
+        "Ask and answer yes/no questions"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
+    },
+    {
+     "id": "A2",
+     "name": "Elementary",
+     "units": [
+      {
+       "id": "u01",
+       "title": {
+        "t": "Das Wochenende",
+        "s": "The weekend",
+        "a": "audio/de-en/b441aff24594.mp3"
+       },
+       "img": "img/e/1f9fa.svg",
+       "emoji": "🧺",
+       "goals": [
+        "Talk about what you did on the weekend",
+        "Form the Perfekt with haben – regular (gemacht) and irregular (gelesen) participles",
+        "Use the Perfekt with sein for movement and change (ich bin gefahren, er ist aufgewacht)",
+        "Ask others about their weekend and react (Das klingt toll!)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Familie und Feste",
+        "s": "Family and celebrations",
+        "a": "audio/de-en/d5183132bb15.mp3"
+       },
+       "img": "img/e/1f381.svg",
+       "emoji": "🎁",
+       "goals": [
+        "Talk about birthdays, presents and family celebrations such as Nowruz",
+        "Use the dative: dem, der, den and mir, dir, ihm, ihr, uns, euch, ihnen",
+        "Use verbs with the dative: helfen, gefallen, schmecken, gehören, danken",
+        "Say who gives what to whom (Ich schenke meiner Mutter Blumen.)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Wohnung und Umzug",
+        "s": "Home and moving",
+        "a": "audio/de-en/a394a65a78e1.mp3"
+       },
+       "img": "img/e/1f4e6.svg",
+       "emoji": "📦",
+       "goals": [
+        "Talk about your home, furniture and moving",
+        "Say where things are (wo? + dative) and where they go (wohin? + accusative)",
+        "Use stellen – stehen, legen – liegen, hängen, sich setzen – sitzen",
+        "Help a friend with a move and say where things go"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Körper und Gesundheit",
+        "s": "Body and health",
+        "a": "audio/de-en/5bbd24b151ff.mp3"
+       },
+       "img": "img/e/1fa7a.svg",
+       "emoji": "🩺",
+       "goals": [
+        "Name parts of the body and say what hurts",
+        "Talk to a doctor and understand what you have to do",
+        "Use müssen, dürfen, sollen – and the difference between nicht müssen and nicht dürfen",
+        "Give advice and instructions with the imperative (du, ihr, Sie)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Arbeit und Beruf",
+        "s": "Work and jobs",
+        "a": "audio/de-en/5bae911784b2.mp3"
+       },
+       "img": "img/e/1f4bc.svg",
+       "emoji": "💼",
+       "goals": [
+        "Talk about jobs, workplaces and your working day",
+        "Give reasons with weil and say what you think or know with dass (verb at the end)",
+        "Talk about the past with war, hatte, musste, konnte, durfte, wollte",
+        "Tell someone about your first days in a new job"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Einkaufen und Kleidung",
+        "s": "Shopping and clothes",
+        "a": "audio/de-en/f771d69f6e32.mp3"
+       },
+       "img": "img/e/1f6cd.svg",
+       "emoji": "🛍️",
+       "goals": [
+        "Talk about clothes, sizes and trying things on in a store",
+        "Describe clothes with adjectives after der, die, das (der blaue Pullover)",
+        "Compare things with the comparative and superlative (billiger als, am besten)",
+        "Ask for another size and say what fits you and what you like better"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "Reisen und Verkehr",
+        "s": "Travel and transportation",
+        "a": "audio/de-en/fca61ef9ed6f.mp3"
+       },
+       "img": "img/e/1f686.svg",
+       "emoji": "🚆",
+       "goals": [
+        "Buy a train ticket and ask about times, platforms and changing trains",
+        "Say how and where you travel with mit, nach, zu, aus, bei, von, seit",
+        "Choose nach, in or zu to say where you are going",
+        "Talk about conditions and repeated situations with wenn"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Essen und Restaurant",
+        "s": "Food and eating out",
+        "a": "audio/de-en/2cf4f9a35bf4.mp3"
+       },
+       "img": "img/e/1f37d.svg",
+       "emoji": "🍽️",
+       "goals": [
+        "Reserve a table, order a meal and pay in a restaurant",
+        "Describe food with adjectives after ein, kein, mein (ein scharfes Gericht)",
+        "Make polite requests with könnte, hätte gern and würde"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Medien und Kommunikation",
+        "s": "Media and communication",
+        "a": "audio/de-en/52b9d4483aa3.mp3"
+       },
+       "img": "img/e/1f4f1.svg",
+       "emoji": "📱",
+       "goals": [
+        "Talk about phones, messages, apps and the news",
+        "Ask politely with indirect questions (Wissen Sie, wann …? Ich weiß nicht, ob …)",
+        "Use verbs with prepositions like warten auf, sich freuen auf, denken an",
+        "Ask and answer with worauf, woran, worüber and darauf, daran, darüber"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "Freizeit und Pläne",
+        "s": "Free time and plans",
+        "a": "audio/de-en/48cfe49095d4.mp3"
+       },
+       "img": "img/e/1f4c5.svg",
+       "emoji": "📅",
+       "goals": [
+        "Make plans for your free time, and accept, turn down or cancel an invitation",
+        "Use reflexive verbs like sich treffen, sich ausruhen, sich interessieren für",
+        "Talk about the future with the present tense or with werden + infinitive"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
+    },
+    {
+     "id": "B1",
+     "name": "Intermediate",
+     "units": [
+      {
+       "id": "u01",
+       "title": {
+        "t": "Lebensgeschichten",
+        "s": "Life stories",
+        "a": "audio/de-en/ff00a64b4ed9.mp3"
+       },
+       "img": "img/e/1f4d6.svg",
+       "emoji": "📖",
+       "goals": [
+        "Tell your life story and talk about memories",
+        "Use the Präteritum of regular, irregular and mixed verbs in written stories",
+        "Choose correctly between als, wenn and wann",
+        "Understand a short biography"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Arbeitsalltag und Bewerbung",
+        "s": "Everyday work and applying for jobs",
+        "a": "audio/de-en/56a9982cfbb2.mp3"
+       },
+       "img": "img/e/1f4bc.svg",
+       "emoji": "💼",
+       "goals": [
+        "Understand job ads and talk about your job and your working day",
+        "Answer typical questions in a job interview",
+        "Describe people and things with relative clauses (der, den, dem, denen …)",
+        "Use zu + infinitive after verbs and expressions like Es ist wichtig …"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Beim Arzt und das Gesundheitssystem",
+        "s": "At the doctor's and the health system",
+        "a": "audio/de-en/6364746a1656.mp3"
+       },
+       "img": "img/e/1fa7a.svg",
+       "emoji": "🩺",
+       "goals": [
+        "Talk to a doctor about symptoms, treatment and sick leave",
+        "Understand how health insurance and doctors work in Germany",
+        "Use the passive in the present: Der Blutdruck wird gemessen.",
+        "Use the passive in the past: wurde operiert, ist operiert worden"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Geld und Konsum",
+        "s": "Money and shopping",
+        "a": "audio/de-en/b1aebc22a1ac.mp3"
+       },
+       "img": "img/e/1f4b0.svg",
+       "emoji": "💰",
+       "goals": [
+        "Talk about money, banking and shopping",
+        "Express wishes and give advice with hätte, wäre, würde, könnte and sollte",
+        "Talk about unreal situations: Wenn ich mehr Geld hätte, würde ich …",
+        "Understand people's answers in a short street survey"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Umwelt im Alltag",
+        "s": "The environment in everyday life",
+        "a": "audio/de-en/e51771adada5.mp3"
+       },
+       "img": "img/e/267b.svg",
+       "emoji": "♻️",
+       "goals": [
+        "Talk about sorting trash, saving energy and eco-friendly habits",
+        "Understand the trash rules in a German apartment building",
+        "Link ideas with denn, deshalb, trotzdem and obwohl",
+        "Express purpose with um … zu and damit"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Nachrichten und Medien",
+        "s": "News and media",
+        "a": "audio/de-en/9e942055fcca.mp3"
+       },
+       "img": "img/e/1f4f0.svg",
+       "emoji": "📰",
+       "goals": [
+        "Talk about how you follow the news (newspaper, TV, radio, online)",
+        "Understand a short newspaper article and tell others what you have read",
+        "Use the genitive to show possession (das Auto meines Vaters, Annas Handy)",
+        "Use weak masculine nouns correctly (den Kollegen, dem Journalisten)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "Urlaub und unterwegs",
+        "s": "Vacation and getting around",
+        "a": "audio/de-en/4dfc314fab26.mp3"
+       },
+       "img": "img/e/1f9f3.svg",
+       "emoji": "🧳",
+       "goals": [
+        "Plan a trip and talk about vacation activities (hikes, tours, sights)",
+        "Ask for and give directions with durch, entlang and gegenüber",
+        "Use adjective endings without an article (frisches Brot, mit großer Freude) and review all adjective endings",
+        "Show direction with hin and her (hinein, heraus, Wo kommst du her?)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Familie und Beziehungen",
+        "s": "Family and relationships",
+        "a": "audio/de-en/a1cde53e561a.mp3"
+       },
+       "img": "img/e/1f46a.svg",
+       "emoji": "👪",
+       "goals": [
+        "Talk about family relationships, upbringing and living together",
+        "Discuss arguments in the family and how to solve them",
+        "Use reflexive pronouns in the dative (Ich wasche mir die Hände. Was wünschst du dir?)",
+        "Use lassen to say that you have something done or allow something (Ich lasse das Auto reparieren.)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Behörden und Alltag in Deutschland",
+        "s": "Public offices and everyday life in Germany",
+        "a": "audio/de-en/b11a4ef6087d.mp3"
+       },
+       "img": "img/e/1f3db.svg",
+       "emoji": "🏛️",
+       "goals": [
+        "Deal with public offices in Germany: register your address, make appointments, fill out forms",
+        "Understand officials and ask questions politely in official situations",
+        "Use common noun-verb combinations (einen Antrag stellen, eine Entscheidung treffen)",
+        "Put objects and adverbials in the right order (Ich gebe es ihm. TeKaMoLo)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "Kultur, Feste und Freizeit",
+        "s": "Culture, festivals and leisure",
+        "a": "audio/de-en/2f53424ed7ec.mp3"
+       },
+       "img": "img/e/1f389.svg",
+       "emoji": "🎉",
+       "goals": [
+        "Talk about festivals, customs and leisure activities in Germany and Iran",
+        "Invite someone, accept an invitation and make plans for an event",
+        "Use indefinite pronouns (man, jemand, niemand, etwas, nichts, einer, keiner, welche)",
+        "Understand and form compound nouns and adjectives with -ig, -lich, -los, -bar"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
+    },
+    {
+     "id": "B2",
+     "name": "Upper intermediate",
+     "units": [
+      {
+       "id": "u01",
+       "title": {
+        "t": "Arbeitswelt im Wandel",
+        "s": "The changing world of work",
+        "a": "audio/de-en/6e7e573ae5b9.mp3"
+       },
+       "img": "img/e/1f4bc.svg",
+       "emoji": "💼",
+       "goals": [
+        "Talk about changes in the world of work, e.g. working from home",
+        "Understand job ads and discuss applications and interviews",
+        "Use the passive with modal verbs (muss erledigt werden)",
+        "Replace the passive with sich lassen, -bar and sein + zu + infinitive"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Wohnen und Nachbarschaft",
+        "s": "Housing and neighborhood",
+        "a": "audio/de-en/b4c3fc71bd3b.mp3"
+       },
+       "img": "img/e/1f3d8.svg",
+       "emoji": "🏘️",
+       "goals": [
+        "Talk about renting, neighbors and life in the city vs. the country",
+        "Ask about house rules and make a polite complaint",
+        "Use relative clauses with prepositions and wo(r)-",
+        "Use the genitive relative pronouns dessen and deren"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Gesundheit und Ernährung",
+        "s": "Health and nutrition",
+        "a": "audio/de-en/2f29a91435b4.mp3"
+       },
+       "img": "img/e/1f966.svg",
+       "emoji": "🥦",
+       "goals": [
+        "Talk about health, diet and going to the doctor in Germany",
+        "Express regret and criticism about the past",
+        "Form the past subjunctive (hätte / wäre + participle)",
+        "Make unreal conditions and wishes (Wenn ich doch …!)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Medien und digitale Welt",
+        "s": "Media and the digital world",
+        "a": "audio/de-en/fb4fa546014f.mp3"
+       },
+       "img": "img/e/1f4f1.svg",
+       "emoji": "📱",
+       "goals": [
+        "Talk about news, social media and fake news",
+        "Report what other people said, as in news reports",
+        "Use Konjunktiv I for indirect speech",
+        "Use Konjunktiv II and würde as replacement forms"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Umwelt und Klima",
+        "s": "Environment and climate",
+        "a": "audio/de-en/f95a2c4ade77.mp3"
+       },
+       "img": "img/e/1f331.svg",
+       "emoji": "🌱",
+       "goals": [
+        "Talk about the environment, climate change and sustainable living",
+        "Give arguments for and against in a discussion",
+        "Link ideas with two-part connectors (sowohl … als auch, weder … noch …)",
+        "Use je … desto / umso to show how things depend on each other"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Lernen ein Leben lang",
+        "s": "Lifelong learning",
+        "a": "audio/de-en/49b9c7753f92.mp3"
+       },
+       "img": "img/e/1f393.svg",
+       "emoji": "🎓",
+       "goals": [
+        "Talk about education, further training and the recognition of qualifications",
+        "Turn verbs into nouns (das Lernen, die Entscheidung) to sound more formal",
+        "Use genitive prepositions like wegen, trotz, während and innerhalb",
+        "Discuss the pros and cons of lifelong learning"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "Unterwegs in Deutschland",
+        "s": "On the move in Germany",
+        "a": "audio/de-en/dec32cb0c8ba.mp3"
+       },
+       "img": "img/e/1f686.svg",
+       "emoji": "🚆",
+       "goals": [
+        "Talk about public transportation, commuting and travel",
+        "Deal with delays, missed connections and compensation at the station",
+        "Use participles as adjectives (die steigenden Preise, der verspätete Zug)",
+        "Connect events in time with nachdem, bevor, sobald, seitdem and bis"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Miteinander leben",
+        "s": "Living together",
+        "a": "audio/de-en/b8bd4cf9c3e5.mp3"
+       },
+       "img": "img/e/1f91d.svg",
+       "emoji": "🤝",
+       "goals": [
+        "Talk about integration, diversity and life as a newcomer in Germany",
+        "Use verbs, nouns and adjectives with their fixed prepositions correctly",
+        "Use darauf, daran, darüber … to refer to things and to introduce dass-clauses and infinitives",
+        "Share experiences and agree or disagree in a discussion"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Kaufen, sparen, reparieren",
+        "s": "Buying, saving, repairing",
+        "a": "audio/de-en/e901b5389d98.mp3"
+       },
+       "img": "img/e/1f4b6.svg",
+       "emoji": "💶",
+       "goals": [
+        "Talk about money, consumption and sustainable shopping",
+        "Use Futur I and II for the future and for assumptions",
+        "Say how sure you are with muss, müsste, dürfte, könnte and kann nicht",
+        "Weigh arguments and reach a compromise"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "Freizeit mit Sinn",
+        "s": "Free time with a purpose",
+        "a": "audio/de-en/03c7cfbda557.mp3"
+       },
+       "img": "img/e/1f3ad.svg",
+       "emoji": "🎭",
+       "goals": [
+        "Talk about culture, leisure activities and volunteering",
+        "Express purpose and alternatives with um … zu, ohne … zu, statt … zu and damit / ohne dass / statt dass",
+        "Use modal verbs in the perfect tense (hat arbeiten müssen)",
+        "Invite someone and describe your own commitment"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
+    },
+    {
+     "id": "C1",
+     "name": "Advanced",
+     "units": [
+      {
+       "id": "u01",
+       "title": {
+        "t": "Wissenschaft und Forschung",
+        "s": "Science and research",
+        "a": "audio/de-en/6928291aef67.mp3"
+       },
+       "img": "img/e/1f52c.svg",
+       "emoji": "🔬",
+       "goals": [
+        "Understand and discuss research findings, methods and the state of research",
+        "Turn verbal clauses into compact nominal style – and back again",
+        "Use Funktionsverbgefüge such as in Frage stellen and Kritik üben in formal speech and writing",
+        "Follow a radio interview about the reproducibility crisis in science"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Karriere und Arbeit 4.0",
+        "s": "Careers and Work 4.0",
+        "a": "audio/de-en/aa75c777ba12.mp3"
+       },
+       "img": "img/e/1f4bc.svg",
+       "emoji": "💼",
+       "goals": [
+        "Discuss the future of work: home office, automation and the skills shortage",
+        "Understand and build extended participial attributes (die im letzten Jahr eingeführte Regel)",
+        "Convert participial attributes into relative clauses and back",
+        "Argue for and against in a debate on the four-day week"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Sprache und Kommunikation",
+        "s": "Language and communication",
+        "a": "audio/de-en/7e5b0c4e1037.mp3"
+       },
+       "img": "img/e/1f4ac.svg",
+       "emoji": "💬",
+       "goals": [
+        "Talk about multilingualism, communication styles and language change",
+        "Use modal particles (ja, doch, eben, halt, wohl, mal) to sound natural in conversation",
+        "Structure arguments with formal connectors such as folglich, hingegen and indessen",
+        "Clarify, follow up and resolve misunderstandings"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Politik und Gesellschaft",
+        "s": "Politics and society",
+        "a": "audio/de-en/674875f857b2.mp3"
+       },
+       "img": "img/e/1f5f3.svg",
+       "emoji": "🗳️",
+       "goals": [
+        "Discuss political institutions, elections, participation and social cohesion",
+        "Use the Zustandspassiv and passive alternatives such as erfolgen, gelten als, auf Kritik stoßen",
+        "Form subjectless passive sentences and impersonal constructions (Es wird diskutiert …)",
+        "Take a position and hold your ground in a political debate"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Psychologie und Wohlbefinden",
+        "s": "Psychology and well-being",
+        "a": "audio/de-en/443620cf62a2.mp3"
+       },
+       "img": "img/e/1f9e0.svg",
+       "emoji": "🧠",
+       "goals": [
+        "Talk about stress, mental health and well-being in a nuanced way",
+        "Use modal verbs subjectively (soll, will, muss, dürfte, kann nicht) – also in the past",
+        "Express degrees of certainty and distance with words such as zweifellos, vermutlich, angeblich",
+        "Show empathy and give cautious advice"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Mensch und Maschine",
+        "s": "Human and machine",
+        "a": "audio/de-en/d7056c76fe2b.mp3"
+       },
+       "img": "img/e/1f916.svg",
+       "emoji": "🤖",
+       "goals": [
+        "Discuss the opportunities and risks of AI with precise, formal vocabulary",
+        "Report statements and claims accurately with Konjunktiv I and II, including the past",
+        "Describe appearances and false impressions with als ob, als wenn and als + verb",
+        "Follow a radio interview and a feature article on artificial intelligence"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "Medizin und Moral",
+        "s": "Medicine and ethics",
+        "a": "audio/de-en/7ba2e372b8ad.mp3"
+       },
+       "img": "img/e/1fa7a.svg",
+       "emoji": "🩺",
+       "goals": [
+        "Discuss the German healthcare system and medical-ethical questions in detail",
+        "Concede a point and still argue against it with zwar … aber, obgleich, nichtsdestotrotz, selbst wenn",
+        "Restrict and contrast statements precisely with insofern … als, während, wohingegen, hingegen",
+        "Understand a radio debate and an opinion piece on health policy"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Die Kunst der Interpretation",
+        "s": "The art of interpretation",
+        "a": "audio/de-en/4519815daa82.mp3"
+       },
+       "img": "img/e/1f3a8.svg",
+       "emoji": "🎨",
+       "goals": [
+        "Describe, interpret and evaluate works of art, literature and theater",
+        "Link sentences elegantly with dies, jener, Letzterer, derartig and pronominal adverbs",
+        "Emphasize information through word order, the Vorfeld, the Nachfeld and cleft sentences",
+        "Understand a culture-radio interview and a literary review"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Die vernetzte Weltwirtschaft",
+        "s": "The interconnected global economy",
+        "a": "audio/de-en/2200cf6cf544.mp3"
+       },
+       "img": "img/e/1f30d.svg",
+       "emoji": "🌍",
+       "goals": [
+        "Discuss globalization, trade and supply chains with precise economic vocabulary",
+        "Use formal genitive prepositions such as angesichts, hinsichtlich, infolge, zwecks, mittels",
+        "Convert subordinate clauses into nominal prepositional phrases and back",
+        "Understand an expert interview and a business report on the future of globalization"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "Präsentieren und überzeugen",
+        "s": "Presenting and persuading",
+        "a": "audio/de-en/2ad40ff983c8.mp3"
+       },
+       "img": "img/e/1f3a4.svg",
+       "emoji": "🎤",
+       "goals": [
+        "Give a clearly structured presentation with introduction, transitions and conclusion",
+        "Take a stance, concede points and counter arguments in a C1 exam discussion",
+        "Use the Konjunktiv II for politeness, hypotheses and cautious distance",
+        "Analyze and write a well-structured Stellungnahme (position statement)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "lernpfad",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-01",
+  "kv_namespaces": [
+    { "binding": "PROGRESS", "id": "f619987ba0e446fa9a7549311867f121" }
+  ],
+  "workers_dev": true,
+  "observability": { "enabled": false }
+}
