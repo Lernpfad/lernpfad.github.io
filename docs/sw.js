@@ -1,5 +1,5 @@
 // Lernpfad service worker: app shell precache + cache-first content (lessons, audio, pictures).
-const VERSION = "lp-shell-2026-11-17a";
+const VERSION = "lp-shell-2026-11-22a";
 const CONTENT = "lp-content-v1";
 const SHELL = [
   "./", "index.html", "app.css", "manifest.webmanifest",
