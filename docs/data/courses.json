@@ -12,7 +12,7 @@
     "s": "German"
    },
    "color": "#b4610f",
-   "mb": 79,
+   "mb": 72,
    "levels": [
     {
      "id": "A1",
@@ -78,7 +78,7 @@
        "img": "img/e/1f522.svg",
        "emoji": "🔢",
        "goals": [
-        "Count from 0 to 20",
+        "Count from 0 to 100",
         "Ask and say how old someone is",
         "Ask and say where someone lives",
         "Use regular verb endings: ich wohne, du wohnst, er wohnt"
@@ -178,8 +178,8 @@
        "goals": [
         "Ask and tell the time (full hours, half hours, quarters)",
         "Talk about your daily routine",
-        "Use separable verbs like aufstehen and einkaufen",
-        "Put the verb in second position"
+        "Use separable verbs like aufstehen and put the verb in second position",
+        "Name the days of the week and say am Montag, am Wochenende"
        ],
        "has": {
         "letters": false,
@@ -189,7 +189,13 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "Telling the time",
+        "Separable verbs & the verb in 2nd position",
+        "Days of the week"
+       ]
       },
       {
        "id": "u07",
@@ -693,8 +699,8 @@
         "s": "Grammar: cases and prepositions",
         "a": "audio/de-en/058fa38b451f.mp3"
        },
-       "img": "img/e/1f4e6.svg",
-       "emoji": "📦",
+       "img": "img/e/2696.svg",
+       "emoji": "⚖️",
        "goals": [
         "Use the dative forms of articles, possessives and personal pronouns",
         "Use verbs with the dative and put two objects in the right order",
@@ -777,6 +783,7 @@
         "Tell your life story and talk about memories",
         "Use the Präteritum of regular, irregular and mixed verbs in written stories",
         "Choose correctly between als, wenn and wann",
+        "Say what had happened before with the Plusquamperfekt",
         "Understand a short biography"
        ],
        "has": {
@@ -787,7 +794,13 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "The Präteritum (simple past) of regular and irregular verbs",
+        "Three German words for \"when\"",
+        "The Plusquamperfekt (past perfect): what had happened before"
+       ]
       },
       {
        "id": "u02",
@@ -1364,7 +1377,7 @@
         "Discuss political institutions, elections, participation and social cohesion",
         "Use the Zustandspassiv and passive alternatives such as erfolgen, gelten als, auf Kritik stoßen",
         "Form subjectless passive sentences and impersonal constructions (Es wird diskutiert …)",
-        "Take a position and hold your ground in a political debate"
+        "Take a position and hold your ground in a debate, e.g. at a parents' evening"
        ],
        "has": {
         "letters": false,
@@ -1464,7 +1477,7 @@
         "Describe, interpret and evaluate works of art, literature and theater",
         "Link sentences elegantly with dies, jener, Letzterer, derartig and pronominal adverbs",
         "Emphasize information through word order, the Vorfeld, the Nachfeld and cleft sentences",
-        "Understand a culture-radio interview and a literary review"
+        "Discuss a theater production with a neighbor and understand a literary review"
        ],
        "has": {
         "letters": false,
@@ -1541,7 +1554,7 @@
     "s": "Pharmacy German"
    },
    "color": "#2e7d5b",
-   "mb": 28,
+   "mb": 27,
    "badge": "FSP",
    "about": "Fachsprachprüfung · explained in English",
    "levels": [
@@ -1894,6 +1907,31 @@
         "Recognize Greek and Latin word parts (-itis, -algie, Hyper-, Hypo-, Tachy-, Dys-) and give the German equivalent",
         "Advise an asthma patient on the long-term inhaler versus the emergency spray and on inhalation technique",
         "Explain a supply shortage and the next steps to a patient"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Die E-Mail an die Praxis und die Übergabe",
+        "s": "Part 2: a formal e-mail to a practice · Part 3A: the shift handover",
+        "a": "audio/de-fsp/5c2900c43a01.mp3"
+       },
+       "img": "img/e/1f4e7.svg",
+       "emoji": "📧",
+       "goals": [
+        "Write a formal e-mail to a doctor's practice: subject line, salutation, facts, request for a reply, closing (part 2, mock exam 3)",
+        "Use formal noun–verb phrases such as Rücksprache halten and zur Verfügung stehen",
+        "Hand over a shift to a colleague in technical German: open cases, pending callbacks, out-of-stock items, narcotics (part 3A, mock exam 1)",
+        "Say what still has to be done with sein / haben + zu + infinitive, and explain what a pharmacy may exchange during a shortage"
        ],
        "has": {
         "letters": false,
