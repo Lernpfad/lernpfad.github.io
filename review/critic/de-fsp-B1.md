@@ -90,3 +90,49 @@ All files print OK with `tools/validate.py`. `tools/audit.py` reports nothing fo
 6. **A bridge to C1.** The B1 lay-translation exercises (Verschreibungspflichtig, Suppositorium, peroral, Cephalgie, Diarrhö,
    Kontraindikation, Lieferengpass) are excellent. Add one per grammar point for the terms C1 will use (Obstipation, Emesis,
    Pruritus, Exanthem, Zystitis are already headwords) so the 3B list starts here.
+
+## 5. Pass 5 (Nov 2026)
+
+Carried out `review/BRIEF_FIX5.md` tasks 1–7 for `content/de-fsp/B1/u01…u06.json`, plus the lead's extra requirements
+(prescription types, AMK reporting duty, anticoagulant/INR warning). All files print OK with `tools/validate.py`;
+`tools/audit.py` reports no findings for de-fsp B1.
+
+### Remaining issues and ideas from section 3 and 4: what was done
+
+| Item | Status | What was done |
+|---|---|---|
+| High: prescription types, validity, copayment, aut idem / Rabattvertrag | done | u01: new headword *das Kassenrezept* (w16); reading renamed "Rezepte in unserer Apotheke" with 4 new sentences: 28 days for statutory patients, pink Kassenrezept (now rare) and blue Privatrezept, green prescription (patient usually pays), yellow Betäubungsmittelrezept (morphine) and T-Rezept (active ingredients that can harm an unborn child); 2 new questions; new sentence "Ist das ein Kassenrezept oder ein Privatrezept?". u06: reading gets the copayment rule for statutory-insured adults (10 %, at least 5 €, at most 10 €, never more than the price) and the Rabattvertrag explanation ("Warum sieht meine Tablette anders aus?"); function item g01 X5 on the same question; 2 new questions (one a copayment calculation). The aut-idem rule itself is taught at C1 (u08 reading, u09 words), where it belongs. |
+| Medium: level gap, long dialogue lines | done (content side) | Longest lines split into short sentences: u01 L10, u03 L10, u05 L5. Dialogues already have the maximum of 12 lines, so no extra turns. Whether B1 should be labeled "start after A2 of de-en" is a decision for the lead (course description in the app). |
+| Medium: AMK reporting described as optional | done | u05 R9 → "Die Apotheke meldet die Nebenwirkung an die Arzneimittelkommission der Deutschen Apotheker. Das ist für Apothekerinnen und Apotheker eine Pflicht, auch wenn es nur ein Verdacht ist." (professional duty under the chambers' Berufsordnung). |
+| Medium: unsafe "Sie ___ nicht zum Arzt gehen" (u05 g01 X5) | done | Item replaced (it duplicated X3's *nicht müssen* point) by a lay item, so the message is gone. |
+| Medium: few picture questions | partly | *die Packung* gets 📦. *Tube, Haut, Magen* have no unambiguous emoji, so they stay "". |
+| Low: marked alts | done | Removed "Nehmen Sie mit Wasser die Tablette ein." (u01 g02 X6) and "Ich hätte eine Packung mit zwanzig Tabletten gern." (u02 g01 X7). |
+| Low: Könntest / Würdest not cross-accepted (u06 g02 X3, X5) | done | Both items accept both forms (with oe/ue spellings). |
+| Low: "Lena" vs "PTA Lena" | done | u06 speaker renamed "PTA Lena", as in C1 u04 and the curriculum. |
+| Low: all answers at index 0 | done | Options of choice items and reading questions rotated deterministically; answers are now spread over 0–2. |
+| Idea 1: core vocabulary, cough scene | done | New headwords *der Husten* (dry / chesty, u04 w15), *absetzen* (u03 w16); *Halsschmerzen* now shows Fach: Pharyngitis; *Überdosierung* in u03 g02 X3, *Granulat* and *Augentropfen* in the u02 reading, *entsorgen* in the u06 reading. Cough: function item u04 g01 X1 ("Ist der Husten trocken oder verschleimt?"), rewrite u04 g02 X4, 3 new sentences (incl. when to see a doctor). *Vergiftung* left out (no natural place). |
+| Idea 2: doses by ear | done | u03 sentences + "Dreimal täglich fünf Milliliter." and "Alle acht Stunden eine Tablette." (short, so used for dictation). |
+| Idea 3: cultural fit | done | (a) u01 g01 X4: customer used to buying antibiotics without a prescription → "In Deutschland brauchen Sie für Antibiotika zum Einnehmen ein Rezept." (b) Ramadan: u03 g01 X1 (pharmacist clarifies with the doctor; doses are never combined or skipped). (c) Gelatin: u02 g01 X5 (customer doesn't want gelatin capsules → tablet), phrased without mentioning pork. |
+| Idea 4: friction | done | u05 dialogue: Frau Richter insists ("Aber Ibuprofen hilft mir immer so gut! Kann ich es nicht trotzdem nehmen?"), the pharmacist refuses politely ("Das verstehe ich. Aber mit Ihrem Blutverdünner ist das zu riskant."). Function items with difficult customers in u01, u03, u06. |
+| Idea 5: Laie / Fach convention | done | Stated once at the end of the u01 g01 explanation. |
+| Idea 6: lay items for C1 terms | done | One lay item added in each grammar point that had none: Obstipation (u01 g02), Pruritus (u02 g02), Emesis (u03 g02), Zystitis (u05 g01), Exanthem (u06 g02). |
+| Lead requirement: anticoagulant / INR | done | u05: new headword *der INR-Wert* (w16); reading + 3 sentences (phenprocoumon; ibuprofen or ASS with phenprocoumon → bleeding risk; INR is measured regularly and shows how fast the blood clots); function item g01 X2 (patient on phenprocoumon asks for ibuprofen); 2 new questions. |
+
+### Counts
+
+| Category | Count |
+|---|---|
+| Production items (task 2) | 24 (12 rewrite `type` + 12 function `choice`, 2 per grammar point, replacing the most repetitive items; counts kept at 8) |
+| Lay-translation items (idea 6) | 5 (replacing a third repetitive item in those 5 points) |
+| `why` explanations (task 3) | 81 (every `choice` and `type` grammar exercise) |
+| New reading questions (task 4) | 9: 6 inference (u01 six-week-old e-prescription, u02 child who spits out everything, u03 next ibuprofen dose, u04 why ask about fever, u05 patient on phenprocoumon with a headache, u06 copayment of a 30 € medicine) + 3 factual (green prescription, INR, Rabattvertrag) |
+| `sym` marks (task 5) | 9 (E-Rezept 📱, Gesundheitskarte 💳, Filmtablette 💊, Packungsbeilage 📄, Lieferung 🚚, Kühlkette ❄️, Verfallsdatum 📅, Botendienst 🚲, Notdienst 🌙); 1 new emoji (Packung 📦) |
+| New headwords / sentences / reading lines | 4 / 7 / 13 |
+| Other fixes | 3 dialogue lines shortened, 3 dialogue lines rewritten for friction, AMK duty, 2 marked alts removed, 2 answer lists cross-completed, speaker renamed, 98 options rotated (B1 + C1), ae/oe/ue/ss variants completed in all `type` answers |
+
+All new items reuse B1 words (Rezept, Gesundheitskarte, Packung, Saft, Wärmepflaster, Blutverdünner, Lieferengpass, Großhandel, Kühlschrank …).
+
+### For the lead
+- Voice: "der INR-Wert" (u05) is the only new acronym in spoken text; if the German voice does not spell it, add `("INR", "I N R")` to `ABBR["de"]` in `tools/build.py`.
+- App: whether to label B1 "start after A2 of de-en" (level description).
+- Facts to re-check if the law changes: copayment rule (§ 61 SGB V) and the 28-day validity of statutory prescriptions.

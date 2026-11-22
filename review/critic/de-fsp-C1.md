@@ -139,3 +139,66 @@ Glukokortikoid).
    u04 without changing the unit structure.
 6. **Cumulative 3B list.** A single review list of all Fach → Laie pairs in the course (about 70 already exist across B1 and C1)
    would match the exam task exactly and could be generated from the `s` fields ("· Laie: …").
+
+## 5. Pass 5 (Nov 2026)
+
+Carried out `review/BRIEF_FIX5.md` tasks 1–7 for `content/de-fsp/C1/u01…u08.json` and wrote the **new unit u09**. All 9 files
+print OK with `tools/validate.py`; `tools/audit.py` reports only the 5 known adjective + noun false alarms. `tools/build.py`
+globs `content/de-fsp/C1/u*.json`, so u09 is picked up without any change (checked with `process_unit`, no missing pictures).
+
+### New unit u09 "Die E-Mail an die Praxis und die Übergabe" (📧)
+
+| Part | Content |
+|---|---|
+| Goals | Formal e-mail to a practice (Teil 2, mock 3); formal noun–verb phrases; shift handover in technical German (Teil 3A, mock 1); sein / haben + zu + infinitive; what a pharmacy may exchange in a shortage |
+| Words (15) | der Betreff, die Anrede, die Grußformel, der Sachverhalt, die Rückmeldung, die Verordnung, der Rückruf, ausstehen, die Übergabe, die Schicht, der Defekt (Defektliste), das Betäubungsmittel, der Rabattvertrag, das Aut-idem-Kreuz, pharmakologisch-therapeutisch vergleichbar |
+| Phrases (8) | Sehr geehrte Frau Dr. Yilmaz, · Ihre Patientin … hat heute ein Rezept über … eingelöst. · Das Präparat ist laut Großhandel voraussichtlich … nicht lieferbar. · Wir würden Sie daher bitten, … · Für Rückfragen stehen wir Ihnen gern zur Verfügung. · Mit freundlichen Grüßen · Ich übergebe Ihnen kurz die offenen Punkte. · Der Rückruf der Praxis steht noch aus. |
+| Dialogue (12 lines) | Herr Ahmadi hands over to Frau Lange (the colleague named in mock 1): (1) Frau Richter's case from mock 1 in SBAR style (Lumbalgie; ASS 100 mg, ramipril, ulcer history → no ibuprofen, heat patch, refer to the doctor if no better after 3–4 days or numbness); (2) pending callback from Dr. Yilmaz about Frau Becker's unavailable powder inhaler (MDI with spacer to suggest, document the consultation, call the patient back); (3) Defektliste (children's antibiotic syrup to re-check tomorrow); (4) narcotics: today's receipts and dispensings documented, stock correct; colleague summarizes. |
+| Grammar 1 | "zur Verfügung stehen, Rücksprache halten": the fixed frame of the formal e-mail (Betreff without verb, Anrede with comma and lower-case start, Sachverhalt, Bitte, Grußformel without comma) and Funktionsverbgefüge; 8 exercises incl. rewrite (in Kenntnis setzen) and function item (which sentence fits a formal e-mail) |
+| Grammar 2 | "Das Rezept ist noch zu prüfen.": sein / haben + zu + infinitive for open tasks, zu inside separable verbs, negated = cannot; 8 exercises incl. rewrite (muss … werden → ist zu …) and function item (what to do if Frau Richter returns) |
+| Reading | The model e-mail to Dr. Yilmaz (mock 3, Teil 2): subject, salutation, prescription with dose, 6-week shortage, same combination available as MDI, switch not made without consulting the doctor (dosage form and technique change), spacer because of arthritis, request for agreement *or* a new prescription, salbutamol already dispensed, offer for questions, closing. 5 questions, 2 of them inference. |
+| Sentences (8) | e-mail chunks, handover, BtM documentation, aut-idem cross, Rabattvertrag |
+
+The e-mail deliberately asks for "agreement or, if necessary, a new prescription" instead of the handbook's flat claim that the
+change of dosage form "needs a new prescription" (see issue 3).
+
+### Remaining issues and ideas from section 3 and 4: what was done
+
+| Item | Status | What was done |
+|---|---|---|
+| 1 High: Teil 2 formal e-mail | done | u09 (reading = model e-mail, grammar 1, phrases). |
+| 2 High: Teil 3A only one scenario | done | Handover to Frau Lange = u09 dialogue. Call to Dr. Schulz (mock 2): 4 SBAR sentences in u06 (makulopapulöses Exanthem am Stamm, leichter Pruritus, keine Dyspnoe, kein Angioödem, "Wie möchten Sie weiter vorgehen?") + function item u07 g01 X4. Dr. Yilmaz callback (mock 3): u08 sentences ("Wäre ein Dosieraerosol mit Inhalierhilfe für Frau Becker eine Option?") and u09 dialogue L6–L8. |
+| 3 High: shortage substitution law | done | u08 reading + 4 sentences (simplified, § 129 SGB V / Rahmenvertrag): Rabattvertrag product unless the aut-idem cross excludes it; exchange only with same active ingredient, strength, pack size, same or interchangeable dosage form and at least one shared indication; if unavailable, without consulting: other pack size, several smaller packs, or another strength if there are no pharmaceutical concerns, total amount not exceeded; a pharmacologically-therapeutically comparable drug only after consulting the prescriber, documented. New headword *die Nichtverfügbarkeit* (u08 w16); u09 words Rabattvertrag, Aut-idem-Kreuz, pharmakologisch-therapeutisch vergleichbar; 2 new questions. A change of dosage form is not presented as allowed without consultation. |
+| 4 Medium: paracetamol with phenprocoumon | done | u05 dialogue: weight question added (L4/L5, 80 kg); L8 says why only until the dental appointment; reading: weight in the header and "Paracetamol wurde nur kurzfristig empfohlen, da es bei längerer regelmäßiger Einnahme die Wirkung von Phenprocoumon verstärken kann."; 2 new questions. |
+| 5 Medium: AMK duty soft | done | u06 w01 example: "… wird an die AMK gemeldet; dazu sind Apothekerinnen und Apotheker berufsrechtlich verpflichtet." |
+| 6 Medium: monologue topics narrow | done | u04: 7 new sentences (E-Rezept pro and con, flu vaccination of adults by trained pharmacists, medication review, cannabis as a medicine, AMVV, AMG, antibiotics without prescription abroad) + headword *die Medikationsanalyse* + function item on vaccination (g02 X4) + rewrite on the E-Rezept (g02 X1). Cannabis kept to a neutral sentence because the rules are in flux. |
+| 7 Medium: Rx/OTC law, BtM, pDL | done | AMVV and AMG sentences in u04; BtM documentation in u09 (dialogue, grammar 2, sentence); pDL inhalation training sentence in u08. |
+| 8 Medium: order tasks with "…" / no alts on phrases | not done | App side (lead). |
+| 9 Low: 🩸 for Antikoagulans | done | u05 w06 emoji → "". |
+| 10 Low: inconsistent inhaler labels | done | u08 uses "das Kortison-Gerät" (daily) and "das Notfallspray" (salbutamol) consistently: p05, p06, L10, L11, w13 example, one sentence. |
+| 11 Low: concrete statin alternative | done | u07 R8 names fluvastatin (the example the clarithromycin SmPC itself gives). |
+| 12 Low: exam timing | done | u01 reading: about 20 minutes per part in the Westfalen-Lippe format; Berlin states only the total, read the invitation letter. |
+| Idea 1: mock-exam runs | not done | App feature (lead). |
+| Idea 2: error-correction drills for Teil 2 | done | Function items "Which sentence belongs in the note?" (u05 g01 X4) and "Which sentence is correct?" (u05 g02 X5), plus u09 g01 X7. |
+| Idea 3: teach-back variety | done | u08 L10 now "Damit ich sicher bin, dass ich mich klar ausgedrückt habe: …"; u02 p07 and 2 new u02 sentences give alternatives. |
+| Idea 4: difficult patients | done | u08 g01 X5 (angry about the shortage → acknowledge, concrete next step); u01 g02 X5 (herbal product "doesn't count"); u02 g02 X4 (wants to stop the antibiotic). |
+| Idea 5: cultural fit | done | Antibiotics without prescription abroad: u04 g01 X3 and a u04 sentence (phrased "in manchen Ländern"). Ramadan: u02 g01 X5. |
+| Idea 6: cumulative 3B list | not done | Generator / app (lead); the "· Laie:" convention in `s` makes it scriptable. |
+| Brief rule: no re-teaching of B1 | done | 7 C1 phrases repeated B1 phrases word for word; replaced by C1 variants: u01 p01, p03, p08; u02 p05, p06, p07; u07 p01. |
+
+### Counts (u01–u08 / u09)
+
+| Category | u01–u08 | u09 |
+|---|---|---|
+| Production items (task 2) | 32 (16 rewrite + 16 function; 2 per grammar point, replacing repetitive items, counts kept at 8) | 4 |
+| `why` (task 3) | 102 (every `choice` and `type` exercise) | 14 |
+| New reading questions (task 4) | 10: 8 inference (u01 what helps most in the exam, u02 why teach-back, u03 which patient is most at risk, u04 the author's view on prices, u05 why no doctor consultation was needed, u06 why the pharmacist didn't stop the syrup, u07 why simvastatin and lovastatin, u08 two smaller packs) + 2 factual | 5 (2 inference) |
+| `sym` marks (task 5) | 27 | 2 (Rückruf 📞, Übergabe 🤝) |
+| New headwords / sentences / reading lines | 2 / 15 / 6 | 15 / 8 / 12 |
+| Other fixes | 7 phrases replaced, 1 emoji removed, 6 dialogue lines changed, 1 word example, R8 in u07, answer variants completed, choice options rotated (answers no longer always first) | |
+
+### For the lead
+- Nothing needed in `tools/build.py` for u09 (units are globbed per level).
+- New speaker "Frau Lange" (u09, the colleague named in mock 1); she is not in the curriculum's speaker list.
+- App: issue 8 (order tasks with "…"), idea 1 (mock-exam runs), idea 6 (cumulative 3B list).
+- Facts to re-check if the law changes: § 129 (2a) SGB V substitution rules, pharmacy vaccinations, cannabis.
