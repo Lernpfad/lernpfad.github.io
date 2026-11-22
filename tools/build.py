@@ -14,7 +14,7 @@ TWEMOJI_DIR = "/home/claude/vendor/twemoji"
 # dir = direction of the UI (support language); tdir = direction of the language being learned
 COURSES = {
     "de-en": {"target": "de", "support": "en", "dir": "ltr", "tdir": "ltr",
-              "name": {"t": "Deutsch", "s": "German"}, "voices": {"f": "de_f", "m": "de_m"}, "default": "m", "color": "#d9822b"},
+              "name": {"t": "Deutsch", "s": "German"}, "voices": {"f": "de_f", "m": "de_m"}, "default": "m", "color": "#b4610f"},
     # pharmacy German for the Fachsprachprüfung (FSP): basics at B1, the exam itself at C1
     "de-fsp": {"target": "de", "support": "en", "dir": "ltr", "tdir": "ltr",
                "name": {"t": "Pharmazie-Deutsch", "s": "Pharmacy German"}, "voices": {"f": "de_f", "m": "de_m"}, "default": "m",
@@ -291,8 +291,9 @@ def main():
                 lv["outline"] = LEVEL_OUTLINE[sup].get(lid, "")
             levels.append(lv)
         offline.discard(None)
+        meta["mb"] = round(sum(os.path.getsize(os.path.join(DOCS, x)) for x in offline if os.path.exists(os.path.join(DOCS, x))) / 1e6)
         json.dump(sorted(offline), open(os.path.join(DOCS, "data", course, "files.json"), "w"), indent=0)
-        index["courses"].append({"id": course, **{k: meta[k] for k in ("target", "support", "dir", "tdir", "name", "color")},
+        index["courses"].append({"id": course, **{k: meta[k] for k in ("target", "support", "dir", "tdir", "name", "color", "mb")},
                                  **({"badge": meta["badge"], "about": meta.get("about")} if meta.get("badge") else {}), "levels": levels})
     json.dump(index, open(os.path.join(DOCS, "data", "courses.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(jobs, open(os.path.join(ROOT, "tools", "tts_jobs.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
