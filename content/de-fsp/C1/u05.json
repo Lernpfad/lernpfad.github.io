@@ -64,14 +64,15 @@
       "ex": {
         "t": "Wegen Vorhofflimmern nimmt Herr Klein jeden Tag einen Blutverdünner ein.",
         "s": "Because of atrial fibrillation, Mr. Klein takes a blood thinner every day."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
       "t": "das Antikoagulans",
       "pl": "die Antikoagulanzien",
       "s": "anticoagulant · Laie: der Blutverdünner",
-      "emoji": "🩸",
+      "emoji": "",
       "ex": {
         "t": "Phenprocoumon ist ein Antikoagulans, das die Blutgerinnung hemmt.",
         "s": "Phenprocoumon is an anticoagulant that inhibits blood clotting."
@@ -159,7 +160,8 @@
       "ex": {
         "t": "Wegen einer Odontalgie wünschte der Patient ein Schmerzmittel.",
         "s": "Because of a toothache, the patient asked for a painkiller."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w15",
@@ -170,7 +172,8 @@
       "ex": {
         "t": "Die Notiz wird in der Patientendatei der Apotheke gespeichert.",
         "s": "The note is saved in the pharmacy's patient file."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w16",
@@ -263,13 +266,13 @@
       },
       {
         "sp": "A",
-        "t": "Darf ich fragen, ob Sie regelmäßig andere Medikamente einnehmen?",
-        "s": "May I ask whether you take any other medicines regularly?"
+        "t": "Darf ich fragen, ob Sie regelmäßig andere Medikamente einnehmen und wie viel Sie ungefähr wiegen?",
+        "s": "May I ask whether you take any other medicines regularly and roughly how much you weigh?"
       },
       {
         "sp": "B",
-        "t": "Ja, ich nehme jeden Tag einen Blutverdünner, Phenprocoumon, wegen Vorhofflimmern.",
-        "s": "Yes, I take a blood thinner every day, phenprocoumon, because of atrial fibrillation."
+        "t": "Ich wiege etwa achtzig Kilo. Und ich nehme jeden Tag einen Blutverdünner, Phenprocoumon, wegen Vorhofflimmern.",
+        "s": "I weigh about eighty kilos. And I take a blood thinner every day, phenprocoumon, because of atrial fibrillation."
       },
       {
         "sp": "A",
@@ -283,8 +286,8 @@
       },
       {
         "sp": "A",
-        "t": "Ich empfehle Ihnen Paracetamol, fünfhundert Milligramm, aber nur bis zu Ihrem Zahnarzttermin. Nehmen Sie bei Bedarf ein bis zwei Tabletten. Zwischen zwei Einnahmen sollten mindestens sechs Stunden liegen, und mehr als acht Tabletten am Tag dürfen es nicht sein.",
-        "s": "I recommend paracetamol, 500 milligrams, but only until your dental appointment. Take one or two tablets when needed. There should be at least six hours between two doses, and you must not take more than eight tablets a day."
+        "t": "Ich empfehle Ihnen Paracetamol, fünfhundert Milligramm, aber nur bis zu Ihrem Zahnarzttermin, weil es bei längerer Einnahme die Wirkung Ihres Blutverdünners verstärken kann. Nehmen Sie bei Bedarf ein bis zwei Tabletten. Zwischen zwei Einnahmen sollten mindestens sechs Stunden liegen, und mehr als acht Tabletten am Tag dürfen es nicht sein.",
+        "s": "I recommend paracetamol, 500 milligrams, but only until your dental appointment, because taken for longer it can increase the effect of your blood thinner. Take one or two tablets when needed. There should be at least six hours between two doses, and you must not take more than eight tablets a day."
       },
       {
         "sp": "B",
@@ -357,15 +360,16 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Der Patient ___ über die Wechselwirkung informiert.",
-          "options": [
-            "wurde",
-            "wurden",
-            "hat"
+          "type": "type",
+          "task": "Make it passive, starting with Der Patientin.",
+          "cue": "Ich habe der Patientin Paracetamol empfohlen.",
+          "t": "Der Patientin ___.",
+          "answer": [
+            "wurde Paracetamol empfohlen",
+            "ist Paracetamol empfohlen worden"
           ],
-          "answer": 0,
-          "s": "The patient was informed about the interaction."
+          "why": "The dative stays dative; Paracetamol becomes the subject: wurde … empfohlen.",
+          "s": "Paracetamol was recommended to the patient."
         },
         {
           "type": "choice",
@@ -376,7 +380,8 @@
             "Den"
           ],
           "answer": 1,
-          "s": "The (female) patient was advised to drink a lot."
+          "s": "The (female) patient was advised to drink a lot.",
+          "why": "empfehlen takes the dative: die Patientin → der Patientin."
         },
         {
           "type": "type",
@@ -384,7 +389,8 @@
           "answer": [
             "abgeraten"
           ],
-          "s": "Ibuprofen was advised against because of the risk of bleeding."
+          "s": "Ibuprofen was advised against because of the risk of bleeding.",
+          "why": "abraten von: the participle is abgeraten."
         },
         {
           "type": "choice",
@@ -395,15 +401,22 @@
             "habe"
           ],
           "answer": 1,
-          "s": "When the patient left the pharmacy, the doctor had already been informed."
+          "s": "When the patient left the pharmacy, the doctor had already been informed.",
+          "why": "Zustandspassiv for a state reached: war + informiert."
         },
         {
-          "type": "type",
-          "t": "Der Patient ___ gebeten, einen Zahnarzt aufzusuchen.",
-          "answer": [
-            "wurde"
+          "type": "choice",
+          "task": "Which sentence belongs in the note?",
+          "cue": "Sie schreiben die Notiz über das Beratungsgespräch.",
+          "t": "___",
+          "options": [
+            "Wegen einer Wechselwirkung mit Phenprocoumon wurde von Ibuprofen abgeraten.",
+            "Ibuprofen und Blutverdünner vertragen sich nicht.",
+            "Kein Ibuprofen, Blutung!"
           ],
-          "s": "The patient was asked to see a dentist."
+          "answer": 0,
+          "why": "A note uses full sentences, the passive and technical terms, not bullet points or lay words.",
+          "s": "You're writing the note on the consultation. – Because of an interaction with phenprocoumon, ibuprofen was advised against."
         },
         {
           "type": "type",
@@ -416,7 +429,8 @@
             "erfasst",
             "vermerkt"
           ],
-          "s": "The case is documented in the patient file."
+          "s": "The case is documented in the patient file.",
+          "why": "Zustandspassiv: ist + participle names the result (dokumentiert)."
         },
         {
           "type": "order",
@@ -487,23 +501,25 @@
           "type": "choice",
           "t": "___ der Patient Phenprocoumon einnimmt, wurde von Ibuprofen abgeraten.",
           "options": [
-            "Da",
             "Daraufhin",
-            "Sodass"
+            "Sodass",
+            "Da"
           ],
-          "answer": 0,
-          "s": "As the patient takes phenprocoumon, ibuprofen was advised against."
+          "answer": 2,
+          "s": "As the patient takes phenprocoumon, ibuprofen was advised against.",
+          "why": "da (as) is a conjunction giving a known reason; the verb goes to the end."
         },
         {
           "type": "choice",
           "t": "Die Patientin hatte hohes Fieber, ___ ein Arztbesuch dringend nötig war.",
           "options": [
+            "anschließend",
             "sodass",
-            "da",
-            "anschließend"
+            "da"
           ],
-          "answer": 0,
-          "s": "The patient had a high fever, so a visit to the doctor was urgently needed."
+          "answer": 1,
+          "s": "The patient had a high fever, so a visit to the doctor was urgently needed.",
+          "why": "sodass names the consequence and follows the main clause."
         },
         {
           "type": "choice",
@@ -514,22 +530,20 @@
             "Sodass"
           ],
           "answer": 0,
-          "s": "The interaction was noticed. Thereupon the pharmacist called the doctor."
+          "s": "The interaction was noticed. Thereupon the pharmacist called the doctor.",
+          "why": "daraufhin = thereupon: an adverb in position 1, the verb comes next."
         },
         {
           "type": "type",
-          "t": "Zuerst wurde die Einnahme erklärt. ___ wiederholte der Patient die wichtigsten Hinweise.",
+          "task": "Link them with sodass.",
+          "cue": "Die Schmerzen waren sehr stark. Der Patient konnte kaum schlafen.",
+          "t": "Die Schmerzen waren sehr stark, ___.",
           "answer": [
-            "Anschließend",
-            "Anschliessend",
-            "Danach",
-            "Dann",
-            "Daraufhin",
-            "Abschließend",
-            "Abschliessend",
-            "Zum Schluss"
+            "sodass der Patient kaum schlafen konnte",
+            "so dass der Patient kaum schlafen konnte"
           ],
-          "s": "First, how to take the medicine was explained. Afterwards, the patient repeated the most important points."
+          "why": "sodass names the result and sends the verb to the end: … schlafen konnte.",
+          "s": "The pain was very severe, so the patient could hardly sleep."
         },
         {
           "type": "type",
@@ -543,16 +557,22 @@
             "Folglich",
             "Alternativ"
           ],
-          "s": "Ibuprofen was out of the question. Instead, paracetamol was recommended."
+          "s": "Ibuprofen was out of the question. Instead, paracetamol was recommended.",
+          "why": "stattdessen = instead (other linking adverbs also fit); the verb follows directly."
         },
         {
-          "type": "type",
-          "t": "___ die Beschwerden seit drei Tagen bestanden, wurde ein Arztbesuch empfohlen.",
-          "answer": [
-            "Da",
-            "Weil"
+          "type": "choice",
+          "task": "Which sentence is correct?",
+          "cue": "Sie verbinden in der Notiz den Grund und die Empfehlung.",
+          "t": "___",
+          "options": [
+            "Da der Patient Phenprocoumon einnimmt, wurde Paracetamol empfohlen.",
+            "Da der Patient nimmt Phenprocoumon ein, wurde Paracetamol empfohlen.",
+            "Der Patient nimmt Phenprocoumon ein, daraufhin Paracetamol empfohlen."
           ],
-          "s": "As the symptoms had lasted for three days, a visit to the doctor was recommended."
+          "answer": 0,
+          "why": "da is a conjunction: the verb goes to the end (einnimmt), and the main clause starts with its verb.",
+          "s": "You link the reason and the recommendation in the note. – As the patient takes phenprocoumon, paracetamol was recommended."
         },
         {
           "type": "order",
@@ -581,8 +601,8 @@
         "s": "Note on a consultation of March 12, Linden-Apotheke, Berlin, written by pharmacist Ahmadi."
       },
       {
-        "t": "Patient: Herr K., achtundsechzig Jahre, männlich.",
-        "s": "Patient: Mr. K., 68 years old, male."
+        "t": "Patient: Herr K., achtundsechzig Jahre, männlich, etwa achtzig Kilogramm.",
+        "s": "Patient: Mr. K., 68 years old, male, about 80 kg."
       },
       {
         "t": "Herr K. kam in die Apotheke, da er seit dem Vortag über starke Zahnschmerzen im rechten Unterkiefer klagte.",
@@ -617,6 +637,10 @@
         "s": "The patient was asked to take paracetamol only until the dental appointment and to tell the dentist that he takes the anticoagulant."
       },
       {
+        "t": "Paracetamol wurde nur kurzfristig empfohlen, da es bei längerer regelmäßiger Einnahme die Wirkung von Phenprocoumon verstärken kann.",
+        "s": "Paracetamol was recommended only for a short time because, taken regularly for longer, it can increase the effect of phenprocoumon (the INR may rise)."
+      },
+      {
         "t": "Für den Fall, dass die Schmerzen zunehmen, die Wange anschwillt oder Fieber auftritt, wurde ihm geraten, umgehend den zahnärztlichen Notdienst aufzusuchen.",
         "s": "In case the pain gets worse, his cheek swells or he develops a fever, he was advised to go to the emergency dental service immediately."
       },
@@ -636,11 +660,11 @@
           "s": "Why did Mr. K. come to the pharmacy?"
         },
         "options": [
+          "Er hatte Magenschmerzen nach Ibuprofen.",
           "Er hatte starke Zahnschmerzen.",
-          "Er brauchte ein neues Rezept für Phenprocoumon.",
-          "Er hatte Magenschmerzen nach Ibuprofen."
+          "Er brauchte ein neues Rezept für Phenprocoumon."
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -672,11 +696,11 @@
           "s": "When should the patient go to the emergency dental service immediately?"
         },
         "options": [
+          "wenn der Zahnarzttermin verschoben wird",
           "wenn seine Wange anschwillt",
-          "wenn er müde wird",
-          "wenn der Zahnarzttermin verschoben wird"
+          "wenn er müde wird"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -689,6 +713,30 @@
           "Er hat seinen Hausarzt angerufen."
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum wurde Paracetamol nur bis zum Zahnarzttermin empfohlen?",
+          "s": "Why was paracetamol recommended only until the dental appointment?"
+        },
+        "options": [
+          "Weil es gegen Zahnschmerzen nicht wirkt.",
+          "Weil der Patient zu wenig wiegt.",
+          "Weil es bei längerer Einnahme die Wirkung von Phenprocoumon verstärken kann."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Warum war keine Rücksprache mit dem Hausarzt erforderlich?",
+          "s": "Why was it not necessary to consult the family doctor?"
+        },
+        "options": [
+          "Weil der Hausarzt im Urlaub war.",
+          "Weil Paracetamol verschreibungspflichtig ist.",
+          "Weil das Problem in der Apotheke mit einer sicheren Alternative gelöst werden konnte."
+        ],
+        "answer": 2
       }
     ]
   },

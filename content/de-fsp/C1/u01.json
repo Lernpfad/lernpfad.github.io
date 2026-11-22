@@ -22,7 +22,8 @@
       "ex": {
         "t": "Ich bereite mich intensiv auf die Fachsprachprüfung vor.",
         "s": "I'm preparing intensively for the specialist language exam."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -33,7 +34,8 @@
       "ex": {
         "t": "Die Fachsprachprüfung ist eine Voraussetzung für die Approbation.",
         "s": "The specialist language exam is a requirement for the license to practice."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -44,7 +46,8 @@
       "ex": {
         "t": "In Berlin führt die Apothekerkammer die Fachsprachprüfung durch.",
         "s": "In Berlin, the chamber of pharmacists conducts the specialist language exam."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -55,7 +58,8 @@
       "ex": {
         "t": "Im ersten Teil der Prüfung führt man ein Beratungsgespräch mit einem Patienten.",
         "s": "In the first part of the exam, you conduct a consultation with a patient."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -77,7 +81,8 @@
       "ex": {
         "t": "Vor der Prüfung hat man bis zu fünfzehn Minuten Vorbereitungszeit.",
         "s": "Before the exam you have up to fifteen minutes of preparation time."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -120,7 +125,8 @@
       "ex": {
         "t": "Zur Dauermedikation des Patienten gehört ein Blutdruckmittel.",
         "s": "The patient's long-term medication includes a blood pressure medicine."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -152,7 +158,8 @@
       "ex": {
         "t": "Ein Magengeschwür in der Vorgeschichte ist bei Schmerzmitteln wie Ibuprofen ein wichtiger Risikofaktor.",
         "s": "A history of stomach ulcers is an important risk factor with painkillers such as ibuprofen."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w14",
@@ -189,7 +196,7 @@
   "phrases": [
     {
       "id": "p01",
-      "t": "Guten Tag, was kann ich für Sie tun?",
+      "t": "Guten Tag, wie kann ich Ihnen helfen?",
       "s": "Hello, how can I help you?"
     },
     {
@@ -199,8 +206,8 @@
     },
     {
       "id": "p03",
-      "t": "Welche Beschwerden haben Sie genau?",
-      "s": "What symptoms do you have exactly?"
+      "t": "Könnten Sie mir Ihre Beschwerden etwas genauer beschreiben?",
+      "s": "Could you describe your symptoms in a bit more detail?"
     },
     {
       "id": "p04",
@@ -224,8 +231,8 @@
     },
     {
       "id": "p08",
-      "t": "Waren Sie deswegen schon beim Arzt?",
-      "s": "Have you already seen a doctor about it?"
+      "t": "Waren Sie mit diesen Beschwerden schon in ärztlicher Behandlung?",
+      "s": "Have you already been treated by a doctor for these symptoms?"
     }
   ],
   "dialogue": {
@@ -359,23 +366,25 @@
           "type": "choice",
           "t": "Könnten Sie mir sagen, seit wann Sie die Schmerzen ___?",
           "options": [
-            "haben",
             "haben Sie",
-            "Sie haben"
+            "Sie haben",
+            "haben"
           ],
-          "answer": 0,
-          "s": "Could you tell me how long you have had the pain?"
+          "answer": 2,
+          "s": "Could you tell me how long you have had the pain?",
+          "why": "An indirect question is a subordinate clause, so the verb (haben) goes to the end."
         },
         {
           "type": "choice",
           "t": "Darf ich fragen, ___ Sie schwanger sind?",
           "options": [
+            "dass",
             "ob",
-            "wenn",
-            "dass"
+            "wenn"
           ],
-          "answer": 0,
-          "s": "May I ask whether you are pregnant?"
+          "answer": 1,
+          "s": "May I ask whether you are pregnant?",
+          "why": "Yes/no questions become ob-clauses: Darf ich fragen, ob …"
         },
         {
           "type": "type",
@@ -383,18 +392,22 @@
           "answer": [
             "wie"
           ],
-          "s": "Do you know how often the headaches occur?"
+          "s": "Do you know how often the headaches occur?",
+          "why": "Indirect W-questions keep their question word: wie oft."
         },
         {
-          "type": "choice",
-          "t": "Darf ich fragen, ob Sie regelmäßig Medikamente ___?",
-          "options": [
-            "einnehmen",
-            "nehmen ein",
-            "einnehmen Sie"
+          "type": "type",
+          "task": "Make it indirect, starting with Darf ich fragen.",
+          "cue": "Nehmen Sie regelmäßig Blutverdünner ein?",
+          "t": "Darf ich fragen, ___?",
+          "answer": [
+            "ob Sie regelmäßig Blutverdünner einnehmen",
+            "ob Sie Blutverdünner regelmäßig einnehmen",
+            "ob Sie regelmaessig Blutverduenner einnehmen",
+            "ob Sie Blutverduenner regelmaessig einnehmen"
           ],
-          "answer": 0,
-          "s": "May I ask whether you take medicines regularly?"
+          "why": "A yes/no question becomes an ob-clause; the separable verb joins up at the end: einnehmen.",
+          "s": "May I ask whether you take blood thinners regularly?"
         },
         {
           "type": "type",
@@ -404,18 +417,22 @@
             "was für",
             "was fuer"
           ],
-          "s": "Could you tell me which other medicines you take?"
+          "s": "Could you tell me which other medicines you take?",
+          "why": "The question word welche stays at the start of the indirect question (was für also works)."
         },
         {
           "type": "choice",
-          "t": "Ich würde gern wissen, ob Sie schon beim Arzt ___.",
+          "task": "Which question is correct?",
+          "cue": "Sie möchten höflich wissen, seit wann die Kundin Fieber hat.",
+          "t": "___",
           "options": [
-            "waren",
-            "waren Sie",
-            "sind gewesen Sie"
+            "Könnten Sie mir sagen, seit wann Sie Fieber haben?",
+            "Könnten Sie mir sagen, seit wann haben Sie Fieber?",
+            "Könnten Sie mir sagen, ob seit wann Sie Fieber haben?"
           ],
           "answer": 0,
-          "s": "I'd like to know whether you have already been to the doctor."
+          "why": "In an indirect W-question the question word stays and the verb goes to the end.",
+          "s": "You want to ask politely how long the customer has had a fever. – Could you tell me how long you have had a fever?"
         },
         {
           "type": "order",
@@ -490,18 +507,20 @@
             "Nein"
           ],
           "answer": 0,
-          "s": "You don't take any other medicines? – Yes, I do: a blood pressure tablet every morning."
+          "s": "You don't take any other medicines? – Yes, I do: a blood pressure tablet every morning.",
+          "why": "To say yes to a negative question, answer doch."
         },
         {
           "type": "choice",
           "t": "___ Beschwerden haben Sie genau?",
           "options": [
-            "Welche",
             "Haben",
-            "Ob"
+            "Ob",
+            "Welche"
           ],
-          "answer": 0,
-          "s": "What symptoms do you have exactly? (open question)"
+          "answer": 2,
+          "s": "What symptoms do you have exactly? (open question)",
+          "why": "An open question starts with a W-word: Welche Beschwerden …?"
         },
         {
           "type": "type",
@@ -509,7 +528,8 @@
           "answer": [
             "Leiden"
           ],
-          "s": "Do you suffer from a pre-existing condition, for example diabetes?"
+          "s": "Do you suffer from a pre-existing condition, for example diabetes?",
+          "why": "A closed question starts with the verb; leiden an + dative = to suffer from."
         },
         {
           "type": "type",
@@ -519,29 +539,34 @@
             "überempfindlich",
             "ueberempfindlich"
           ],
-          "s": "Are you allergic to any medicine?"
+          "s": "Are you allergic to any medicine?",
+          "why": "allergisch gegen = allergic to (überempfindlich also fits)."
+        },
+        {
+          "type": "type",
+          "task": "Check back with Habe ich Sie richtig verstanden.",
+          "cue": "Sie haben gesagt, Sie nehmen die Pille.",
+          "t": "Habe ich Sie richtig verstanden, dass ___?",
+          "answer": [
+            "Sie die Pille nehmen",
+            "Sie die Pille einnehmen"
+          ],
+          "why": "After dass the conjugated verb goes to the end: dass Sie die Pille nehmen.",
+          "s": "Have I understood you correctly that you take the contraceptive pill?"
         },
         {
           "type": "choice",
-          "t": "Habe ich Sie richtig verstanden, dass Sie gegen Penicillin allergisch ___?",
+          "task": "Which reply fits?",
+          "cue": "Ich nehme nur ein pflanzliches Mittel, das zählt ja nicht.",
+          "t": "___",
           "options": [
-            "sind",
-            "seid",
-            "sein"
+            "Dann brauchen Sie keine Beratung.",
+            "Doch, das ist wichtig. Auch pflanzliche Mittel können Wechselwirkungen haben. Welches Mittel ist es genau?",
+            "Stimmt, pflanzliche Mittel sind immer harmlos."
           ],
-          "answer": 0,
-          "s": "Have I understood you correctly that you are allergic to penicillin?"
-        },
-        {
-          "type": "choice",
-          "t": "Nehmen Sie auch pflanzliche Mittel ___ Nahrungsergänzungsmittel ein?",
-          "options": [
-            "oder",
-            "dass",
-            "ob"
-          ],
-          "answer": 0,
-          "s": "Do you also take herbal products or dietary supplements?"
+          "answer": 1,
+          "why": "Herbal products (e.g. St. John's wort) can interact too, so always ask which one.",
+          "s": "I only take a herbal remedy, that doesn't count. – Yes, it does matter. Herbal remedies can have interactions too. Which one is it exactly?"
         },
         {
           "type": "order",
@@ -576,6 +601,10 @@
       {
         "t": "Es handelt sich um eine Einzelprüfung von sechzig Minuten, vor der man bis zu fünfzehn Minuten Vorbereitungszeit hat.",
         "s": "It is an individual exam of sixty minutes, before which you have up to fifteen minutes of preparation time."
+      },
+      {
+        "t": "Die Apothekerkammer Westfalen-Lippe rechnet mit etwa zwanzig Minuten pro Teil; in Berlin wird nur die Gesamtdauer angegeben, daher sollte man das Einladungsschreiben genau lesen.",
+        "s": "The Westfalen-Lippe chamber allows about 20 minutes per part (part 1: about 15 + 5); Berlin only states the total, so read your invitation letter carefully."
       },
       {
         "t": "Im ersten Teil führt man ein Beratungsgespräch mit einem Patienten, den ein Prüfer spielt, und hält anschließend einen kurzen Monolog zu einem Fachthema.",
@@ -669,11 +698,23 @@
           "s": "What applies when you retake the exam?"
         },
         "options": [
+          "Die Wiederholung ist kostenlos.",
           "Man muss die ganze Prüfung wiederholen.",
-          "Man wiederholt nur den Teil, den man nicht bestanden hat.",
-          "Die Wiederholung ist kostenlos."
+          "Man wiederholt nur den Teil, den man nicht bestanden hat."
         ],
-        "answer": 0
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was ist für die Prüfung wahrscheinlich am nützlichsten?",
+          "s": "What is probably most useful for the exam?"
+        },
+        "options": [
+          "einen langen Text auswendig lernen",
+          "möglichst viele Fachwörter im Patientengespräch benutzen",
+          "frei sprechen und auf die Fragen des Patienten eingehen"
+        ],
+        "answer": 2
       }
     ]
   },

@@ -22,7 +22,8 @@
       "ex": {
         "t": "In der Prüfung darf man die Fachinformation als Hilfsmittel benutzen.",
         "s": "In the exam you may use the summary of product characteristics as an aid."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -44,7 +45,8 @@
       "ex": {
         "t": "Das letzte Schwangerschaftsdrittel ist eine Gegenanzeige für Ibuprofen.",
         "s": "The last trimester of pregnancy is a contraindication for ibuprofen."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -141,7 +143,8 @@
       "ex": {
         "t": "Ibuprofen und Acetylsalicylsäure zusammen erhöhen das Blutungsrisiko im Magen-Darm-Trakt.",
         "s": "Ibuprofen and acetylsalicylic acid together increase the risk of bleeding in the gastrointestinal tract."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w13",
@@ -152,7 +155,8 @@
       "ex": {
         "t": "Im letzten Schwangerschaftsdrittel darf Ibuprofen nicht eingenommen werden.",
         "s": "Ibuprofen must not be taken in the last trimester of pregnancy."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w14",
@@ -163,7 +167,8 @@
       "ex": {
         "t": "Bei verspannten Rückenmuskeln kann ein Wärmepflaster helfen.",
         "s": "A heat patch can help with tense back muscles."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w15",
@@ -353,25 +358,29 @@
       "exercises": [
         {
           "type": "choice",
-          "t": "Die ___ Tageshöchstdosis darf nicht überschritten werden.",
+          "task": "Which explanation fits?",
+          "cue": "Was bedeutet: bei bestehender Schwangerschaft?",
+          "t": "___",
           "options": [
-            "empfohlene",
-            "empfehlende",
-            "empfohlen"
+            "wenn eine Frau zurzeit schwanger ist",
+            "wenn eine Frau früher einmal schwanger war",
+            "wenn eine Frau schwanger werden möchte"
           ],
           "answer": 0,
-          "s": "The recommended maximum daily dose must not be exceeded."
+          "why": "Partizip I (bestehend) describes something happening now: wenn eine Schwangerschaft besteht.",
+          "s": "What does bei bestehender Schwangerschaft mean? – If a woman is currently pregnant."
         },
         {
           "type": "choice",
           "t": "Bei ___ Magengeschwüren darf Ibuprofen nicht eingenommen werden.",
           "options": [
-            "bestehenden",
             "bestandenen",
-            "bestehende"
+            "bestehende",
+            "bestehenden"
           ],
-          "answer": 0,
-          "s": "Ibuprofen must not be taken if stomach ulcers are present."
+          "answer": 2,
+          "s": "Ibuprofen must not be taken if stomach ulcers are present.",
+          "why": "Partizip I = a present state: bestehende Magengeschwüre; dative plural after bei: -en."
         },
         {
           "type": "type",
@@ -380,7 +389,8 @@
             "wirkendes",
             "wirksames"
           ],
-          "s": "Ibuprofen is a fast-acting painkiller."
+          "s": "Ibuprofen is a fast-acting painkiller.",
+          "why": "Partizip I (wirkend) = acting; neuter after ein: -es (wirksames also fits)."
         },
         {
           "type": "type",
@@ -393,29 +403,31 @@
             "festgelegte",
             "vorgegebene"
           ],
-          "s": "Please stick to the dose prescribed by the doctor."
+          "s": "Please stick to the dose prescribed by the doctor.",
+          "why": "Partizip II = passive: the dose that the doctor prescribed (verordnete)."
         },
         {
-          "type": "choice",
+          "type": "type",
+          "task": "Use a participle before the noun.",
+          "cue": "Das Arzneimittel ist abgelaufen. Es darf nicht mehr abgegeben werden.",
           "t": "Ein ___ Arzneimittel darf nicht mehr abgegeben werden.",
-          "options": [
-            "abgelaufenes",
-            "ablaufendes",
-            "abgelaufene"
+          "answer": [
+            "abgelaufenes"
           ],
-          "answer": 0,
+          "why": "Partizip II (abgelaufen = has expired) as an attribute; neuter after ein: -es.",
           "s": "An expired medicine may no longer be dispensed."
         },
         {
           "type": "choice",
           "t": "Der in der Tablette ___ Wirkstoff heißt Ibuprofen.",
           "options": [
+            "enthalten",
             "enthaltene",
-            "enthaltende",
-            "enthalten"
+            "enthaltende"
           ],
-          "answer": 0,
-          "s": "The active ingredient contained in the tablet is called ibuprofen."
+          "answer": 1,
+          "s": "The active ingredient contained in the tablet is called ibuprofen.",
+          "why": "Partizip II (enthalten) = contained; after der in the nominative: -e."
         },
         {
           "type": "order",
@@ -477,15 +489,17 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "___ Sie Ibuprofen zusammen mit einem Blutverdünner einnehmen, steigt das Blutungsrisiko.",
-          "options": [
-            "Wenn",
-            "Bevor",
-            "Obwohl"
+          "type": "type",
+          "task": "Turn the noun phrase into a wenn-clause for the patient.",
+          "cue": "Bei Einnahme von Ibuprofen kann es zu Magenbeschwerden kommen.",
+          "t": "___, kann es zu Magenbeschwerden kommen.",
+          "answer": [
+            "Wenn Sie Ibuprofen einnehmen",
+            "Wenn Sie Ibuprofen nehmen",
+            "Wenn Sie Ibuprofen anwenden"
           ],
-          "answer": 0,
-          "s": "If you take ibuprofen together with a blood thinner, the risk of bleeding increases."
+          "why": "bei + noun becomes wenn + verb: name the person (Sie) and put the verb at the end.",
+          "s": "If you take ibuprofen, you may get stomach problems."
         },
         {
           "type": "choice",
@@ -496,7 +510,8 @@
             "obwohl"
           ],
           "answer": 0,
-          "s": "Shake the bottle before you take the liquid."
+          "s": "Shake the bottle before you take the liquid.",
+          "why": "vor der Anwendung → bevor + verb at the end."
         },
         {
           "type": "type",
@@ -506,7 +521,8 @@
             "sodass",
             "so dass"
           ],
-          "s": "Take the tablet after a meal so that you don't get stomach problems."
+          "s": "Take the tablet after a meal so that you don't get stomach problems.",
+          "why": "zur Vermeidung (purpose) → damit (so that)."
         },
         {
           "type": "type",
@@ -515,7 +531,8 @@
             "Einnahme",
             "Anwendung"
           ],
-          "s": "Taking ibuprofen can cause stomach problems."
+          "s": "Taking ibuprofen can cause stomach problems.",
+          "why": "The noun from einnehmen is die Einnahme: bei der Einnahme."
         },
         {
           "type": "choice",
@@ -526,7 +543,8 @@
             "Damit"
           ],
           "answer": 0,
-          "s": "Although the patient takes the tablets regularly, the pain doesn't get better."
+          "s": "Although the patient takes the tablets regularly, the pain doesn't get better.",
+          "why": "trotz → obwohl (although): a contrast with the expected result."
         },
         {
           "type": "type",
@@ -539,16 +557,22 @@
             "Schmerzen im unteren Ruecken",
             "Kreuzweh"
           ],
-          "s": "In plain language, lumbago is called low back pain."
+          "s": "In plain language, lumbago is called low back pain.",
+          "why": "Lumbalgie = pain in the lower back: Kreuzschmerzen."
         },
         {
-          "type": "type",
-          "t": "Ein Analgetikum ist in Laiensprache ein ___.",
-          "answer": [
-            "Schmerzmittel",
-            "Schmerzmedikament"
+          "type": "choice",
+          "task": "How do you say this to the patient?",
+          "cue": "Laut Fachinformation ist Ibuprofen im letzten Schwangerschaftsdrittel kontraindiziert.",
+          "t": "___",
+          "options": [
+            "Ibuprofen ist in der Schwangerschaft immer erlaubt.",
+            "In den letzten drei Monaten der Schwangerschaft dürfen Sie Ibuprofen nicht nehmen.",
+            "Im letzten Schwangerschaftsdrittel besteht eine Kontraindikation."
           ],
-          "s": "In plain language, an analgesic is a painkiller."
+          "answer": 1,
+          "why": "For patients, replace Schwangerschaftsdrittel and kontraindiziert with plain words.",
+          "s": "According to the SmPC, ibuprofen is contraindicated in the last trimester. – You must not take ibuprofen in the last three months of pregnancy."
         },
         {
           "type": "order",
@@ -647,11 +671,11 @@
           "s": "When should you take the tablet?"
         },
         "options": [
+          "nur abends vor dem Schlafen",
           "während oder nach einer Mahlzeit",
-          "auf nüchternen Magen",
-          "nur abends vor dem Schlafen"
+          "auf nüchternen Magen"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -676,6 +700,18 @@
           "im letzten Schwangerschaftsdrittel"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Für welche Patientin ist Ibuprofen laut Text besonders problematisch?",
+          "s": "According to the text, for which patient is ibuprofen especially problematic?"
+        },
+        "options": [
+          "für eine Patientin mit leichten Kopfschmerzen ohne Dauermedikation",
+          "für eine Patientin, die niedrig dosierte Acetylsalicylsäure einnimmt und früher ein Magengeschwür hatte",
+          "für eine Patientin, die die Tablette nach dem Essen nimmt"
+        ],
+        "answer": 1
       }
     ]
   },

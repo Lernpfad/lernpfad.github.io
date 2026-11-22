@@ -21,7 +21,8 @@
       "ex": {
         "t": "Im Monolog nimmt man zu einer Aussage Stellung.",
         "s": "In the monologue, you give your opinion on a statement."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -42,7 +43,8 @@
       "ex": {
         "t": "Unnötige Verordnungen fördern Antibiotikaresistenzen.",
         "s": "Unnecessary prescriptions promote antibiotic resistance."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -63,7 +65,8 @@
       "ex": {
         "t": "Bei Schmerzmitteln rate ich oft zu einer kleinen Packungsgröße.",
         "s": "With painkillers, I often advise a small pack size."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -94,7 +97,8 @@
       "ex": {
         "t": "Die Apotheke vor Ort hat eine wichtige Lotsenfunktion.",
         "s": "The local pharmacy has an important guiding role."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -165,6 +169,17 @@
       "ex": {
         "t": "Ich sehe die Abgabe großer Schmerzmittelpackungen kritisch.",
         "s": "I have reservations about selling large packs of painkillers."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "die Medikationsanalyse",
+      "pl": "die Medikationsanalysen",
+      "s": "medication review (a paid pharmaceutical service for patients with five or more prescribed long-term medicines)",
+      "emoji": "",
+      "ex": {
+        "t": "Bei Patienten mit fünf oder mehr dauerhaft verordneten Arzneimitteln kann die Apotheke eine Medikationsanalyse anbieten.",
+        "s": "For patients with five or more prescribed long-term medicines, the pharmacy can offer a medication review."
       }
     }
   ],
@@ -342,26 +357,27 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Schmerzmittel sind leicht erhältlich. ___ werden sie oft zu lange eingenommen.",
-          "options": [
-            "Folglich",
-            "Obwohl",
-            "Weil"
+          "type": "type",
+          "task": "Start the second sentence with folglich.",
+          "cue": "Viele Wirkstoffe werden nur in wenigen Ländern hergestellt. Deshalb kommt es leichter zu Engpässen.",
+          "t": "Viele Wirkstoffe werden nur in wenigen Ländern hergestellt. ___ leichter zu Engpässen.",
+          "answer": [
+            "Folglich kommt es"
           ],
-          "answer": 0,
-          "s": "Painkillers are easy to get. As a result, they are often taken for too long."
+          "why": "An adverb in position 1 is followed directly by the verb, then the subject: Folglich kommt es …",
+          "s": "Many active ingredients are produced in only a few countries. As a result, shortages occur more easily."
         },
         {
           "type": "choice",
           "t": "Einerseits ist die Selbstmedikation bequem, ___ birgt sie Risiken.",
           "options": [
+            "folglich",
             "andererseits",
-            "zudem",
-            "folglich"
+            "zudem"
           ],
-          "answer": 0,
-          "s": "On the one hand, self-medication is convenient; on the other hand, it involves risks."
+          "answer": 1,
+          "s": "On the one hand, self-medication is convenient; on the other hand, it involves risks.",
+          "why": "einerseits … andererseits presents two sides of the issue."
         },
         {
           "type": "choice",
@@ -372,21 +388,22 @@
             "bedeuten"
           ],
           "answer": 0,
-          "s": "Supply shortages unsettle patients. In addition, they mean a lot of extra work for pharmacies."
+          "s": "Supply shortages unsettle patients. In addition, they mean a lot of extra work for pharmacies.",
+          "why": "zudem in position 1: the verb comes directly after it, then the subject."
         },
         {
-          "type": "type",
-          "t": "Antibiotika wirken nicht gegen Viren. ___ helfen sie bei einer normalen Erkältung nicht.",
-          "answer": [
-            "Folglich",
-            "Deshalb",
-            "Daher",
-            "Deswegen",
-            "Darum",
-            "Somit",
-            "Also"
+          "type": "choice",
+          "task": "Which sentence continues the argument logically?",
+          "cue": "In manchen Ländern bekommt man Antibiotika ohne Rezept.",
+          "t": "___",
+          "options": [
+            "Folglich gibt es dort keine resistenten Bakterien.",
+            "Dennoch werden sie dort häufig ohne Rezept verkauft.",
+            "Folglich werden sie dort oft auch bei Virusinfekten eingenommen, was Resistenzen fördert."
           ],
-          "s": "Antibiotics don't work against viruses. Therefore, they don't help with an ordinary cold."
+          "answer": 2,
+          "why": "folglich introduces a consequence: easy access leads to unnecessary use and resistance.",
+          "s": "In some countries you can get antibiotics without a prescription. – As a result, they are often taken for viral infections too, which promotes resistance."
         },
         {
           "type": "type",
@@ -398,7 +415,8 @@
             "Jedoch",
             "Gleichwohl"
           ],
-          "s": "Counseling takes time. Nevertheless, it is essential for patient safety."
+          "s": "Counseling takes time. Nevertheless, it is essential for patient safety.",
+          "why": "A contrast: dennoch (trotzdem, jedoch also fit); the verb follows directly."
         },
         {
           "type": "choice",
@@ -409,7 +427,8 @@
             "Zudem"
           ],
           "answer": 0,
-          "s": "Since antibiotics are also used in livestock farming, resistant bacteria can spread."
+          "s": "Since antibiotics are also used in livestock farming, resistant bacteria can spread.",
+          "why": "da (since) is a conjunction that gives a known reason; the verb goes to the end."
         },
         {
           "type": "order",
@@ -488,18 +507,19 @@
             "Antibiotika würden werden"
           ],
           "answer": 0,
-          "s": "In my opinion, antibiotics are prescribed too often."
+          "s": "In my opinion, antibiotics are prescribed too often.",
+          "why": "Meiner Meinung nach fills position 1, so the verb comes next: werden Antibiotika …"
         },
         {
-          "type": "choice",
-          "t": "Ich bin der Ansicht, ___ die Apotheke eine wichtige Lotsenfunktion hat.",
-          "options": [
-            "dass",
-            "ob",
-            "weil"
+          "type": "type",
+          "task": "Rewrite with Ich bin der Ansicht, dass …",
+          "cue": "Meiner Meinung nach ist das E-Rezept ein Fortschritt.",
+          "t": "Ich bin der Ansicht, ___.",
+          "answer": [
+            "dass das E-Rezept ein Fortschritt ist"
           ],
-          "answer": 0,
-          "s": "I'm of the opinion that the pharmacy has an important guiding role."
+          "why": "After dass the verb goes to the end: … ein Fortschritt ist.",
+          "s": "I'm of the opinion that the e-prescription is progress."
         },
         {
           "type": "type",
@@ -507,7 +527,8 @@
           "answer": [
             "Zwar"
           ],
-          "s": "Admittedly, stockpiling is expensive, but it increases security of supply."
+          "s": "Admittedly, stockpiling is expensive, but it increases security of supply.",
+          "why": "Zwar …, aber … concedes a point; here zwar opens the sentence."
         },
         {
           "type": "choice",
@@ -518,18 +539,22 @@
             "zu"
           ],
           "answer": 0,
-          "s": "I consider a general prescription requirement excessive."
+          "s": "I consider a general prescription requirement excessive.",
+          "why": "halten für = to consider: Ich halte … für übertrieben."
         },
         {
           "type": "choice",
-          "t": "Zwar sind Lieferengpässe ärgerlich, ___ finden wir meistens eine Alternative.",
+          "task": "Which sentence gives an opinion and limits it?",
+          "cue": "Ihr Thema lautet: Impfungen in der Apotheke.",
+          "t": "___",
           "options": [
-            "aber",
-            "und",
-            "oder"
+            "In der Apotheke gibt es Impfungen.",
+            "Impfen ist ein Thema.",
+            "Zwar ersetzt die Apotheke nicht die Hausarztpraxis, aber sie kann mehr Menschen den Zugang zur Impfung erleichtern."
           ],
-          "answer": 0,
-          "s": "Admittedly, supply shortages are annoying, but we usually find an alternative."
+          "answer": 2,
+          "why": "Zwar …, aber … concedes a point and then states your view.",
+          "s": "Your topic is: vaccinations in the pharmacy. – Admittedly, the pharmacy doesn't replace the family doctor, but it can make vaccination easier to access for more people."
         },
         {
           "type": "type",
@@ -539,7 +564,8 @@
             "jedoch",
             "aber"
           ],
-          "s": "However, that only applies if the counseling in the pharmacy is good."
+          "s": "However, that only applies if the counseling in the pharmacy is good.",
+          "why": "allerdings (or jedoch) limits the statement."
         },
         {
           "type": "order",
@@ -641,11 +667,11 @@
           "s": "According to the text, what is one cause of supply shortages?"
         },
         "options": [
+          "Die Patienten kaufen zu viele Arzneimittel.",
           "Viele Wirkstoffe werden nur in wenigen Ländern hergestellt.",
-          "Die Apotheken bestellen zu spät.",
-          "Die Patienten kaufen zu viele Arzneimittel."
+          "Die Apotheken bestellen zu spät."
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -665,11 +691,11 @@
           "s": "Why is the extra work a problem?"
         },
         "options": [
-          "Die Zeit fehlt dann für die Beratung.",
           "Die Kunden beschweren sich über die Preise.",
-          "Die Apotheke muss früher schließen."
+          "Die Apotheke muss früher schließen.",
+          "Die Zeit fehlt dann für die Beratung."
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": {
@@ -680,6 +706,18 @@
           "alle Arzneimittel rezeptfrei machen",
           "die Produktion wichtiger Wirkstoffe nach Europa zurückholen",
           "weniger Apotheken eröffnen"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wie steht die Autorin zu etwas höheren Arzneimittelpreisen?",
+          "s": "What is the author's attitude to somewhat higher medicine prices?"
+        },
+        "options": [
+          "Sie lehnt sie grundsätzlich ab.",
+          "Sie nimmt sie für mehr Versorgungssicherheit in Kauf.",
+          "Sie fordert, dass alle Arzneimittel billiger werden."
         ],
         "answer": 1
       }
@@ -727,6 +765,34 @@
     {
       "t": "Zusammenfassend lässt sich sagen, dass gute Beratung die Arzneimitteltherapiesicherheit erhöht.",
       "s": "In summary, it can be said that good counseling increases medication safety."
+    },
+    {
+      "t": "Ein Vorteil des E-Rezepts ist, dass Folgerezepte oft nicht mehr in der Praxis abgeholt werden müssen.",
+      "s": "One advantage of the e-prescription is that repeat prescriptions often no longer have to be picked up at the doctor's office."
+    },
+    {
+      "t": "Seit einigen Jahren dürfen geschulte Apothekerinnen und Apotheker Erwachsene gegen Grippe impfen.",
+      "s": "For some years now, trained pharmacists have been allowed to vaccinate adults against the flu."
+    },
+    {
+      "t": "Eine Medikationsanalyse kann Wechselwirkungen bei älteren Patienten aufdecken.",
+      "s": "A medication review can uncover interactions in older patients."
+    },
+    {
+      "t": "Beim Thema Cannabis als Arzneimittel sollte man Nutzen und Risiken sachlich abwägen.",
+      "s": "On the topic of cannabis as a medicine, you should weigh the benefits and risks objectively."
+    },
+    {
+      "t": "Welche Wirkstoffe verschreibungspflichtig sind, regelt die Arzneimittelverschreibungsverordnung.",
+      "s": "Which active ingredients are prescription-only is set out in the Prescription Drug Ordinance (AMVV)."
+    },
+    {
+      "t": "Dass viele Arzneimittel nur in Apotheken verkauft werden dürfen, regelt das Arzneimittelgesetz.",
+      "s": "The fact that many medicines may only be sold in pharmacies is set out in the Medicines Act (AMG, § 43)."
+    },
+    {
+      "t": "In manchen Ländern sind Antibiotika ohne Rezept erhältlich, was Resistenzen fördern kann.",
+      "s": "In some countries antibiotics are available without a prescription, which can promote resistance."
     }
   ]
 }

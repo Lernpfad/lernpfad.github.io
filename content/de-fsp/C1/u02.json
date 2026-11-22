@@ -42,7 +42,8 @@
       "ex": {
         "t": "Welches Präparat hat Ihnen bisher am besten geholfen?",
         "s": "Which product has helped you most so far?"
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -75,7 +76,8 @@
       "ex": {
         "t": "Das Dosierungsintervall steht in der Packungsbeilage.",
         "s": "The dosing interval is given in the package leaflet."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -85,7 +87,8 @@
       "ex": {
         "t": "Ohne ärztlichen Rat ist die Anwendungsdauer bei vielen Schmerzmitteln begrenzt.",
         "s": "Without medical advice, the duration of use is limited for many painkillers."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w08",
@@ -127,7 +130,8 @@
       "ex": {
         "t": "Atemnot ist ein Warnzeichen, bei dem man sofort ärztliche Hilfe braucht.",
         "s": "Shortness of breath is a warning sign that needs medical help immediately."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w12",
@@ -138,7 +142,8 @@
       "ex": {
         "t": "Blut im Stuhl erfordert immer eine ärztliche Abklärung.",
         "s": "Blood in the stool always requires a medical assessment."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w13",
@@ -194,18 +199,18 @@
     },
     {
       "id": "p05",
-      "t": "Wenn es nach drei Tagen nicht besser wird, gehen Sie bitte zum Arzt.",
-      "s": "If it isn't better after three days, please see a doctor."
+      "t": "Falls die Beschwerden länger als drei Tage anhalten, sollten Sie ärztlichen Rat einholen.",
+      "s": "If the symptoms last longer than three days, you should seek medical advice."
     },
     {
       "id": "p06",
-      "t": "Haben Sie dazu noch Fragen?",
-      "s": "Do you have any more questions about it?"
+      "t": "Ist noch etwas offen geblieben, oder haben Sie weitere Fragen?",
+      "s": "Is anything still unclear, or do you have any other questions?"
     },
     {
       "id": "p07",
-      "t": "Können Sie mir kurz sagen, wie Sie das Medikament einnehmen?",
-      "s": "Can you tell me briefly how you will take the medicine?"
+      "t": "Damit ich sicher bin, dass ich mich klar ausgedrückt habe: Wie werden Sie das Medikament einnehmen?",
+      "s": "Just to be sure I've explained it clearly: how will you take the medicine?"
     },
     {
       "id": "p08",
@@ -348,12 +353,13 @@
           "type": "choice",
           "t": "Ich ___ Ihnen ein Wärmepflaster empfehlen.",
           "options": [
+            "hätte",
             "würde",
-            "wäre",
-            "hätte"
+            "wäre"
           ],
-          "answer": 0,
-          "s": "I would recommend a heat patch to you."
+          "answer": 1,
+          "s": "I would recommend a heat patch to you.",
+          "why": "Most verbs use würde + infinitive: Ich würde … empfehlen."
         },
         {
           "type": "choice",
@@ -364,27 +370,32 @@
             "hätte"
           ],
           "answer": 0,
-          "s": "It would be better if you took the tablets after a meal."
+          "s": "It would be better if you took the tablets after a meal.",
+          "why": "sein has its own Konjunktiv II form: Es wäre besser, …"
         },
         {
           "type": "type",
-          "t": "An Ihrer Stelle ___ ich mit diesen Beschwerden zum Arzt gehen.",
+          "task": "Make it a polite recommendation starting with An Ihrer Stelle.",
+          "cue": "Gehen Sie mit diesen Beschwerden zum Arzt.",
+          "t": "An Ihrer Stelle ___ mit diesen Beschwerden zum Arzt gehen.",
           "answer": [
-            "würde",
-            "wuerde"
+            "würde ich",
+            "wuerde ich"
           ],
+          "why": "After An Ihrer Stelle the verb comes next: würde ich … gehen.",
           "s": "If I were you, I would see a doctor with these symptoms."
         },
         {
           "type": "choice",
           "t": "Sie ___ die angegebene Tageshöchstdosis nicht überschreiten.",
           "options": [
+            "wären",
             "sollten",
-            "hätten",
-            "wären"
+            "hätten"
           ],
-          "answer": 0,
-          "s": "You should not exceed the stated maximum daily dose."
+          "answer": 1,
+          "s": "You should not exceed the stated maximum daily dose.",
+          "why": "Sie sollten gives clear but polite advice."
         },
         {
           "type": "choice",
@@ -395,17 +406,22 @@
             "für"
           ],
           "answer": 0,
-          "s": "I would advise you to drink plenty."
+          "s": "I would advise you to drink plenty.",
+          "why": "raten takes a zu-infinitive: Ich würde Ihnen raten, viel zu trinken."
         },
         {
-          "type": "type",
-          "t": "___ Sie vielleicht ein Fieberthermometer zu Hause?",
-          "answer": [
-            "Hätten",
-            "Haetten",
-            "Haben"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Ich faste ab morgen. Kann ich mein Antibiotikum dann abends alle auf einmal nehmen?",
+          "t": "___",
+          "options": [
+            "Ja, das wäre kein Problem, nehmen Sie alle Tabletten abends.",
+            "Dann würde ich das Antibiotikum während des Fastens einfach weglassen.",
+            "Davon würde ich Ihnen abraten. Ich würde gern mit Ihrer Ärztin klären, ob die Einnahme angepasst werden kann."
           ],
-          "s": "Would you have a fever thermometer at home, perhaps?"
+          "answer": 2,
+          "why": "Doses must not be combined or skipped; only the doctor can adapt the regimen.",
+          "s": "I'm fasting from tomorrow. Can I then take all my antibiotic tablets at once in the evening? – I'd advise you against that. I'd like to check with your doctor whether the dosing can be adjusted."
         },
         {
           "type": "order",
@@ -480,23 +496,25 @@
           "type": "choice",
           "t": "___ das Fieber nach drei Tagen nicht sinkt, gehen Sie bitte zum Arzt.",
           "options": [
-            "Falls",
             "Obwohl",
-            "Solange"
+            "Solange",
+            "Falls"
           ],
-          "answer": 0,
-          "s": "If the fever hasn't gone down after three days, please see a doctor."
+          "answer": 2,
+          "s": "If the fever hasn't gone down after three days, please see a doctor.",
+          "why": "falls = in case, if: a condition that may or may not happen."
         },
         {
           "type": "choice",
           "t": "___ Sie Fieber haben, sollten Sie sich schonen.",
           "options": [
+            "Auch wenn",
             "Solange",
-            "Obwohl",
-            "Auch wenn"
+            "Obwohl"
           ],
-          "answer": 0,
-          "s": "As long as you have a fever, you should take it easy."
+          "answer": 1,
+          "s": "As long as you have a fever, you should take it easy.",
+          "why": "solange = as long as: the advice applies for the whole time with fever."
         },
         {
           "type": "choice",
@@ -507,29 +525,33 @@
             "sofern"
           ],
           "answer": 0,
-          "s": "Keep taking the antibiotic, even if you already feel better."
+          "s": "Keep taking the antibiotic, even if you already feel better.",
+          "why": "auch wenn = even if (concessive): keep taking it despite feeling better."
+        },
+        {
+          "type": "type",
+          "task": "Make one sentence with sofern.",
+          "cue": "Die Haut ist unverletzt. Nur dann ist das Gel geeignet.",
+          "t": "Das Gel ist geeignet, ___.",
+          "answer": [
+            "sofern die Haut unverletzt ist"
+          ],
+          "why": "sofern = provided that; it sends the verb (ist) to the end.",
+          "s": "The gel is suitable, provided the skin is unbroken."
         },
         {
           "type": "choice",
-          "t": "Falls die Schmerzen stärker ___, kommen Sie bitte wieder.",
+          "task": "Which reply fits?",
+          "cue": "Mir geht es schon besser. Kann ich das Antibiotikum absetzen?",
+          "t": "___",
           "options": [
-            "werden",
-            "wird",
-            "worden"
+            "Ja, falls Sie keine Lust mehr haben.",
+            "Bitte nehmen Sie es wie verordnet weiter, auch wenn es Ihnen schon besser geht.",
+            "Ja, solange es Ihnen besser geht, können Sie es absetzen."
           ],
-          "answer": 0,
-          "s": "If the pain gets worse, please come back."
-        },
-        {
-          "type": "choice",
-          "t": "Falls plötzlich Atemnot auftritt, ___ sofort den Notruf.",
-          "options": [
-            "wählen Sie",
-            "Sie wählen",
-            "Sie wählten"
-          ],
-          "answer": 0,
-          "s": "If you suddenly get short of breath, dial the emergency number immediately."
+          "answer": 1,
+          "why": "auch wenn = even if: the course is finished as prescribed unless the doctor decides otherwise.",
+          "s": "I'm already feeling better. Can I stop the antibiotic? – Please keep taking it as prescribed, even if you already feel better."
         },
         {
           "type": "type",
@@ -537,7 +559,8 @@
           "answer": [
             "wenn"
           ],
-          "s": "Even if you feel better, please don't stop the therapy on your own."
+          "s": "Even if you feel better, please don't stop the therapy on your own.",
+          "why": "auch wenn = even if; wenn completes the connector."
         },
         {
           "type": "type",
@@ -548,7 +571,8 @@
             "wenn",
             "falls"
           ],
-          "s": "The pain gel is a good choice, provided you only apply it to unbroken skin."
+          "s": "The pain gel is a good choice, provided you only apply it to unbroken skin.",
+          "why": "sofern = provided that (solange, wenn and falls also fit here)."
         },
         {
           "type": "order",
@@ -676,6 +700,18 @@
           "Damit die Kundin mehr Arzneimittel kauft."
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Warum ist die Teach-back-Methode besser als die Frage: Haben Sie alles verstanden?",
+          "s": "Why is the teach-back method better than asking: Have you understood everything?"
+        },
+        "options": [
+          "Weil sie kürzer ist.",
+          "Weil die Kundin zeigen muss, ob sie die Anwendung wirklich verstanden hat.",
+          "Weil die Kundin dann nichts mehr sagen muss."
+        ],
+        "answer": 1
       }
     ]
   },
@@ -721,6 +757,14 @@
       "alts": [
         "Ich fasse kurz noch einmal zusammen."
       ]
+    },
+    {
+      "t": "Damit ich sicher bin, dass ich mich klar ausgedrückt habe: Wie nehmen Sie die Tabletten ein?",
+      "s": "Just to be sure I've explained it clearly: how will you take the tablets?"
+    },
+    {
+      "t": "Wie werden Sie das Mittel morgen früh anwenden?",
+      "s": "How will you use the medicine tomorrow morning?"
     }
   ]
 }

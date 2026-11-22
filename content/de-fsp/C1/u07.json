@@ -186,8 +186,8 @@
   "phrases": [
     {
       "id": "p01",
-      "t": "Hätten Sie kurz Zeit für eine Rücksprache?",
-      "s": "Would you have a moment for a quick consultation?"
+      "t": "Ich möchte kurz Rücksprache zu einem Rezept halten.",
+      "s": "I'd like to briefly consult you about a prescription."
     },
     {
       "id": "p02",
@@ -365,32 +365,37 @@
           "type": "choice",
           "t": "___ es möglich, auf ein anderes Antibiotikum umzustellen?",
           "options": [
-            "Wäre",
             "Hätte",
-            "Würde"
+            "Würde",
+            "Wäre"
           ],
-          "answer": 0,
-          "s": "Would it be possible to switch to another antibiotic?"
+          "answer": 2,
+          "s": "Would it be possible to switch to another antibiotic?",
+          "why": "sein → wäre: Wäre es möglich, … zu …?"
         },
         {
           "type": "choice",
           "t": "Als Alternative ___ Doxycyclin in Frage.",
           "options": [
+            "hätte",
             "käme",
-            "wäre",
-            "hätte"
+            "wäre"
           ],
-          "answer": 0,
-          "s": "Doxycycline would be an alternative."
+          "answer": 1,
+          "s": "Doxycycline would be an alternative.",
+          "why": "kommen → käme: … käme in Frage."
         },
         {
           "type": "type",
-          "t": "___ Sie kurz Zeit für eine Rücksprache?",
+          "task": "Make it a polite suggestion starting with Wäre es möglich.",
+          "cue": "Sie müssen das Simvastatin absetzen.",
+          "t": "Wäre es möglich, ___?",
           "answer": [
-            "Hätten",
-            "Haetten"
+            "das Simvastatin abzusetzen",
+            "das Simvastatin zu pausieren"
           ],
-          "s": "Would you have a moment for a quick consultation?"
+          "why": "Wäre es möglich + zu-infinitive at the end; separable verbs take zu inside: abzusetzen.",
+          "s": "Would it be possible to stop the simvastatin?"
         },
         {
           "type": "type",
@@ -401,18 +406,22 @@
             "möchte",
             "moechte"
           ],
-          "s": "I would suggest pausing the statin."
+          "s": "I would suggest pausing the statin.",
+          "why": "würde + infinitive: Ich würde vorschlagen (möchte also fits)."
         },
         {
           "type": "choice",
-          "t": "___ Sie das Rezept bitte ändern?",
+          "task": "Which reply fits a doctor?",
+          "cue": "Der Kinderarzt fragt: Was schlagen Sie vor?",
+          "t": "___",
           "options": [
-            "Könnten",
-            "Wären",
-            "Hätten"
+            "Das Kind hat einen Ausschlag, keine Ahnung, warum.",
+            "Ich würde vorschlagen, dass Sie sich das Exanthem heute noch ansehen. Wie möchten Sie weiter vorgehen?",
+            "Sie müssen das Antibiotikum sofort absetzen."
           ],
-          "answer": 0,
-          "s": "Could you please change the prescription?"
+          "answer": 1,
+          "why": "Suggest politely with Konjunktiv II and leave the decision to the doctor.",
+          "s": "The pediatrician asks: what do you suggest? – I would suggest that you look at the rash today. How would you like to proceed?"
         },
         {
           "type": "choice",
@@ -423,7 +432,8 @@
             "pausieren sollen"
           ],
           "answer": 0,
-          "s": "Have I understood you correctly that Mr. K. should pause the simvastatin?"
+          "s": "Have I understood you correctly that Mr. K. should pause the simvastatin?",
+          "why": "In the dass-clause the modal verb comes last: pausieren soll."
         },
         {
           "type": "order",
@@ -501,18 +511,20 @@
             "erhöht"
           ],
           "answer": 0,
-          "s": "Clarithromycin leads to an increase in the risk of myopathy."
+          "s": "Clarithromycin leads to an increase in the risk of myopathy.",
+          "why": "erhöhen → die Erhöhung; after zu einer you need the noun."
         },
         {
           "type": "choice",
           "t": "Ich schlage die Pausierung ___ vor.",
           "options": [
-            "des Simvastatins",
             "das Simvastatin",
-            "dem Simvastatin"
+            "dem Simvastatin",
+            "des Simvastatins"
           ],
-          "answer": 0,
-          "s": "I suggest pausing the simvastatin."
+          "answer": 2,
+          "s": "I suggest pausing the simvastatin.",
+          "why": "The object of the verb follows in the genitive: des Simvastatins."
         },
         {
           "type": "type",
@@ -520,37 +532,45 @@
           "answer": [
             "auf"
           ],
-          "s": "We're talking about switching to another antibiotic."
+          "s": "We're talking about switching to another antibiotic.",
+          "why": "umstellen auf keeps its preposition: die Umstellung auf."
         },
         {
           "type": "type",
-          "t": "Die Hemmung ___ Abbaus führt zu höheren Plasmaspiegeln.",
+          "task": "Turn it into a noun phrase.",
+          "cue": "Der Plasmaspiegel steigt an.",
+          "t": "Es kommt zu einem ___.",
           "answer": [
-            "des"
+            "Anstieg des Plasmaspiegels"
           ],
-          "s": "The inhibition of the breakdown leads to higher plasma levels."
+          "why": "ansteigen → der Anstieg; the old subject follows in the genitive: des Plasmaspiegels.",
+          "s": "There is a rise in the plasma level."
         },
         {
-          "type": "type",
-          "t": "Das Myopathierisiko wird erhöht. Es kommt zu einer ___ des Myopathierisikos.",
-          "answer": [
-            "Erhöhung",
-            "Erhoehung",
-            "Steigerung",
-            "Zunahme"
+          "type": "choice",
+          "task": "Which note is the technical summary?",
+          "cue": "Sie fassen das Ergebnis des Telefonats für die Dokumentation zusammen.",
+          "t": "___",
+          "options": [
+            "Er soll die Cholesterintablette mal weglassen.",
+            "Pause machen mit dem Statin, irgendwann wieder anfangen.",
+            "Pausierung der Statintherapie bis drei Tage nach Ende der Antibiose."
           ],
-          "s": "The risk of myopathy is increased. There is an increase in the risk of myopathy."
+          "answer": 2,
+          "why": "Technical noun phrases (Pausierung, Ende der Antibiose) are precise and short for colleagues.",
+          "s": "You summarize the result of the call for the records. – Pausing of the statin therapy until three days after the end of the antibiotic therapy."
         },
         {
           "type": "choice",
           "t": "___ der Antibiose wird das Statin pausiert.",
           "options": [
+            "Gegen",
             "Während",
-            "Ohne",
-            "Gegen"
+            "Ohne"
           ],
-          "answer": 0,
-          "s": "The statin is paused during the antibiotic therapy."
+          "answer": 1,
+          "s": "The statin is paused during the antibiotic therapy.",
+          "why": "während + genitive: während der Antibiose (during)."
         },
         {
           "type": "order",
@@ -610,8 +630,8 @@
         "s": "Caution is needed with other statins, and the lowest possible dose should be chosen."
       },
       {
-        "t": "Alternativ kann ein Statin in Betracht gezogen werden, das nicht über dieses Enzym abgebaut wird.",
-        "s": "Alternatively, a statin that is not broken down by this enzyme can be considered."
+        "t": "Alternativ kann ein Statin in Betracht gezogen werden, das nicht über dieses Enzym abgebaut wird, zum Beispiel Fluvastatin.",
+        "s": "Alternatively, a statin that is not broken down by this enzyme can be considered, for example fluvastatin."
       },
       {
         "t": "Die Patienten sollten auf Anzeichen einer Myopathie überwacht werden.",
@@ -633,11 +653,11 @@
           "s": "Which group does clarithromycin belong to?"
         },
         "options": [
-          "zu den Makroliden",
           "zu den Statinen",
-          "zu den Penicillinen"
+          "zu den Penicillinen",
+          "zu den Makroliden"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": {
@@ -686,6 +706,18 @@
           "Man kann sie ohne Einschränkung kombinieren."
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum ist die Kombination gerade mit Simvastatin und Lovastatin so problematisch?",
+          "s": "Why is the combination especially problematic with simvastatin and lovastatin?"
+        },
+        "options": [
+          "Weil sie stark über das Enzym abgebaut werden, das Clarithromycin hemmt.",
+          "Weil sie die Wirkung von Clarithromycin abschwächen.",
+          "Weil sie nur zusammen mit Grapefruitsaft wirken."
+        ],
+        "answer": 0
       }
     ]
   },

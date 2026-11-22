@@ -21,7 +21,8 @@
       "ex": {
         "t": "Bei Frau Becker wurde vor Kurzem ein Asthma bronchiale festgestellt.",
         "s": "Ms. Becker was recently diagnosed with bronchial asthma."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -148,8 +149,8 @@
       "s": "candidiasis, thrush · Laie: die Pilzinfektion; im Mund: der Mundsoor",
       "emoji": "",
       "ex": {
-        "t": "Wer nach dem Kortisonspray den Mund ausspült, beugt einer Candidose im Mund vor.",
-        "s": "Rinsing your mouth after using the cortisone inhaler helps prevent oral thrush."
+        "t": "Wer nach der Inhalation von Kortison den Mund ausspült, beugt einer Candidose im Mund vor.",
+        "s": "Rinsing your mouth after inhaling cortisone helps prevent oral thrush."
       }
     },
     {
@@ -172,6 +173,16 @@
       "ex": {
         "t": "Umschließen Sie das Mundstück fest mit den Lippen.",
         "s": "Close your lips tightly around the mouthpiece."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "die Nichtverfügbarkeit",
+      "s": "unavailability (legal term: the prescribed medicine cannot be supplied)",
+      "emoji": "",
+      "ex": {
+        "t": "Bei Nichtverfügbarkeit darf die Apotheke zum Beispiel eine andere Packungsgröße abgeben, sofern die verordnete Wirkstoffmenge nicht überschritten wird.",
+        "s": "If the medicine is unavailable, the pharmacy may, for example, dispense a different pack size, provided the prescribed amount of active ingredient is not exceeded."
       }
     }
   ],
@@ -198,13 +209,13 @@
     },
     {
       "id": "p05",
-      "t": "Dieses Spray nehmen Sie jeden Tag, auch wenn es Ihnen gut geht.",
-      "s": "You use this inhaler every day, even when you feel well."
+      "t": "Dieses Kortison-Gerät nehmen Sie jeden Tag, auch wenn es Ihnen gut geht.",
+      "s": "You use this cortisone inhaler every day, even when you feel well."
     },
     {
       "id": "p06",
-      "t": "Das andere Spray ist für den Notfall. Tragen Sie es immer bei sich.",
-      "s": "The other inhaler is for emergencies. Always carry it with you."
+      "t": "Das Notfallspray ist für akute Atemnot. Tragen Sie es immer bei sich.",
+      "s": "The emergency spray is for sudden shortness of breath. Always carry it with you."
     },
     {
       "id": "p07",
@@ -285,13 +296,13 @@
       },
       {
         "sp": "A",
-        "t": "Ich rufe heute noch Frau Dr. Yilmaz an und frage auch nach einer Inhalierhilfe. Damit wird die Anwendung leichter. Die Technik üben wir dann zusammen mit einem Übungsgerät. Können Sie mir zum Schluss sagen, wann Sie welches Spray nehmen?",
-        "s": "I'll call Dr. Yilmaz today and also ask about a spacer. It makes the inhaler easier to use. Then we'll practice the technique together with a training device. Finally, could you tell me when you use which inhaler?"
+        "t": "Ich rufe heute noch Frau Dr. Yilmaz an und frage auch nach einer Inhalierhilfe. Damit wird die Anwendung leichter. Die Technik üben wir dann zusammen mit einem Übungsgerät. Damit ich sicher bin, dass ich mich klar ausgedrückt habe: Wann nehmen Sie welches Gerät?",
+        "s": "I'll call Dr. Yilmaz today and also ask about a spacer. It makes the inhaler easier to use. Then we'll practice the technique together with a training device. Just to be sure I've explained it clearly: when do you use which device?"
       },
       {
         "sp": "B",
-        "t": "Das Kortisonspray jeden Tag morgens und abends, danach Mund ausspülen. Das Salbutamol nur bei Atemnot. Und wenn ich es öfter als zweimal pro Woche brauche, gehe ich zur Ärztin.",
-        "s": "The cortisone inhaler every day, morning and evening, then rinse my mouth. The salbutamol only when I'm short of breath. And if I need it more than twice a week, I'll see my doctor."
+        "t": "Das Kortison-Gerät jeden Tag morgens und abends, danach Mund ausspülen. Das Notfallspray mit Salbutamol nur bei Atemnot. Und wenn ich es öfter als zweimal pro Woche brauche, gehe ich zur Ärztin.",
+        "s": "The cortisone inhaler every day, morning and evening, then rinse my mouth. The emergency salbutamol spray only when I'm short of breath. And if I need it more than twice a week, I'll see my doctor."
       }
     ]
   },
@@ -348,12 +359,13 @@
           "type": "choice",
           "t": "Ein Antimykotikum ist ein Mittel, ___ gegen Pilze wirkt.",
           "options": [
+            "dem",
             "das",
-            "der",
-            "dem"
+            "der"
           ],
-          "answer": 0,
-          "s": "An antifungal is a medicine that works against fungi."
+          "answer": 1,
+          "s": "An antifungal is a medicine that works against fungi.",
+          "why": "das Mittel is neuter and the subject: das."
         },
         {
           "type": "choice",
@@ -364,18 +376,20 @@
             "dem"
           ],
           "answer": 0,
-          "s": "Asthma is a disease in which the airways are inflamed."
+          "s": "Asthma is a disease in which the airways are inflamed.",
+          "why": "bei takes the dative; die Krankheit is feminine: bei der."
         },
         {
           "type": "choice",
           "t": "Eine Inhalierhilfe ist ein Zwischenstück, ___ man auf das Spray steckt.",
           "options": [
-            "das",
             "dem",
-            "der"
+            "der",
+            "das"
           ],
-          "answer": 0,
-          "s": "A spacer is an attachment that you put on the inhaler."
+          "answer": 2,
+          "s": "A spacer is an attachment that you put on the inhaler.",
+          "why": "das Zwischenstück is neuter and the accusative object: das."
         },
         {
           "type": "type",
@@ -384,25 +398,35 @@
             "Herzrasen",
             "das Herzrasen"
           ],
-          "s": "In lay language, tachycardia is called a racing heart."
+          "s": "In lay language, tachycardia is called a racing heart.",
+          "why": "Tachykardie: the heart beats too fast, in plain German Herzrasen."
         },
         {
           "type": "type",
-          "t": "Die Dyspnoe ist in Laiensprache die ___.",
+          "task": "Make one sentence with a relative clause.",
+          "cue": "Ein Bronchodilatator ist ein Mittel. Es macht die Atemwege weit.",
+          "t": "Ein Bronchodilatator ist ein Mittel, ___.",
           "answer": [
-            "Atemnot",
-            "Luftnot",
-            "Kurzatmigkeit"
+            "das die Atemwege weit macht",
+            "das die Atemwege weitmacht",
+            "das die Atemwege erweitert"
           ],
-          "s": "In lay language, dyspnea is shortness of breath."
+          "why": "das Mittel is neuter and the subject of the relative clause: das; the verb goes to the end.",
+          "s": "A bronchodilator is a medicine that widens the airways."
         },
         {
-          "type": "type",
-          "t": "Ein Tremor ist in Laiensprache ein ___.",
-          "answer": [
-            "Zittern"
+          "type": "choice",
+          "task": "Which reply calms the patient and helps?",
+          "cue": "Das ist ja unglaublich! Schon wieder ist mein Spray nicht lieferbar!",
+          "t": "___",
+          "options": [
+            "Dafür kann ich nichts, beschweren Sie sich beim Hersteller.",
+            "Dann müssen Sie eben ohne Spray auskommen.",
+            "Ich verstehe, dass Sie verärgert sind. Ich kläre das heute noch mit Ihrer Ärztin und rufe Sie an."
           ],
-          "s": "In lay language, a tremor is shaking."
+          "answer": 2,
+          "why": "Acknowledge the feeling first, then offer a concrete next step (Ich kläre …, ich rufe Sie an).",
+          "s": "This is unbelievable! My inhaler is out of stock again! – I understand that you're annoyed. I'll sort it out with your doctor today and call you."
         },
         {
           "type": "type",
@@ -411,7 +435,8 @@
             "Verschlechterung",
             "Verschlimmerung"
           ],
-          "s": "In lay language, an exacerbation is a sudden worsening of the disease."
+          "s": "In lay language, an exacerbation is a sudden worsening of the disease.",
+          "why": "Exazerbation = a sudden Verschlechterung (worsening) of the disease."
         },
         {
           "type": "order",
@@ -486,12 +511,13 @@
           "type": "choice",
           "t": "Die Endung itis bedeutet ___.",
           "options": [
-            "Entzündung",
             "Schmerz",
-            "Schwellung"
+            "Schwellung",
+            "Entzündung"
           ],
-          "answer": 0,
-          "s": "The ending -itis means inflammation."
+          "answer": 2,
+          "s": "The ending -itis means inflammation.",
+          "why": "-itis means inflammation: Entzündung."
         },
         {
           "type": "type",
@@ -506,46 +532,57 @@
             "Entzündung eines Gelenkes",
             "Entzuendung eines Gelenkes"
           ],
-          "s": "In lay language, arthritis is an inflammation of the joints."
+          "s": "In lay language, arthritis is an inflammation of the joints.",
+          "why": "arthr- = joint, -itis = inflammation: Gelenkentzündung."
         },
         {
           "type": "type",
-          "t": "Bei einer Hypertonie ist der ___ zu hoch.",
+          "task": "Give the technical term.",
+          "cue": "Der Blutdruck ist zu niedrig.",
+          "t": "Das nennt man eine ___.",
           "answer": [
-            "Blutdruck"
+            "Hypotonie"
           ],
-          "s": "In hypertension, the blood pressure is too high."
+          "why": "Hypo- = too low; with blood pressure: Hypotonie (Hypertonie is too high).",
+          "s": "That is called hypotension."
         },
         {
           "type": "choice",
           "t": "Bei einer ___ ist der Blutzucker zu niedrig.",
           "options": [
-            "Hypoglykämie",
             "Hyperglykämie",
-            "Hypertonie"
+            "Hypertonie",
+            "Hypoglykämie"
           ],
-          "answer": 0,
-          "s": "In hypoglycemia, the blood sugar is too low."
+          "answer": 2,
+          "s": "In hypoglycemia, the blood sugar is too low.",
+          "why": "Hypo- = too low, glyk- = sugar: Hypoglykämie."
         },
         {
           "type": "choice",
           "t": "Wenn das Herz zu schnell schlägt, spricht man von einer ___.",
           "options": [
+            "Hypotonie",
             "Tachykardie",
-            "Bradykardie",
-            "Hypotonie"
+            "Bradykardie"
           ],
-          "answer": 0,
-          "s": "If the heart beats too fast, it is called tachycardia."
+          "answer": 1,
+          "s": "If the heart beats too fast, it is called tachycardia.",
+          "why": "Tachy- = fast, kard- = heart: Tachykardie."
         },
         {
-          "type": "type",
-          "t": "Eine Cephalgie ist in Laiensprache ein ___.",
-          "answer": [
-            "Kopfschmerz",
-            "Kopfweh"
+          "type": "choice",
+          "task": "Which explanation fits a patient?",
+          "cue": "Patientin: Was ist denn eine Rhinitis?",
+          "t": "___",
+          "options": [
+            "Das ist ein Schnupfen, also eine Entzündung der Nasenschleimhaut.",
+            "Das ist eine Entzündung der Gelenke.",
+            "Das ist eine akute Inflammation der Nasenmukosa."
           ],
-          "s": "In lay language, cephalgia is a headache."
+          "answer": 0,
+          "why": "rhin- = nose, -itis = inflammation; for patients, say Schnupfen in plain words.",
+          "s": "Patient: what is rhinitis? – It's a cold in the nose, that is, an inflammation of the nasal lining."
         },
         {
           "type": "type",
@@ -553,7 +590,8 @@
           "answer": [
             "Magenschleimhaut"
           ],
-          "s": "Gastritis is an inflammation of the stomach lining."
+          "s": "Gastritis is an inflammation of the stomach lining.",
+          "why": "gastr- = stomach: Gastritis is an inflammation of the stomach lining."
         },
         {
           "type": "order",
@@ -627,6 +665,22 @@
       {
         "t": "Hinweis der Apotheke: Der Pulverinhalator ist derzeit nicht lieferbar. Ein Wechsel auf das Dosieraerosol mit denselben Wirkstoffen wird mit der verordnenden Ärztin abgesprochen, weil sich die Darreichungsform und die Inhalationstechnik ändern.",
         "s": "Note from the pharmacy: the dry powder inhaler is currently out of stock. A switch to the metered-dose inhaler with the same active ingredients is discussed with the prescribing doctor, because the dosage form and the inhalation technique change."
+      },
+      {
+        "t": "Zum rechtlichen Hintergrund: Bei Kassenrezepten gibt die Apotheke in der Regel ein Arzneimittel ab, für das die Krankenkasse einen Rabattvertrag hat, sofern die Ärztin den Austausch nicht mit dem Aut-idem-Kreuz ausgeschlossen hat.",
+        "s": "Legal background (simplified; § 129 SGB V and the framework contract): for statutory prescriptions the pharmacy usually dispenses a product covered by the health insurer's discount contract, unless the doctor has excluded substitution with the aut-idem cross."
+      },
+      {
+        "t": "Ausgetauscht werden darf dabei nur bei gleichem Wirkstoff, gleicher Wirkstärke, gleicher Packungsgröße, gleicher oder austauschbarer Darreichungsform und mindestens einem gleichen Anwendungsgebiet.",
+        "s": "Substitution is only allowed with the same active ingredient, the same strength, the same pack size, the same or an interchangeable dosage form and at least one shared indication."
+      },
+      {
+        "t": "Ist das verordnete Arzneimittel nicht verfügbar, darf die Apotheke ohne Rücksprache zum Beispiel eine andere Packungsgröße, mehrere kleinere Packungen oder, wenn keine pharmazeutischen Bedenken bestehen, eine andere Wirkstärke abgeben, solange die verordnete Gesamtmenge des Wirkstoffs nicht überschritten wird.",
+        "s": "If the prescribed medicine is unavailable, the pharmacy may, without consulting the prescriber, dispense e.g. a different pack size, several smaller packs or, if there are no pharmaceutical concerns, a different strength, as long as the prescribed total amount of active ingredient is not exceeded (§ 129 (2a) SGB V)."
+      },
+      {
+        "t": "Ein pharmakologisch-therapeutisch vergleichbares Arzneimittel darf sie dagegen nur nach Rücksprache mit der verordnenden Ärztin abgeben, und die Rücksprache wird dokumentiert.",
+        "s": "A pharmacologically and therapeutically comparable medicine, on the other hand, may only be dispensed after consulting the prescribing doctor, and the consultation is documented."
       }
     ],
     "questions": [
@@ -636,11 +690,11 @@
           "s": "What is budesonide with formoterol used for?"
         },
         "options": [
+          "gegen eine Pilzinfektion im Mund",
           "zur regelmäßigen Behandlung des Asthmas",
-          "nur bei einem akuten Asthmaanfall",
-          "gegen eine Pilzinfektion im Mund"
+          "nur bei einem akuten Asthmaanfall"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -660,11 +714,11 @@
           "s": "Why should you rinse your mouth after use?"
         },
         "options": [
-          "um einer Pilzinfektion und Heiserkeit vorzubeugen",
           "damit das Mittel schneller wirkt",
-          "weil das Pulver schlecht schmeckt"
+          "weil das Pulver schlecht schmeckt",
+          "um einer Pilzinfektion und Heiserkeit vorzubeugen"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": {
@@ -672,11 +726,11 @@
           "s": "When should the doctor be informed?"
         },
         "options": [
+          "wenn man morgens inhaliert",
           "wenn das Notfallspray mehr als zweimal pro Woche nötig ist",
-          "wenn man das Spray geschüttelt hat",
-          "wenn man morgens inhaliert"
+          "wenn man das Spray geschüttelt hat"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -689,6 +743,30 @@
           "Weil Salbutamol nicht vorrätig ist."
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was bedeutet das Aut-idem-Kreuz auf dem Rezept?",
+          "s": "What does the aut-idem cross on the prescription mean?"
+        },
+        "options": [
+          "Das Rezept ist ein Privatrezept.",
+          "Das Arzneimittel ist zurzeit nicht lieferbar.",
+          "Die Ärztin hat den Austausch ausgeschlossen."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Verordnet ist eine große Packung, lieferbar sind nur Packungen mit der halben Menge. Was darf die Apotheke ohne Rücksprache tun?",
+          "s": "A large pack is prescribed, but only packs with half the amount are available. What may the pharmacy do without consulting the doctor?"
+        },
+        "options": [
+          "das Arzneimittel als Spray statt als Pulver abgeben",
+          "zwei kleinere Packungen abgeben",
+          "einen anderen Wirkstoff abgeben"
+        ],
+        "answer": 1
       }
     ]
   },
@@ -724,7 +802,7 @@
       ]
     },
     {
-      "t": "Spülen Sie nach dem Kortisonspray den Mund aus.",
+      "t": "Spülen Sie nach dem Kortison-Gerät den Mund aus.",
       "s": "Rinse your mouth after using the cortisone inhaler."
     },
     {
@@ -738,6 +816,14 @@
     {
       "t": "Halten Sie den Atem etwa zehn Sekunden lang an.",
       "s": "Hold your breath for about ten seconds."
+    },
+    {
+      "t": "Wäre ein Dosieraerosol mit Inhalierhilfe für Frau Becker eine Option?",
+      "s": "Would a metered-dose inhaler with a spacer be an option for Ms. Becker?"
+    },
+    {
+      "t": "Die Inhalationstechnik kann die Apotheke als pharmazeutische Dienstleistung ausführlich mit der Patientin üben.",
+      "s": "The pharmacy can practice the inhalation technique in detail with the patient as a (paid) pharmaceutical service."
     }
   ]
 }

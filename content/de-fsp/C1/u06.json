@@ -19,8 +19,8 @@
       "s": "adverse drug reaction (short for unerwünschte Arzneimittelwirkung) · Laie: die Nebenwirkung",
       "emoji": "",
       "ex": {
-        "t": "Eine UAW, die in der Apotheke bekannt wird, sollte an die AMK gemeldet werden.",
-        "s": "An adverse drug reaction that the pharmacy learns about should be reported to the AMK."
+        "t": "Eine UAW, die in der Apotheke bekannt wird, wird an die AMK gemeldet; dazu sind Apothekerinnen und Apotheker berufsrechtlich verpflichtet.",
+        "s": "An adverse drug reaction that the pharmacy learns about is reported to the AMK; pharmacists are professionally obliged to do so."
       }
     },
     {
@@ -115,7 +115,8 @@
       "ex": {
         "t": "Der Kinderarzt hat Amoxicillin wegen einer Otitis media verordnet.",
         "s": "The pediatrician prescribed amoxicillin for a middle-ear infection."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -169,7 +170,8 @@
       "ex": {
         "t": "Den Berichtsbogen der AMK kann man online ausfüllen.",
         "s": "The AMK report form can be filled in online."
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
@@ -359,29 +361,31 @@
             "hatten"
           ],
           "answer": 0,
-          "s": "The mother reports that Ben is not short of breath."
+          "s": "The mother reports that Ben is not short of breath.",
+          "why": "Konjunktiv I of haben in the third person singular: habe."
         },
         {
           "type": "choice",
           "t": "Sie gibt an, der Ausschlag ___ gestern Abend aufgetreten.",
           "options": [
-            "sei",
             "habe",
-            "seid"
+            "seid",
+            "sei"
           ],
-          "answer": 0,
-          "s": "She states that the rash appeared yesterday evening."
+          "answer": 2,
+          "s": "She states that the rash appeared yesterday evening.",
+          "why": "auftreten forms its past with sein: sei aufgetreten."
         },
         {
-          "type": "choice",
-          "t": "Die Mutter sagt, ihr Sohn ___ den Saft bisher gut vertragen.",
-          "options": [
-            "habe",
-            "haben",
-            "hätten"
+          "type": "type",
+          "task": "Report it with Konjunktiv I.",
+          "cue": "Die Mutter sagt: „Ben hat kein Fieber mehr.“",
+          "t": "Die Mutter sagt, Ben ___ mehr.",
+          "answer": [
+            "habe kein Fieber"
           ],
-          "answer": 0,
-          "s": "The mother says her son has tolerated the suspension well so far."
+          "why": "Reported speech: the Konjunktiv I of haben is habe (er habe).",
+          "s": "The mother says Ben no longer has a fever."
         },
         {
           "type": "choice",
@@ -392,18 +396,20 @@
             "hättet"
           ],
           "answer": 0,
-          "s": "The parents report that they have not given the child any other medicines."
+          "s": "The parents report that they have not given the child any other medicines.",
+          "why": "The plural Konjunktiv I (sie haben) looks like the indicative, so use Konjunktiv II: hätten."
         },
         {
           "type": "choice",
           "t": "Der Arzt sagte, er ___ das Kind heute noch untersuchen.",
           "options": [
-            "könne",
             "können",
-            "könnten"
+            "könnten",
+            "könne"
           ],
-          "answer": 0,
-          "s": "The doctor said he could examine the child today."
+          "answer": 2,
+          "s": "The doctor said he could examine the child today.",
+          "why": "Konjunktiv I of können: er könne."
         },
         {
           "type": "type",
@@ -411,15 +417,22 @@
           "answer": [
             "ihr"
           ],
-          "s": "\"My son has a rash,\" says Ms. M. She reports that her son has a rash."
+          "s": "\"My son has a rash,\" says Ms. M. She reports that her son has a rash.",
+          "why": "Change the pronoun in reported speech: mein Sohn → ihr Sohn."
         },
         {
-          "type": "type",
-          "t": "„Ich gebe ihm den Saft mit der Spritze“, sagt Frau M. Sie sagt, sie gebe ___ den Saft mit der Spritze.",
-          "answer": [
-            "ihm"
+          "type": "choice",
+          "task": "Which sentence is correct reported speech?",
+          "cue": "Sie berichten in der UAW-Meldung, was die Mutter gesagt hat.",
+          "t": "___",
+          "options": [
+            "Die Mutter gab an, der Ausschlag sei gestern Abend aufgetreten.",
+            "Die Mutter gab an, der Ausschlag ist aufgetreten gestern Abend.",
+            "Die Mutter gab an, der Ausschlag habe gestern Abend aufgetreten."
           ],
-          "s": "\"I give him the suspension with the syringe,\" says Ms. M. She says she gives him the suspension with the syringe."
+          "answer": 0,
+          "why": "auftreten forms its past with sein, so the Konjunktiv I is sei … aufgetreten.",
+          "s": "You report in the ADR report what the mother said. – The mother stated that the rash had appeared yesterday evening."
         },
         {
           "type": "order",
@@ -484,45 +497,49 @@
           "type": "choice",
           "t": "Nachdem Ben den Saft vier Tage lang eingenommen ___, trat ein Ausschlag auf.",
           "options": [
+            "hätte",
             "hatte",
-            "hat",
-            "hätte"
-          ],
-          "answer": 0,
-          "s": "After Ben had taken the suspension for four days, a rash appeared."
-        },
-        {
-          "type": "choice",
-          "t": "Nachdem die Mutter angerufen ___, informierte der Apotheker den Arzt.",
-          "options": [
-            "hatte",
-            "war",
             "hat"
           ],
-          "answer": 0,
-          "s": "After the mother had called, the pharmacist informed the doctor."
+          "answer": 1,
+          "s": "After Ben had taken the suspension for four days, a rash appeared.",
+          "why": "Main clause in the Präteritum → nachdem-clause in the Plusquamperfekt: hatte."
+        },
+        {
+          "type": "type",
+          "task": "Make one sentence with nachdem.",
+          "cue": "Der Apotheker sprach mit dem Arzt. Danach rief er die Mutter an.",
+          "t": "Nachdem der Apotheker mit dem Arzt ___, rief er die Mutter an.",
+          "answer": [
+            "gesprochen hatte",
+            "telefoniert hatte"
+          ],
+          "why": "Main clause in the Präteritum → nachdem-clause in the Plusquamperfekt: gesprochen hatte.",
+          "s": "After the pharmacist had spoken to the doctor, he called the mother."
         },
         {
           "type": "choice",
           "t": "___ Ben das Antibiotikum nimmt, hat er kein Fieber mehr.",
           "options": [
-            "Seitdem",
             "Nachdem",
-            "Bevor"
+            "Bevor",
+            "Seitdem"
           ],
-          "answer": 0,
-          "s": "Since Ben has been taking the antibiotic, he hasn't had a fever."
+          "answer": 2,
+          "s": "Since Ben has been taking the antibiotic, he hasn't had a fever.",
+          "why": "seitdem for something that started in the past and is still going on."
         },
         {
           "type": "choice",
           "t": "___ Sie den Saft geben, schütteln Sie die Flasche bitte kräftig.",
           "options": [
+            "Seitdem",
             "Bevor",
-            "Nachdem",
-            "Seitdem"
+            "Nachdem"
           ],
-          "answer": 0,
-          "s": "Before you give the suspension, please shake the bottle well."
+          "answer": 1,
+          "s": "Before you give the suspension, please shake the bottle well.",
+          "why": "bevor = before: shake the bottle before giving the dose."
         },
         {
           "type": "type",
@@ -530,7 +547,8 @@
           "answer": [
             "hatte"
           ],
-          "s": "In the morning, the mother had not yet noticed any spots; only in the evening did she see the rash."
+          "s": "In the morning, the mother had not yet noticed any spots; only in the evening did she see the rash.",
+          "why": "Something even earlier than the evening: Plusquamperfekt hatte … bemerkt."
         },
         {
           "type": "type",
@@ -538,15 +556,22 @@
           "answer": [
             "war"
           ],
-          "s": "When the rash appeared, the fever had already gone down."
+          "s": "When the rash appeared, the fever had already gone down.",
+          "why": "zurückgehen forms its perfect with sein: war … zurückgegangen."
         },
         {
-          "type": "type",
-          "t": "Nachdem der Apotheker mit dem Arzt gesprochen ___, rief er die Mutter an.",
-          "answer": [
-            "hatte"
+          "type": "choice",
+          "task": "Which sentence is correct?",
+          "cue": "Die Mutter erzählt, wann der Ausschlag begann.",
+          "t": "___",
+          "options": [
+            "Bevor Ben den Saft genommen hatte, bekam er einen Ausschlag vom Saft.",
+            "Nachdem Ben den Saft vier Tage lang genommen hatte, bekam er einen Ausschlag.",
+            "Nachdem Ben den Saft vier Tage lang genommen hat, bekam er einen Ausschlag."
           ],
-          "s": "After the pharmacist had spoken to the doctor, he called the mother."
+          "answer": 1,
+          "why": "Main clause in the Präteritum (bekam) → nachdem-clause in the Plusquamperfekt (genommen hatte).",
+          "s": "The mother tells when the rash started. – After Ben had taken the suspension for four days, he got a rash."
         },
         {
           "type": "order",
@@ -638,11 +663,11 @@
           "s": "Where does Ben have the rash?"
         },
         "options": [
-          "an Bauch und Rücken",
           "im Gesicht",
-          "an Armen und Beinen"
+          "an Armen und Beinen",
+          "an Bauch und Rücken"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": {
@@ -674,11 +699,23 @@
           "s": "Why is an adverse drug reaction suspected?"
         },
         "options": [
-          "wegen des zeitlichen Zusammenhangs mit der Einnahme",
           "weil die Mutter den Saft falsch dosiert hat",
-          "weil der Saft nicht im Kühlschrank stand"
+          "weil der Saft nicht im Kühlschrank stand",
+          "wegen des zeitlichen Zusammenhangs mit der Einnahme"
         ],
-        "answer": 0
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Warum hat der Apotheker den Saft nicht selbst abgesetzt?",
+          "s": "Why didn't the pharmacist stop the suspension himself?"
+        },
+        "options": [
+          "Weil die Mutter das nicht wollte.",
+          "Weil die Entscheidung über die Therapie beim verordnenden Arzt liegt.",
+          "Weil der Saft schon leer war."
+        ],
+        "answer": 1
       }
     ]
   },
@@ -720,6 +757,22 @@
       "alts": [
         "Für eine Meldung reicht auch ein Verdacht aus."
       ]
+    },
+    {
+      "t": "Ich rufe an wegen Ihres Patienten Ben M., vier Jahre alt.",
+      "s": "I'm calling about your patient Ben M., four years old."
+    },
+    {
+      "t": "Seit gestern Abend hat er ein makulopapulöses Exanthem am Stamm mit leichtem Pruritus.",
+      "s": "Since yesterday evening he has had a maculopapular rash on the trunk with mild itching."
+    },
+    {
+      "t": "Eine Dyspnoe oder ein Angioödem liegen nicht vor.",
+      "s": "There is no shortness of breath or angioedema."
+    },
+    {
+      "t": "Wie möchten Sie weiter vorgehen?",
+      "s": "How would you like to proceed?"
     }
   ]
 }
