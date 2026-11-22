@@ -1,4 +1,6 @@
 # Automatic audit: de-en A1
 
-no findings
+{'emoji': 2}
 
+- u01 `words[14]` [emoji] no picture for emoji 🗣️
+- u08 `words[14]` [emoji] no picture for emoji 🔍
