@@ -679,7 +679,10 @@
     },
     {
       "t": "Dieses Medikament ist leider verschreibungspflichtig.",
-      "s": "Unfortunately, this medicine is prescription-only."
+      "s": "Unfortunately, this medicine is prescription-only.",
+      "alts": [
+        "Leider ist dieses Medikament verschreibungspflichtig."
+      ]
     },
     {
       "t": "Ohne Rezept kann ich Ihnen eine Alternative empfehlen.",
@@ -690,11 +693,17 @@
     },
     {
       "t": "Geben Sie mir bitte Ihre Gesundheitskarte.",
-      "s": "Please give me your health insurance card."
+      "s": "Please give me your health insurance card.",
+      "alts": [
+        "Bitte geben Sie mir Ihre Gesundheitskarte."
+      ]
     },
     {
       "t": "Warten Sie bitte einen Moment, ich schaue nach.",
-      "s": "Please wait a moment, I'll check."
+      "s": "Please wait a moment, I'll check.",
+      "alts": [
+        "Bitte warten Sie einen Moment, ich schaue nach."
+      ]
     },
     {
       "t": "Wir beraten Sie gern zur Selbstmedikation.",

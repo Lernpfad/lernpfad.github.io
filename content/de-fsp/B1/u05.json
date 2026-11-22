@@ -678,7 +678,10 @@
     },
     {
       "t": "Sie müssen das Antibiotikum bis zum Ende nehmen.",
-      "s": "You have to take the antibiotic until the end of the course."
+      "s": "You have to take the antibiotic until the end of the course.",
+      "alts": [
+        "Das Antibiotikum müssen Sie bis zum Ende nehmen."
+      ]
     },
     {
       "t": "Mit diesem Medikament sollten Sie nicht Auto fahren.",

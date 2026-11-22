@@ -682,7 +682,10 @@
     },
     {
       "t": "Wie oft am Tag nehmen Sie das Medikament?",
-      "s": "How many times a day do you take the medicine?"
+      "s": "How many times a day do you take the medicine?",
+      "alts": [
+        "Wie oft nehmen Sie das Medikament am Tag?"
+      ]
     },
     {
       "t": "Die Dosierung steht in der Packungsbeilage.",

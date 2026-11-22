@@ -410,9 +410,7 @@
           "type": "order",
           "t": "Tut Ihnen der Rücken weh?",
           "s": "Does your back hurt?",
-          "alts": [
-            "Tut der Rücken Ihnen weh?"
-          ]
+          "alts": []
         }
       ]
     },
@@ -663,14 +661,16 @@
       "s": "My stomach has been hurting since yesterday.",
       "alts": [
         "Seit gestern tut mir der Magen weh.",
-        "Mir tut der Magen seit gestern weh."
+        "Mir tut der Magen seit gestern weh.",
+        "Der Magen tut mir seit gestern weh."
       ]
     },
     {
       "t": "Ich habe seit drei Tagen Halsschmerzen.",
       "s": "I've had a sore throat for three days.",
       "alts": [
-        "Seit drei Tagen habe ich Halsschmerzen."
+        "Seit drei Tagen habe ich Halsschmerzen.",
+        "Halsschmerzen habe ich seit drei Tagen."
       ]
     },
     {

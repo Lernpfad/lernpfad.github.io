@@ -699,7 +699,10 @@
     },
     {
       "t": "Eine Packung mit zwanzig Filmtabletten, bitte.",
-      "s": "A pack of twenty film-coated tablets, please."
+      "s": "A pack of twenty film-coated tablets, please.",
+      "alts": [
+        "Bitte eine Packung mit zwanzig Filmtabletten."
+      ]
     },
     {
       "t": "Schütteln Sie die Suspension vor jedem Gebrauch.",

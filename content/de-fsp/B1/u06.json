@@ -702,7 +702,10 @@
     },
     {
       "t": "Kinder und Jugendliche sind von der Zuzahlung befreit.",
-      "s": "Children and teenagers are exempt from the copayment."
+      "s": "Children and teenagers are exempt from the copayment.",
+      "alts": [
+        "Von der Zuzahlung sind Kinder und Jugendliche befreit."
+      ]
     },
     {
       "t": "Heute hat unsere Apotheke Notdienst.",
