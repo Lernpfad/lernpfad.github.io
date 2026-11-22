@@ -11,7 +11,8 @@
     "t": "Deutsch",
     "s": "German"
    },
-   "color": "#d9822b",
+   "color": "#b4610f",
+   "mb": 79,
    "levels": [
     {
      "id": "A1",
@@ -1540,6 +1541,7 @@
     "s": "Pharmacy German"
    },
    "color": "#2e7d5b",
+   "mb": 28,
    "badge": "FSP",
    "about": "Fachsprachprüfung · explained in English",
    "levels": [
