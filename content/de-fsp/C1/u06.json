@@ -709,11 +709,17 @@
     },
     {
       "t": "Der Fall wird an die AMK gemeldet.",
-      "s": "The case will be reported to the AMK."
+      "s": "The case will be reported to the AMK.",
+      "alts": [
+        "An die AMK wird der Fall gemeldet."
+      ]
     },
     {
       "t": "Auch ein Verdacht reicht für eine Meldung aus.",
-      "s": "Even a suspicion is enough for a report."
+      "s": "Even a suspicion is enough for a report.",
+      "alts": [
+        "Für eine Meldung reicht auch ein Verdacht aus."
+      ]
     }
   ]
 }

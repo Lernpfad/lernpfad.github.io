@@ -695,7 +695,10 @@
   "sentences": [
     {
       "t": "Dyspnoe bedeutet in Laiensprache Atemnot.",
-      "s": "In lay language, dyspnea means shortness of breath."
+      "s": "In lay language, dyspnea means shortness of breath.",
+      "alts": [
+        "In Laiensprache bedeutet Dyspnoe Atemnot."
+      ]
     },
     {
       "t": "Ein Bronchodilatator ist ein Mittel, das die Atemwege erweitert.",
@@ -707,11 +710,18 @@
     },
     {
       "t": "Bei einer Hypotonie ist der Blutdruck zu niedrig.",
-      "s": "In hypotension, the blood pressure is too low."
+      "s": "In hypotension, the blood pressure is too low.",
+      "alts": [
+        "Der Blutdruck ist bei einer Hypotonie zu niedrig."
+      ]
     },
     {
       "t": "Das Notfallspray tragen Sie bitte immer bei sich.",
-      "s": "Please always carry the emergency spray with you."
+      "s": "Please always carry the emergency spray with you.",
+      "alts": [
+        "Tragen Sie das Notfallspray bitte immer bei sich.",
+        "Tragen Sie bitte das Notfallspray immer bei sich."
+      ]
     },
     {
       "t": "Spülen Sie nach dem Kortisonspray den Mund aus.",
@@ -719,7 +729,11 @@
     },
     {
       "t": "Der Inhalator ist zurzeit leider nicht lieferbar.",
-      "s": "Unfortunately, the inhaler is currently out of stock."
+      "s": "Unfortunately, the inhaler is currently out of stock.",
+      "alts": [
+        "Leider ist der Inhalator zurzeit nicht lieferbar.",
+        "Zurzeit ist der Inhalator leider nicht lieferbar."
+      ]
     },
     {
       "t": "Halten Sie den Atem etwa zehn Sekunden lang an.",

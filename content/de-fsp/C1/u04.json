@@ -688,7 +688,11 @@
   "sentences": [
     {
       "t": "Ich möchte heute über Antibiotikaresistenzen sprechen.",
-      "s": "Today I'd like to talk about antibiotic resistance."
+      "s": "Today I'd like to talk about antibiotic resistance.",
+      "alts": [
+        "Heute möchte ich über Antibiotikaresistenzen sprechen.",
+        "Über Antibiotikaresistenzen möchte ich heute sprechen."
+      ]
     },
     {
       "t": "Das Thema ist wichtig, weil es alle Patienten betrifft.",
@@ -700,7 +704,10 @@
     },
     {
       "t": "Zudem können Apotheken Patienten niedrigschwellig beraten.",
-      "s": "In addition, pharmacies can offer patients easily accessible advice."
+      "s": "In addition, pharmacies can offer patients easily accessible advice.",
+      "alts": [
+        "Apotheken können Patienten zudem niedrigschwellig beraten."
+      ]
     },
     {
       "t": "Antibiotika helfen nicht gegen Viren, folglich nützen sie bei Erkältungen nichts.",
@@ -708,7 +715,10 @@
     },
     {
       "t": "Zwar kostet Beratung Zeit, aber sie verhindert Fehler.",
-      "s": "Admittedly, counseling takes time, but it prevents mistakes."
+      "s": "Admittedly, counseling takes time, but it prevents mistakes.",
+      "alts": [
+        "Beratung kostet zwar Zeit, aber sie verhindert Fehler."
+      ]
     },
     {
       "t": "Ich bin der Ansicht, dass die Apotheke eine wichtige Lotsenfunktion hat.",

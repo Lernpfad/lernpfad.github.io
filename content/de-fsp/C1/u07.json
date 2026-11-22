@@ -104,7 +104,7 @@
       "t": "die Myopathie",
       "pl": "die Myopathien",
       "s": "myopathy · Laie: die Muskelerkrankung",
-      "emoji": "💪",
+      "emoji": "",
       "ex": {
         "t": "Ein hoher Plasmaspiegel von Simvastatin erhöht das Risiko einer Myopathie.",
         "s": "A high plasma level of simvastatin increases the risk of myopathy."
@@ -700,11 +700,17 @@
     },
     {
       "t": "Laut Medikationsplan nimmt er dauerhaft Simvastatin.",
-      "s": "According to his medication plan, he takes simvastatin long-term."
+      "s": "According to his medication plan, he takes simvastatin long-term.",
+      "alts": [
+        "Er nimmt laut Medikationsplan dauerhaft Simvastatin."
+      ]
     },
     {
       "t": "Die Kombination ist laut Fachinformation kontraindiziert.",
-      "s": "According to the summary of product characteristics, the combination is contraindicated."
+      "s": "According to the summary of product characteristics, the combination is contraindicated.",
+      "alts": [
+        "Laut Fachinformation ist die Kombination kontraindiziert."
+      ]
     },
     {
       "t": "Es kommt zu einer Erhöhung des Myopathierisikos.",
@@ -716,7 +722,10 @@
     },
     {
       "t": "Als Alternative käme ein anderes Antibiotikum in Frage.",
-      "s": "Another antibiotic would be an alternative."
+      "s": "Another antibiotic would be an alternative.",
+      "alts": [
+        "Ein anderes Antibiotikum käme als Alternative in Frage."
+      ]
     },
     {
       "t": "Dann halte ich fest: Simvastatin wird pausiert.",

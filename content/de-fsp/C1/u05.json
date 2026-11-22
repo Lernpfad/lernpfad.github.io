@@ -540,7 +540,8 @@
             "Daher",
             "Deswegen",
             "Daraufhin",
-            "Folglich"
+            "Folglich",
+            "Alternativ"
           ],
           "s": "Ibuprofen was out of the question. Instead, paracetamol was recommended."
         },
@@ -702,15 +703,24 @@
     },
     {
       "t": "Der Patient klagte seit dem Vortag über Zahnschmerzen.",
-      "s": "The patient had been complaining of toothache since the previous day."
+      "s": "The patient had been complaining of toothache since the previous day.",
+      "alts": [
+        "Seit dem Vortag klagte der Patient über Zahnschmerzen."
+      ]
     },
     {
       "t": "Als Dauermedikation nimmt die Patientin ein Antikoagulans ein.",
-      "s": "As long-term medication, the patient takes an anticoagulant."
+      "s": "As long-term medication, the patient takes an anticoagulant.",
+      "alts": [
+        "Die Patientin nimmt als Dauermedikation ein Antikoagulans ein."
+      ]
     },
     {
       "t": "Daraufhin wurde dem Patienten von Ibuprofen abgeraten.",
-      "s": "As a result, the patient was advised against ibuprofen."
+      "s": "As a result, the patient was advised against ibuprofen.",
+      "alts": [
+        "Dem Patienten wurde daraufhin von Ibuprofen abgeraten."
+      ]
     },
     {
       "t": "Die Ärztin ist bereits informiert.",
@@ -722,7 +732,10 @@
     },
     {
       "t": "In der Notiz verwendet man Fachbegriffe statt Laiensprache.",
-      "s": "In the note, you use technical terms instead of lay language."
+      "s": "In the note, you use technical terms instead of lay language.",
+      "alts": [
+        "Man verwendet in der Notiz Fachbegriffe statt Laiensprache."
+      ]
     }
   ]
 }

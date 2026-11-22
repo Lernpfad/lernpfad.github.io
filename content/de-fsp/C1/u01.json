@@ -680,15 +680,24 @@
   "sentences": [
     {
       "t": "Die Fachsprachprüfung besteht aus drei Teilen.",
-      "s": "The specialist language exam consists of three parts."
+      "s": "The specialist language exam consists of three parts.",
+      "alts": [
+        "Aus drei Teilen besteht die Fachsprachprüfung."
+      ]
     },
     {
       "t": "Im ersten Teil spielt ein Prüfer den Patienten.",
-      "s": "In the first part, an examiner plays the patient."
+      "s": "In the first part, an examiner plays the patient.",
+      "alts": [
+        "Ein Prüfer spielt im ersten Teil den Patienten."
+      ]
     },
     {
       "t": "Zuerst frage ich, für wen das Medikament ist.",
-      "s": "First I ask who the medicine is for."
+      "s": "First I ask who the medicine is for.",
+      "alts": [
+        "Ich frage zuerst, für wen das Medikament ist."
+      ]
     },
     {
       "t": "Könnten Sie mir sagen, seit wann Sie Halsschmerzen haben?",

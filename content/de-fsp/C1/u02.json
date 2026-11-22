@@ -686,7 +686,11 @@
     },
     {
       "t": "Davon würde ich Ihnen abraten.",
-      "s": "I would advise you against that."
+      "s": "I would advise you against that.",
+      "alts": [
+        "Ich würde Ihnen davon abraten.",
+        "Ihnen würde ich davon abraten."
+      ]
     },
     {
       "t": "Es wäre besser, wenn Sie sich ein paar Tage schonen.",
@@ -698,7 +702,10 @@
     },
     {
       "t": "Solange Sie Fieber haben, sollten Sie viel trinken.",
-      "s": "As long as you have a fever, you should drink plenty."
+      "s": "As long as you have a fever, you should drink plenty.",
+      "alts": [
+        "Sie sollten viel trinken, solange Sie Fieber haben."
+      ]
     },
     {
       "t": "Manche Grippemittel enthalten ebenfalls Paracetamol.",
@@ -710,7 +717,10 @@
     },
     {
       "t": "Ich fasse noch einmal kurz zusammen.",
-      "s": "Let me briefly summarize."
+      "s": "Let me briefly summarize.",
+      "alts": [
+        "Ich fasse kurz noch einmal zusammen."
+      ]
     }
   ]
 }
