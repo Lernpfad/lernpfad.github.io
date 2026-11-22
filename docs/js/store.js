@@ -1,16 +1,15 @@
-// Session, progress, spaced repetition and sync with the Lernpfad server.
+// Session, progress, spaced repetition and sync with the site's server.
 // Everything is kept PER PERSON (by their login id), never per device: several people can share one phone,
 // and one person can use several devices. Each person's progress lives under its own key and is synced under their id.
-const LS_USER = "lp:user";        // who is using the app right now
-const LS_KNOWN = "lp:known";      // names that worked on this device: normalised typed name -> {id, name}
-const LS_RECENT = "lp:recent";    // people who used this device: [{id, name, at}]
-const LS_DIRTY = "lp:dirty";      // ids whose progress has changes not yet on the server
-// login + progress server (Cloudflare Worker "lernpfad"); the site itself can be served from anywhere (GitHub Pages)
-const API_SERVER = "https://lernpfad.zabanyar.workers.dev";
+import { SITE } from "./site.js";
+const LS_USER = SITE.id + ":user";        // who is using the app right now
+const LS_KNOWN = SITE.id + ":known";      // names that worked on this device: normalised typed name -> {id, name}
+const LS_RECENT = SITE.id + ":recent";    // people who used this device: [{id, name, at}]
+const LS_DIRTY = SITE.id + ":dirty";      // ids whose progress has changes not yet on the server
 const API_BASES = (() => {
   const h = location.hostname;
-  const own = (h.endsWith("workers.dev") || h === "localhost" || h === "127.0.0.1") ? [""] : [];
-  return [...own, API_SERVER].filter((v, i, a) => a.indexOf(v) === i);
+  const own = SITE.ownApi(h) ? [""] : [];
+  return [...own, ...SITE.apiServers].filter((v, i, a) => a.indexOf(v) === i);
 })();
 let apiBase = null;
 
@@ -28,8 +27,8 @@ async function api(path, body) {
     try {
       const r = await fetch(b + "/api/" + path, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body), signal: ctl.signal });
       const j = await r.json().catch(() => null);
-      // only a real Lernpfad answer counts (filter pages, proxies and static hosts don't send {ok: …})
-      if (!j || typeof j.ok !== "boolean") throw new Error("not the lernpfad api");
+      // only a real site API answer counts (filter pages, proxies and static hosts don't send {ok: …})
+      if (!j || typeof j.ok !== "boolean") throw new Error("not the site api");
       apiBase = b;
       return { status: r.status, ...j };
     } finally { clearTimeout(tm); }
@@ -40,7 +39,7 @@ async function api(path, body) {
 }
 
 // ---------- people on this device ----------
-const pkey = uid => "lp:p:" + uid;
+const pkey = uid => SITE.id + ":p:" + uid;
 function dirty() { return lsGet(LS_DIRTY, []); }
 function setDirty(uid, on) {
   const d = new Set(dirty()); on ? d.add(uid) : d.delete(uid); lsSet(LS_DIRTY, [...d]);
@@ -63,7 +62,7 @@ function forget(uid) {
 /** people who have used the app on this device, most recent first */
 export function recentUsers() { return lsGet(LS_RECENT, []); }
 
-// The server answered with a person's real id (e.g. "sanaz" for "ساناز" typed while offline): move any progress
+// The server answered with a person's real id (e.g. "sara" for "سارا" typed while offline): move any progress
 // that was kept under the provisional id over to the real one.
 function adopt(localId, user) {
   if (localId && localId !== user.id) {
