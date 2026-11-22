@@ -48,7 +48,7 @@
     {
       "id": "w04",
       "t": "die Halsschmerzen",
-      "s": "sore throat (usually plural)",
+      "s": "sore throat (usually plural) · Fach (inflammation of the throat): die Pharyngitis",
       "emoji": "",
       "ex": {
         "t": "Haben Sie auch Halsschmerzen?",
@@ -155,6 +155,16 @@
       "ex": {
         "t": "Bei einer Blasenentzündung brennt es beim Wasserlassen.",
         "s": "With a bladder infection, it burns when you urinate."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "der Husten",
+      "s": "cough · trocken: dry; verschleimt: chesty, with mucus · Fach: unproduktiver / produktiver Husten",
+      "emoji": "",
+      "ex": {
+        "t": "Ist Ihr Husten trocken oder verschleimt?",
+        "s": "Is your cough dry or chesty?"
       }
     }
   ],
@@ -337,26 +347,29 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "___ tut der Kopf weh.",
-          "options": [
-            "Mir",
-            "Ich",
-            "Mich"
+          "type": "type",
+          "task": "Say it with wehtun.",
+          "cue": "Ich habe Halsschmerzen.",
+          "t": "___ der Hals weh.",
+          "answer": [
+            "Mir tut"
           ],
-          "answer": 0,
-          "s": "My head hurts."
+          "why": "With wehtun the body part is the subject and the person is in the dative: Mir tut der Hals weh.",
+          "s": "My throat hurts."
         },
         {
           "type": "choice",
-          "t": "Tut ___ der Hals weh, Frau Becker?",
+          "task": "Which question fits next?",
+          "cue": "Ich habe seit einer Woche Husten.",
+          "t": "___",
           "options": [
-            "Ihnen",
-            "Sie",
-            "Ihren"
+            "Tut Ihnen der Husten seit einer Woche?",
+            "Ist der Husten trocken oder verschleimt?",
+            "Haben Sie seit einer Woche Hustenschmerzen?"
           ],
-          "answer": 0,
-          "s": "Does your throat hurt, Mrs. Becker?"
+          "answer": 1,
+          "why": "First find out the type of cough: dry (trocken) or with mucus (verschleimt).",
+          "s": "I've had a cough for a week. – Is the cough dry or chesty?"
         },
         {
           "type": "choice",
@@ -367,18 +380,20 @@
             "tue"
           ],
           "answer": 0,
-          "s": "My son's ears hurt."
+          "s": "My son's ears hurt.",
+          "why": "A plural body part (die Ohren) takes a plural verb: tun … weh."
         },
         {
           "type": "choice",
           "t": "___ Kind tut der Bauch weh.",
           "options": [
-            "Dem",
             "Das",
-            "Der"
+            "Der",
+            "Dem"
           ],
-          "answer": 0,
-          "s": "The child has a stomachache."
+          "answer": 2,
+          "s": "The child has a stomachache.",
+          "why": "The person is in the dative: das Kind → dem Kind."
         },
         {
           "type": "type",
@@ -386,7 +401,8 @@
           "answer": [
             "Ihm"
           ],
-          "s": "Mr. Klein has back pain. His back hurts."
+          "s": "Mr. Klein has back pain. His back hurts.",
+          "why": "The dative of er is ihm: Ihm tut der Rücken weh."
         },
         {
           "type": "type",
@@ -395,7 +411,8 @@
             "Bauchschmerzen",
             "Bauchweh"
           ],
-          "s": "Mrs. Becker has pain in her stomach. She has a stomachache."
+          "s": "Mrs. Becker has pain in her stomach. She has a stomachache.",
+          "why": "haben + a compound with -schmerzen: Bauchschmerzen (Bauchweh also works)."
         },
         {
           "type": "type",
@@ -404,7 +421,8 @@
             "Kopfschmerzen",
             "Kopfweh"
           ],
-          "s": "A patient with cephalgia says: I have a headache."
+          "s": "A patient with cephalgia says: I have a headache.",
+          "why": "Cephalgie is the technical term; patients say Kopfschmerzen."
         },
         {
           "type": "order",
@@ -480,29 +498,32 @@
             "für"
           ],
           "answer": 0,
-          "s": "I've had a sore throat for three days."
+          "s": "I've had a sore throat for three days.",
+          "why": "seit + present tense for something still going on; vor means ago."
         },
         {
           "type": "choice",
           "t": "Seit einer ___ habe ich Husten.",
           "options": [
-            "Woche",
             "Wochen",
-            "Wochens"
+            "Wochens",
+            "Woche"
           ],
-          "answer": 0,
-          "s": "I've had a cough for a week."
+          "answer": 2,
+          "s": "I've had a cough for a week.",
+          "why": "seit takes the dative: seit einer Woche (singular, one week)."
         },
         {
           "type": "choice",
           "t": "___ haben Sie die Beschwerden? – Seit gestern Abend.",
           "options": [
+            "Wo",
             "Seit wann",
-            "Wie oft",
-            "Wo"
+            "Wie oft"
           ],
-          "answer": 0,
-          "s": "How long have you had the symptoms? – Since last night."
+          "answer": 1,
+          "s": "How long have you had the symptoms? – Since last night.",
+          "why": "Seit wann asks when something started."
         },
         {
           "type": "type",
@@ -510,23 +531,34 @@
           "answer": [
             "Tagen"
           ],
-          "s": "Ben has had a fever for two days. (der Tag)"
+          "s": "Ben has had a fever for two days. (der Tag)",
+          "why": "The dative plural adds -n: seit zwei Tagen."
         },
         {
           "type": "type",
-          "t": "Frau Becker hat ___ einem Monat Schwindel.",
+          "task": "Say it with seit.",
+          "cue": "Der Husten hat vor einer Woche angefangen, und ich habe ihn immer noch.",
+          "t": "Ich habe ___ Husten.",
           "answer": [
-            "seit"
+            "seit einer Woche",
+            "schon seit einer Woche"
           ],
-          "s": "Mrs. Becker has been dizzy for a month."
+          "why": "seit + dative for something that started in the past and is still going on: seit einer Woche.",
+          "s": "I've had a cough for a week."
         },
         {
-          "type": "type",
-          "t": "Seit einem ___ nehme ich Tabletten gegen Bluthochdruck.",
-          "answer": [
-            "Jahr"
+          "type": "choice",
+          "task": "Which answer fits?",
+          "cue": "Wie lange haben Sie die Halsschmerzen schon?",
+          "t": "___",
+          "options": [
+            "Seit drei Tage.",
+            "Seit drei Tagen.",
+            "Vor drei Tagen."
           ],
-          "s": "I've been taking tablets for high blood pressure for a year. (das Jahr)"
+          "answer": 1,
+          "why": "Wie lange … schon? asks for a duration up to now: seit + dative plural, seit drei Tagen.",
+          "s": "How long have you had the sore throat? – For three days."
         },
         {
           "type": "type",
@@ -535,7 +567,8 @@
             "Durchfall",
             "der Durchfall"
           ],
-          "s": "Diarrhö in plain German: diarrhea."
+          "s": "Diarrhö in plain German: diarrhea.",
+          "why": "Diarrhö is the technical term; patients say Durchfall."
         },
         {
           "type": "order",
@@ -599,11 +632,11 @@
           "s": "With whom does the pharmacist speak technical language?"
         },
         "options": [
-          "mit Ärzten und Kollegen",
           "mit Kindern",
-          "mit allen Patienten"
+          "mit allen Patienten",
+          "mit Ärzten und Kollegen"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": {
@@ -611,11 +644,11 @@
           "s": "What does a patient say for Diarrhö?"
         },
         "options": [
+          "Juckreiz",
           "Durchfall",
-          "Kopfschmerzen",
-          "Juckreiz"
+          "Kopfschmerzen"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -635,11 +668,11 @@
           "s": "When does the patient have to see a doctor?"
         },
         "options": [
-          "bei Blut im Stuhl",
           "bei leichtem Schnupfen",
-          "nach dem Essen"
+          "nach dem Essen",
+          "bei Blut im Stuhl"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": {
@@ -647,11 +680,23 @@
           "s": "What do you have to be able to do in the Fachsprachprüfung?"
         },
         "options": [
+          "nur Englisch",
           "Fachsprache und Laiensprache",
-          "nur Fachsprache",
-          "nur Englisch"
+          "nur Fachsprache"
         ],
-        "answer": 0
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum fragt die Apothekerin auch nach Fieber oder Erbrechen?",
+          "s": "Why does the pharmacist also ask about fever or vomiting?"
+        },
+        "options": [
+          "Weil sie Fachsprache üben möchte.",
+          "Weil sie prüfen will, ob der Patient zum Arzt muss.",
+          "Weil sie ein zweites Medikament verkaufen möchte."
+        ],
+        "answer": 1
       }
     ]
   },
@@ -702,6 +747,22 @@
       "alts": [
         "Vor einer Woche hat der Husten angefangen."
       ]
+    },
+    {
+      "t": "Ist der Husten trocken oder verschleimt?",
+      "s": "Is the cough dry or chesty?"
+    },
+    {
+      "t": "Bei Husten trinken Sie bitte viel warmen Tee.",
+      "s": "With a cough, please drink plenty of warm tea.",
+      "alts": [
+        "Trinken Sie bei Husten bitte viel warmen Tee.",
+        "Trinken Sie bitte bei Husten viel warmen Tee."
+      ]
+    },
+    {
+      "t": "Bei Atemnot oder hohem Fieber gehen Sie bitte zum Arzt.",
+      "s": "If you are short of breath or have a high fever, please see a doctor."
     }
   ]
 }

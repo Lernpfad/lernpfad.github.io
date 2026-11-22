@@ -115,7 +115,8 @@
       "ex": {
         "t": "In der Packungsbeilage steht, wie Sie das Medikament einnehmen.",
         "s": "The package leaflet says how to take the medicine."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -167,6 +168,16 @@
       "ex": {
         "t": "Nehmen Sie Ihre Blutdrucktabletten regelmäßig jeden Morgen.",
         "s": "Take your blood pressure tablets regularly every morning."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "absetzen",
+      "s": "to stop taking (a medicine) · setzt ab, hat abgesetzt",
+      "emoji": "",
+      "ex": {
+        "t": "Setzen Sie das Antibiotikum bitte nicht einfach ab.",
+        "s": "Please don't just stop taking the antibiotic."
       }
     }
   ],
@@ -280,8 +291,8 @@
       },
       {
         "sp": "A",
-        "t": "Ohne Arzt höchstens vier Tage. Aber gehen Sie mit den Zahnschmerzen bitte bald zum Zahnarzt. Können Sie mir kurz sagen, wie Sie die Tabletten nehmen?",
-        "s": "Without a doctor, four days at most. But please see a dentist about the toothache soon. Can you tell me briefly how you'll take the tablets?"
+        "t": "Ohne Arzt höchstens vier Tage. Gehen Sie mit den Zahnschmerzen bitte bald zum Zahnarzt. Können Sie mir kurz sagen, wie Sie die Tabletten nehmen?",
+        "s": "Without a doctor, four days at most. Please see a dentist about the toothache soon. Can you tell me briefly how you'll take the tablets?"
       },
       {
         "sp": "B",
@@ -349,37 +360,41 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Nehmen Sie die Tablette nach ___ Essen.",
-          "options": [
-            "dem",
-            "den",
-            "das"
+          "type": "type",
+          "task": "Say it with vor + dative.",
+          "cue": "Nehmen Sie die Tablette und frühstücken Sie danach.",
+          "t": "Nehmen Sie die Tablette ___ Frühstück.",
+          "answer": [
+            "vor dem"
           ],
-          "answer": 0,
-          "s": "Take the tablet after the meal."
+          "why": "vor takes the dative: das Frühstück → vor dem Frühstück.",
+          "s": "Take the tablet before breakfast."
         },
         {
           "type": "choice",
-          "t": "Bitte eine halbe Stunde vor ___ Frühstück einnehmen.",
+          "task": "Which reply fits?",
+          "cue": "Ich faste im Ramadan. Wie nehme ich das Antibiotikum dreimal täglich?",
+          "t": "___",
           "options": [
-            "dem",
-            "der",
-            "das"
+            "Nehmen Sie einfach alle drei Tabletten zusammen am Abend.",
+            "Dann lassen Sie das Antibiotikum während des Ramadans weg.",
+            "Das ist wichtig. Ich kläre mit Ihrer Ärztin, wie Sie es einnehmen können."
           ],
-          "answer": 0,
-          "s": "Please take it half an hour before breakfast."
+          "answer": 2,
+          "why": "Doses of an antibiotic must not be combined or skipped; the pharmacist clarifies it with the doctor.",
+          "s": "I'm fasting during Ramadan. How do I take the antibiotic three times a day? – That's important. I'll check with your doctor how you can take it."
         },
         {
           "type": "choice",
           "t": "Nehmen Sie die Kapseln ___ den Mahlzeiten ein.",
           "options": [
+            "zur",
             "zu",
-            "zum",
-            "zur"
+            "zum"
           ],
-          "answer": 0,
-          "s": "Take the capsules with meals."
+          "answer": 1,
+          "s": "Take the capsules with meals.",
+          "why": "With meals is zu den Mahlzeiten: zu + plural article den, not contracted."
         },
         {
           "type": "type",
@@ -387,7 +402,8 @@
           "answer": [
             "zur"
           ],
-          "s": "Take the drops at bedtime."
+          "s": "Take the drops at bedtime.",
+          "why": "zu + der = zur: zur Nacht means at bedtime."
         },
         {
           "type": "type",
@@ -395,7 +411,8 @@
           "answer": [
             "morgens"
           ],
-          "s": "I take the tablet every morning, so always in the morning."
+          "s": "I take the tablet every morning, so always in the morning.",
+          "why": "Regular times of day end in -s and are written in lower case: morgens."
         },
         {
           "type": "type",
@@ -404,7 +421,8 @@
             "einer",
             "der"
           ],
-          "s": "Take ibuprofen during a meal. (genitive)"
+          "s": "Take ibuprofen during a meal. (genitive)",
+          "why": "während takes the genitive in written German: während einer Mahlzeit."
         },
         {
           "type": "type",
@@ -412,7 +430,8 @@
           "answer": [
             "Mund"
           ],
-          "s": "Peroral (p. o.) in plain German: by mouth."
+          "s": "Peroral (p. o.) in plain German: by mouth.",
+          "why": "Peroral means by mouth: über den Mund."
         },
         {
           "type": "order",
@@ -485,50 +504,62 @@
           "type": "choice",
           "t": "Nehmen Sie bitte eine ___ Tablette.",
           "options": [
+            "halben",
             "halbe",
-            "halb",
-            "halben"
+            "halb"
           ],
-          "answer": 0,
-          "s": "Please take half a tablet."
+          "answer": 1,
+          "s": "Please take half a tablet.",
+          "why": "halb takes an adjective ending: eine halbe Tablette."
         },
         {
-          "type": "choice",
-          "t": "Die Ärztin hat ___ täglich zehn Tropfen verschrieben.",
-          "options": [
-            "zweimal",
-            "zweite",
-            "zwei"
+          "type": "type",
+          "task": "Say it shorter with zweimal.",
+          "cue": "Nehmen Sie morgens eine Tablette und abends eine Tablette.",
+          "t": "Nehmen Sie ___ eine Tablette.",
+          "answer": [
+            "zweimal täglich",
+            "zweimal taeglich",
+            "zweimal am Tag",
+            "zweimal pro Tag"
           ],
-          "answer": 0,
-          "s": "The doctor prescribed ten drops twice a day."
+          "why": "Number + mal, written as one word: zweimal täglich means twice a day.",
+          "s": "Take one tablet twice a day."
         },
         {
           "type": "choice",
           "t": "Alle acht Stunden bedeutet: ___ täglich.",
           "options": [
-            "dreimal",
             "zweimal",
-            "viermal"
+            "viermal",
+            "dreimal"
           ],
-          "answer": 0,
-          "s": "Every eight hours means: three times a day."
+          "answer": 2,
+          "s": "Every eight hours means: three times a day.",
+          "why": "Every eight hours means three doses in twenty-four hours: dreimal täglich."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Kann ich nicht einfach zwei Tabletten auf einmal nehmen?",
+          "t": "___",
+          "options": [
+            "Ja, aber nur mit einem Glas Milch.",
+            "Nein, bitte nehmen Sie keine doppelte Dosis. Das kann zu einer Überdosierung führen.",
+            "Ja, zwei Tabletten wirken doppelt so gut."
+          ],
+          "answer": 1,
+          "why": "A double dose raises the risk of side effects and overdose; keep to the stated single dose.",
+          "s": "Can't I just take two tablets at once? – No, please don't take a double dose. It can lead to an overdose."
         },
         {
           "type": "type",
-          "t": "Tausend Milligramm sind ein ___.",
+          "t": "Die Emesis ist in Laiensprache das ___.",
           "answer": [
-            "Gramm"
+            "Erbrechen"
           ],
-          "s": "A thousand milligrams are one gram."
-        },
-        {
-          "type": "type",
-          "t": "Um sechs Uhr, um zwölf Uhr, um achtzehn Uhr und um Mitternacht: Sie nehmen das Medikament ___ sechs Stunden.",
-          "answer": [
-            "alle"
-          ],
-          "s": "At six a.m., at noon, at six p.m. and at midnight: you take the medicine every six hours."
+          "why": "Emesis is the technical term; patients say Erbrechen.",
+          "s": "In plain German, Emesis is vomiting (Erbrechen)."
         },
         {
           "type": "type",
@@ -537,18 +568,20 @@
             "je",
             "jeweils"
           ],
-          "s": "Take one tablet each in the morning and in the evening."
+          "s": "Take one tablet each in the morning and in the evening.",
+          "why": "je (or jeweils) means each: morgens und abends je eine Tablette."
         },
         {
           "type": "choice",
           "t": "Eine Tablette und eine halbe Tablette sind ___ Tabletten.",
           "options": [
+            "einundhalb",
             "eineinhalb",
-            "einhalb",
-            "einundhalb"
+            "einhalb"
           ],
-          "answer": 0,
-          "s": "One tablet and half a tablet make one and a half tablets."
+          "answer": 1,
+          "s": "One tablet and half a tablet make one and a half tablets.",
+          "why": "One and a half is eineinhalb (or anderthalb), and the noun is plural."
         },
         {
           "type": "order",
@@ -627,11 +660,11 @@
           "s": "When do you take the film-coated tablet?"
         },
         "options": [
-          "während oder nach einer Mahlzeit",
           "morgens auf nüchternen Magen",
-          "nur zur Nacht"
+          "nur zur Nacht",
+          "während oder nach einer Mahlzeit"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": {
@@ -639,11 +672,11 @@
           "s": "How long may you take ibuprofen for pain without medical advice?"
         },
         "options": [
+          "zwei Wochen",
           "höchstens vier Tage",
-          "höchstens drei Tage",
-          "zwei Wochen"
+          "höchstens drei Tage"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -663,11 +696,23 @@
           "s": "How long should you wait at least between two film-coated tablets?"
         },
         "options": [
-          "sechs Stunden",
           "eine Stunde",
-          "zwei Tage"
+          "zwei Tage",
+          "sechs Stunden"
         ],
-        "answer": 0
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Herr Klein nimmt um acht Uhr eine Filmtablette. Wann darf er frühestens die nächste nehmen?",
+          "s": "Mr. Klein takes a film-coated tablet at eight o'clock. When is the earliest he may take the next one?"
+        },
+        "options": [
+          "um neun Uhr",
+          "um zehn Uhr",
+          "um vierzehn Uhr"
+        ],
+        "answer": 2
       }
     ]
   },
@@ -722,6 +767,14 @@
       "alts": [
         "Nehmen Sie alle zwölf Stunden das Antibiotikum ein."
       ]
+    },
+    {
+      "t": "Dreimal täglich fünf Milliliter.",
+      "s": "Five milliliters three times a day."
+    },
+    {
+      "t": "Alle acht Stunden eine Tablette.",
+      "s": "One tablet every eight hours."
     }
   ]
 }

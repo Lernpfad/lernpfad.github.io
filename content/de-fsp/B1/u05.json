@@ -170,6 +170,17 @@
         "t": "Manche Lebensmittel beeinflussen die Wirkung von Medikamenten.",
         "s": "Some foods affect how medicines work."
       }
+    },
+    {
+      "id": "w16",
+      "t": "der INR-Wert",
+      "pl": "die INR-Werte",
+      "s": "INR (blood test that shows how fast the blood clots; checked regularly in people taking vitamin K antagonists such as phenprocoumon) · Laie: der Gerinnungswert",
+      "emoji": "",
+      "ex": {
+        "t": "Herr Klein nimmt Phenprocoumon und lässt jeden Monat seinen INR-Wert messen.",
+        "s": "Mr. Klein takes phenprocoumon and has his INR checked every month."
+      }
     }
   ],
   "phrases": [
@@ -257,18 +268,18 @@
       },
       {
         "sp": "B",
-        "t": "Danke. Dann ist Ibuprofen leider nicht gut für Sie. Es gibt eine Wechselwirkung: Ibuprofen kann Ihren Blutverdünner schwächer machen, und das Risiko für Blutungen im Magen steigt.",
-        "s": "Thank you. Then ibuprofen is unfortunately not good for you. There is an interaction: ibuprofen can make your blood thinner weaker, and the risk of bleeding in the stomach goes up."
+        "t": "Danke. Dann ist Ibuprofen leider nicht gut für Sie. Ibuprofen kann Ihren Blutverdünner schwächer machen. Und das Risiko für Blutungen im Magen steigt.",
+        "s": "Thank you. Then ibuprofen is unfortunately not good for you. Ibuprofen can make your blood thinner weaker. And the risk of bleeding in the stomach goes up."
       },
       {
         "sp": "A",
-        "t": "Oh, das wusste ich nicht. Was kann ich denn nehmen?",
-        "s": "Oh, I didn't know that. So what can I take?"
+        "t": "Aber Ibuprofen hilft mir immer so gut! Kann ich es nicht trotzdem nehmen?",
+        "s": "But ibuprofen always works so well for me! Can't I take it anyway?"
       },
       {
         "sp": "B",
-        "t": "Ich empfehle Ihnen ein Wärmepflaster für den Rücken. Und bewegen Sie sich vorsichtig, das hilft auch.",
-        "s": "I recommend a heat patch for your back. And move carefully – that helps too."
+        "t": "Das verstehe ich. Aber mit Ihrem Blutverdünner ist das zu riskant. Ich empfehle Ihnen ein Wärmepflaster für den Rücken. Und bewegen Sie sich vorsichtig, das hilft auch.",
+        "s": "I understand. But with your blood thinner that's too risky. I recommend a heat patch for your back. And move carefully – that helps too."
       },
       {
         "sp": "A",
@@ -346,15 +357,16 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Sie ___ das Antibiotikum bis zum Ende nehmen, auch wenn es Ihnen besser geht.",
-          "options": [
+          "type": "type",
+          "task": "Say it with a modal verb.",
+          "cue": "Es ist nötig, dass Sie das Antibiotikum bis zum Ende nehmen.",
+          "t": "Sie ___ das Antibiotikum bis zum Ende nehmen.",
+          "answer": [
             "müssen",
-            "müssen nicht",
-            "dürfen nicht"
+            "muessen"
           ],
-          "answer": 0,
-          "s": "You have to take the antibiotic until the end, even if you feel better."
+          "why": "Something necessary: müssen.",
+          "s": "You have to take the antibiotic until the end."
         },
         {
           "type": "choice",
@@ -364,17 +376,22 @@
             "müssen"
           ],
           "answer": 0,
-          "s": "You're eight months pregnant? Then you must not take ibuprofen."
+          "s": "You're eight months pregnant? Then you must not take ibuprofen.",
+          "why": "Must not = nicht dürfen (here kein … dürfen); nicht müssen would mean it is not necessary."
         },
         {
           "type": "choice",
-          "t": "Mit Simvastatin ___ Sie keinen Grapefruitsaft trinken, denn es gibt eine Wechselwirkung.",
+          "task": "Which reply fits?",
+          "cue": "Ich nehme Phenprocoumon. Darf ich Ibuprofen gegen Kopfschmerzen nehmen?",
+          "t": "___",
           "options": [
-            "sollen",
-            "müssen"
+            "Ja, Sie müssen Ibuprofen nehmen, das hilft immer.",
+            "Ja, Sie dürfen so viel Ibuprofen nehmen, wie Sie möchten.",
+            "Bitte nicht ohne Rücksprache. Ibuprofen erhöht mit Phenprocoumon das Risiko für Blutungen."
           ],
-          "answer": 0,
-          "s": "With simvastatin you shouldn't drink grapefruit juice, because there is an interaction."
+          "answer": 2,
+          "why": "With vitamin K antagonists such as phenprocoumon, ibuprofen raises the risk of bleeding.",
+          "s": "I take phenprocoumon. May I take ibuprofen for a headache? – Please not without checking first. Together with phenprocoumon, ibuprofen increases the risk of bleeding."
         },
         {
           "type": "choice",
@@ -384,7 +401,8 @@
             "dürfen"
           ],
           "answer": 0,
-          "s": "The syrup keeps without a fridge too. You don't have to put it in the fridge."
+          "s": "The syrup keeps without a fridge too. You don't have to put it in the fridge.",
+          "why": "Not necessary = nicht müssen; nicht dürfen would mean it is forbidden."
         },
         {
           "type": "type",
@@ -392,16 +410,18 @@
           "answer": [
             "soll"
           ],
-          "s": "The doctor says I should inhale twice a day. (sollen)"
+          "s": "The doctor says I should inhale twice a day. (sollen)",
+          "why": "Advice or an instruction from another person: sollen (ich soll)."
         },
         {
           "type": "type",
-          "t": "Das Medikament gibt es ohne Rezept. Sie ___ nicht zum Arzt gehen.",
+          "t": "Die Zystitis ist in Laiensprache eine ___.",
           "answer": [
-            "müssen",
-            "muessen"
+            "Blasenentzündung",
+            "Blasenentzuendung"
           ],
-          "s": "The medicine is available without a prescription. You don't have to go to the doctor. (müssen)"
+          "why": "Zystitis is the technical term; patients say Blasenentzündung.",
+          "s": "In plain German, Zystitis is a bladder infection (Blasenentzündung)."
         },
         {
           "type": "type",
@@ -412,7 +432,8 @@
             "sollen",
             "sollten"
           ],
-          "s": "Adults may take no more than four grams of paracetamol a day. (dürfen)"
+          "s": "Adults may take no more than four grams of paracetamol a day. (dürfen)",
+          "why": "A limit you must not go over: höchstens + dürfen (sollen also works)."
         },
         {
           "type": "order",
@@ -474,37 +495,42 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Wenn das Fieber ___, gehen Sie bitte zum Arzt.",
-          "options": [
-            "steigt",
-            "steigen",
-            "gestiegen"
+          "type": "type",
+          "task": "Make one sentence with wenn.",
+          "cue": "Das Fieber steigt. Gehen Sie bitte zum Arzt.",
+          "t": "Wenn das Fieber ___ bitte zum Arzt.",
+          "answer": [
+            "steigt, gehen Sie",
+            "steigt gehen Sie"
           ],
-          "answer": 0,
+          "why": "In the wenn-clause the verb goes to the end; then the main clause starts with its verb: steigt, gehen Sie.",
           "s": "If the fever goes up, please see a doctor."
         },
         {
           "type": "choice",
           "t": "Wenn Sie schwanger sind, ___ bitte vorher Ihre Ärztin.",
           "options": [
+            "fragen",
             "fragen Sie",
-            "Sie fragen",
-            "fragen"
+            "Sie fragen"
           ],
-          "answer": 0,
-          "s": "If you are pregnant, please ask your doctor first."
+          "answer": 1,
+          "s": "If you are pregnant, please ask your doctor first.",
+          "why": "After a wenn-clause the main clause starts with its verb: fragen Sie."
         },
         {
           "type": "choice",
-          "t": "Rufen Sie den Notruf, wenn Ihr Kind schlecht Luft ___.",
+          "task": "Which reply is correct?",
+          "cue": "Wann muss ich mit meinem Kind zum Arzt?",
+          "t": "___",
           "options": [
-            "bekommt",
-            "bekommen",
-            "bekommst"
+            "Wenn das Fieber nach drei Tagen nicht besser wird, gehen Sie bitte zum Kinderarzt.",
+            "Wenn das Fieber nach drei Tagen nicht besser wird, Sie gehen bitte zum Kinderarzt.",
+            "Wenn das Fieber wird nach drei Tagen nicht besser, gehen Sie bitte zum Kinderarzt."
           ],
           "answer": 0,
-          "s": "Call the emergency number if your child has trouble breathing."
+          "why": "Verb at the end of the wenn-clause (wird), then the main clause starts with its verb (gehen Sie).",
+          "s": "When do I have to take my child to the doctor? – If the fever isn't better after three days, please go to the pediatrician."
         },
         {
           "type": "type",
@@ -512,7 +538,8 @@
           "answer": [
             "haben"
           ],
-          "s": "If you have forgotten a tablet, don't take a double dose. (haben)"
+          "s": "If you have forgotten a tablet, don't take a double dose. (haben)",
+          "why": "Perfekt in the wenn-clause: vergessen haben, with haben at the end."
         },
         {
           "type": "type",
@@ -521,7 +548,8 @@
             "Wenn",
             "Falls"
           ],
-          "s": "If you take a blood thinner, ibuprofen is not good for you."
+          "s": "If you take a blood thinner, ibuprofen is not good for you.",
+          "why": "wenn (or falls) introduces a condition; the verb nehmen goes to the end."
         },
         {
           "type": "type",
@@ -529,7 +557,8 @@
           "answer": [
             "Gegenanzeige"
           ],
-          "s": "Kontraindikation in plain German: a contraindication (when you must not take a medicine)."
+          "s": "Kontraindikation in plain German: a contraindication (when you must not take a medicine).",
+          "why": "Kontraindikation = Gegenanzeige: when a medicine must not be used."
         },
         {
           "type": "order",
@@ -585,6 +614,18 @@
         "s": "With paracetamol, alcohol is dangerous for the liver."
       },
       {
+        "t": "Besonders vorsichtig muss man bei Blutverdünnern wie Phenprocoumon sein.",
+        "s": "You have to be especially careful with blood thinners such as phenprocoumon (a vitamin K antagonist)."
+      },
+      {
+        "t": "Schmerzmittel wie Ibuprofen oder Acetylsalicylsäure erhöhen zusammen mit Phenprocoumon das Risiko für Blutungen.",
+        "s": "Painkillers such as ibuprofen or acetylsalicylic acid (aspirin) increase the risk of bleeding together with phenprocoumon."
+      },
+      {
+        "t": "Wer Phenprocoumon nimmt, lässt regelmäßig den INR-Wert messen. Dieser Blutwert zeigt, wie schnell das Blut gerinnt.",
+        "s": "People who take phenprocoumon have their INR checked regularly. This blood value shows how quickly the blood clots."
+      },
+      {
         "t": "Nebenwirkungen sind etwas anderes: Das sind unerwünschte Wirkungen eines Medikaments, zum Beispiel Müdigkeit oder Übelkeit.",
         "s": "Side effects are something different: they are unwanted effects of a medicine, for example tiredness or nausea."
       },
@@ -593,8 +634,8 @@
         "s": "If you notice a side effect, talk to your pharmacy or your doctor."
       },
       {
-        "t": "Die Apotheke kann die Nebenwirkung auch an die Arzneimittelkommission der Deutschen Apotheker melden.",
-        "s": "The pharmacy can also report the side effect to the Drug Commission of German Pharmacists (AMK)."
+        "t": "Die Apotheke meldet die Nebenwirkung an die Arzneimittelkommission der Deutschen Apotheker. Das ist für Apothekerinnen und Apotheker eine Pflicht, auch wenn es nur ein Verdacht ist.",
+        "s": "The pharmacy reports the side effect to the Drug Commission of German Pharmacists (AMK). This is a professional duty for pharmacists, even if it is only a suspicion."
       },
       {
         "t": "Bringen Sie am besten Ihren Medikationsplan mit, dann prüfen wir alle Ihre Medikamente auf Wechselwirkungen.",
@@ -608,11 +649,11 @@
           "s": "What is an interaction?"
         },
         "options": [
+          "Ein Medikament hat kein Verfallsdatum.",
           "Zwei Medikamente beeinflussen sich gegenseitig.",
-          "Ein Medikament ist zu teuer.",
-          "Ein Medikament hat kein Verfallsdatum."
+          "Ein Medikament ist zu teuer."
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -632,11 +673,11 @@
           "s": "Why must some antibiotics not be taken with milk?"
         },
         "options": [
-          "Sie wirken dann schlechter.",
           "Sie schmecken dann schlecht.",
-          "Sie machen dann müde."
+          "Sie machen dann müde.",
+          "Sie wirken dann schlechter."
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": {
@@ -644,11 +685,11 @@
           "s": "What is an example of a side effect?"
         },
         "options": [
+          "der Medikationsplan",
           "Müdigkeit",
-          "Grapefruitsaft",
-          "der Medikationsplan"
+          "Grapefruitsaft"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -661,6 +702,30 @@
           "einen Grapefruitsaft"
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was zeigt der INR-Wert?",
+          "s": "What does the INR show?"
+        },
+        "options": [
+          "wie hoch der Blutzucker ist",
+          "wie schnell das Blut gerinnt",
+          "wie gut die Leber arbeitet"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Herr Klein nimmt Phenprocoumon und hat Kopfschmerzen. Was sollte er zuerst tun?",
+          "s": "Mr. Klein takes phenprocoumon and has a headache. What should he do first?"
+        },
+        "options": [
+          "Ibuprofen und Acetylsalicylsäure zusammen nehmen",
+          "Phenprocoumon ein paar Tage weglassen",
+          "in der Apotheke fragen, welches Schmerzmittel er nehmen darf"
+        ],
+        "answer": 2
       }
     ]
   },

@@ -42,7 +42,8 @@
       "ex": {
         "t": "Die Lieferung kommt heute Nachmittag.",
         "s": "The delivery is coming this afternoon."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -95,7 +96,8 @@
       "ex": {
         "t": "Bei vielen Impfstoffen darf die Kühlkette nicht unterbrochen werden.",
         "s": "With many vaccines the cold chain must not be broken."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -116,7 +118,8 @@
       "ex": {
         "t": "Bitte prüfen Sie das Verfallsdatum auf der Packung.",
         "s": "Please check the expiration date on the pack."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -137,7 +140,8 @@
       "ex": {
         "t": "Unser Botendienst bringt Ihnen das Medikament heute Abend nach Hause.",
         "s": "Our delivery service will bring the medicine to your home this evening."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w13",
@@ -169,7 +173,8 @@
       "ex": {
         "t": "Heute Nacht hat die Linden-Apotheke Notdienst.",
         "s": "The Linden Pharmacy is on emergency duty tonight."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w16",
@@ -232,7 +237,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Lena",
+        "name": "PTA Lena",
         "voice": "f"
       },
       "B": {
@@ -365,29 +370,32 @@
             "wirst"
           ],
           "answer": 0,
-          "s": "The medicine is being ordered today."
+          "s": "The medicine is being ordered today.",
+          "why": "Singular subject (das Medikament): wird + participle."
         },
         {
           "type": "choice",
           "t": "Die Arzneimittel ___ vom Großhandel geliefert.",
           "options": [
-            "werden",
             "wird",
-            "worden"
+            "worden",
+            "werden"
           ],
-          "answer": 0,
-          "s": "The medicines are delivered by the wholesaler."
+          "answer": 2,
+          "s": "The medicines are delivered by the wholesaler.",
+          "why": "Plural subject (die Arzneimittel): werden + participle."
         },
         {
           "type": "choice",
           "t": "Die Salbe wird von der PTA ___.",
           "options": [
+            "hergestellen",
             "hergestellt",
-            "herstellt",
-            "hergestellen"
+            "herstellt"
           ],
-          "answer": 0,
-          "s": "The ointment is made by the pharmacy technician."
+          "answer": 1,
+          "s": "The ointment is made by the pharmacy technician.",
+          "why": "herstellen is separable: the participle is hergestellt."
         },
         {
           "type": "type",
@@ -396,24 +404,36 @@
             "gelagert",
             "aufbewahrt"
           ],
-          "s": "Insulin is stored in the fridge. (lagern)"
+          "s": "Insulin is stored in the fridge. (lagern)",
+          "why": "Passive: wird + participle; lagern → gelagert (aufbewahrt also works)."
         },
         {
           "type": "type",
-          "t": "Die Rezepte ___ genau geprüft.",
+          "task": "Make it passive.",
+          "cue": "Der Großhandel liefert das Insulin.",
+          "t": "Das Insulin ___.",
           "answer": [
-            "werden"
+            "wird vom Großhandel geliefert",
+            "wird vom Grosshandel geliefert",
+            "wird von dem Großhandel geliefert",
+            "wird von dem Grosshandel geliefert"
           ],
-          "s": "The prescriptions are checked carefully."
+          "why": "Passive: wird + participle at the end; the doer follows von (von dem → vom).",
+          "s": "The insulin is delivered by the wholesaler."
         },
         {
-          "type": "type",
-          "t": "Das Rezept wird von der Apothekerin ___.",
-          "answer": [
-            "geprüft",
-            "geprueft"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Warum sieht meine Tablette heute anders aus?",
+          "t": "___",
+          "options": [
+            "Ihr Medikament wird nicht mehr hergestellt, nehmen Sie keine Tabletten mehr.",
+            "Ihre Krankenkasse hat einen Rabattvertrag mit einer anderen Firma. Der Wirkstoff ist der gleiche.",
+            "Die Tablette wird heute von der PTA neu gemacht."
           ],
-          "s": "The prescription is checked by the pharmacist. (prüfen)"
+          "answer": 1,
+          "why": "Discount contracts mean the pharmacy dispenses another maker's product with the same active ingredient and strength.",
+          "s": "Why does my tablet look different today? – Your health insurer has a discount contract with another company. The active ingredient is the same."
         },
         {
           "type": "type",
@@ -425,7 +445,8 @@
             "verfügbar",
             "verfuegbar"
           ],
-          "s": "Lieferengpass in plain German: the medicine is currently not available."
+          "s": "Lieferengpass in plain German: the medicine is currently not available.",
+          "why": "A Lieferengpass means the medicine is currently not lieferbar (available)."
         },
         {
           "type": "order",
@@ -485,46 +506,54 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Lena, ___ du bitte das Insulin in den Kühlschrank stellen?",
-          "options": [
-            "könntest",
-            "könnten",
-            "könntet"
+          "type": "type",
+          "t": "Das Exanthem ist in Laiensprache ein ___.",
+          "answer": [
+            "Hautausschlag",
+            "Ausschlag"
           ],
-          "answer": 0,
-          "s": "Lena, could you please put the insulin in the fridge?"
+          "why": "Exanthem is the technical term; patients say Hautausschlag.",
+          "s": "In plain German, Exanthem is a rash (Hautausschlag)."
+        },
+        {
+          "type": "type",
+          "task": "Make it more polite (Konjunktiv II).",
+          "cue": "Kannst du das Amoxicillin bestellen?",
+          "t": "___ du das Amoxicillin bitte bestellen?",
+          "answer": [
+            "Könntest",
+            "Koenntest",
+            "Würdest",
+            "Wuerdest"
+          ],
+          "why": "Konjunktiv II sounds more polite: könntest du (or würdest du) … bestellen?",
+          "s": "Could you order the amoxicillin, please?"
         },
         {
           "type": "choice",
-          "t": "Frau Dr. Weber, ___ Sie mich bitte zurückrufen?",
+          "task": "Which request fits?",
+          "cue": "Sie rufen in einer Arztpraxis an und brauchen ein neues Rezept.",
+          "t": "___",
           "options": [
-            "würden",
-            "würdest",
-            "würde"
+            "Würdest du mir bitte ein neues Rezept schicken?",
+            "Schick mir sofort ein neues Rezept!",
+            "Würden Sie mir bitte ein neues Rezept schicken?"
           ],
-          "answer": 0,
-          "s": "Dr. Weber, would you please call me back?"
-        },
-        {
-          "type": "choice",
-          "t": "___ Sie kurz Zeit für eine Rücksprache?",
-          "options": [
-            "Hätten",
-            "Hättest",
-            "Hätte"
-          ],
-          "answer": 0,
-          "s": "Would you have a moment to discuss something?"
+          "answer": 2,
+          "why": "With a doctor's office use Sie and a polite Konjunktiv II request.",
+          "s": "You call a doctor's office and need a new prescription. – Would you please send me a new prescription?"
         },
         {
           "type": "type",
           "t": "___ du bitte das Verfallsdatum prüfen?",
           "answer": [
             "Könntest",
-            "Koenntest"
+            "Koenntest",
+            "Würdest",
+            "Wuerdest"
           ],
-          "s": "Could you please check the expiration date? (können)"
+          "s": "Could you please check the expiration date? (können)",
+          "why": "A polite request to a du-colleague: Konjunktiv II könntest du (würdest also works)."
         },
         {
           "type": "type",
@@ -535,16 +564,20 @@
             "ausstellen",
             "zuschicken"
           ],
-          "s": "Would you please send me a new prescription? (schicken)"
+          "s": "Would you please send me a new prescription? (schicken)",
+          "why": "In a würden-request the infinitive goes to the end: schicken."
         },
         {
           "type": "type",
           "t": "___ du mir bitte kurz helfen?",
           "answer": [
             "Würdest",
-            "Wuerdest"
+            "Wuerdest",
+            "Könntest",
+            "Koenntest"
           ],
-          "s": "Would you help me for a moment, please? (werden)"
+          "s": "Would you help me for a moment, please? (werden)",
+          "why": "würdest du + infinitive at the end is a polite request (könntest also works)."
         },
         {
           "type": "order",
@@ -597,6 +630,18 @@
         "s": "In that case, please ask the wholesaler for another syrup with the same active ingredient, the same strength and the same pack size."
       },
       {
+        "t": "Viele Kunden fragen zurzeit: Warum sieht meine Tablette anders aus?",
+        "s": "Many customers are asking at the moment: why does my tablet look different?"
+      },
+      {
+        "t": "Bitte erklärt dann: Die Krankenkasse hat einen Rabattvertrag mit einer anderen Firma, der Wirkstoff und die Stärke bleiben gleich.",
+        "s": "Then please explain: the health insurance has a discount contract with another company; the active ingredient and the strength stay the same."
+      },
+      {
+        "t": "Zur Zuzahlung: Gesetzlich versicherte Erwachsene zahlen zehn Prozent vom Preis, mindestens fünf und höchstens zehn Euro, aber nie mehr, als das Medikament kostet.",
+        "s": "About the copayment: adults with statutory health insurance pay 10% of the price, at least €5 and at most €10, but never more than the medicine costs."
+      },
+      {
         "t": "Am Mittwoch hat unsere Apotheke Notdienst.",
         "s": "On Wednesday our pharmacy is on emergency duty."
       },
@@ -607,6 +652,10 @@
       {
         "t": "Könntet ihr bitte am Ende des Monats die Verfallsdaten im Regal prüfen?",
         "s": "Could you please check the expiration dates on the shelves at the end of the month?"
+      },
+      {
+        "t": "Abgelaufene Arzneimittel aus dem Regal werden nicht verkauft, sondern entsorgt.",
+        "s": "Expired medicines from the shelves are not sold but disposed of."
       },
       {
         "t": "Vielen Dank und eine gute Woche!",
@@ -632,11 +681,11 @@
           "s": "How warm may it be in the fridge at most?"
         },
         "options": [
-          "acht Grad",
           "zwei Grad",
-          "zwanzig Grad"
+          "zwanzig Grad",
+          "acht Grad"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": {
@@ -644,11 +693,11 @@
           "s": "When is the temperature checked?"
         },
         "options": [
+          "am Ende des Monats",
           "jeden Morgen",
-          "jeden Freitag",
-          "am Ende des Monats"
+          "jeden Freitag"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -668,11 +717,35 @@
           "s": "When are compounded preparations made from now on?"
         },
         "options": [
-          "nur am Vormittag",
           "nur in der Nacht",
-          "am Mittwoch"
+          "am Mittwoch",
+          "nur am Vormittag"
         ],
-        "answer": 0
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Was bleibt bei einem Rabattvertrag gleich?",
+          "s": "What stays the same with a discount contract?"
+        },
+        "options": [
+          "die Farbe der Tablette",
+          "der Hersteller",
+          "der Wirkstoff und die Stärke"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Eine erwachsene Kundin ist gesetzlich versichert. Ihr Medikament kostet dreißig Euro. Wie hoch ist ihre Zuzahlung?",
+          "s": "An adult customer has statutory health insurance. Her medicine costs thirty euros. How much is her copayment?"
+        },
+        "options": [
+          "drei Euro",
+          "fünf Euro",
+          "zehn Euro"
+        ],
+        "answer": 1
       }
     ]
   },
@@ -720,6 +793,10 @@
       "alts": [
         "Von der PTA wird die Rezeptur hergestellt."
       ]
+    },
+    {
+      "t": "Der Wirkstoff ist der gleiche, nur die Firma ist anders.",
+      "s": "The active ingredient is the same; only the company is different."
     }
   ]
 }

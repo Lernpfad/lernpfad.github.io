@@ -33,7 +33,8 @@
       "ex": {
         "t": "Die Filmtablette hat einen dünnen Überzug.",
         "s": "The film-coated tablet has a thin coating."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -139,7 +140,7 @@
       "t": "die Packung",
       "pl": "die Packungen",
       "s": "pack, box",
-      "emoji": "",
+      "emoji": "📦",
       "ex": {
         "t": "Die Packung enthält zwanzig Filmtabletten.",
         "s": "The pack contains twenty film-coated tablets."
@@ -368,15 +369,15 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Eine Packung mit zwanzig ___, bitte.",
-          "options": [
-            "Tabletten",
-            "Tablette",
-            "Tablettes"
+          "type": "type",
+          "task": "Make it plural: ten patches.",
+          "cue": "Ich brauche ein Pflaster.",
+          "t": "Ich brauche zehn ___.",
+          "answer": [
+            "Pflaster"
           ],
-          "answer": 0,
-          "s": "A pack of twenty tablets, please."
+          "why": "Nouns ending in -er often have no plural ending: das Pflaster, die Pflaster.",
+          "s": "I need ten patches."
         },
         {
           "type": "choice",
@@ -387,18 +388,20 @@
             "Milliliters"
           ],
           "answer": 0,
-          "s": "There are a hundred milliliters of syrup in the bottle."
+          "s": "There are a hundred milliliters of syrup in the bottle.",
+          "why": "Units stay in the singular after a number: hundert Milliliter."
         },
         {
           "type": "choice",
           "t": "Ich hätte gern eine ___ Salbe.",
           "options": [
-            "Tube",
             "Tuben",
-            "Tubes"
+            "Tubes",
+            "Tube"
           ],
-          "answer": 0,
-          "s": "I'd like a tube of ointment."
+          "answer": 2,
+          "s": "I'd like a tube of ointment.",
+          "why": "eine needs the singular, and the content follows directly: eine Tube Salbe."
         },
         {
           "type": "type",
@@ -406,7 +409,8 @@
           "answer": [
             "Pflastern"
           ],
-          "s": "I need a pack of ten patches. (das Pflaster)"
+          "s": "I need a pack of ten patches. (das Pflaster)",
+          "why": "Dative plural after mit adds -n: mit zehn Pflastern."
         },
         {
           "type": "type",
@@ -414,15 +418,22 @@
           "answer": [
             "Kapseln"
           ],
-          "s": "The pack contains thirty capsules. (die Kapsel)"
+          "s": "The pack contains thirty capsules. (die Kapsel)",
+          "why": "die Kapsel takes -n in the plural: dreißig Kapseln."
         },
         {
-          "type": "type",
-          "t": "Eine Filmtablette enthält vierhundert ___ Ibuprofen.",
-          "answer": [
-            "Milligramm"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Ich möchte keine Kapseln mit Gelatine.",
+          "t": "___",
+          "options": [
+            "Kein Problem, das Medikament gibt es auch als Kapseln mit Gelatine.",
+            "Kein Problem, nehmen Sie zwei Kapsel.",
+            "Kein Problem, das Medikament gibt es auch als Tablette."
           ],
-          "s": "One film-coated tablet contains four hundred milligrams of ibuprofen."
+          "answer": 2,
+          "why": "Only the first reply meets the wish; the last one also lacks the plural: zwei Kapseln.",
+          "s": "I don't want capsules with gelatin. – No problem, the medicine also comes as a tablet."
         },
         {
           "type": "type",
@@ -433,7 +444,8 @@
             "das Zäpfchen",
             "das Zaepfchen"
           ],
-          "s": "In plain German, a Suppositorium is called a Zäpfchen (suppository)."
+          "s": "In plain German, a Suppositorium is called a Zäpfchen (suppository).",
+          "why": "Suppositorium is the technical word; patients say Zäpfchen."
         },
         {
           "type": "order",
@@ -441,8 +453,7 @@
           "s": "I'd like a pack of twenty tablets.",
           "alts": [
             "Eine Packung mit zwanzig Tabletten hätte ich gern.",
-            "Gern hätte ich eine Packung mit zwanzig Tabletten.",
-            "Ich hätte eine Packung mit zwanzig Tabletten gern."
+            "Gern hätte ich eine Packung mit zwanzig Tabletten."
           ]
         }
       ]
@@ -503,23 +514,27 @@
           "type": "choice",
           "t": "Ich suche ein ___ Nasenspray.",
           "options": [
-            "abschwellendes",
             "abschwellender",
-            "abschwellende"
+            "abschwellende",
+            "abschwellendes"
           ],
-          "answer": 0,
-          "s": "I'm looking for a decongestant nasal spray."
+          "answer": 2,
+          "s": "I'm looking for a decongestant nasal spray.",
+          "why": "Neuter after ein: the adjective ends in -es (ein abschwellendes Nasenspray)."
         },
         {
           "type": "choice",
-          "t": "Ich empfehle Ihnen eine ___ Salbe.",
+          "task": "Which reply fits?",
+          "cue": "Mein Kind hat Fieber und schluckt keine Tabletten.",
+          "t": "___",
           "options": [
-            "kühlende",
-            "kühlenden",
-            "kühlender"
+            "Dann empfehle ich Ihnen eine fiebersenkende Saft.",
+            "Dann empfehle ich Ihnen einen fiebersenkenden Saft.",
+            "Dann empfehle ich Ihnen einen fiebersenkender Saft."
           ],
-          "answer": 0,
-          "s": "I recommend a cooling ointment."
+          "answer": 1,
+          "why": "der Saft, accusative after einen: the adjective ends in -en (einen fiebersenkenden Saft).",
+          "s": "My child has a fever and won't swallow tablets. – Then I recommend a fever-reducing syrup."
         },
         {
           "type": "choice",
@@ -530,16 +545,17 @@
             "fiebersenkendes"
           ],
           "answer": 0,
-          "s": "Do you also have a fever-reducing syrup for children?"
+          "s": "Do you also have a fever-reducing syrup for children?",
+          "why": "einen shows masculine accusative, so the adjective ends in -en."
         },
         {
           "type": "type",
-          "t": "Kinder nehmen oft lieber ein ___ Medikament.",
+          "t": "Der Pruritus ist in Laiensprache der ___.",
           "answer": [
-            "flüssiges",
-            "fluessiges"
+            "Juckreiz"
           ],
-          "s": "Children often prefer a liquid medicine. (flüssig)"
+          "why": "Pruritus is the technical term; patients say Juckreiz.",
+          "s": "In plain German, Pruritus is itching (Juckreiz)."
         },
         {
           "type": "type",
@@ -548,7 +564,8 @@
             "großen",
             "grossen"
           ],
-          "s": "I can't swallow the big tablets easily. (groß)"
+          "s": "I can't swallow the big tablets easily. (groß)",
+          "why": "After die in the plural the adjective ends in -en: die großen Tabletten."
         },
         {
           "type": "type",
@@ -557,18 +574,19 @@
             "kühlenden",
             "kuehlenden"
           ],
-          "s": "Cool the spot with a cooling gel. (kühlend)"
+          "s": "Cool the spot with a cooling gel. (kühlend)",
+          "why": "After mit (dative) the adjective always ends in -en: mit einem kühlenden Gel."
         },
         {
-          "type": "choice",
-          "t": "Zum Schwimmen brauchen Sie ein ___ Pflaster.",
-          "options": [
-            "wasserfestes",
-            "wasserfester",
-            "wasserfesten"
+          "type": "type",
+          "task": "Put the adjective before the noun.",
+          "cue": "Das Pflaster ist wasserfest.",
+          "t": "Das ist ein ___ Pflaster.",
+          "answer": [
+            "wasserfestes"
           ],
-          "answer": 0,
-          "s": "For swimming you need a waterproof bandage."
+          "why": "After ein with a neuter noun the adjective takes -es: ein wasserfestes Pflaster.",
+          "s": "That's a waterproof bandage."
         },
         {
           "type": "order",
@@ -613,6 +631,14 @@
         "s": "Suppositories are practical when a child won't swallow anything."
       },
       {
+        "t": "Ein Granulat löst man meistens in Wasser auf.",
+        "s": "Granules are usually dissolved in water."
+      },
+      {
+        "t": "Augentropfen sind nach dem Öffnen oft nur wenige Wochen haltbar.",
+        "s": "Once opened, eye drops often keep for only a few weeks."
+      },
+      {
         "t": "Salben sind fettig, Cremes enthalten mehr Wasser und ziehen schneller in die Haut ein.",
         "s": "Ointments are greasy; creams contain more water and are absorbed into the skin faster."
       },
@@ -636,11 +662,11 @@
           "s": "What do you have to do with a suspension before use?"
         },
         "options": [
+          "in Wasser auflösen",
           "gut schütteln",
-          "in den Kühlschrank stellen",
-          "in Wasser auflösen"
+          "in den Kühlschrank stellen"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -660,11 +686,11 @@
           "s": "What does a cream contain?"
         },
         "options": [
-          "mehr Wasser als eine Salbe",
           "mehr Fett als eine Salbe",
-          "viel Zucker"
+          "viel Zucker",
+          "mehr Wasser als eine Salbe"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": {
@@ -672,11 +698,11 @@
           "s": "For how long at most should you use a decongestant nasal spray without medical advice?"
         },
         "options": [
+          "einen Monat",
           "sieben Tage",
-          "drei Wochen",
-          "einen Monat"
+          "drei Wochen"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -689,6 +715,18 @@
           "durch die Nase"
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Ein Kind spuckt Tabletten und Saft immer wieder aus. Was kann die Apotheke noch anbieten?",
+          "s": "A child keeps spitting out tablets and syrup. What else can the pharmacy offer?"
+        },
+        "options": [
+          "eine Brausetablette",
+          "Zäpfchen",
+          "ein Wirkstoffpflaster für Erwachsene"
+        ],
+        "answer": 1
       }
     ]
   },

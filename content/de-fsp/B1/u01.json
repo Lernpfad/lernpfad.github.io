@@ -66,7 +66,8 @@
       "ex": {
         "t": "Die Ärztin hat Ihnen ein E-Rezept ausgestellt.",
         "s": "The doctor has issued you an e-prescription."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -77,7 +78,8 @@
       "ex": {
         "t": "Mit Ihrer Gesundheitskarte können wir das E-Rezept abrufen.",
         "s": "With your health insurance card we can retrieve the e-prescription."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -167,6 +169,17 @@
       "ex": {
         "t": "Sind Sie schwanger oder stillen Sie?",
         "s": "Are you pregnant or breastfeeding?"
+      }
+    },
+    {
+      "id": "w16",
+      "t": "das Kassenrezept",
+      "pl": "die Kassenrezepte",
+      "s": "prescription paid by the statutory health insurance (paper form: the pink Muster 16; today mostly an e-prescription)",
+      "emoji": "",
+      "ex": {
+        "t": "Ein Kassenrezept aus Papier ist rosa.",
+        "s": "A paper prescription for statutory health insurance is pink."
       }
     }
   ],
@@ -280,8 +293,8 @@
       },
       {
         "sp": "A",
-        "t": "Dann empfehle ich Ibuprofen vierhundert. Sagen Sie Ihrer Frau bitte: eine Tablette nach dem Essen, höchstens drei am Tag und ohne Arzt nicht länger als vier Tage.",
-        "s": "Then I recommend ibuprofen 400 mg. Please tell your wife: one tablet after a meal, no more than three a day, and no longer than four days without a doctor."
+        "t": "Dann empfehle ich Ibuprofen vierhundert. Ihre Frau nimmt eine Tablette nach dem Essen, höchstens drei am Tag. Ohne Arzt bitte nicht länger als vier Tage.",
+        "s": "Then I recommend ibuprofen 400 mg. Your wife takes one tablet after a meal, no more than three a day. Without a doctor, please no longer than four days."
       },
       {
         "sp": "B",
@@ -297,7 +310,7 @@
         "t": "Was kann ich für Sie tun? Haben Sie ein Rezept?",
         "s": "W-questions and yes/no questions in the Sie form"
       },
-      "explain": "In the pharmacy you ask a lot of questions – always with **Sie** (polite *you*, always with a capital S).\n**W-questions** start with a question word. The verb is in **position 2**, then comes **Sie**: **Was** möchten Sie? **Seit wann** haben Sie die Beschwerden? Useful question words: **was** (what), **wer** (who), **für wen** (for whom), **wie** (how), **wie oft** (how often), **wann** (when), **seit wann** (since when), **wo** (where), **welche** (which).\n**Yes/no questions** start with the **verb** (position 1): **Haben** Sie ein Rezept? **Sind** Sie schwanger?\nIn the Sie form the verb looks like the infinitive: Sie **nehmen**, Sie **haben** – only **sein** is irregular: Sie **sind**. With separable verbs the prefix goes to the end: **Nehmen** Sie andere Medikamente **ein**?\nIf you want to say *yes* to a **negative** question, answer **doch**: Nehmen Sie keine Medikamente? – **Doch**, eine Tablette gegen Bluthochdruck.",
+      "explain": "In the pharmacy you ask a lot of questions – always with **Sie** (polite *you*, always with a capital S).\n**W-questions** start with a question word. The verb is in **position 2**, then comes **Sie**: **Was** möchten Sie? **Seit wann** haben Sie die Beschwerden? Useful question words: **was** (what), **wer** (who), **für wen** (for whom), **wie** (how), **wie oft** (how often), **wann** (when), **seit wann** (since when), **wo** (where), **welche** (which).\n**Yes/no questions** start with the **verb** (position 1): **Haben** Sie ein Rezept? **Sind** Sie schwanger?\nIn the Sie form the verb looks like the infinitive: Sie **nehmen**, Sie **haben** – only **sein** is irregular: Sie **sind**. With separable verbs the prefix goes to the end: **Nehmen** Sie andere Medikamente **ein**?\nIf you want to say *yes* to a **negative** question, answer **doch**: Nehmen Sie keine Medikamente? – **Doch**, eine Tablette gegen Bluthochdruck.\nOn the word cards, **Laie:** gives the plain word you use with patients and **Fach:** the technical term for colleagues and documents. Part 3 of the exam asks for both.",
       "table": [
         [
           "Was …?",
@@ -351,22 +364,23 @@
           "type": "choice",
           "t": "___ ist das Medikament? Für Sie oder für Ihr Kind?",
           "options": [
-            "Für wen",
             "Wer",
-            "Wo"
+            "Wo",
+            "Für wen"
           ],
-          "answer": 0,
-          "s": "Who is the medicine for? For you or for your child?"
+          "answer": 2,
+          "s": "Who is the medicine for? For you or for your child?",
+          "why": "To ask who something is for, use für wen; wer asks who does something."
         },
         {
-          "type": "choice",
-          "t": "___ Sie ein Rezept?",
-          "options": [
-            "Haben",
-            "Hat",
-            "Habt"
+          "type": "type",
+          "task": "Make it a yes/no question.",
+          "cue": "Sie haben ein Rezept.",
+          "t": "___ ein Rezept?",
+          "answer": [
+            "Haben Sie"
           ],
-          "answer": 0,
+          "why": "In a yes/no question the verb comes first, then Sie.",
           "s": "Do you have a prescription?"
         },
         {
@@ -378,26 +392,34 @@
             "Wie"
           ],
           "answer": 0,
-          "s": "Which medicines do you take regularly?"
+          "s": "Which medicines do you take regularly?",
+          "why": "welche asks which ones from a group, here the medicines."
         },
         {
           "type": "choice",
           "t": "Nehmen Sie keine anderen Medikamente? – ___, ein Spray gegen Asthma.",
           "options": [
-            "Doch",
             "Ja",
-            "Nein"
+            "Nein",
+            "Doch"
           ],
-          "answer": 0,
-          "s": "You don't take any other medicines? – Yes, I do: an asthma spray."
+          "answer": 2,
+          "s": "You don't take any other medicines? – Yes, I do: an asthma spray.",
+          "why": "To say yes to a negative question, answer doch."
         },
         {
-          "type": "type",
-          "t": "___ kann ich für Sie tun?",
-          "answer": [
-            "Was"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "In meinem Land kaufe ich Antibiotika einfach so.",
+          "t": "___",
+          "options": [
+            "Antibiotika gibt es hier auch im Supermarkt.",
+            "In Deutschland brauchen Sie für Antibiotika zum Einnehmen ein Rezept.",
+            "Antibiotika zum Einnehmen sind hier freiverkäuflich."
           ],
-          "s": "How can I help you?"
+          "answer": 1,
+          "why": "In Germany, oral antibiotics are prescription-only, so the customer needs a prescription.",
+          "s": "In my country I just buy antibiotics. – In Germany you need a prescription for oral antibiotics."
         },
         {
           "type": "type",
@@ -405,7 +427,8 @@
           "answer": [
             "Sind"
           ],
-          "s": "Are you pregnant or breastfeeding? (sein)"
+          "s": "Are you pregnant or breastfeeding? (sein)",
+          "why": "sein is irregular: Sie sind. In a yes/no question the verb comes first."
         },
         {
           "type": "type",
@@ -414,7 +437,8 @@
             "Rezept",
             "einem Rezept"
           ],
-          "s": "Prescription-only in plain German: you can only get the medicine with a prescription."
+          "s": "Prescription-only in plain German: you can only get the medicine with a prescription.",
+          "why": "Verschreibungspflichtig means you can only get it with a prescription (Rezept)."
         },
         {
           "type": "order",
@@ -479,53 +503,62 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "___ Sie bitte einen Moment.",
-          "options": [
-            "Warten",
-            "Wartet",
-            "Warte"
+          "type": "type",
+          "task": "Make it an instruction (Sie imperative).",
+          "cue": "Sie nehmen die Tablette nach dem Essen ein.",
+          "t": "___ die Tablette nach dem Essen ein.",
+          "answer": [
+            "Nehmen Sie"
           ],
-          "answer": 0,
-          "s": "Please wait a moment."
+          "why": "Sie imperative: the verb comes first, then Sie; the prefix ein stays at the end.",
+          "s": "Take the tablet after a meal."
         },
         {
           "type": "choice",
           "t": "Nehmen Sie die Tablette nach dem Essen ___.",
           "options": [
-            "ein",
             "an",
-            "aus"
+            "aus",
+            "ein"
           ],
-          "answer": 0,
-          "s": "Take the tablet after a meal."
+          "answer": 2,
+          "s": "Take the tablet after a meal.",
+          "why": "einnehmen is separable: in the imperative the prefix ein goes to the end."
         },
         {
           "type": "choice",
           "t": "___ Sie bitte vorsichtig, das Medikament macht müde.",
           "options": [
+            "Sein",
             "Seien",
-            "Sind",
-            "Sein"
+            "Sind"
           ],
-          "answer": 0,
-          "s": "Please be careful, the medicine makes you tired."
+          "answer": 1,
+          "s": "Please be careful, the medicine makes you tired.",
+          "why": "The Sie imperative of sein is irregular: Seien Sie."
         },
         {
           "type": "type",
-          "t": "___ Sie bitte morgen wieder.",
+          "t": "Die Obstipation ist in Laiensprache eine ___.",
           "answer": [
-            "Kommen"
+            "Verstopfung"
           ],
-          "s": "Please come back tomorrow. (wiederkommen)"
+          "why": "Obstipation is the technical term; patients say Verstopfung.",
+          "s": "In plain German, Obstipation is constipation (Verstopfung)."
         },
         {
-          "type": "type",
-          "t": "___ Sie mir bitte Ihre Gesundheitskarte.",
-          "answer": [
-            "Geben"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Ich habe meine Gesundheitskarte heute nicht dabei.",
+          "t": "___",
+          "options": [
+            "Kein Problem. Bringst du sie bitte morgen mit.",
+            "Kein Problem. Sie bringen bitte mit morgen.",
+            "Kein Problem. Bringen Sie sie bitte morgen mit."
           ],
-          "s": "Please give me your health insurance card. (geben)"
+          "answer": 2,
+          "why": "To a customer use the Sie imperative: verb first, then Sie; the prefix mit goes to the end.",
+          "s": "I don't have my health insurance card with me today. – No problem. Please bring it tomorrow."
         },
         {
           "type": "type",
@@ -533,15 +566,14 @@
           "answer": [
             "an"
           ],
-          "s": "Read the package leaflet and call us if you have questions. (anrufen)"
+          "s": "Read the package leaflet and call us if you have questions. (anrufen)",
+          "why": "anrufen is separable: rufen Sie … an, with an at the end."
         },
         {
           "type": "order",
           "t": "Nehmen Sie die Tablette mit Wasser ein.",
           "s": "Take the tablet with water.",
-          "alts": [
-            "Nehmen Sie mit Wasser die Tablette ein."
-          ]
+          "alts": []
         },
         {
           "type": "order",
@@ -556,8 +588,8 @@
   ],
   "reading": {
     "title": {
-      "t": "Das E-Rezept in unserer Apotheke",
-      "s": "The e-prescription at our pharmacy"
+      "t": "Rezepte in unserer Apotheke",
+      "s": "Prescriptions at our pharmacy"
     },
     "text": [
       {
@@ -575,6 +607,22 @@
       {
         "t": "Sie können es auch mit der E-Rezept-App oder mit einem Ausdruck einlösen.",
         "s": "You can also fill it with the e-prescription app or with a printout."
+      },
+      {
+        "t": "Wenn Sie gesetzlich versichert sind, lösen Sie das Rezept bitte innerhalb von achtundzwanzig Tagen ein. Dann bezahlt die Krankenkasse.",
+        "s": "If you have statutory health insurance, please fill the prescription within 28 days. Then the health insurance pays."
+      },
+      {
+        "t": "Es gibt auch noch Rezepte aus Papier: Das rosa Kassenrezept sehen wir nur noch selten, Privatversicherte bekommen oft ein blaues Privatrezept.",
+        "s": "There are still paper prescriptions too: we rarely see the pink statutory prescription now, and privately insured patients often get a blue private prescription."
+      },
+      {
+        "t": "Auf einem grünen Rezept empfiehlt Ihnen der Arzt ein Medikament ohne Rezeptpflicht. Das bezahlen Sie meistens selbst.",
+        "s": "On a green prescription the doctor recommends a medicine that doesn't need a prescription. You usually pay for it yourself."
+      },
+      {
+        "t": "Für starke Schmerzmittel wie Morphin gibt es das gelbe Betäubungsmittelrezept, für einige Wirkstoffe, die einem ungeborenen Kind schaden können, das T-Rezept.",
+        "s": "For strong painkillers such as morphine there is the yellow narcotics prescription (BtM-Rezept); for some active ingredients that can harm an unborn child (e.g. lenalidomide) there is the T-prescription."
       },
       {
         "t": "Haben Sie kein Rezept? Dann beraten wir Sie gern zur Selbstmedikation.",
@@ -608,11 +656,11 @@
           "s": "What can you use to fill the e-prescription?"
         },
         "options": [
-          "mit der Gesundheitskarte, der App oder einem Ausdruck",
           "nur mit dem Personalausweis",
-          "nur am Telefon"
+          "nur am Telefon",
+          "mit der Gesundheitskarte, der App oder einem Ausdruck"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": {
@@ -620,11 +668,11 @@
           "s": "Where can you get pharmacy-only drugs?"
         },
         "options": [
+          "nur im Krankenhaus",
           "nur in der Apotheke",
-          "auch im Supermarkt",
-          "nur im Krankenhaus"
+          "auch im Supermarkt"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "q": {
@@ -644,11 +692,11 @@
           "s": "Why should you say that the medicine is for a child?"
         },
         "options": [
-          "Kinder brauchen oft eine andere Dosis.",
           "Kinder brauchen immer ein Rezept.",
-          "Für Kinder gibt es keine Medikamente."
+          "Für Kinder gibt es keine Medikamente.",
+          "Kinder brauchen oft eine andere Dosis."
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "q": {
@@ -656,11 +704,35 @@
           "s": "When should you ask first?"
         },
         "options": [
+          "wenn Sie ein E-Rezept haben",
           "wenn Sie schwanger sind",
-          "wenn Sie eine Gesundheitskarte haben",
-          "wenn Sie ein E-Rezept haben"
+          "wenn Sie eine Gesundheitskarte haben"
         ],
-        "answer": 0
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wer bezahlt ein Medikament auf einem grünen Rezept meistens?",
+          "s": "Who usually pays for a medicine on a green prescription?"
+        },
+        "options": [
+          "die Krankenkasse",
+          "die Patientin oder der Patient selbst",
+          "die Apotheke"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Herr Klein ist gesetzlich versichert. Sein E-Rezept ist sechs Wochen alt. Was passiert wahrscheinlich?",
+          "s": "Mr. Klein has statutory health insurance. His e-prescription is six weeks old. What will probably happen?"
+        },
+        "options": [
+          "Die Krankenkasse bezahlt alles.",
+          "Er bekommt das Medikament kostenlos.",
+          "Die Krankenkasse bezahlt das Medikament nicht mehr."
+        ],
+        "answer": 2
       }
     ]
   },
@@ -711,6 +783,10 @@
       "alts": [
         "Zur Selbstmedikation beraten wir Sie gern."
       ]
+    },
+    {
+      "t": "Ist das ein Kassenrezept oder ein Privatrezept?",
+      "s": "Is that a statutory health insurance prescription or a private prescription?"
     }
   ]
 }
